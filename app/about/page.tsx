@@ -1,5 +1,5 @@
 import Foo from "../../components/Foo"
-const About: FC = () => {
+const About = () => {
     return (
         <>
             <div className="max-w-3xl mx-auto px-8 grid place-content-center gap-8 tracking-wider leading-relaxed">
