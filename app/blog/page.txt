@@ -1,9 +1,8 @@
-import type { NextPage } from "next"
 import Foo from "../../components/Foo"
 import getPostMetadata from "../../components/getPostMetadata";
 import PostPreview from "../../components/PostPreview";
 
-const Blog: NextPage = () => {
+const Blog: FC = () => {
 const postMetadata = getPostMetadata();
   const postPreviews = postMetadata.map((post) => (
     <PostPreview key={post.slug} {...post} />

@@ -1,6 +1,5 @@
-import type { NextPage } from "next"
 import Foo from "../../components/Foo"
-const About: NextPage = () => {
+const About: FC = () => {
     return (
         <>
             <div className="max-w-3xl mx-auto px-8 grid place-content-center gap-8 tracking-wider leading-relaxed">
