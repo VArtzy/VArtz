@@ -400,7 +400,8 @@ const ParallaxRapper: NextPage = () => {
                             <p>
                                 Kami membangun desain Website yang EKSLUSIF.
                                 sesuai dengan brand dan karateristik anda.
-                                Dengan desain yang modern juga.
+                                Dengan desain yang modern juga.{" "}
+                                <span class="font-bold">100% Original</span>.
                             </p>
                         </div>
                         <div className="shadow-md rounded bg-grayweb p-4">
