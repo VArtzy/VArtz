@@ -71,7 +71,7 @@ const ParallaxRapper: NextPage = () => {
         <>
             <Parallax
                 ref={ParallaxRef}
-                pages={13}
+                pages={12}
                 style={{ top: "0", left: "0" }}
             >
                 <ParallaxLayer
@@ -85,7 +85,7 @@ const ParallaxRapper: NextPage = () => {
                     }}
                 >
                     <main className="grid lg:grid-cols-2 px-8 place-items-center min-h-screen">
-                        <h1 className="sr-only mt-32 md:mt-0">
+                        <h1 className="sr-only">
                             Buat Website dan jalankan berbagai bisnismu sekarang
                             juga.
                         </h1>
@@ -95,7 +95,7 @@ const ParallaxRapper: NextPage = () => {
                                 className="lg:flex gap-2 hover:cursor-pointer lg:relative right-4"
                                 style={props}
                             >
-                                <h2 className="text-3xl md:text-4xl w-full lg:text-right font-bold lg:mb-4 text-grayweb mt-16 lg:mt-0">
+                                <h2 className="text-3xl md:text-4xl w-full lg:text-right font-bold lg:mb-4 text-grayweb mt-32 lg:mt-0">
                                     Buat Website
                                 </h2>
                                 <animated.div
