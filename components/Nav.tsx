@@ -5,7 +5,7 @@ const Nav: React.FC = () => {
     return (
         <>
             <nav className="w-full fixed z-10 px-16 py-4">
-                <ul className="flex md:justify-between">
+                <ul className="flex justify-between">
                     <div className="">
                         <h2 className="text-2xl text-grayweb">VArtz</h2>
                     </div>

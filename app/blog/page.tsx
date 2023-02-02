@@ -11,7 +11,7 @@ const Blog = () => {
     return (
         <>
             <div className="max-w-3xl mx-auto px-8 grid place-content-center gap-8 tracking-wider leading-relaxed">
-                <h1 className="text-3xl md:text-4xl w-full font-bold mt-16">
+                <h1 className="text-3xl md:text-4xl w-full font-bold mt-24">
                     Blog Page
                 </h1>
                 <h2 className="text-2xl md:text-3xl w-full font-bold lg:mb-4">
