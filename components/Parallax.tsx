@@ -85,7 +85,7 @@ const ParallaxRapper: NextPage = () => {
                     }}
                 >
                     <main className="grid lg:grid-cols-2 px-8 place-items-center min-h-screen">
-                        <h1 className="sr-only">
+                        <h1 className="sr-only mt-4">
                             Buat Website dan jalankan berbagai bisnismu sekarang
                             juga.
                         </h1>
