@@ -85,7 +85,7 @@ const ParallaxRapper: NextPage = () => {
                     }}
                 >
                     <main className="grid lg:grid-cols-2 px-8 place-items-center min-h-screen">
-                        <h1 className="sr-only mt-16 md:mt-0">
+                        <h1 className="sr-only mt-32 md:mt-0">
                             Buat Website dan jalankan berbagai bisnismu sekarang
                             juga.
                         </h1>
@@ -695,7 +695,7 @@ const ParallaxRapper: NextPage = () => {
                 ></ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={12}
+                    offset={11.5}
                     speed={0.5}
                     style={{
                         display: "flex",
