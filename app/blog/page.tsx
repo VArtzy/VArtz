@@ -1,12 +1,12 @@
 import Foo from "../../components/Foo"
-import getPostMetadata from "../../components/getPostMetadata";
-import PostPreview from "../../components/PostPreview";
+import getPostMetadata from "../../components/getPostMetadata"
+import PostPreview from "../../components/PostPreview"
 
 const Blog = () => {
-const postMetadata = getPostMetadata();
-  const postPreviews = postMetadata.map((post) => (
-    <PostPreview key={post.slug} {...post} />
-  ));
+    const postMetadata = getPostMetadata()
+    const postPreviews = postMetadata.map((post) => (
+        <PostPreview key={post.slug} {...post} />
+    ))
 
     return (
         <>
@@ -18,7 +18,9 @@ const postMetadata = getPostMetadata();
                     Tingkatkan peluang dan performa Website dengan membaca blog
                     blog milik kami.
                 </h2>
-<div className="grid grid-cols-1 md:grid-cols-2 gap-4">{postPreviews}</div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {postPreviews}
+                </div>
             </div>
             <Foo />
         </>

@@ -305,7 +305,7 @@ const ParallaxRapper: NextPage = () => {
                     </h2>
                     <div className="grid lg:grid-cols-2 gap-8">
                         <div className="flex flex-col gap-8">
-                            <p>
+                            <p className="mt-4">
                                 Hampir setiap kali anda mengakses iklan di media
                                 sosial seperti facebook, instagram, tiktok dan
                                 youtube pasti akan menyuruh Anda untuk
@@ -314,7 +314,7 @@ const ParallaxRapper: NextPage = () => {
                                 keuntungannya?
                             </p>
 
-                            <ul className="text-xs flex flex-col gap-2 list-disc">
+                            <ul className="text-xs flex flex-col gap-2 list-disc mt-4">
                                 <li>
                                     Website ibarat lapak untuk mempromosikan
                                     produk/usaha/diri anda kepada dunia
