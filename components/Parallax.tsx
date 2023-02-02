@@ -437,7 +437,6 @@ const ParallaxRapper: NextPage = () => {
                         alignItems: "center",
                         gap: "4em",
                         color: "white",
-                        marginTop: "24em",
                     }}
                     className="max-w-6xl mx-auto px-8"
                 >
