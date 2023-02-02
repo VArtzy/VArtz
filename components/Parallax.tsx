@@ -85,7 +85,7 @@ const ParallaxRapper: NextPage = () => {
                     }}
                 >
                     <main className="grid lg:grid-cols-2 px-8 place-items-center min-h-screen">
-                        <h1 className="sr-only mt-4">
+                        <h1 className="sr-only mt-16 md:mt-0">
                             Buat Website dan jalankan berbagai bisnismu sekarang
                             juga.
                         </h1>
@@ -199,7 +199,7 @@ const ParallaxRapper: NextPage = () => {
                     className="flex-col lg:flex-row px-8 z-50"
                 >
                     <div
-                        className={`text-4xl text-center text-grayweb w-full lg:w-auto bg-white lg:bg-transparent py-4 lg:py-0 mt-16 lg:mt-0`}
+                        className={`text-3xl md:text-4xl text-center text-grayweb w-full lg:w-auto bg-white lg:bg-transparent py-4 lg:py-0 mt-16 lg:mt-0`}
                     >
                         <h2 className="">
                             Kita{" "}
@@ -370,6 +370,7 @@ const ParallaxRapper: NextPage = () => {
                         alignItems: "center",
                         gap: "2em",
                         color: "white",
+                        height: "auto",
                     }}
                     className="max-w-3xl mx-auto px-8"
                 >
