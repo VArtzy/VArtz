@@ -357,12 +357,24 @@ const ParallaxRapper: NextPage = () => {
 
                 <ParallaxLayer
                     offset={6}
+                    speed={0.5}
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        gap: "2em",
+                    }}
+                    className="max-w-6xl mx-auto px-8 text-grayweb"
+                ></ParallaxLayer>
+
+                <ParallaxLayer
+                    offset={7}
                     speed={2}
                     className="bg-mediumSpringGreen"
                 />
 
                 <ParallaxLayer
-                    offset={6}
+                    offset={7}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -430,7 +442,19 @@ const ParallaxRapper: NextPage = () => {
                 </ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={7}
+                    offset={8}
+                    speed={0.5}
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        gap: "2em",
+                    }}
+                    className="max-w-6xl mx-auto px-8 text-grayweb"
+                ></ParallaxLayer>
+
+                <ParallaxLayer
+                    offset={9}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -646,7 +670,19 @@ const ParallaxRapper: NextPage = () => {
                 </ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={8}
+                    offset={10}
+                    speed={0.5}
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        gap: "2em",
+                    }}
+                    className="max-w-6xl mx-auto px-8 text-grayweb"
+                ></ParallaxLayer>
+
+                <ParallaxLayer
+                    offset={11}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -659,7 +695,7 @@ const ParallaxRapper: NextPage = () => {
                 ></ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={9}
+                    offset={12}
                     speed={0.5}
                     style={{
                         display: "flex",
