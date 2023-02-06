@@ -475,7 +475,7 @@ const ParallaxRapper: NextPage = () => {
                         </div>
                         <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
                             <div className="flex gap-4 items-center mb-4">
-                                <Image
+                                <img
                                     className="object-fit rounded-full"
                                     alt="Gambar Testimoni"
                                     src="https://images.unsplash.com/photo-1536500152107-01ab1422f932?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2F0fHx8fHx8MTY3NTYxODA0Mg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50"
