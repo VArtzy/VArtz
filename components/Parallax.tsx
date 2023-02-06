@@ -367,7 +367,7 @@ const ParallaxRapper: NextPage = () => {
                     className="max-w-6xl mx-auto px-8 text-grayweb"
                 ></ParallaxLayer>
 
-<ParallaxLayer
+                <ParallaxLayer
                     offset={7}
                     speed={0.5}
                     style={{
@@ -387,74 +387,120 @@ const ParallaxRapper: NextPage = () => {
                         Kisah Sukses.
                     </h2>
 
-                    <p className="text-xl mb-8 text-grayweb text-center">Pelanggan kami telah meningkatkan penjualan <span className="font-bold">hingga delapan kali lipat</span> setelah membuat laman penjualan mereka, apakah Anda ingin mendapatkan hasil yang sama?</p>
+                    <p className="text-xl mb-8 text-grayweb text-center">
+                        Pelanggan kami telah meningkatkan penjualan{" "}
+                        <span className="font-bold">
+                            hingga delapan kali lipat
+                        </span>{" "}
+                        setelah membuat laman penjualan mereka, apakah Anda
+                        ingin mendapatkan hasil yang sama?
+                    </p>
 
                     <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
-<div className="shadow-md rounded border border-grayweb text-grayweb p-8">
-<div className="flex gap-4 items-center mb-4">
-<img className="object-fit rounded-full" src="https://images.unsplash.com/photo-1557862921-37829c790f19?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8Z3V5fHx8fHx8MTY3NTYxNjYyMA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50" />
-<div>
-                            <h3 className="text-lg font-bold tracking-widest">
-                                PRIAMALAS
-                            </h3>
-<h4 className="text-md">Joga Computer</h4>
-</div>
-</div>
+                        <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
+                            <div className="flex gap-4 items-center mb-4">
+                                <img
+                                    className="object-fit rounded-full"
+                                    src="https://images.unsplash.com/photo-1557862921-37829c790f19?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8Z3V5fHx8fHx8MTY3NTYxNjYyMA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50"
+                                />
+                                <div>
+                                    <h3 className="text-lg font-bold tracking-widest">
+                                        PRIAMALAS
+                                    </h3>
+                                    <h4 className="text-md">Joga Computer</h4>
+                                </div>
+                            </div>
 
                             <p>
-                                Kalau kamu serius berbisnis online dan pemasaran digital termasuk e-commerce, buatlah segera disini. Kalo minta rekomendasiku, VArtz ini adalah webmaster yang jago banget buat bikin website. Dari desain, konten sampai teknikal.
+                                Kalau kamu serius berbisnis online dan pemasaran
+                                digital termasuk e-commerce, buatlah segera
+                                disini. Kalo minta rekomendasiku, VArtz ini
+                                adalah webmaster yang jago banget buat bikin
+                                website. Dari desain, konten sampai teknikal.
                             </p>
                         </div>
 
                         <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
-<div className="flex gap-4 items-center mb-4">
-<img className="object-fit rounded-full" src="https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVvcGxlfHx8fHx8MTY3NTYxNDcyNg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50" />
-<div>
-                            <h3 className="text-lg font-bold tracking-widest">
-                                Sanusi Sulvavian
-                            </h3>
-			<h4 className="text-md">Techopreneur</h4>
-</div>
-</div>
+                            <div className="flex gap-4 items-center mb-4">
+                                <img
+                                    className="object-fit rounded-full"
+                                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVvcGxlfHx8fHx8MTY3NTYxNDcyNg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50"
+                                />
+                                <div>
+                                    <h3 className="text-lg font-bold tracking-widest">
+                                        Sanusi Sulvavian
+                                    </h3>
+                                    <h4 className="text-md">Techopreneur</h4>
+                                </div>
+                            </div>
 
                             <p>
-                                Awale tak lihat banyak figure yang buat bikin website personal. Tak liat kok keren tenan. Aku yo mau bikin personal website. Mong mahal, angel lan ribet tenan. Lah untunge ketemu karo Farrel, dee tak kira kerjaane benerke printer. Ternyata gawe ngenean. Edan lek puas tenan.
+                                Awale tak lihat banyak figure yang buat bikin
+                                website personal. Tak liat kok keren tenan. Aku
+                                yo mau bikin personal website. Mong mahal, angel
+                                lan ribet tenan. Lah untunge ketemu karo Farrel,
+                                dee tak kira kerjaane benerke printer. Ternyata
+                                gawe ngenean. Edan lek puas tenan.
                             </p>
                         </div>
-<div className="shadow-md rounded border border-grayweb text-grayweb p-8">
-<div className="flex gap-4 items-center mb-4">
-<img className="object-fit rounded-full" src="https://images.unsplash.com/photo-1437623889155-075d40e2e59f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVvcGxlfHx8fHx8MTY3NTYxNTU1NQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50" />
-<div>
-                            <h3 className="text-lg font-bold tracking-widest">
-                                Janni Chandra
-                            </h3>
-<h4 className="text-md">Mie Bandung Singosaren</h4>
-</div>
-</div>
+                        <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
+                            <div className="flex gap-4 items-center mb-4">
+                                <img
+                                    className="object-fit rounded-full"
+                                    src="https://images.unsplash.com/photo-1437623889155-075d40e2e59f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVvcGxlfHx8fHx8MTY3NTYxNTU1NQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50"
+                                />
+                                <div>
+                                    <h3 className="text-lg font-bold tracking-widest">
+                                        Janni Chandra
+                                    </h3>
+                                    <h4 className="text-md">
+                                        Mie Bandung Singosaren
+                                    </h4>
+                                </div>
+                            </div>
 
                             <p>
-                                Gila enak banget rasanya punya situs. Saya sebenarnya nggak punya jualan online, saya jualan mie ayam di sekitar Singosaren dan Surakarta. Setelah membuat situs, sudah pasti restoran saya jadi lebih kredible. Berasa kaya restoran bintang 5 padahal mah beda jauh. Mana murah banget lagi buatnya disini <span className="text-xs">#RECOMMENDED</span>
+                                Gila enak banget rasanya punya situs. Saya
+                                sebenarnya nggak punya jualan online, saya
+                                jualan mie ayam di sekitar Singosaren dan
+                                Surakarta. Setelah membuat situs, sudah pasti
+                                restoran saya jadi lebih kredible. Berasa kaya
+                                restoran bintang 5 padahal mah beda jauh. Mana
+                                murah banget lagi buatnya disini{" "}
+                                <span className="text-xs">#RECOMMENDED</span>
                             </p>
                         </div>
-<div className="shadow-md rounded border border-grayweb text-grayweb p-8">
-<div className="flex gap-4 items-center mb-4">
-<img className="object-fit rounded-full" src="https://images.unsplash.com/photo-1536500152107-01ab1422f932?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2F0fHx8fHx8MTY3NTYxODA0Mg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50" />
-<div>
-                            <h3 className="text-lg font-bold tracking-widest">
-                                Evangeline Divia K.
-                            </h3>
-<h4 className="text-md">Sukulen & Tanaman Hias</h4>
-</div>
-</div>
+                        <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
+                            <div className="flex gap-4 items-center mb-4">
+                                <img
+                                    className="object-fit rounded-full"
+                                    src="https://images.unsplash.com/photo-1536500152107-01ab1422f932?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2F0fHx8fHx8MTY3NTYxODA0Mg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50"
+                                />
+                                <div>
+                                    <h3 className="text-lg font-bold tracking-widest">
+                                        Evangeline Divia K.
+                                    </h3>
+                                    <h4 className="text-md">
+                                        Sukulen & Tanaman Hias
+                                    </h4>
+                                </div>
+                            </div>
 
                             <p>
-                                Dari dulu hobi bisa bikin dan tanem tanaman hias. Ndak ada yang tau tentang hobi saya ini. Suatu saat terinspirasi dari YouTuber, bikin blogging tentang Tanaman hias dan Sukulen. Eh malah jadi bisnis yang bisa dimonetisasi. Ketika saya upgrade website saya di sini, semakin ciamik dan aesthethic sesuai dengan kemauan saya.
+                                Dari dulu hobi bisa bikin dan tanem tanaman
+                                hias. Ndak ada yang tau tentang hobi saya ini.
+                                Suatu saat terinspirasi dari YouTuber, bikin
+                                blogging tentang Tanaman hias dan Sukulen. Eh
+                                malah jadi bisnis yang bisa dimonetisasi. Ketika
+                                saya upgrade website saya di sini, semakin
+                                ciamik dan aesthethic sesuai dengan kemauan
+                                saya.
                             </p>
                         </div>
-</div>
+                    </div>
                 </ParallaxLayer>
 
- <ParallaxLayer
+                <ParallaxLayer
                     offset={8}
                     speed={0.5}
                     style={{
@@ -492,7 +538,10 @@ const ParallaxRapper: NextPage = () => {
                         Go Online dan lebarkan sayap bisnis Anda.
                     </h2>
 
-                    <p className="text-xl mb-8 text-center">Dengan situs buatan kami, peningkatan bisnis Anda akan lebih mudah dan hasilnya akan lebih maksimal.</p>
+                    <p className="text-xl mb-8 text-center">
+                        Dengan situs buatan kami, peningkatan bisnis Anda akan
+                        lebih mudah dan hasilnya akan lebih maksimal.
+                    </p>
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <div className="shadow-md rounded bg-grayweb p-4">
@@ -567,7 +616,10 @@ const ParallaxRapper: NextPage = () => {
                     <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb">
                         Mulai Buat. Dari Sekarang.
                     </h2>
-<p className="text-grayweb text-xl text-center mb-8">Solusi yang didukung kinerja untuk membantu menumbuhkan bisnismu.</p>
+                    <p className="text-grayweb text-xl text-center mb-8">
+                        Solusi yang didukung kinerja untuk membantu menumbuhkan
+                        bisnismu.
+                    </p>
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16">
                         <div className="bg-snow text-grayweb shadow-md rounded p-4 text-center lg:text-left">
                             <h3 className="text-lg font-bold">Basic</h3>
@@ -799,7 +851,7 @@ const ParallaxRapper: NextPage = () => {
                     speed={0.5}
                     style={{
                         display: "flex",
-			flexDirection: "column",
+                        flexDirection: "column",
                         alignItems: "center",
                         color: "white",
                     }}
