@@ -399,7 +399,7 @@ const ParallaxRapper: NextPage = () => {
                     <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
                         <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
                             <div className="flex gap-4 items-center mb-4">
-                                <Image
+                                <img
                                     className="object-fit rounded-full"
                                     alt="Gambar Testimoni"
                                     src="https://images.unsplash.com/photo-1557862921-37829c790f19?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8Z3V5fHx8fHx8MTY3NTYxNjYyMA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50"
@@ -423,7 +423,7 @@ const ParallaxRapper: NextPage = () => {
 
                         <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
                             <div className="flex gap-4 items-center mb-4">
-                                <Image
+                                <img
                                     className="object-fit rounded-full"
                                     alt="Gambar Testimoni"
                                     src="https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVvcGxlfHx8fHx8MTY3NTYxNDcyNg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50"
@@ -447,7 +447,7 @@ const ParallaxRapper: NextPage = () => {
                         </div>
                         <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
                             <div className="flex gap-4 items-center mb-4">
-                                <Image
+                                <img
                                     className="object-fit rounded-full"
                                     alt="Gambar Testimoni"
                                     src="https://images.unsplash.com/photo-1437623889155-075d40e2e59f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVvcGxlfHx8fHx8MTY3NTYxNTU1NQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50"
