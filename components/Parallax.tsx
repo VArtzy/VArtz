@@ -399,8 +399,9 @@ const ParallaxRapper: NextPage = () => {
                     <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
                         <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
                             <div className="flex gap-4 items-center mb-4">
-                                <img
+                                <Image
                                     className="object-fit rounded-full"
+                                    alt="Gambar Testimoni"
                                     src="https://images.unsplash.com/photo-1557862921-37829c790f19?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8Z3V5fHx8fHx8MTY3NTYxNjYyMA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50"
                                 />
                                 <div>
@@ -422,8 +423,9 @@ const ParallaxRapper: NextPage = () => {
 
                         <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
                             <div className="flex gap-4 items-center mb-4">
-                                <img
+                                <Image
                                     className="object-fit rounded-full"
+                                    alt="Gambar Testimoni"
                                     src="https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVvcGxlfHx8fHx8MTY3NTYxNDcyNg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50"
                                 />
                                 <div>
@@ -445,8 +447,9 @@ const ParallaxRapper: NextPage = () => {
                         </div>
                         <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
                             <div className="flex gap-4 items-center mb-4">
-                                <img
+                                <Image
                                     className="object-fit rounded-full"
+                                    alt="Gambar Testimoni"
                                     src="https://images.unsplash.com/photo-1437623889155-075d40e2e59f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVvcGxlfHx8fHx8MTY3NTYxNTU1NQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50"
                                 />
                                 <div>
@@ -472,8 +475,9 @@ const ParallaxRapper: NextPage = () => {
                         </div>
                         <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
                             <div className="flex gap-4 items-center mb-4">
-                                <img
+                                <Image
                                     className="object-fit rounded-full"
+                                    alt="Gambar Testimoni"
                                     src="https://images.unsplash.com/photo-1536500152107-01ab1422f932?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2F0fHx8fHx8MTY3NTYxODA0Mg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50"
                                 />
                                 <div>
@@ -863,10 +867,10 @@ const ParallaxRapper: NextPage = () => {
                             <span className="underline">pesat</span>.
                         </h2>
                         <p className="text-2xl">
-                            “Jangan ketinggalan kesempatan untuk meningkatkan
-                            bisnis Anda dengan membuat website", Mau beli
-                            sekarang atau menyesal nantinya, pilihan ada di
-                            tangan Anda.
+                            &quot;Jangan ketinggalan kesempatan untuk
+                            meningkatkan bisnis Anda dengan membuat
+                            website&quot;, Mau beli sekarang atau menyesal
+                            nantinya, pilihan ada di tangan Anda.
                         </p>
                         <a
                             href="https://wa.me/6289628196420?text=Hai%20min,%20bisa%buatkan%20saya%20website?"
