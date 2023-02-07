@@ -1,5 +1,4 @@
 import Nav from "../components/Nav"
-import Foo from "../components/Foo"
 import "../styles/globals.css"
 import { DM_Sans } from "@next/font/google"
 
