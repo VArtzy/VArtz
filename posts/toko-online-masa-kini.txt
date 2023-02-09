@@ -1,10 +1,11 @@
 ---
-title: "Apakah Next 13 Bagus? Apakah Butuh Untuk Project Kamu?"
-subtitle: "Baru baru ini di dunia pemrogramman web dibuat geger dengan adanya teknologi berbasis React dan berada pada Front-End Development. Yaitu Next 13."
-date: "2023-03-06 - 4 min read"
+title: "Toko Online Masa Kini!"
+subtitle: "Zaman cepat berubah, siapa yang bisa mengelak? Disrupsi digital hari ini adalah kondisi yang tak bisa lagi ditawar. Mari kita cari tahu penyebabnya."
+date: "2023-02-09 - 7 min read"
 ---
 
-Artikel ini 100% full opini saya, jadi belum tentu bisa kalian terima. Menurut pengalaman saya pribadi membangun menggunakan teknologi tersebut.
+Di artikel ini saya akan menguraikan apa yang terjadi di dunia Online. Saat semua orang masuk berbondong masuk kedalammnya. Membuatnya berubah dengan gegas. Menimbulkan pertarungan mendebarkan di antara pelakunya.
+
 ![Illustrasi Copywriting produk pet insurance](https://images.unsplash.com/photo-1629019621373-e5087c90067b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)
 
 [Illustrasi Copy - Unsplash](https://unsplash.com/photos/PvkS_6_CCkw)
