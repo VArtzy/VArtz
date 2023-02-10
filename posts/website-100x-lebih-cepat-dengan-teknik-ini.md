@@ -8,9 +8,9 @@ Hai sobat pejuang bisnis online 😁 di artikel saya kali ini, saya akan membagi
 
 Pernahkah kalian pergi ke sebuah website? Melihat penawaran menarik, mencari informasi tentang suatu hal atau mungkin... mencari hal yang... ah sudahlah 😙. Eh sudah nggak tahan malah website itu lemot banget. DUh! NgESeLiN!!!
 
-![Loading...](<https://upload.wikimedia.org/wikipedia/commons/b/b9/Youtube_loading_symbol_1_(wobbly).gif>)
+![Loading...](https://upload.wikimedia.org/wikipedia/commons/b/b9/Youtube_loading_symbol_1_(wobbly).gif)
 
-[Bukan Loading Beneran - wikimedia.org](<https://upload.wikimedia.org/wikipedia/commons/b/b9/Youtube_loading_symbol_1_(wobbly).gif>)
+[Bukan Loading Beneran - wikimedia.org](https://upload.wikimedia.org/wikipedia/commons/b/b9/Youtube_loading_symbol_1_(wobbly).gif)
 
 Saya akan memberikan anda sebuah data yang berisi kemungkinan jika website anda itu lemot. Apa yang akan terjadi? 🤔
 
