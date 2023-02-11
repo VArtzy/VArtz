@@ -33,13 +33,13 @@ const Blog = () => {
                     </p>
                     <div className="md:flex justify-between">
                         <input
-                            className="border border-grayweb rounded-md p-2 w-[60%] md:w-full mb-4"
+                            className="border border-grayweb rounded-md p-2 md:w-[60%] w-full mb-4"
                             type="email"
                             name="email"
                             placeholder="Alamat email aktif kamu"
                         />
                         <input
-                            className="border border-grayweb rounded-md p-2 w-[35%] md:w-full mb-4"
+                            className="border border-grayweb rounded-md p-2 md:w-[35%] w-full mb-4"
                             type="text"
                             name="nama"
                             placeholder="Nama depan / panggilan"

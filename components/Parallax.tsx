@@ -654,7 +654,7 @@ const ParallaxRapper: NextPage = () => {
                                 <p>/Tahun</p>
                             </div>
                             <p className="text-xs mb-4">
-                                *Harga akan naik nantinya. Belilah sekarang.
+                                *Harga akan naik nantinya.
                             </p>
                             <p className="text-md mb-4">
                                 Landing Page dengan 1 halaman serta maks. 5
@@ -725,7 +725,7 @@ const ParallaxRapper: NextPage = () => {
                                 <p>/Tahun</p>
                             </div>
                             <p className="text-xs mb-4">
-                                *Harga akan naik nantinya. Belilah sekarang.
+                                *Harga akan naik nantinya.
                             </p>
                             <p className="text-md mb-4">
                                 Company Profile Website. Cocok dengan bisnis
@@ -793,7 +793,7 @@ const ParallaxRapper: NextPage = () => {
                                 <p>/Tahun</p>
                             </div>
                             <p className="text-xs mb-4">
-                                *Harga akan naik nantinya. Belilah sekarang.
+                                *Harga akan naik nantinya.
                             </p>
                             <p className="text-md mb-4">
                                 Custom Website. Cocok dengan pembuatan Website
