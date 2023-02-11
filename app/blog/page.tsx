@@ -43,7 +43,6 @@ const Blog = () => {
                             className="border border-grayweb rounded-md p-2 md:w-[35%] w-full mb-4"
                             type="text"
                             name="nama"
-                            required
                             placeholder="Nama depan / panggilan"
                         />
                     </div>
