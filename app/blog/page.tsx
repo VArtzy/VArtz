@@ -36,12 +36,14 @@ const Blog = () => {
                             className="border border-grayweb rounded-md p-2 md:w-[60%] w-full mb-4"
                             type="email"
                             name="email"
+                            required
                             placeholder="Alamat email aktif kamu"
                         />
                         <input
                             className="border border-grayweb rounded-md p-2 md:w-[35%] w-full mb-4"
                             type="text"
                             name="nama"
+                            required
                             placeholder="Nama depan / panggilan"
                         />
                     </div>
