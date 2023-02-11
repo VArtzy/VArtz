@@ -10,7 +10,7 @@ const getPostContent = (slug: string) => {
 }
 
 export default function Head({ params }: { params: { slug: string } }) {
-    const slug = params.slug
+    const { slug } = params
     const post = getPostContent(slug)
     return (
         <>
@@ -21,6 +21,9 @@ export default function Head({ params }: { params: { slug: string } }) {
                 name="viewport"
             />
             <link rel="icon" href="/favicon.ico" />
+            <meta property="og:title" content={post.data.title} />
+            <meta property="og:description" content={post.data.subtitle} />
+            <meta property="og:type" content="article" />
         </>
     )
 }

@@ -648,11 +648,14 @@ const ParallaxRapper: NextPage = () => {
                                 <p>/Bulan</p>
                             </div>
                             <div className="flex justify-center lg:justify-start">
-                                <h4 className="text-xl font-bold mb-4">
+                                <h4 className="text-xl font-bold">
                                     Rp 999.000
                                 </h4>
                                 <p>/Tahun</p>
                             </div>
+                            <p className="text-xs mb-4">
+                                *Harga akan naik nantinya. Belilah sekarang.
+                            </p>
                             <p className="text-md mb-4">
                                 Landing Page dengan 1 halaman serta maks. 5
                                 Section. Cocok untuk produk/portofolio.
@@ -716,11 +719,14 @@ const ParallaxRapper: NextPage = () => {
                             <h4 className="font-bold mb-4">Start From</h4>
                             <hr className="mb-4" />
                             <div className="flex justify-center lg:justify-start">
-                                <h4 className="text-xl font-bold mb-4">
+                                <h4 className="text-xl font-bold">
                                     Rp 1.999.000
                                 </h4>
                                 <p>/Tahun</p>
                             </div>
+                            <p className="text-xs mb-4">
+                                *Harga akan naik nantinya. Belilah sekarang.
+                            </p>
                             <p className="text-md mb-4">
                                 Company Profile Website. Cocok dengan bisnis
                                 skala besar untuk menunjukan berbagai visi, misi
@@ -781,11 +787,14 @@ const ParallaxRapper: NextPage = () => {
                                 <p>/Bulan</p>
                             </div>
                             <div className="flex justify-center lg:justify-start">
-                                <h4 className="text-xl font-bold mb-4">
+                                <h4 className="text-xl font-bold">
                                     Rp 999.000
                                 </h4>
                                 <p>/Tahun</p>
                             </div>
+                            <p className="text-xs mb-4">
+                                *Harga akan naik nantinya. Belilah sekarang.
+                            </p>
                             <p className="text-md mb-4">
                                 Custom Website. Cocok dengan pembuatan Website
                                 blogging, web App, Kartu Undangan,
