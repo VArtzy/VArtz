@@ -1047,7 +1047,18 @@ const ParallaxRapper: NextPage = () => {
 
                     <footer className="mt-16 lg:flex justify-between text-snow bg-grayweb py-16 px-16">
                         <div className="lg:w-1/3 mb-8">
-                            <h2 className="text-2xl text-snow mb-2">VArtz</h2>
+                            <div className="flex items-center gap-4">
+                                <Image
+                                    width="32"
+                                    height="32"
+                                    src="/logo.png"
+                                    alt="VArtz Logo"
+                                    className="rounded-md"
+                                />
+                                <h2 className="text-2xl text-snow mb-2">
+                                    VArtz
+                                </h2>
+                            </div>
                             <p>
                                 Buat Website untuk meningkatkan peluang bisnis
                                 online kamu. Kami akan siap menerima konsultasi

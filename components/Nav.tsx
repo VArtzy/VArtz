@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image"
 import Link from "next/link"
 import React, { useState } from "react"
 import useReadingProgress from "./Progress"
@@ -10,7 +11,13 @@ const Nav: React.FC = () => {
         <>
             <nav className="md:flex justify-between w-full fixed z-10 px-16 py-4 items-center">
                 <div className="flex justify-between items-center">
-                    <h2 className="text-2xl text-grayweb">VArtz</h2>
+                    <Image
+                        src="/logo.png"
+                        alt="VArtz"
+                        width="32"
+                        height="32"
+                        className="object-fit"
+                    />
                     <div
                         onClick={() => setIsOpen(!isOpen)}
                         className="flex flex-col gap-2 md:hidden cursor-pointer"
