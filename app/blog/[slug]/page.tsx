@@ -2,6 +2,7 @@ import fs from "fs"
 import Markdown from "markdown-to-jsx"
 import matter from "gray-matter"
 import getPostMetadata from "../../../components/getPostMetadata"
+import Foo from "../../../components/Foo"
 
 const getPostContent = (slug: string) => {
     const folder = "posts/"
@@ -35,6 +36,8 @@ const PostPage = ({ params }: any) => {
             <article className="prose prose-img:rounded-md md:prose-lg mx-auto px-8">
                 <Markdown>{post.content}</Markdown>
             </article>
+
+            <Foo />
         </div>
     )
 }

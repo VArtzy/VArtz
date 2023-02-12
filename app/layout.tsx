@@ -1,6 +1,5 @@
 import Nav from "../components/Nav"
 import "../styles/globals.css"
-import "../styles/blog.module.css"
 import { DM_Sans } from "@next/font/google"
 
 const dm = DM_Sans({
