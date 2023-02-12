@@ -654,7 +654,7 @@ const ParallaxRapper: NextPage = () => {
                                 <p>/Tahun</p>
                             </div>
                             <p className="text-xs">
-                                *Perpanjangan hanya dikenai 50%.
+                                Perpanjangan hanya dikenai 50%
                             </p>
                             <p className="text-xs mb-4">
                                 *Harga akan naik nantinya.
@@ -728,7 +728,7 @@ const ParallaxRapper: NextPage = () => {
                                 <p>/Tahun</p>
                             </div>
                             <p className="text-xs">
-                                *Perpanjangan hanya dikenai 75%.
+                                Perpanjangan hanya dikenai 75%
                             </p>
                             <p className="text-xs mb-4">
                                 *Harga akan naik nantinya.
@@ -799,7 +799,7 @@ const ParallaxRapper: NextPage = () => {
                                 <p>/Tahun</p>
                             </div>
                             <p className="text-xs">
-                                *Perpanjangan hanya dikenai 50%.
+                                Perpanjangan hanya dikenai 50%
                             </p>
                             <p className="text-xs mb-4">
                                 *Harga akan naik nantinya.

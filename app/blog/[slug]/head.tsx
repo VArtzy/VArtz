@@ -1,5 +1,6 @@
 import fs from "fs"
 import matter from "gray-matter"
+import "../../../styles/blog.module.css"
 
 const getPostContent = (slug: string) => {
     const folder = "posts/"
