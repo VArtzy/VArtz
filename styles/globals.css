@@ -205,23 +205,41 @@ nav {
 .prose h4,
 .prose h5,
 .prose h6 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 3em;
+    margin-bottom: 1em;
     font-weight: 800;
 }
 
+.prose p {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+}
+
+.prose li {
+    list-style-type: disc;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    padding-left: 1.625em;
+}
+
+.prose a {
+    color: var(--tw-prose-links);
+    text-decoration: underline;
+    font-weight: 500;
+}
+
 .prose h2 {
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 .prose h3 {
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 .prose h4 {
-    font-size: 1.25rem;
+    font-size: 1.25em;
 }
 
 .prose h5 {
-    font-size: 1.125rem;
+    font-size: 1.125em;
 }
