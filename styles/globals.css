@@ -230,17 +230,33 @@ nav {
 }
 
 .prose h2 {
-    font-size: 2em;
-}
-
-.prose h3 {
     font-size: 1.5em;
 }
 
-.prose h4 {
+.prose h3 {
     font-size: 1.25em;
 }
 
-.prose h5 {
+.prose h4 {
     font-size: 1.125em;
+}
+
+.prose h5 {
+    font-size: 1.075em;
+}
+
+@media (min-width: 768px) {
+    .prose h2 {
+        font-size: 1.6666667em;
+        margin-top: 1.8666667em;
+        margin-bottom: 1.0666667em;
+        line-height: 1.3333333;
+    }
+
+    .prose h3 {
+        font-size: 1.3333333em;
+        margin-top: 1.6666667em;
+        margin-bottom: 0.6666667em;
+        line-height: 1.5;
+    }
 }
