@@ -23,14 +23,16 @@ const PostPage = ({ params }: any) => {
     const post = getPostContent(slug)
     return (
         <div>
-            <div className="py-12 px-8 pt-24 max-w-[50ch] mx-auto text-center">
+            <div className="py-12 px-8 pt-24 max-w-[65ch] mx-auto text-center">
                 <h1 className="text-2xl md:text-4xl font-bold text-slate-600">
                     {post.data.title}
                 </h1>
-                <p className="text-slate-400 mt-2">{post.data.date}</p>
+                <p className="text-slate-400 md:text-xl mt-2">
+                    {post.data.date}
+                </p>
             </div>
 
-            <article className="prose lg:prose-xl mx-auto px-8">
+            <article className="prose prose-img:rounded-md md:prose-lg mx-auto px-8">
                 <Markdown>{post.content}</Markdown>
             </article>
         </div>
