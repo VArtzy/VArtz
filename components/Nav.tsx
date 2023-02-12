@@ -20,15 +20,15 @@ const Nav: React.FC = () => {
                     />
                     <div
                         onClick={() => setIsOpen(!isOpen)}
-                        className="flex flex-col gap-2 md:hidden cursor-pointer"
+                        className="flex flex-col md:hidden cursor-pointer"
                     >
                         <span
-                            className={`block bg-grayweb h-0.5 w-8 rounded-md transition-all ${
+                            className={`block bg-grayweb h-0.5 w-8 mb-2 rounded-md transition-all ${
                                 isOpen ? "opacity-0" : "opacity-100"
                             }`}
                         />
                         <span
-                            className={`block bg-grayweb h-0.5 w-8 rounded-md transition-all ${
+                            className={`block bg-grayweb h-0.5 w-8 mb-2 rounded-md transition-all ${
                                 isOpen ? "rotate-45" : "rotate-0"
                             }`}
                         />
@@ -72,7 +72,7 @@ const Nav: React.FC = () => {
                     </li>
                 </ul>
                 <ul
-                    className={`text-center gap-8 py-4 md:py-0 transition-all hidden md:flex`}
+                    className={`text-center gap-8 py-4 md:py-0 justify-between transition-all hidden md:flex`}
                 >
                     <li>
                         <Link
