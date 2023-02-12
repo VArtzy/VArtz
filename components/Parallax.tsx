@@ -147,7 +147,7 @@ const ParallaxRapper: NextPage = () => {
                             >
                                 <div className="flex gap-4">
                                     <a
-                                        href="https://wa.me/6289628196420?text=Hai%20min,%20bisa%buatkan%20saya%20website?"
+                                        href="https://wa.me/6289628196420?text=Hai,%20min.%2C%20saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29."
                                         className="inline-block text-md rounded bg-springGreen px-4 py-2"
                                     >
                                         Buatkan Saya
