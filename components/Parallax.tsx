@@ -147,7 +147,7 @@ const ParallaxRapper: NextPage = () => {
                             >
                                 <div className="flex gap-4">
                                     <a
-                                        href="https://wa.me/6289628196420?text=Hai,%20min.%2C%20saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29."
+                                        href="https://wa.me/6289628196420?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
                                         className="inline-block text-md rounded bg-springGreen px-4 py-2"
                                     >
                                         Buatkan Saya
@@ -708,7 +708,7 @@ const ParallaxRapper: NextPage = () => {
                             </div>
 
                             <a
-                                href="https://wa.me/6289628196420?text=Pesan%20Website%20basic%20dong%20min!"
+                                href="https://wa.me/6289628196420?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website%20dengan%20pilihan20%paket20%BASIC.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
                                 className="bg-springGreen px-4 py-2 rounded inline-block mt-4 text-snow"
                             >
                                 <FaWhatsapp className="inline" /> Pesan Sekarang
@@ -770,7 +770,7 @@ const ParallaxRapper: NextPage = () => {
                             </div>
 
                             <a
-                                href="https://wa.me/6289628196420?text=Pesan%20Website%20super%20dong%20min!"
+                                href="https://wa.me/6289628196420?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website%20dengan%20pilihan20%paket20%SUPER.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
                                 className="bg-springGreen px-4 py-2 rounded inline-block mt-4 text-snow"
                             >
                                 <FaWhatsapp className="inline" /> Pesan Sekarang
@@ -837,7 +837,7 @@ const ParallaxRapper: NextPage = () => {
                                 <p className="text-xs">Revisi maks. 2 kali</p>
                             </div>
                             <a
-                                href="https://wa.me/6289628196420?text=Pesan%20Website%20customnya%20dong%20min!"
+                                href="https://wa.me/6289628196420?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website%20dengan%20pilihan20%paket20%CUSTOM.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
                                 className="bg-springGreen px-4 py-2 rounded inline-block mt-4 text-snow"
                             >
                                 <FaWhatsapp className="inline" /> Pesan Sekarang
@@ -1017,7 +1017,7 @@ const ParallaxRapper: NextPage = () => {
                             nantinya, pilihan ada di tangan Anda.
                         </p>
                         <a
-                            href="https://wa.me/6289628196420?text=Hai%20min,%20bisa%buatkan%20saya%20website?"
+                            href="https://wa.me/6289628196420?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
                             className="inline-block text-xl text-center  rounded-lg bg-snow text-springGreen px-8 py-4"
                         >
                             {" "}
