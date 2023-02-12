@@ -33,7 +33,7 @@ const PostPage = ({ params }: any) => {
                 </p>
             </div>
 
-            <article className="prose prose-img:rounded-md md:prose-lg mx-auto px-8">
+            <article className="prose md:prose-lg mx-auto px-8">
                 <Markdown>{post.content}</Markdown>
             </article>
 

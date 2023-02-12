@@ -245,6 +245,10 @@ nav {
     font-size: 1.075em;
 }
 
+.prose img {
+    border-radius: 0.375rem;
+}
+
 @media (min-width: 768px) {
     .prose h2 {
         font-size: 1.6666667em;
