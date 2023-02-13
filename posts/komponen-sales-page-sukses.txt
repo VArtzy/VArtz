@@ -1,0 +1,50 @@
+---
+title: Belajar membuat sales page yang sukses. Ini dia komponen terpentingnya!
+subtitle: Sales page adalah nyawa bagi semua bisnis online. Sales page adalah pintu masuk para pelanggan akan datang. Mari mempelajari cara membuat sales page yang bukan cuma bagus tetapi juga menjual.
+date: 2023-02-14 - 10 min read
+---
+
+## Sales page
+
+Sales page atau laman penjualan. Adalah salah satu jenis landing page. Halaman yang akan ditampilkan ketika pertamakali pengunjung datang. Berpotensi mengubah pendatang menjadi pelanggan. Maka dari itu sales page harus memiliki komponen-komponen yang baik seperti yang nanti saya jelaskan.
+
+![Contoh ilustrasi sales page](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/85d18181111629.5cf57892031c5.png)
+
+[Contoh ilustrasi sales page - Behance.net](behance.net)
+
+Untuk kamu yang belum mengerti tentang apa itu landing page? Apa kegunaannya? Fungsinya apa? Dan bagaimana ia dapat meningkatkan potensi bisnis kita. Silahkan membaca [Apa itu landing page dan kenapa itu penting buat bisnismu](./landing-page).
+
+Sekali lagi, sales page itu sangat penting. Kalau kamu ingin sukses di penjualan online. Selain pemasaran, kamu harus menguasai cara membuat orang lain tertarik kepada apa yang kamu tawarkan lewat sales page atau jenis landing page lainnya.
+
+tanpa berlama-lama lagi, mari kita bahas komponen sales page. Silahkan siapkan popcorn/camilan untuk membaca santai~
+
+## Hero section yang mengajak
+
+Hero section adalah pahlawan. Ia adalah komponen yang pertamakali yang dilihat oleh visitor. Selalu kita dengar, FIRST IMPRESSION MATTER. Pandangan pertama adalah hal yang penting. Saya memiliki [referensi tentang first impress dan kenapa itu penting](https://www.ted.com/talks/budi_komala_why_first_impressions_matter).
+
+![Illustrasi Hero Section](https://babich.biz/content/images/2022/10/Hero-11.jpg)
+
+[Illustrasi Hero Section - Babich.biz] Babich](https://babich.biz/content/images/2022/10/Hero-11.jpg)
+
+Hero section harus berisi pesan yang jelas, benefitial (memberikan benefit) atau mengajak. Biasanya Hero section berisi 2 grid atau divider. Satunya berisi Headline, Subheadline dan satu atau dua CTA Buttons. Satunya lagi memberikan gambar penjelasan/illustrasi yang enak dipandang mata.
+
+Sesuai perkembangan zaman. Makin banyak jenis layout di landing page. Anda bisa menentukan layoutnya bagaimana. Apalagi jika anda membuat website di [VArtz](/). Saya yakin pasti anda bisa membuat Sales page yang baik 😀.
+
+## Tunjukan benefit
+
+Dengan berbagai macam jenis layout yang ada. Anda dapat menggunakan layout dan copy yang bagus. Pastikan anda menunjukan benefit, bukan fitur. Itu dapat dilakukan nantinya setelah visitor mengetahui benefit apa yang didapat dari produk.
+
+![Ramuan membuat copy yang benefical](https://miro.medium.com/v2/resize:fit:720/format:webp/1*MpKCX4D-0XjosmVUwPQrkQ.png)
+
+[Ramuan membuat copy yang benefical](https://miro.medium.com/v2/resize:fit:720/format:webp/1*MpKCX4D-0XjosmVUwPQrkQ.png)
+
+Benefit ini sifatnya objektif. Berikan benefit yang jelas bersamaan membuat copy yang persuasif. Ketahui cara [membuat copywriting dasar](./copywriting-untuk-pemula) atau belajar [menulis seperti Apple](./5-cara-menulis-seperti-apple).
+
+## Advantages dan Feature
+
+Selanjutnya setelah visitor mengetahui benefit atau bagaimana produk anda dapat menyelesaikan masalah atau problem yang mereka miliki.
+
+Adalah memberikan mereka Advantages (keuntungan) dan feature (fitur) yang akan menjadi
+
+## Social Proof yang menginspirasi
+
