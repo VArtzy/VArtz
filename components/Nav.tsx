@@ -67,6 +67,14 @@ const Nav: React.FC = () => {
                     <li>
                         <Link
                             className="text-grayweb transition-all hover:text-slate-600"
+                            href="/terms-condition"
+                        >
+                            S&K
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            className="text-grayweb transition-all hover:text-slate-600"
                             href="/about"
                         >
                             About
@@ -90,6 +98,14 @@ const Nav: React.FC = () => {
                             href="/blog"
                         >
                             Blog
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            className="text-grayweb transition-all hover:text-slate-600"
+                            href="/terms-condition"
+                        >
+                            S&K
                         </Link>
                     </li>
                     <li>

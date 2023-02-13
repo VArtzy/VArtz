@@ -40,6 +40,11 @@ const Foo: React.FC = () => {
                             </Link>
                         </li>
                         <li>
+                            <Link className="text-snow" href="/terms-condition">
+                                S&K
+                            </Link>
+                        </li>
+                        <li>
                             <Link className="text-snow" href="/about">
                                 About
                             </Link>
