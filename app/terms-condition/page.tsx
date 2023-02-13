@@ -1,4 +1,5 @@
 import Foo from "../../components/Foo"
+import Accordion from "../../components/Accor"
 const About = () => {
     return (
         <>
@@ -21,12 +22,6 @@ const About = () => {
                         Lakukan pemesanan di platform whatsapp, pembayaran
                         secara tunai atau down payment (DP) minimal 50% (Hanya
                         transfer tunai ke rekening BCA atas nama Eko Purnomo)
-                    </p>
-
-                    <p className="mb-4">
-                        Website akan dibuat sesuai dengan fitur template yang
-                        disajikan. Jika ada tambahan fitur, maka akan dikenakan
-                        biaya tambahan.
                     </p>
 
                     <ul className="list-disc pl-4">
@@ -91,114 +86,66 @@ const About = () => {
 
                 <div className="p-4">
                     <div className="accordion">
-                        <div className="accordion-item">
-                            <div className="accordion-header">
-                                <h3 className="font-medium">
-                                    Apa itu VArtz jasa pembuatan web? 👋
-                                </h3>
-                                <span className="accordion-icon"></span>
-                            </div>
-                            <div className="accordion-body">
-                                merupakan personil jasa yang menyediakan
+                        <Accordion
+                            title="Apa itu VArtz jasa pembuatan web? 👋"
+                            content="merupakan personil jasa yang menyediakan
                                 berbagai macam layanan IT mulai dari Pembuatan
                                 Website seperti toko online, company profile,
                                 portofiolio, personal dan lainnya, Pengembangan
                                 Aplikasi lengkap disertai pemeliharaan atau
-                                maintenance berkala.
-                            </div>
-                        </div>
-                        <div className="accordion-item">
-                            <div className="accordion-header">
-                                <h3 className="font-medium">
-                                    Jasa pembuatan termasuk pembuatan apa saja?
-                                </h3>
-                                <span className="accordion-icon"></span>
-                            </div>
-                            <div className="accordion-body">
+                                maintenance berkala."
+                        />
+                        <Accordion
+                            title="Jasa pembuatan termasuk pembuatan apa saja?"
+                            content="
                                 Secara umum layanan berlangganan sudah termasuk
                                 biaya pembuatan, nama domain, hosting/server,
                                 optimasi mobile, optimasi SEO (agar website Anda
                                 masuk ke mesin pencarian), pengoperasian dan
-                                pemeliharaan.
-                            </div>
-                        </div>
-                        <div className="accordion-item">
-                            <div className="accordion-header">
-                                <h3 className="font-medium">
-                                    Data apa saja yang perlu saya sediakan? 🤟
-                                </h3>
-                                <span className="accordion-icon"></span>
-                            </div>
-                            <div className="accordion-body">
-                                Kami membutuhkan beberapa data Anda sebagai
+                                pemeliharaan."
+                        />
+                        <Accordion
+                            title="Data apa saja yang perlu saya sediakan? 🤟"
+                            content="Kami membutuhkan beberapa data Anda sebagai
                                 bahan untuk membangun website terkait informasi
                                 yang ingin Anda tampilkan pada situs Anda.
                                 Antara lain: referensi (jika ada), data
                                 pengelola ( nama, alamat, nomor kontak ) company
                                 profile / profil bisnis, logo, deskripsi produk,
                                 foto / gambar produk, dan artikel yang
-                                diperlukan.
-                            </div>
-                        </div>
-                        <div className="accordion-item">
-                            <div className="accordion-header">
-                                <h3 className="font-medium">
-                                    Apakah ada garansi?
-                                </h3>
-                                <span className="accordion-icon"></span>
-                            </div>
-                            <div className="accordion-body">
-                                Kami tumbuh ketika usaha Anda sukses. Garansi
+                                diperlukan."
+                        />
+                        <Accordion
+                            title="Apakah ada garansi?"
+                            content="Kami tumbuh ketika usaha Anda sukses. Garansi
                                 sudah kami sertakan dalam setiap paket pembuatan
                                 web ini, dan kami siap membantu untuk melakukan
-                                perbaikan gratis ketika terjadi website “error”.
-                            </div>
-                        </div>
-                        <div className="accordion-item">
-                            <div className="accordion-header">
-                                <h3 className="font-medium">
-                                    Bagaimana saya dapat mengembangkan bisnis
-                                    saya?
-                                </h3>
-                                <span className="accordion-icon"></span>
-                            </div>
-                            <div className="accordion-body">
-                                Kami tumbuh bersama usaha Anda. Anda dapat
+                                perbaikan gratis ketika terjadi website “error”."
+                        />
+                        <Accordion
+                            title="Bagaimana saya dapat mengembangkan bisnis
+                                    saya?"
+                            content="Kami tumbuh bersama usaha Anda. Anda dapat
                                 membaca blog milik kami yang selalu update dan
                                 relevan dengan perkembagan zaman. Tentu anda
                                 akan mendapatkan ilmu yang banyak dari sana dan
                                 selamat membaca! (Jika anda menggunakan jasa
                                 VArtz, secara otomatis anda akan terdaftar di
-                                blog 😀)
-                            </div>
-                        </div>
-                        <div className="accordion-item">
-                            <div className="accordion-header">
-                                <h3 className="font-medium">
-                                    Bisakah saya menggunakan template sendiri?
-                                </h3>
-                                <span className="accordion-icon"></span>
-                            </div>
-                            <div className="accordion-body">
-                                Jika Anda sudah mempunyai template sendiri,
+                                blog 😀)"
+                        />
+                        <Accordion
+                            title="Bisakah saya menggunakan template sendiri?"
+                            content="Jika Anda sudah mempunyai template sendiri,
                                 silakan kirimkan kepada kami. Dengan senang hati
                                 kami akan mengeditkan dan menguploadnya untuk
-                                Anda.
-                            </div>
-                        </div>
-                        <div className="accordion-item">
-                            <div className="accordion-header">
-                                <h3 className="font-medium">
-                                    Maintenance apa saja yang termasuk dalam
-                                    paket di atas? 🤖
-                                </h3>
-                                <span className="accordion-icon"></span>
-                            </div>
-                            <div className="accordion-body">
-                                Maintenance yang kami lakukan yaitu memastikan
-                                website tidak down dan tidak kena hack.
-                            </div>
-                        </div>
+                                Anda."
+                        />
+                        <Accordion
+                            title="Maintenance apa saja yang termasuk dalam
+                                    paket di atas? 🤖"
+                            content="Maintenance yang kami lakukan yaitu memastikan
+                                website tidak down dan tidak kena hack."
+                        />
                     </div>
                 </div>
                 <a

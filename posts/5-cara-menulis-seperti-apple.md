@@ -1,6 +1,6 @@
 ---
 title: 5 Cara Apple membuat copy yang brilian. 100% pesan tersampaikan.
-subtitle: Kalau ngomongin soal copywrite. Sudah pasti kita teringat satu brand yang sangat terkenal dengan berbagai macam campaign dan jargon-jargon berkelas. Yaitu Apple. Kita akan belajar bagaimana Apple menyampaikan pesannya kepada dunia.
+subtitle: Kalau ngomongin soal copywrite. Sudah pasti kita teringat satu brand yang sangat terkenal dengan berbagai macam campaign dan jargon-jargon berkelas. Yaitu Apple.
 date: 2023-02-13 - 4 min read
 ---
 
@@ -50,7 +50,6 @@ Berikan pesan yang memberikan solusi. Jangan memberikan fitur. Buat merasa bahwa
 
 Pesan yang didapat: dengan menggunakan hp ini, anda dapat menguatkan hari anda dengan baterai yang kuat.
 
-
 ## Rhythm
 
 Rima adalah hal yang perlu kita perhatikan. Sama seperti repetisi, otak manusia lebih mudah menangkap pesan dengan menggunakan pola. Dengan membuat Rima, membuat membaca terasa lebih plong dan lebih mudah dicerna.
@@ -59,8 +58,8 @@ Rima adalah hal yang perlu kita perhatikan. Sama seperti repetisi, otak manusia 
 
 yang ini tidak perlu saya jelasin, anda bisa cerna sendiri :D
 
+Jika anda memerlukan platform yang dapat generate rima dari sebuah kata Bahasa Indonesia. Anda dapat menggunakan [rimakata](http://www.rimakata.com/).
 
 Begitulah cara untuk membuat copy seperti brand Apple. Tentu tidak sepenuhnya kita dapat menerapkannya ke materi copy yang kita buat. Apalagi Apple adalah brand luar yang memang memiliki pangsa pasar yang berbeda dari kita. Tetapi ini bisa kita jadikan referensi untuk membuat copy yang berguna nantinya.
 
 Semoga Bermanfaat, [VArtz](/).
-
