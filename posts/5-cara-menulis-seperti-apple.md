@@ -8,6 +8,8 @@ date: 2023-02-13 - 4 min read
 
 Seperti yang kita tahu, jika kita melihat brand Apple. Sangat dapat terlihat bahwa mereka benar benar bisa mengembangkan copy dan tulisan yang menarik para penonton untuk dapat membeli ke produk mereka.
 
+Kalau kamu belum mengerti dasar-dasar Copywriting, saya sarakankan kamu membaca [Teknik dasar Copywriting untuk pemula - Jualan tambah nampol](./copywriting-untuk-pemula)
+
 tanpa berlama-lama lagi, mari kita bahas copywrite Apple~
 
 ## The Power of Repetition
@@ -20,8 +22,7 @@ Contoh copy:
 
 Pesan yang dapat kita tarik: iPhone 11 Pro adalah hape yang diperlukan orang yang mau menjadi profesional atau mau terlihat profesional.
 
-```A big, beautiful workspace.
-For doing big, beautiful work.```
+```A big, beautiful workspace. For doing big, beautiful work.```
 
 Pesan yang dapat kita tarik: Mac yang besar. Bagus buat tempat kerja untuk mengerjakan hal yang besar, sesuatu yang mengubah dunia.
 
