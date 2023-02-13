@@ -6,9 +6,9 @@ const Accordion = ({ title, content }) => {
     const [isActive, setIsActive] = useState(false)
 
     return (
-        <div className="accordion-item block shadow-md">
+        <div className="accordion-item block shadow-md mb-2">
             <div
-                className="accordion-title"
+                className="accordion-title flex justify-between"
                 onClick={() => setIsActive(!isActive)}
             >
                 <h3 className="font-medium">{title}</h3>

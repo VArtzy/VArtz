@@ -71,7 +71,7 @@ const About = () => {
                 </div>
                 <a
                     href="https://wa.me/6289628196420?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
-                    className="block text-md rounded bg-springGreen px-4 py-2"
+                    className="block text-md rounded bg-springGreen text-snow text-center font-bold px-4 py-2"
                 >
                     Order Sekarang
                 </a>
@@ -150,7 +150,7 @@ const About = () => {
                 </div>
                 <a
                     href="https://wa.me/6289628196420?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
-                    className="block text-md rounded bg-springGreen px-4 py-2"
+                    className="block text-md rounded bg-springGreen text-snow text-center font-bold px-4 py-2"
                 >
                     Order Sekarang
                 </a>
