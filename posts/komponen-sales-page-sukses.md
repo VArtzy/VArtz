@@ -1,5 +1,5 @@
 ---
-title: Belajar membuat sales page yang sukses. Ini dia komponen terpentingnya!
+title: Belajar Membuat Sales Page Yang Sukses. Ini Dia Komponen Terpentingnya!
 subtitle: Sales page adalah nyawa bagi semua bisnis online. Sales page adalah pintu masuk para pelanggan akan datang. Mari mempelajari cara membuat sales page yang bukan cuma bagus tetapi juga menjual.
 date: 2023-02-14 - 10 min read
 ---

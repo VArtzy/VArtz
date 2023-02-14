@@ -99,7 +99,7 @@ const About = () => {
                             title="Jasa pembuatan termasuk pembuatan apa saja?"
                             content="
                                 Secara umum layanan berlangganan sudah termasuk
-                                biaya pembuatan, nama domain, hosting/server,
+                                biaya HAKI (Hak Kekayaan Intelektual), desain, copy advices, developemnt (pembuatan), nama domain, hosting/server,
                                 optimasi mobile, optimasi SEO (agar website Anda
                                 masuk ke mesin pencarian), pengoperasian dan
                                 pemeliharaan."

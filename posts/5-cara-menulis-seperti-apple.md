@@ -1,5 +1,5 @@
 ---
-title: 5 Cara Apple membuat copy yang brilian. 100% pesan tersampaikan.
+title: 5 Cara Apple Membuat Copy Yang Brilian. 100% Pesan Tersampaikan.
 subtitle: Kalau ngomongin soal copywrite. Sudah pasti kita teringat satu brand yang sangat terkenal dengan berbagai macam campaign dan jargon-jargon berkelas. Yaitu Apple.
 date: 2023-02-13 - 4 min read
 ---

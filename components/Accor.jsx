@@ -8,7 +8,7 @@ const Accordion = ({ title, content }) => {
     return (
         <div className="accordion-item block shadow-md mb-4 p-4">
             <div
-                className="accordion-title flex justify-between"
+                className="accordion-title flex justify-between cursor-pointer"
                 onClick={() => setIsActive(!isActive)}
             >
                 <h3 className="font-medium">{title}</h3>
