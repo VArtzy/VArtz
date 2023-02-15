@@ -3,6 +3,7 @@ import Markdown from "markdown-to-jsx"
 import matter from "gray-matter"
 import getPostMetadata from "../../../components/getPostMetadata"
 import Foo from "../../../components/Foo"
+import Social from "../../../components/Socials"
 
 const getPostContent = (slug: string) => {
     const folder = "posts/"
@@ -37,6 +38,12 @@ const PostPage = ({ params }: any) => {
                 <Markdown>{post.content}</Markdown>
             </article>
 
+            <Social
+                slug={slug}
+                title={post.data.title}
+                subtitle={post.data.subtitle}
+                content={post.content}
+            />
             <Foo />
         </div>
     )

@@ -41,7 +41,7 @@ const About = () => {
                         </li>
                         <li className="mb-2">
                             Harga sudah termasuk domain dan hosting untuk 1
-                            tahun.
+                            tahun/bulan sesuai paket yang dipilih.
                         </li>
                         <li className="mb-2">
                             Tahun berikutnya cukup membayar Rp 499.000 (50%)
