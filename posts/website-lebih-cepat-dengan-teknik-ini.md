@@ -8,9 +8,9 @@ Hai sobat pejuang bisnis online 😁 di artikel saya kali ini, saya akan membagi
 
 Pernahkah kalian pergi ke sebuah website? Melihat penawaran menarik, mencari informasi tentang suatu hal atau mungkin... mencari hal yang... ah sudahlah 😙. Eh sudah nggak tahan malah website itu lemot banget. DUh! NgESeLiN!!!
 
-![Loading...](https://upload.wikimedia.org/wikipedia/commons/b/b9/Youtube_loading_symbol_1_(wobbly).gif)
+![Loading...](<https://upload.wikimedia.org/wikipedia/commons/b/b9/Youtube_loading_symbol_1_(wobbly).gif>)
 
-[Bukan Loading Beneran - wikimedia.org](https://upload.wikimedia.org/wikipedia/commons/b/b9/Youtube_loading_symbol_1_(wobbly).gif)
+[Bukan Loading Beneran - wikimedia.org](<https://upload.wikimedia.org/wikipedia/commons/b/b9/Youtube_loading_symbol_1_(wobbly).gif>)
 
 Saya akan memberikan anda sebuah data yang berisi kemungkinan jika website anda itu lemot. Apa yang akan terjadi? 🤔
 
@@ -78,6 +78,8 @@ Mungkin untuk website yang pendek atau tidak bergambar banyak tidak terlalu bera
 Teknik lazy load itu sangatlah OVERPOWERED. Barang siapa yang memilikinya sudah pasti menjadi tercepat. Hampir seluruh program Web modern menggunakan teknik lazy loading. Apabila kamu ingin Website yang cepat, ramah SEO. Lazy Load jawabannya.
 
 Lalu bagaimana cara kita menerapkan lazy load di website yang kita miliki? Jika kamu seorang web developer, kamu bisa menggunakan [HTML Lazy Load](https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading) atau menggunakan [JavaScript](https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading) untuk code splitting/observer. Jika kamu pengguna Wordpress, kamu bisa install plugin seperti [Rocket Lazy Load](https://wordpress.org/plugins/rocket-lazy-load/). Dan apabila kamu menggunakan jasa pembuatan website seperti [VArtz](/) sudah pasti website kamu sudah dioptimasi dengan optimasi terbaik 😋.
+
+<Promo />
 
 ## #3 Minify Source
 

@@ -7,6 +7,7 @@ import Social from "../../../components/Socials"
 import Link from "next/link"
 import { BsFillJournalBookmarkFill, BsShareFill } from "react-icons/bs"
 import Langganan from "../../../components/PopupLangganan"
+import Promo from "../../../components/PopupPromo"
 
 const getPostContent = (slug: string) => {
     const folder = "posts/"
@@ -42,6 +43,7 @@ const PostPage = ({ params }: any) => {
                     options={{
                         overrides: {
                             Langganan: Langganan,
+                            Promo: Promo,
                         },
                     }}
                 >
