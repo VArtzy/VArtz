@@ -4,6 +4,9 @@ import matter from "gray-matter"
 import getPostMetadata from "../../../components/getPostMetadata"
 import Foo from "../../../components/Foo"
 import Social from "../../../components/Socials"
+import Link from "next/link"
+import { BsFillJournalBookmarkFill, BsShareFill } from "react-icons/bs"
+import Langganan from "../../../components/PopupLangganan"
 
 const getPostContent = (slug: string) => {
     const folder = "posts/"
@@ -35,15 +38,34 @@ const PostPage = ({ params }: any) => {
             </div>
 
             <article className="prose md:prose-lg mx-auto px-8">
-                <Markdown>{post.content}</Markdown>
+                <Markdown
+                    options={{
+                        overrides: {
+                            Langganan: Langganan,
+                        },
+                    }}
+                >
+                    {post.content}
+                </Markdown>
             </article>
 
+            <p className="text-grayweb">
+                <BsShareFill className="inline" /> Simpan Jika Dibutuhkan,
+                Bagikan Untuk Mereka Yang Membutuhkan.
+            </p>
             <Social
                 slug={slug}
                 title={post.data.title}
                 subtitle={post.data.subtitle}
                 content={post.content}
             />
+            <Link
+                href="./"
+                className="block text-snow bg-slate-700 px-4 py-2 uppercase rounded-md text-xl"
+            >
+                <BsFillJournalBookmarkFill className="inline" /> Lihat Semua
+                Blog
+            </Link>
             <Foo />
         </div>
     )

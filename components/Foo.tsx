@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import React from "react"
 import { BiMailSend } from "react-icons/bi"
-import { FaWhatsapp } from "react-icons/fa"
+import { FaLocationArrow, FaWhatsapp } from "react-icons/fa"
 
 const Foo: React.FC = () => {
     return (
@@ -51,10 +51,70 @@ const Foo: React.FC = () => {
                         </li>
                     </div>
                 </ul>
+
+                <h3 className="text-xl mb-2">Niche & Frequent</h3>
+                <ul className="mb-2">
+                    <div className="flex gap-8">
+                        <li>
+                            <Link
+                                className="text-snow"
+                                href="/terms-condition#faq"
+                            >
+                                FAQ
+                            </Link>
+                        </li>
+                        <li>
+                            <Link className="text-snow" href="/#pricing">
+                                Pricing
+                            </Link>
+                        </li>
+                        <li>
+                            <Link className="text-snow" href="/blog#newsletter">
+                                Newsletter
+                            </Link>
+                        </li>
+                        <li>
+                            <Link className="text-snow" href="/#cara-order">
+                                Cara Order
+                            </Link>
+                        </li>
+                    </div>
+                </ul>
+                <ul className="mb-2">
+                    <div className="flex gap-8">
+                        <li>
+                            <Link className="text-snow" href="/#testimonial">
+                                Testimonial
+                            </Link>
+                        </li>
+                        <li>
+                            <Link className="text-snow" href="/#portofolio">
+                                Portofolio
+                            </Link>
+                        </li>
+                        <li>
+                            <Link className="text-snow" href="/#feature">
+                                Feature
+                            </Link>
+                        </li>
+                        <li>
+                            <Link className="text-snow" href="/about">
+                                Contact
+                            </Link>
+                        </li>
+                    </div>
+                </ul>
             </div>
 
             <div className="mb-8">
                 <h3 className="text-xl mb-2">Contacts</h3>
+                <div className="flex items-center">
+                    <FaLocationArrow className="inline" />
+                    <p>
+                        Jl. Gatot Subroto No.105, Kemlayan, Kec. Serengan, Kota
+                        Surakarta, Jawa Tengah 57111, Indonesia.
+                    </p>
+                </div>
                 <a
                     href="https://wa.me/6289628196420"
                     className="bg-springGreen px-4 py-2 rounded inline-block text-snow mb-2"
@@ -65,6 +125,11 @@ const Foo: React.FC = () => {
                     <BiMailSend className="inline" /> farrelnikoson@gmail.com
                 </p>
             </div>
+
+            <p className="text-lg">
+                Copyright © 2023. <Link href="/">VArtz</Link>. All rights
+                reserved.
+            </p>
         </footer>
     )
 }

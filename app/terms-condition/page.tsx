@@ -76,7 +76,10 @@ const About = () => {
                     Order Sekarang
                 </a>
 
-                <h2 className="text-3xl md:text-4xl w-full font-bold mt-24">
+                <h2
+                    id="faq"
+                    className="text-3xl md:text-4xl w-full font-bold mt-24"
+                >
                     FAQs
                 </h2>
                 <h2 className="text-2xl md:text-3xl w-full font-bold lg:mb-4">

@@ -105,6 +105,8 @@ Juga anda dapat membuat pembeli merasa terdesak dengan 2 pilihan yang berbeda. I
 
 Intinya CTA ini sangat penting. Jalan menuju closing/checkout. diberi di awal section (hero section) atau akhir section sebagai penutupan (sum page) yang akan kita bahas setelah ini.
 
+<Langganan />
+
 ## Sum section yang ringkas dan menyimpulkan
 
 Ini adalah section yang orang sering lupakan, beri pesan terakhir anda disini. Ini adalah tempat terakhir di page anda. Ulangi semua yang anda sudah jelaskan dan ringkaslah! Setelah itu buat penutupan yang mengajak sebagai akhir dari perpisahan anda dengan pembeli di halaman. Berikan CTA, teks headline, subheadline, dll. Ini sama pentingnya dengan hero section.

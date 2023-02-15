@@ -1,0 +1,27 @@
+---
+title: Hal Yang Aku Pelajari Dari Landing Page Milik Apple.
+subtitle: Dari Apple kita bisa belajar banyak hal. Salah satunya kita dapat melihat bagaimana cara mereka membuat landing pagenya.
+date: 2023-02-15 - 8 min read
+---
+
+## Belajar Dari Apple
+
+Hai teman-teman 👋, apakah nih? Hari ini aku mau observasi landing page milik Apple dan apa yang bisa kita petik atau pelajari. Bahkan untuk mengaplikasikannya ke landing page yang kita miliki.
+
+Dari teknik-teknik ini, kita bisa melihat perspektif lebih luas tentang landing page dan bagiamana make a good copies as always! Kita akan belajar salah satu landing page terbarunya, yaitu landing page [iPhone 14 Pro / Max](https://www.apple.com/id/iphone-14-pro/).
+
+<Langganan />
+
+Tanpa berlama-lama lagi, Inilah yang aku pelajari dari 🍎~
+
+## Bigger Text, Bigest Context.
+
+![Teks Besar Apple](/media/appleteksbesar.png)
+
+[Teks Besar Apple - Captured by VArtz](https://www.apple.com/id/iphone-14-pro/)
+
+Yang paling mencolok apabila kalian pergi ke landing page Apple. Adalah bagaimana mereka mengguankan teks yang sangat besar. Biasanya dihias dengan gradient warna. Keseluruhan section hanya tulisan dan deskripsi tentang produk yang ditawarkan.
+
+Keuntungan dari layout yang super simpel dan mungkin dianggap dalam kutip "Tidak Jelas" Ini adalah bagaimana cara mereka menyampaikan pesan dengan sangat mudah hanya bermodalkan satu teks besar tanpa menggunakan struktur atau hierarki tipografi.
+
+Visitor hanya fokus untuk membaca teks yang diberikan oleh Apple sehingga dengan jelas dan mudah dapat mengerti apa yang Apple sampaikan. Tipografi yang dibuat besar dan bergradien untuk menggambil atensi user untuk mau membaca pesan dari Apple melewati craft copy yang keren.

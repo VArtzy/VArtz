@@ -48,73 +48,89 @@ const Nav: React.FC = () => {
                         isOpen ? "block" : "hidden"
                     }`}
                 >
-                    <li>
+                    <li className="relative w-max two">
                         <Link
                             className="text-grayweb transition-all hover:text-slate-600 after:contents after:absolute after:w-2 after:h-4 after:bg-slate-800"
                             href="/"
                         >
                             Home
                         </Link>
+                        <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
+                        <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                     </li>
-                    <li>
+                    <li className="relative w-max two">
                         <Link
                             className="text-grayweb transition-all hover:text-slate-600"
                             href="/blog"
                         >
                             Blog
                         </Link>
+                        <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
+                        <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                     </li>
-                    <li>
+                    <li className="relative w-max two">
                         <Link
                             className="text-grayweb transition-all hover:text-slate-600"
                             href="/terms-condition"
                         >
                             S&K
                         </Link>
+                        <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
+                        <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                     </li>
-                    <li>
+                    <li className="relative w-max two">
                         <Link
                             className="text-grayweb transition-all hover:text-slate-600"
                             href="/about"
                         >
                             About
                         </Link>
+                        <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
+                        <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                     </li>
                 </ul>
                 <ul
                     className={`text-center gap-8 py-4 md:py-0 transition-all hidden md:flex`}
                 >
-                    <li>
+                    <li className="relative w-max two">
                         <Link
                             className="text-grayweb transition-all hover:text-slate-600 after:contents after:absolute after:w-2 after:h-4 after:bg-slate-800"
                             href="/"
                         >
                             Home
                         </Link>
+                        <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
+                        <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                     </li>
-                    <li>
+                    <li className="relative w-max two">
                         <Link
                             className="text-grayweb transition-all hover:text-slate-600"
                             href="/blog"
                         >
                             Blog
                         </Link>
+                        <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
+                        <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                     </li>
-                    <li>
+                    <li className="relative w-max two">
                         <Link
                             className="text-grayweb transition-all hover:text-slate-600"
                             href="/terms-condition"
                         >
                             S&K
                         </Link>
+                        <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
+                        <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                     </li>
-                    <li>
+                    <li className="relative w-max two">
                         <Link
                             className="text-grayweb transition-all hover:text-slate-600"
                             href="/about"
                         >
                             About
                         </Link>
+                        <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
+                        <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                     </li>
                 </ul>
             </nav>

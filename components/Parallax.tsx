@@ -15,6 +15,7 @@ import {
     FaWhatsapp,
     FaBolt,
     FaInfo,
+    FaLocationArrow,
 } from "react-icons/fa"
 import { useInView } from "react-intersection-observer"
 
@@ -148,13 +149,13 @@ const ParallaxRapper: NextPage = () => {
                                 <div className="flex gap-4">
                                     <a
                                         href="https://wa.me/6289628196420?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
-                                        className="inline-block text-md rounded bg-springGreen px-4 py-2"
+                                        className="inline-block text-md rounded bg-springGreen hover:bg-mediumSpringGreen transition px-4 py-2"
                                     >
                                         Buatkan Saya
                                     </a>
                                     <a
                                         href="https://wa.me/6289628196420?text=Hai%20min,%20bisa%20konsultasi%20buat%20website?"
-                                        className="flex items-center gap-2 text-md rounded bg-mediumSpringGreen px-4 py-2"
+                                        className="flex items-center gap-2 text-md rounded bg-mediumSpringGreen hover:bg-SpringGreen transition px-4 py-2"
                                     >
                                         <BsWhatsapp />
                                         Konsultasi Gratis
@@ -197,6 +198,7 @@ const ParallaxRapper: NextPage = () => {
                     sticky={{ start: 1, end: 4 }}
                     style={{ ...alignCenter, justifyContent: "flex-start" }}
                     className="flex-col lg:flex-row px-8 z-50"
+                    id="portofolio"
                 >
                     <div
                         className={`text-3xl md:text-4xl text-center text-grayweb w-full lg:w-auto bg-white lg:bg-transparent py-4 lg:py-0 mt-16 lg:mt-0`}
@@ -328,6 +330,11 @@ const ParallaxRapper: NextPage = () => {
                                     Laman bertenggernya pelanggan untuk
                                     mementukan pilihan pembelian
                                 </li>
+                                <li>
+                                    Dan masih banyak lagi. Anda seharusnya sudah
+                                    tahu betapa banyak benefit yang dimiliki
+                                    jika mempunyai website.
+                                </li>
                             </ul>
 
                             <div className="">
@@ -337,14 +344,14 @@ const ParallaxRapper: NextPage = () => {
                                 </h3>
                                 <Link
                                     href="/blog"
-                                    className="bg-springGreen px-4 py-2 rounded inline-block mt-4 text-snow mr-4"
+                                    className="bg-springGreen px-4 py-2 hover:bg-mediumSpringGreen transition-all rounded inline-block mt-4 text-snow mr-4"
                                 >
                                     <BsFillJournalBookmarkFill className="inline" />{" "}
                                     Blog
                                 </Link>
                                 <Link
                                     href="/about"
-                                    className="bg-springGreen px-4 py-2 rounded inline-block mt-4 text-snow"
+                                    className="bg-springGreen px-4 py-2 hover:bg-mediumSpringGreen transition-all rounded inline-block mt-4 text-snow"
                                 >
                                     <FaInfo className="inline" /> About &
                                     Contact
@@ -379,6 +386,7 @@ const ParallaxRapper: NextPage = () => {
                         height: "auto",
                     }}
                     className="max-w-3xl mx-auto px-8"
+                    id="testimonial"
                 >
                     <h2
                         className="pt-4 text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb"
@@ -546,6 +554,7 @@ const ParallaxRapper: NextPage = () => {
                         height: "auto",
                     }}
                     className="max-w-3xl mx-auto px-8"
+                    id="feature"
                 >
                     <h2
                         className="pt-4 text-3xl text-center lg:text-4xl font-bold mt-8"
@@ -628,6 +637,7 @@ const ParallaxRapper: NextPage = () => {
                         color: "white",
                     }}
                     className="max-w-6xl mx-auto px-8"
+                    id="pricing"
                 >
                     <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb">
                         Mulai Buat. Dari Sekarang.
@@ -712,7 +722,7 @@ const ParallaxRapper: NextPage = () => {
 
                             <a
                                 href="https://wa.me/6289628196420?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website%20dengan%20pilihan20%paket20%BASIC.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
-                                className="bg-springGreen px-4 py-2 rounded inline-block mt-4 text-snow"
+                                className="bg-springGreen px-4 py-2 hover:bg-mediumSpringGreen transition-all rounded inline-block mt-4 text-snow"
                             >
                                 <FaWhatsapp className="inline" /> Pesan Sekarang
                             </a>
@@ -777,7 +787,7 @@ const ParallaxRapper: NextPage = () => {
 
                             <a
                                 href="https://wa.me/6289628196420?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website%20dengan%20pilihan20%paket20%SUPER.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
-                                className="bg-springGreen px-4 py-2 rounded inline-block mt-4 text-snow"
+                                className="bg-springGreen px-4 py-2 hover:bg-mediumSpringGreen transition-all rounded inline-block mt-4 text-snow"
                             >
                                 <FaWhatsapp className="inline" /> Pesan Sekarang
                             </a>
@@ -847,7 +857,7 @@ const ParallaxRapper: NextPage = () => {
                             </div>
                             <a
                                 href="https://wa.me/6289628196420?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website%20dengan%20pilihan20%paket20%CUSTOM.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
-                                className="bg-springGreen px-4 py-2 rounded inline-block mt-4 text-snow"
+                                className="bg-springGreen px-4 py-2 hover:bg-mediumSpringGreen transition-all rounded inline-block mt-4 text-snow"
                             >
                                 <FaWhatsapp className="inline" /> Pesan Sekarang
                             </a>
@@ -890,10 +900,14 @@ const ParallaxRapper: NextPage = () => {
                         gap: "2em",
                     }}
                     className="max-w-6xl mx-auto px-8"
+                    id="cara-order"
                 >
                     <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb">
                         Buat website{" "}
-                        <span className="underline">gak perlu ribet</span>.
+                        <span className="underline">
+                            gak perlu ribet & lama
+                        </span>
+                        .
                     </h2>
                     <p className="text-grayweb text-xl text-center mb-8">
                         Gak perlu pusing mikirin gimana buat bikinnya, Anda
@@ -933,8 +947,11 @@ const ParallaxRapper: NextPage = () => {
                                         pembayaran secara tunai atau down
                                         payment (DP) minimal 50% (Hanya transfer
                                         tunai ke rekening BCA atas nama Eko
-                                        Purnomo)
+                                        Purnomo){"  "}
                                     </span>
+                                    <Link href="/terms-condition">
+                                        S&K Berlaku.
+                                    </Link>
                                 </p>
                             </div>
                         </li>
@@ -1110,13 +1127,95 @@ const ParallaxRapper: NextPage = () => {
                                     </li>
                                 </div>
                             </ul>
+
+                            <h3 className="text-xl mb-2">Niche & Frequent</h3>
+                            <ul className="mb-2">
+                                <div className="flex gap-8">
+                                    <li>
+                                        <Link
+                                            className="text-snow"
+                                            href="/terms-condition#faq"
+                                        >
+                                            FAQ
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className="text-snow"
+                                            href="/#pricing"
+                                        >
+                                            Pricing
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className="text-snow"
+                                            href="/blog#newsletter"
+                                        >
+                                            Newsletter
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className="text-snow"
+                                            href="/#cara-order"
+                                        >
+                                            Cara Order
+                                        </Link>
+                                    </li>
+                                </div>
+                            </ul>
+                            <ul className="mb-2">
+                                <div className="flex gap-8">
+                                    <li>
+                                        <Link
+                                            className="text-snow"
+                                            href="/#testimonial"
+                                        >
+                                            Testimonial
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className="text-snow"
+                                            href="/#portofolio"
+                                        >
+                                            Portofolio
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className="text-snow"
+                                            href="/#feature"
+                                        >
+                                            Feature
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className="text-snow"
+                                            href="/about"
+                                        >
+                                            Contact
+                                        </Link>
+                                    </li>
+                                </div>
+                            </ul>
                         </div>
 
                         <div className="mb-8">
                             <h3 className="text-xl mb-2">Contacts</h3>
+                            <div className="flex items-center">
+                                <FaLocationArrow className="inline" />
+                                <p>
+                                    Jl. Gatot Subroto No.105, Kemlayan, Kec.
+                                    Serengan, Kota Surakarta, Jawa Tengah 57111,
+                                    Indonesia.
+                                </p>
+                            </div>
                             <a
                                 href="https://wa.me/6289628196420"
-                                className="bg-springGreen px-4 py-2 rounded inline-block text-snow mb-2"
+                                className="bg-springGreen px-4 py-2 hover:bg-mediumSpringGreen transition-all rounded inline-block text-snow mb-2"
                             >
                                 <FaWhatsapp className="inline" /> Chat Whatsapp
                             </a>
@@ -1125,6 +1224,11 @@ const ParallaxRapper: NextPage = () => {
                                 farrelnikoson@gmail.com
                             </p>
                         </div>
+
+                        <p className="text-lg">
+                            Copyright © 2023. <Link href="/">VArtz</Link>. All
+                            rights reserved.
+                        </p>
                     </footer>
                 </ParallaxLayer>
             </Parallax>
