@@ -1,3 +1,5 @@
+"use client"
+
 interface SocialMetadata {
     slug: string
     title: string
@@ -22,7 +24,7 @@ import {
 
 const Social = ({ slug, title, subtitle, content }: SocialMetadata) => {
     return (
-        <div className="mx-auto">
+        <div className="flex gap-4 justify-center w-full mb-4 mx-auto">
             <FacebookShareButton title={title} url={`./${slug}`}>
                 <FacebookIcon size={32} round />
             </FacebookShareButton>

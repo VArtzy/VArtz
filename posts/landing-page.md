@@ -4,7 +4,7 @@ subtitle: "Toko online Anda belum punya landing page? Aduh, sayang sekali! Padah
 date: "2023-01-18 - 3 min read"
 ---
 
-Di artikel kali ini, Anda akan menemukan penjelasan dari A sampai Z soal landing page. Mulanya kita akan pahami dulu definisi landing page serta fungsinya. Setelah itu, Anda akan dapatkan informasi yang lebih dalam. 
+Di artikel kali ini, Anda akan menemukan penjelasan dari A sampai Z soal landing page. Mulanya kita akan pahami dulu definisi landing page serta fungsinya. Setelah itu, Anda akan dapatkan informasi yang lebih dalam.
 
 ![Landing Page vs Normal Page](https://riantoastono.com/wp-content/uploads/2018/04/perbedaan-landing-page-dan-web-biasa.png)
 
@@ -31,6 +31,8 @@ Berbeda halnya dengan landing page yang spesifik. Landing page bisa diibaratkan 
 Berdasarkan jenisnya, ada dua fungsi utama landing page. Pertama, landing page bisa dipakai untuk mengumpulkan data pengunjung potensial atau leads. Leads inilah yang dijaga oleh bisnis. Kemudian calon pelanggan ini diharapkan melakukan pembelian di masa mendatang.
 
 Kedua, landing page juga bisa berfungsi untuk mempercepat transaksi. Halaman ini minim distraksi dari menu dan tombol navigasi lainnya. Dengan kata lain, landing page memberikan jalan khusus bagi pengunjung untuk mengakses produk atau layanan yang ingin dibeli.
+
+<Promo />
 
 ## Sum Up
 

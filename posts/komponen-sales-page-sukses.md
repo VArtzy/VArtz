@@ -39,6 +39,8 @@ Hero section harus berisi pesan yang jelas, benefitial (memberikan benefit) atau
 
 Sesuai perkembangan zaman. Makin banyak jenis layout di landing page. Anda bisa menentukan layoutnya bagaimana. Apalagi jika anda membuat website di [VArtz](/). Saya yakin pasti anda bisa membuat Sales page yang baik 😀.
 
+<Promo />
+
 ## Tunjukan benefit
 
 Dengan berbagai macam jenis layout yang ada. Anda dapat menggunakan layout dan copy yang bagus. Pastikan anda menunjukan benefit, bukan fitur. Itu dapat dilakukan nantinya setelah visitor mengetahui benefit apa yang didapat dari produk.

@@ -51,23 +51,26 @@ const PostPage = ({ params }: any) => {
                 </Markdown>
             </article>
 
-            <p className="text-grayweb">
-                <BsShareFill className="inline" /> Simpan Jika Dibutuhkan,
-                Bagikan Untuk Mereka Yang Membutuhkan.
-            </p>
-            <Social
-                slug={slug}
-                title={post.data.title}
-                subtitle={post.data.subtitle}
-                content={post.content}
-            />
-            <Link
-                href="./"
-                className="block text-snow bg-slate-700 px-4 py-2 uppercase rounded-md text-xl"
-            >
-                <BsFillJournalBookmarkFill className="inline" /> Lihat Semua
-                Blog
-            </Link>
+            <div className="max-w-[65ch] mx-auto">
+                <p className="text-grayweb mb-2 text-center">
+                    Simpan Jika Diperlukan, Bagikan Untuk Mereka Yang
+                    Membutuhkan.
+                </p>
+                <Social
+                    slug={slug}
+                    title={post.data.title}
+                    subtitle={post.data.subtitle}
+                    content={post.content}
+                />
+                <Link
+                    href="./"
+                    className="block text-center text-snow bg-slate-700 px-4 py-2 uppercase rounded-md text-xl"
+                >
+                    <BsFillJournalBookmarkFill className="inline" /> Lihat Semua
+                    Blog
+                </Link>
+            </div>
+
             <Foo />
         </div>
     )
