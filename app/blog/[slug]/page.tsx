@@ -51,7 +51,7 @@ const PostPage = ({ params }: any) => {
                 </Markdown>
             </article>
 
-            <div className="max-w-[65ch] mx-auto">
+            <div className="max-w-[65ch] px-8 mx-auto">
                 <p className="text-grayweb mb-2 text-center">
                     Simpan Jika Diperlukan, Bagikan Untuk Mereka Yang
                     Membutuhkan.
