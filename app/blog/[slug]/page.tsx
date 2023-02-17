@@ -63,7 +63,7 @@ const PostPage = ({ params }: any) => {
                     content={post.content}
                 />
                 <Link
-                    href="./"
+                    href="/blog"
                     className="block text-center text-snow bg-slate-700 px-4 py-2 uppercase rounded-md text-xl"
                 >
                     <BsFillJournalBookmarkFill className="inline" /> Lihat Semua
