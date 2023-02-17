@@ -7,7 +7,6 @@ interface SocialMetadata {
     content: string
 }
 
-import { useRouter } from "next/router"
 import {
     FacebookShareButton,
     FacebookIcon,
@@ -24,42 +23,31 @@ import {
 } from "next-share"
 
 const Social = ({ slug, title, subtitle, content }: SocialMetadata) => {
-    const router = useRouter()
     return (
         <div className="flex gap-4 justify-center w-full mb-4 mx-auto">
             <FacebookShareButton
                 title={title}
-                url={`${router.basePath}/${slug}`}
+                url={`https://vartz.vercel.app/blog/${slug}`}
             >
                 <FacebookIcon size={32} round />
             </FacebookShareButton>
-            <TwitterShareButton
-                url={`${router.basePath}/${slug}`}
-                title={title}
-            >
+            <TwitterShareButton url={`/${slug}`} title={title}>
                 <TwitterIcon size={32} round />
             </TwitterShareButton>
             <PinterestShareButton
                 media={title}
                 description={subtitle}
-                url={`${router.basePath}/${slug}`}
+                url={`/${slug}`}
             >
                 <PinterestIcon size={32} round />
             </PinterestShareButton>
-            <WhatsappShareButton
-                title={title}
-                url={`${router.basePath}/${slug}`}
-            >
+            <WhatsappShareButton title={title} url={`/${slug}`}>
                 <WhatsappIcon size={32} round />
             </WhatsappShareButton>
-            <LinkedinShareButton url={`${router.basePath}/${slug}`}>
+            <LinkedinShareButton url={`/${slug}`}>
                 <LinkedinIcon size={32} round />
             </LinkedinShareButton>
-            <EmailShareButton
-                url={`${router.basePath}/${slug}`}
-                subject={title}
-                body={content}
-            >
+            <EmailShareButton url={`/${slug}`} subject={title} body={content}>
                 <EmailIcon size={32} round />
             </EmailShareButton>
         </div>
