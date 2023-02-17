@@ -25,26 +25,39 @@ import {
 const Social = ({ slug, title, subtitle, content }: SocialMetadata) => {
     return (
         <div className="flex gap-4 justify-center w-full mb-4 mx-auto">
-            <FacebookShareButton title={title} url={`/${slug}`}>
+            <FacebookShareButton
+                title={title}
+                url={`${window.location.hostname}/${slug}`}
+            >
                 <FacebookIcon size={32} round />
             </FacebookShareButton>
-            <TwitterShareButton url={`/${slug}`} title={title}>
+            <TwitterShareButton
+                url={`${window.location.hostname}/${slug}`}
+                title={title}
+            >
                 <TwitterIcon size={32} round />
             </TwitterShareButton>
             <PinterestShareButton
                 media={title}
                 description={subtitle}
-                url={`/${slug}`}
+                url={`${window.location.hostname}/${slug}`}
             >
                 <PinterestIcon size={32} round />
             </PinterestShareButton>
-            <WhatsappShareButton title={title} url={`/${slug}`}>
+            <WhatsappShareButton
+                title={title}
+                url={`${window.location.hostname}/${slug}`}
+            >
                 <WhatsappIcon size={32} round />
             </WhatsappShareButton>
-            <LinkedinShareButton url={`/${slug}`}>
+            <LinkedinShareButton url={`${window.location.hostname}/${slug}`}>
                 <LinkedinIcon size={32} round />
             </LinkedinShareButton>
-            <EmailShareButton url={`/${slug}`} subject={title} body={content}>
+            <EmailShareButton
+                url={`${window.location.hostname}/${slug}`}
+                subject={title}
+                body={content}
+            >
                 <EmailIcon size={32} round />
             </EmailShareButton>
         </div>

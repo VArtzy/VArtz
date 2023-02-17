@@ -68,7 +68,11 @@ const Foo: React.FC = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link className="text-snow" href="/#pricing">
+                                <Link
+                                    className="text-snow"
+                                    href="/#pricing"
+                                    scroll={false}
+                                >
                                     Pricing
                                 </Link>
                             </li>
@@ -81,7 +85,10 @@ const Foo: React.FC = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link className="text-snow" href="/#cara-order">
+                                <Link
+                                    className="text-snow"
+                                    href="/#cara-orde scroll={false}r"
+                                >
                                     Cara Order
                                 </Link>
                             </li>
@@ -92,18 +99,26 @@ const Foo: React.FC = () => {
                             <li>
                                 <Link
                                     className="text-snow"
-                                    href="/#testimonial"
+                                    href="/#testimonial scroll={false}"
                                 >
                                     Testimonial
                                 </Link>
                             </li>
                             <li>
-                                <Link className="text-snow" href="/#portofolio">
+                                <Link
+                                    className="text-snow"
+                                    href="/#portofolio"
+                                    scroll={false}
+                                >
                                     Portofolio
                                 </Link>
                             </li>
                             <li>
-                                <Link className="text-snow" href="/#feature">
+                                <Link
+                                    className="text-snow"
+                                    href="/#feature"
+                                    scroll={false}
+                                >
                                     Feature
                                 </Link>
                             </li>

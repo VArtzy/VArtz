@@ -1052,7 +1052,7 @@ const ParallaxRapper: NextPage = () => {
                     </div>
                 </ParallaxLayer>
 
-<ParallaxLayer
+                <ParallaxLayer
                     offset={19}
                     speed={0.5}
                     style={{
@@ -1107,94 +1107,124 @@ const ParallaxRapper: NextPage = () => {
                             </div>
 
                             <div className="mb-8">
-                    <h3 className="text-xl mb-2">Sitemap</h3>
-                    <ul className="mb-2">
-                        <div className="flex gap-8">
-                            <li>
-                                <Link className="text-snow" href="/">
-                                    Home
-                                </Link>
-                            </li>
-                            <li>
-                                <Link className="text-snow" href="/blog">
-                                    Blog
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    className="text-snow"
-                                    href="/terms-condition"
-                                >
-                                    S&K
-                                </Link>
-                            </li>
-                            <li>
-                                <Link className="text-snow" href="/about">
-                                    About
-                                </Link>
-                            </li>
-                        </div>
-                    </ul>
+                                <h3 className="text-xl mb-2">Sitemap</h3>
+                                <ul className="mb-2">
+                                    <div className="flex gap-8">
+                                        <li>
+                                            <Link
+                                                className="text-snow"
+                                                href="/"
+                                            >
+                                                Home
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link
+                                                className="text-snow"
+                                                href="/blog"
+                                            >
+                                                Blog
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link
+                                                className="text-snow"
+                                                href="/terms-condition"
+                                            >
+                                                S&K
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link
+                                                className="text-snow"
+                                                href="/about"
+                                            >
+                                                About
+                                            </Link>
+                                        </li>
+                                    </div>
+                                </ul>
 
-                    <h3 className="text-xl mb-2">Niche & Frequent</h3>
-                    <ul className="mb-2">
-                        <div className="lg:flex gap-8">
-                            <li>
-                                <Link
-                                    className="text-snow"
-                                    href="/terms-condition#faq"
-                                >
-                                    FAQ
-                                </Link>
-                            </li>
-                            <li>
-                                <Link className="text-snow" href="/#pricing">
-                                    Pricing
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    className="text-snow"
-                                    href="/blog#newsletter"
-                                >
-                                    Newsletter
-                                </Link>
-                            </li>
-                            <li>
-                                <Link className="text-snow" href="/#cara-order">
-                                    Cara Order
-                                </Link>
-                            </li>
-                        </div>
-                    </ul>
-                    <ul className="mb-2">
-                        <div className="lg:flex gap-8">
-                            <li>
-                                <Link
-                                    className="text-snow"
-                                    href="/#testimonial"
-                                >
-                                    Testimonial
-                                </Link>
-                            </li>
-                            <li>
-                                <Link className="text-snow" href="/#portofolio">
-                                    Portofolio
-                                </Link>
-                            </li>
-                            <li>
-                                <Link className="text-snow" href="/#feature">
-                                    Feature
-                                </Link>
-                            </li>
-                            <li>
-                                <Link className="text-snow" href="/about">
-                                    Contact
-                                </Link>
-                            </li>
-                        </div>
-                    </ul>
-                </div>
+                                <h3 className="text-xl mb-2">
+                                    Niche & Frequent
+                                </h3>
+                                <ul className="mb-2">
+                                    <div className="lg:flex gap-8">
+                                        <li>
+                                            <Link
+                                                className="text-snow"
+                                                href="/terms-condition#faq"
+                                            >
+                                                FAQ
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link
+                                                className="text-snow"
+                                                href="/#pricing"
+                                                scroll={false}
+                                            >
+                                                Pricing
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link
+                                                className="text-snow"
+                                                href="/blog#newsletter"
+                                            >
+                                                Newsletter
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link
+                                                className="text-snow"
+                                                href="/#cara-orde scroll={false}r"
+                                            >
+                                                Cara Order
+                                            </Link>
+                                        </li>
+                                    </div>
+                                </ul>
+                                <ul className="mb-2">
+                                    <div className="lg:flex gap-8">
+                                        <li>
+                                            <Link
+                                                className="text-snow"
+                                                href="/#testimonial"
+                                                scroll={false}
+                                            >
+                                                Testimonial
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link
+                                                className="text-snow"
+                                                href="/#portofolio"
+                                                scroll={false}
+                                            >
+                                                Portofolio
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link
+                                                className="text-snow"
+                                                href="/#feature"
+                                                scroll={false}
+                                            >
+                                                Feature
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link
+                                                className="text-snow"
+                                                href="/about"
+                                            >
+                                                Contact
+                                            </Link>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </div>
 
                             <div className="lg:w-1/3 mb-8">
                                 <h3 className="text-xl mb-2">Contacts</h3>
