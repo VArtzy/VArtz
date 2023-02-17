@@ -62,6 +62,7 @@ const Foo: React.FC = () => {
                             <li>
                                 <Link
                                     className="text-snow"
+                                    scroll={false}
                                     href="/terms-condition#faq"
                                 >
                                     FAQ
@@ -70,8 +71,8 @@ const Foo: React.FC = () => {
                             <li>
                                 <Link
                                     className="text-snow"
-                                    href="/#pricing"
                                     scroll={false}
+                                    href="/#pricing"
                                 >
                                     Pricing
                                 </Link>
@@ -79,6 +80,7 @@ const Foo: React.FC = () => {
                             <li>
                                 <Link
                                     className="text-snow"
+                                    scroll={false}
                                     href="/blog#newsletter"
                                 >
                                     Newsletter
@@ -87,7 +89,8 @@ const Foo: React.FC = () => {
                             <li>
                                 <Link
                                     className="text-snow"
-                                    href="/#cara-orde scroll={false}r"
+                                    scroll={false}
+                                    href="/#cara-order"
                                 >
                                     Cara Order
                                 </Link>
@@ -99,7 +102,8 @@ const Foo: React.FC = () => {
                             <li>
                                 <Link
                                     className="text-snow"
-                                    href="/#testimonial scroll={false}"
+                                    scroll={false}
+                                    href="/#testimonial"
                                 >
                                     Testimonial
                                 </Link>
@@ -107,8 +111,8 @@ const Foo: React.FC = () => {
                             <li>
                                 <Link
                                     className="text-snow"
-                                    href="/#portofolio"
                                     scroll={false}
+                                    href="/#portofolio"
                                 >
                                     Portofolio
                                 </Link>
@@ -116,14 +120,18 @@ const Foo: React.FC = () => {
                             <li>
                                 <Link
                                     className="text-snow"
-                                    href="/#feature"
                                     scroll={false}
+                                    href="/#feature"
                                 >
                                     Feature
                                 </Link>
                             </li>
                             <li>
-                                <Link className="text-snow" href="/about">
+                                <Link
+                                    className="text-snow"
+                                    scroll={false}
+                                    href="/about"
+                                >
                                     Contact
                                 </Link>
                             </li>

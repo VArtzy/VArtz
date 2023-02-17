@@ -113,7 +113,7 @@ const About = () => {
                                 bahan untuk membangun website terkait informasi
                                 yang ingin Anda tampilkan pada situs Anda.
                                 Antara lain: referensi (jika ada), data
-                                pengelola ( nama, alamat, nomor kontak ) company
+                                pengelola ( nama, alamat, nomor kontak ), materi copy/tulisan, company
                                 profile / profil bisnis, logo, deskripsi produk,
                                 foto / gambar produk, dan artikel yang
                                 diperlukan."

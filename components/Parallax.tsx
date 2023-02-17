@@ -1153,6 +1153,7 @@ const ParallaxRapper: NextPage = () => {
                                         <li>
                                             <Link
                                                 className="text-snow"
+                                                scroll={false}
                                                 href="/terms-condition#faq"
                                             >
                                                 FAQ
@@ -1161,8 +1162,8 @@ const ParallaxRapper: NextPage = () => {
                                         <li>
                                             <Link
                                                 className="text-snow"
-                                                href="/#pricing"
                                                 scroll={false}
+                                                href="/#pricing"
                                             >
                                                 Pricing
                                             </Link>
@@ -1170,6 +1171,7 @@ const ParallaxRapper: NextPage = () => {
                                         <li>
                                             <Link
                                                 className="text-snow"
+                                                scroll={false}
                                                 href="/blog#newsletter"
                                             >
                                                 Newsletter
@@ -1178,7 +1180,8 @@ const ParallaxRapper: NextPage = () => {
                                         <li>
                                             <Link
                                                 className="text-snow"
-                                                href="/#cara-orde scroll={false}r"
+                                                scroll={false}
+                                                href="/#carar"
                                             >
                                                 Cara Order
                                             </Link>
@@ -1190,8 +1193,8 @@ const ParallaxRapper: NextPage = () => {
                                         <li>
                                             <Link
                                                 className="text-snow"
-                                                href="/#testimonial"
                                                 scroll={false}
+                                                href="/#testimonial"
                                             >
                                                 Testimonial
                                             </Link>
@@ -1199,8 +1202,8 @@ const ParallaxRapper: NextPage = () => {
                                         <li>
                                             <Link
                                                 className="text-snow"
-                                                href="/#portofolio"
                                                 scroll={false}
+                                                href="/#portofolio"
                                             >
                                                 Portofolio
                                             </Link>
@@ -1208,8 +1211,8 @@ const ParallaxRapper: NextPage = () => {
                                         <li>
                                             <Link
                                                 className="text-snow"
-                                                href="/#feature"
                                                 scroll={false}
+                                                href="/#feature"
                                             >
                                                 Feature
                                             </Link>
@@ -1217,6 +1220,7 @@ const ParallaxRapper: NextPage = () => {
                                         <li>
                                             <Link
                                                 className="text-snow"
+                                                scroll={false}
                                                 href="/about"
                                             >
                                                 Contact

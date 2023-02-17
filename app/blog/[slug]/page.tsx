@@ -5,7 +5,7 @@ import getPostMetadata from "../../../components/getPostMetadata"
 import Foo from "../../../components/Foo"
 import Social from "../../../components/Socials"
 import Link from "next/link"
-import { BsFillJournalBookmarkFill, BsShareFill } from "react-icons/bs"
+import { BsFillJournalBookmarkFill } from "react-icons/bs"
 import Langganan from "../../../components/PopupLangganan"
 import Promo from "../../../components/PopupPromo"
 
