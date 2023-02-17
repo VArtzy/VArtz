@@ -31,23 +31,33 @@ const Social = ({ slug, title, subtitle, content }: SocialMetadata) => {
             >
                 <FacebookIcon size={32} round />
             </FacebookShareButton>
-            <TwitterShareButton url={`/${slug}`} title={title}>
+            <TwitterShareButton
+                url={`https://vartz.vercel.app/blog/${slug}`}
+                title={title}
+            >
                 <TwitterIcon size={32} round />
             </TwitterShareButton>
             <PinterestShareButton
                 media={title}
                 description={subtitle}
-                url={`/${slug}`}
+                url={`https://vartz.vercel.app/blog/${slug}`}
             >
                 <PinterestIcon size={32} round />
             </PinterestShareButton>
-            <WhatsappShareButton title={title} url={`/${slug}`}>
+            <WhatsappShareButton
+                title={title}
+                url={`https://vartz.vercel.app/blog/${slug}`}
+            >
                 <WhatsappIcon size={32} round />
             </WhatsappShareButton>
-            <LinkedinShareButton url={`/${slug}`}>
+            <LinkedinShareButton url={`https://vartz.vercel.app/blog/${slug}`}>
                 <LinkedinIcon size={32} round />
             </LinkedinShareButton>
-            <EmailShareButton url={`/${slug}`} subject={title} body={content}>
+            <EmailShareButton
+                url={`https://vartz.vercel.app/blog/${slug}`}
+                subject={title}
+                body={content}
+            >
                 <EmailIcon size={32} round />
             </EmailShareButton>
         </div>
