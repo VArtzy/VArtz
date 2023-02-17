@@ -7,6 +7,7 @@ interface SocialMetadata {
     content: string
 }
 
+import { useRouter } from "next/router"
 import {
     FacebookShareButton,
     FacebookIcon,
@@ -23,16 +24,17 @@ import {
 } from "next-share"
 
 const Social = ({ slug, title, subtitle, content }: SocialMetadata) => {
+    const router = useRouter()
     return (
         <div className="flex gap-4 justify-center w-full mb-4 mx-auto">
             <FacebookShareButton
                 title={title}
-                url={`${window.location.hostname}/${slug}`}
+                url={`${router.basePath}/${slug}`}
             >
                 <FacebookIcon size={32} round />
             </FacebookShareButton>
             <TwitterShareButton
-                url={`${window.location.hostname}/${slug}`}
+                url={`${router.basePath}/${slug}`}
                 title={title}
             >
                 <TwitterIcon size={32} round />
@@ -40,21 +42,21 @@ const Social = ({ slug, title, subtitle, content }: SocialMetadata) => {
             <PinterestShareButton
                 media={title}
                 description={subtitle}
-                url={`${window.location.hostname}/${slug}`}
+                url={`${router.basePath}/${slug}`}
             >
                 <PinterestIcon size={32} round />
             </PinterestShareButton>
             <WhatsappShareButton
                 title={title}
-                url={`${window.location.hostname}/${slug}`}
+                url={`${router.basePath}/${slug}`}
             >
                 <WhatsappIcon size={32} round />
             </WhatsappShareButton>
-            <LinkedinShareButton url={`${window.location.hostname}/${slug}`}>
+            <LinkedinShareButton url={`${router.basePath}/${slug}`}>
                 <LinkedinIcon size={32} round />
             </LinkedinShareButton>
             <EmailShareButton
-                url={`${window.location.hostname}/${slug}`}
+                url={`${router.basePath}/${slug}`}
                 subject={title}
                 body={content}
             >

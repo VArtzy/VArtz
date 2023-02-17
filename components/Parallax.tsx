@@ -1053,7 +1053,7 @@ const ParallaxRapper: NextPage = () => {
                 </ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={19}
+                    offset={18}
                     speed={0.5}
                     style={{
                         display: "flex",
