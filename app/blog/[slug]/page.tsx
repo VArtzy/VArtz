@@ -8,6 +8,7 @@ import Link from "next/link"
 import { BsFillJournalBookmarkFill } from "react-icons/bs"
 import Langganan from "../../../components/PopupLangganan"
 import Promo from "../../../components/PopupPromo"
+import { ArticleJsonLd } from "next-seo"
 
 const getPostContent = (slug: string) => {
     const folder = "posts/"
@@ -52,7 +53,7 @@ const PostPage = ({ params }: any) => {
             </article>
 
             <div className="max-w-[65ch] px-8 mx-auto">
-                <p className="text-grayweb mb-2 text-center">
+                <p className="lg:text-lg text-grayweb mb-2 text-center">
                     Simpan Jika Diperlukan, Bagikan Untuk Mereka Yang
                     Membutuhkan.
                 </p>
@@ -72,6 +73,19 @@ const PostPage = ({ params }: any) => {
             </div>
 
             <Foo />
+            <ArticleJsonLd
+                useAppDir={true}
+                type="BlogPosting"
+                url={`https://vartz.vercel.app/blog/${slug}`}
+                title={post.data.title}
+                images={["https://vartz.vercel.app/logo.png"]}
+                datePublished={`${post.data.date.split(" ")[0]}T00:00:00+00:00`}
+                dateModified={`${post.data.date.split(" ")[0]}T00:00:00+00:00`}
+                authorName="Farrel Nikoson"
+                publisherLogo="https://vartz.vercel.app/logo.png"
+                publisherName="VArtz"
+                description={post.data.subtitle}
+            />
         </div>
     )
 }

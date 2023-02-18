@@ -72,7 +72,7 @@ const Foo: React.FC = () => {
                                 <Link
                                     className="text-snow"
                                     scroll={false}
-                                    href="/#pricing"
+                                    href="/pricing"
                                 >
                                     Pricing
                                 </Link>
