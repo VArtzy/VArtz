@@ -3,7 +3,7 @@ export default function Head() {
         <>
             <title>
                 VArtz - Mulai Dari 199.000 - Buat Website Dan Jalankan Berbagai
-                Bisnismu Sekarang Juga.
+                Bisnismu Sekarang Juga
             </title>
             <meta
                 name="description"

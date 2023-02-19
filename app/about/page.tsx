@@ -10,11 +10,19 @@ const About = () => {
                     Yuk cari tahu tentang kami dibawah ini...
                 </h2>
                 <p>
-                    merupakan personil jasa yang menyediakan berbagai macam
+                    Merupakan personil jasa yang menyediakan berbagai macam
                     layanan IT mulai dari Pembuatan Website seperti toko online,
                     company profile, portofiolio, personal dan lainnya,
                     Pengembangan Aplikasi lengkap disertai pemeliharaan atau
                     maintenance berkala.
+                </p>
+
+                <p>
+                    Profesional yang memahami pentingnya sebuah bisnis memiliki
+                    website yang menarik, mudah digunakan, desain bagus, serta
+                    responsif. Semua kredibilitas kami dapat anda lihat di
+                    website ini sendiri, blog post yang benar-benar expertise,
+                    dan klien yang puas.
                 </p>
 
                 <p>

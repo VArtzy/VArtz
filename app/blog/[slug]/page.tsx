@@ -8,6 +8,7 @@ import Link from "next/link"
 import { BsFillJournalBookmarkFill } from "react-icons/bs"
 import Langganan from "../../../components/PopupLangganan"
 import Promo from "../../../components/PopupPromo"
+import TableOfContents from "../../../components/TableOfContents"
 import { ArticleJsonLd } from "next-seo"
 
 const getPostContent = (slug: string) => {
@@ -38,6 +39,8 @@ const PostPage = ({ params }: any) => {
                     {post.data.date}
                 </p>
             </div>
+
+            <TableOfContents />
 
             <article className="prose md:prose-lg mx-auto px-8">
                 <Markdown

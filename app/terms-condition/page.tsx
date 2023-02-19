@@ -56,7 +56,7 @@ const About = () => {
                         <li className="mb-2">
                             Jika anda sudah mempunyai domain dan hosting, maka
                             anda cukup mengurangi harga pembuatan website
-                            sebesar Rp.150.000
+                            sebesar Rp.200.000
                         </li>
                         <li className="mb-2">
                             Layanan tidak mencakup pembuatan script yang
@@ -137,11 +137,15 @@ const About = () => {
                                 blog 😀)"
                         />
                         <Accordion
+                            title="Bisakah saya melakukan slicing desain?"
+                            content="Tentu Boleh. Jika anda memiliki desain dalam bentuk PDF atau figma files, dengan senang hati kami akan melakukan slicing desain ke HTML CSS untuk kamu. Biaya dapat dikurangi dengan 50ribu!"
+                        />
+                        <Accordion
                             title="Bisakah saya menggunakan template sendiri?"
                             content="Jika Anda sudah mempunyai template sendiri,
                                 silakan kirimkan kepada kami. Dengan senang hati
                                 kami akan mengeditkan dan menguploadnya untuk
-                                Anda."
+                                Anda. Biaya dikurangi 50ribu!"
                         />
                         <Accordion
                             title="Maintenance apa saja yang termasuk dalam
@@ -149,8 +153,19 @@ const About = () => {
                             content="Maintenance yang kami lakukan yaitu memastikan
                                 website tidak down dan tidak kena hack."
                         />
+                        <Accordion
+                            title="Ada pertanyaan lain?"
+                            content="Jangan sungkan untuk tanya kepada kami! silahkan lakukan konsultasi dibawah ini. 100% GRATIS. Kami akan selalu mencari SOLUSI untuk bisnis anda!"
+                        />
                     </div>
                 </div>
+
+                <a
+                    href="https://wa.me/6289628196420?text=Hai%20min,%20bisa%20konsultasi%20buat%20website?"
+                    className="block text-md rounded bg-springGreen text-snow text-center font-bold px-4 py-2"
+                >
+                    Konsultasi Gratis
+                </a>
                 <a
                     href="https://wa.me/6289628196420?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
                     className="block text-md rounded bg-springGreen text-snow text-center font-bold px-4 py-2"

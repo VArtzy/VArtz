@@ -268,3 +268,36 @@ nav {
 .two:hover span {
     width: 50%;
 }
+
+.nav-table {
+    width: 220px;
+    min-width: 220px;
+    padding: 16px;
+    margin: 8px;
+    align-self: flex-start;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 48px;
+    max-height: calc(100vh - 70px);
+    overflow: auto;
+    background: transparent;
+    box-shadow: none;
+    backdrop-filter: blur(0);
+    -webkit-backdrop-filter: blur(0);
+}
+
+@media screen and (max-width: 900px) {
+    .nav-table {
+        display: none;
+    }
+}
+
+.nav-table a {
+    color: #505050;
+    text-decoration: none;
+}
+
+.nav-table li.active > a {
+    color: #1f1f1f;
+    font-weight: 500;
+}

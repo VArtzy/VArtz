@@ -6,9 +6,9 @@ const Langganan = () => {
             action="https://script.google.com/macros/s/AKfycbwLfPkzm7xIF7Xg-PwMLKhMdJp8W0RO5s4EBnPcAi_NnIQP2wfWx2fezGBjndyeFyDYbg/exec"
             method="post"
         >
-            <h2 className="text-2xl font-bold mb-4">
+            <h4 className="text-2xl font-bold mb-4">
                 Dapatkan Email terbaru setiap update! GRATIS.
-            </h2>
+            </h4>
             <p className="text-grayweb mb-4">
                 Berlangganan ke blog dan dapatkan berita dan penawaran menarik
                 tentang website setiap saat (otomatis berlangganan jika
