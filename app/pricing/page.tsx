@@ -215,7 +215,13 @@ const Pricing = () => {
 
                 <p className="text-center text-grayweb">
                     Merasa kurang cocok? Anda bisa{" "}
-                    <a className="underline">berikan penawaran</a>.
+                    <a
+                        className="underline"
+                        href="https://wa.me/6289628196420?text=Hai%20min,%20bisa%buatkan%20saya%20website?"
+                    >
+                        berikan penawaran
+                    </a>
+                    .
                 </p>
             </div>
             <Foo />
