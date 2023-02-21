@@ -11,7 +11,7 @@ const Pricing = () => {
                     gap: "2em",
                     color: "white",
                 }}
-                className="max-w-6xl mx-auto px-8"
+                className="max-w-6xl py-8 mx-auto px-8"
                 id="pricing"
             >
                 <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb">
