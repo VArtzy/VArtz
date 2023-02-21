@@ -213,9 +213,9 @@ const Pricing = () => {
                     </div>
                 </div>
 
-                <p className="text-center">
-                    Merasa kurang cocok?{" "}
-                    <a className="underline">Konsultasikan sekarang!</a>
+                <p className="text-center text-grayweb">
+                    Merasa kurang cocok? Anda bisa{" "}
+                    <a className="underline">berikan penawaran</a>.
                 </p>
             </div>
             <Foo />
