@@ -27,12 +27,12 @@ const Social = ({ slug, title, subtitle, content }: SocialMetadata) => {
         <div className="flex gap-4 justify-center w-full mb-4 mx-auto">
             <FacebookShareButton
                 title={title}
-                url={`https://vartz.vercel.app/blog/${slug}`}
+                url={`https://vartz.web.id/blog/${slug}`}
             >
                 <FacebookIcon size={32} round />
             </FacebookShareButton>
             <TwitterShareButton
-                url={`https://vartz.vercel.app/blog/${slug}`}
+                url={`https://vartz.web.id/blog/${slug}`}
                 title={title}
             >
                 <TwitterIcon size={32} round />
@@ -40,21 +40,21 @@ const Social = ({ slug, title, subtitle, content }: SocialMetadata) => {
             <PinterestShareButton
                 media={title}
                 description={subtitle}
-                url={`https://vartz.vercel.app/blog/${slug}`}
+                url={`https://vartz.web.id/blog/${slug}`}
             >
                 <PinterestIcon size={32} round />
             </PinterestShareButton>
             <WhatsappShareButton
                 title={title}
-                url={`https://vartz.vercel.app/blog/${slug}`}
+                url={`https://vartz.web.id/blog/${slug}`}
             >
                 <WhatsappIcon size={32} round />
             </WhatsappShareButton>
-            <LinkedinShareButton url={`https://vartz.vercel.app/blog/${slug}`}>
+            <LinkedinShareButton url={`https://vartz.web.id/blog/${slug}`}>
                 <LinkedinIcon size={32} round />
             </LinkedinShareButton>
             <EmailShareButton
-                url={`https://vartz.vercel.app/blog/${slug}`}
+                url={`https://vartz.web.id/blog/${slug}`}
                 subject={title}
                 body={content}
             >

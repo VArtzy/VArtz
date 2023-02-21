@@ -44,12 +44,12 @@ const About = () => {
                             tahun/bulan sesuai paket yang dipilih.
                         </li>
                         <li className="mb-2">
-                            Tahun berikutnya cukup membayar Rp 499.000 (50%)
+                            Tahun berikutnya cukup membayar Rp 299.000 (50%)
                             untuk perpanjangan domain dan hosting paket BASIC
                             tahunan. Rp 99.000 (50%) untuk paket BASIC bulanan.
                             Rp 399.000 (80%) untuk paket SUPER. Rp 149.000 (50%)
                             untuk paket CUSTOM bulanan. Rp 499.000 (50%) untuk
-                            pake CUSTOM bulanan. Harga bisa berubah
+                            pake CUSTOM tahunan. Harga bisa berubah
                             sewaktu-waktu tergantung harga dari penyedia jasa
                             hosting.
                         </li>

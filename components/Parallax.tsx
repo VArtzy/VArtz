@@ -659,7 +659,7 @@ const ParallaxRapper: NextPage = () => {
                             </div>
                             <div className="flex justify-center lg:justify-start">
                                 <h4 className="text-xl font-bold">
-                                    Rp 999.000
+                                    Rp 599.000
                                 </h4>
                                 <p>/Tahun</p>
                             </div>
@@ -733,7 +733,7 @@ const ParallaxRapper: NextPage = () => {
                             <hr className="mb-4" />
                             <div className="flex justify-center lg:justify-start">
                                 <h4 className="text-xl font-bold">
-                                    Rp 1.999.000
+                                    Rp 1.799.000
                                 </h4>
                                 <p>/Tahun</p>
                             </div>
@@ -949,7 +949,10 @@ const ParallaxRapper: NextPage = () => {
                                         tunai ke rekening BCA atas nama Eko
                                         Purnomo){"  "}
                                     </span>
-                                    <Link href="/terms-condition" className="underline">
+                                    <Link
+                                        href="/terms-condition"
+                                        className="underline"
+                                    >
                                         S&K Berlaku.
                                     </Link>
                                 </p>

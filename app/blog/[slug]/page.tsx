@@ -79,13 +79,13 @@ const PostPage = ({ params }: any) => {
             <ArticleJsonLd
                 useAppDir={true}
                 type="BlogPosting"
-                url={`https://vartz.vercel.app/blog/${slug}`}
+                url={`https://vartz.web.id/blog/${slug}`}
                 title={post.data.title}
-                images={["https://vartz.vercel.app/logo.png"]}
+                images={["https://vartz.web.id/logo.png"]}
                 datePublished={`${post.data.date.split(" ")[0]}T00:00:00+00:00`}
                 dateModified={`${post.data.date.split(" ")[0]}T00:00:00+00:00`}
                 authorName="Farrel Nikoson"
-                publisherLogo="https://vartz.vercel.app/logo.png"
+                publisherLogo="https://vartz.web.id/logo.png"
                 publisherName="VArtz"
                 description={post.data.subtitle}
             />

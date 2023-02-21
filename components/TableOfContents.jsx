@@ -153,7 +153,7 @@ const TableOfContents = () => {
     useIntersectionObserver(setActiveId)
 
     return (
-        <nav className="nav-table" aria-label="Table of contents">
+        <nav className="nav-table px-8 md:px-0" aria-label="Table of contents">
             <h4 className="text-lg font-bold mt-8 mb-4">
                 Daftar Isi -{" "}
                 <button onClick={() => setIsActive(!isActive)}>

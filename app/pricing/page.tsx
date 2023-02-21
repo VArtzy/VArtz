@@ -31,7 +31,7 @@ const Pricing = () => {
                             <p>/Bulan</p>
                         </div>
                         <div className="flex justify-center lg:justify-start">
-                            <h4 className="text-xl font-bold">Rp 999.000</h4>
+                            <h4 className="text-xl font-bold">Rp 599.000</h4>
                             <p>/Tahun</p>
                         </div>
                         <p className="text-xs">*Harga akan naik nantinya.</p>
@@ -95,7 +95,7 @@ const Pricing = () => {
                         <h4 className="font-bold mb-4">Start From</h4>
                         <hr className="mb-4" />
                         <div className="flex justify-center lg:justify-start">
-                            <h4 className="text-xl font-bold">Rp 1.999.000</h4>
+                            <h4 className="text-xl font-bold">Rp 1.799.000</h4>
                             <p>/Tahun</p>
                         </div>
                         <p className="text-xs">*Harga akan naik nantinya.</p>
