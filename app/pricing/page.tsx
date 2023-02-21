@@ -11,15 +11,16 @@ const Pricing = () => {
                     gap: "2em",
                     color: "white",
                 }}
-                className="max-w-6xl py-8 mx-auto px-8"
+                className="max-w-6xl py-16 mx-auto px-8"
                 id="pricing"
             >
                 <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb">
-                    Mulai Buat. Dari Sekarang.
+                    Harga yang cocok dengan segala jenis bisnis.
                 </h2>
                 <p className="text-grayweb text-xl text-center mb-8">
-                    Solusi yang didukung kinerja untuk membantu menumbuhkan
-                    bisnismu.
+                    Merupakan yang terbaik, terkeren, termurah di kelasnya.
+                    Solusi yang selalu memberikan manfaat di setiap
+                    detail-detail kecilnya.
                 </p>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16">
                     <div className="bg-snow text-grayweb shadow-md rounded p-4 text-center lg:text-left">
@@ -211,6 +212,11 @@ const Pricing = () => {
                         </a>
                     </div>
                 </div>
+
+                <p className="text-center">
+                    Merasa kurang cocok?{" "}
+                    <a className="underline">Konsultasikan sekarang!</a>
+                </p>
             </div>
             <Foo />
         </>
