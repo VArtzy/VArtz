@@ -128,8 +128,17 @@ const ParallaxRapper: NextPage = () => {
                                     Sekarang ini semua hal sudah berjalan secara
                                     Online. Mulai dari kegiatan
                                     belanja-berbelanja sampai mencari informasi.
-                                    Tentu itu bagus apabila kamu memiliki super
-                                    Website untuk menunjang semua informasi atau
+                                    Tentu itu bagus apabila kamu memiliki{" "}
+                                    <button
+                                        type="button"
+                                        onClick={() =>
+                                            ParallaxRef.current?.scrollTo(6)
+                                        }
+                                        className="underline"
+                                    >
+                                        super Website
+                                    </button>{" "}
+                                    untuk menunjang semua informasi atau
                                     menjalankan bisnis kamu!
                                 </p>
                             </animated.div>
