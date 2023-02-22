@@ -182,10 +182,16 @@ const ParallaxRapper: NextPage = () => {
                                     </div>
                                 </div>
                                 <div className="card-swiper-buttons">
-                                    <button id="hate-button">
+                                    <button
+                                        id="hate-button"
+                                        aria-label="aku suka"
+                                    >
                                         <FaRegGrinHearts className="text-mediumSpringGreen" />
                                     </button>
-                                    <button id="love-button">
+                                    <button
+                                        id="love-button"
+                                        aria-label="ini keren"
+                                    >
                                         <FaKissWinkHeart />
                                     </button>
                                 </div>
@@ -1111,8 +1117,8 @@ const ParallaxRapper: NextPage = () => {
 
                             <div className="mb-8">
                                 <h3 className="text-xl mb-2">Sitemap</h3>
-                                <ul className="mb-2">
-                                    <div className="flex gap-8">
+                                <div className="mb-2">
+                                    <ul className="flex gap-8">
                                         <li>
                                             <Link
                                                 className="text-snow"
@@ -1145,14 +1151,14 @@ const ParallaxRapper: NextPage = () => {
                                                 About
                                             </Link>
                                         </li>
-                                    </div>
-                                </ul>
+                                    </ul>
+                                </div>
 
                                 <h3 className="text-xl mb-2">
                                     Niche & Frequent
                                 </h3>
-                                <ul className="mb-2">
-                                    <div className="lg:flex gap-8">
+                                <div className="mb-2">
+                                    <ul className="lg:flex gap-8">
                                         <li>
                                             <Link
                                                 className="text-snow"
@@ -1189,10 +1195,10 @@ const ParallaxRapper: NextPage = () => {
                                                 Cara Order
                                             </Link>
                                         </li>
-                                    </div>
-                                </ul>
-                                <ul className="mb-2">
-                                    <div className="lg:flex gap-8">
+                                    </ul>
+                                </div>
+                                <div className="mb-2">
+                                    <ul className="lg:flex gap-8">
                                         <li>
                                             <Link
                                                 className="text-snow"
@@ -1229,8 +1235,8 @@ const ParallaxRapper: NextPage = () => {
                                                 Contact
                                             </Link>
                                         </li>
-                                    </div>
-                                </ul>
+                                    </ul>
+                                </div>
                             </div>
 
                             <div className="lg:w-1/3 mb-8">
