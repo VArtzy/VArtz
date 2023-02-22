@@ -128,17 +128,8 @@ const ParallaxRapper: NextPage = () => {
                                     Sekarang ini semua hal sudah berjalan secara
                                     Online. Mulai dari kegiatan
                                     belanja-berbelanja sampai mencari informasi.
-                                    Tentu itu bagus apabila kamu memiliki{" "}
-                                    <button
-                                        type="button"
-                                        onClick={() =>
-                                            ParallaxRef.current?.scrollTo(6)
-                                        }
-                                        className="underline"
-                                    >
-                                        super Website
-                                    </button>{" "}
-                                    untuk menunjang semua informasi atau
+                                    Tentu itu bagus apabila kamu memiliki super
+                                    Website untuk menunjang semua informasi atau
                                     menjalankan bisnis kamu!
                                 </p>
                             </animated.div>
@@ -417,6 +408,8 @@ const ParallaxRapper: NextPage = () => {
                                 <img
                                     className="object-fit rounded-full"
                                     alt="Gambar Testimoni"
+                                    width="50"
+                                    height="50"
                                     src="https://images.unsplash.com/photo-1557862921-37829c790f19?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8Z3V5fHx8fHx8MTY3NTYxNjYyMA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50"
                                 />
                                 <div>
@@ -441,6 +434,8 @@ const ParallaxRapper: NextPage = () => {
                                 <img
                                     className="object-fit rounded-full"
                                     alt="Gambar Testimoni"
+                                    width="50"
+                                    height="50"
                                     src="https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVvcGxlfHx8fHx8MTY3NTYxNDcyNg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50"
                                 />
                                 <div>
@@ -465,6 +460,8 @@ const ParallaxRapper: NextPage = () => {
                                 <img
                                     className="object-fit rounded-full"
                                     alt="Gambar Testimoni"
+                                    width="50"
+                                    height="50"
                                     src="https://images.unsplash.com/photo-1437623889155-075d40e2e59f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVvcGxlfHx8fHx8MTY3NTYxNTU1NQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50"
                                 />
                                 <div>
@@ -493,6 +490,8 @@ const ParallaxRapper: NextPage = () => {
                                 <img
                                     className="object-fit rounded-full"
                                     alt="Gambar Testimoni"
+                                    width="50"
+                                    height="50"
                                     src="https://images.unsplash.com/photo-1536500152107-01ab1422f932?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2F0fHx8fHx8MTY3NTYxODA0Mg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50"
                                 />
                                 <div>
