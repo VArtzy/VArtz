@@ -1,3 +1,5 @@
+import Script from "next/script"
+
 export default function Head() {
     return (
         <>
@@ -19,6 +21,19 @@ export default function Head() {
                 name="viewport"
             />
             <link rel="icon" href="/favicon.ico" />
+            <Script
+                src="https://www.googletagmanager.com/gtag/js?id=G-QR9EGES1FV"
+                strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+                {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-QR9EGES1FV');
+        `}
+            </Script>
         </>
     )
 }
