@@ -129,14 +129,15 @@ const ParallaxRapper: NextPage = () => {
                                     Online. Mulai dari kegiatan
                                     belanja-berbelanja sampai mencari informasi.
                                     Tentu itu bagus apabila kamu memiliki{" "}
-                                    <a
+                                    <button
+                                        type="button"
                                         onClick={() =>
                                             ParallaxRef.current?.scrollTo(6)
                                         }
                                         className="underline"
                                     >
                                         super Website
-                                    </a>{" "}
+                                    </button>{" "}
                                     untuk menunjang semua informasi atau
                                     menjalankan bisnis kamu!
                                 </p>
