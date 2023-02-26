@@ -150,14 +150,12 @@ const ParallaxRapper: NextPage = () => {
                                 <div className="flex gap-4">
                                     <a
                                         id="konversi_konsultasi_web"
-                                        href="https://wa.me/6289628196420?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
                                         className="inline-block text-md rounded bg-springGreen hover:bg-mediumSpringGreen transition px-4 py-2"
                                     >
                                         Buatkan Saya
                                     </a>
                                     <a
                                         id="konversi_konsultasi_web"
-                                        href="https://wa.me/6289628196420?text=Hai%20min,%20bisa%20konsultasi%20buat%20website?"
                                         className="flex items-center gap-2 text-md rounded bg-mediumSpringGreen hover:bg-SpringGreen transition px-4 py-2"
                                     >
                                         <BsWhatsapp />
@@ -739,7 +737,6 @@ const ParallaxRapper: NextPage = () => {
 
                             <a
                                 id="konversi_penjualan_web_basic"
-                                href="https://wa.me/6289628196420?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website%20dengan%20pilihan20%paket20%BASIC.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
                                 className="bg-springGreen px-4 py-2 hover:bg-mediumSpringGreen transition-all rounded inline-block mt-4 text-snow"
                             >
                                 <FaWhatsapp className="inline" /> Pesan Sekarang
@@ -805,7 +802,6 @@ const ParallaxRapper: NextPage = () => {
 
                             <a
                                 id="konversi_penjualan_web_super"
-                                href="https://wa.me/6289628196420?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website%20dengan%20pilihan20%paket20%SUPER.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
                                 className="bg-springGreen px-4 py-2 hover:bg-mediumSpringGreen transition-all rounded inline-block mt-4 text-snow"
                             >
                                 <FaWhatsapp className="inline" /> Pesan Sekarang
@@ -876,7 +872,6 @@ const ParallaxRapper: NextPage = () => {
                             </div>
                             <a
                                 id="konversi_penjualan_web_custom"
-                                href="https://wa.me/6289628196420?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website%20dengan%20pilihan20%paket20%CUSTOM.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
                                 className="bg-springGreen px-4 py-2 hover:bg-mediumSpringGreen transition-all rounded inline-block mt-4 text-snow"
                             >
                                 <FaWhatsapp className="inline" /> Pesan Sekarang
@@ -953,7 +948,6 @@ const ParallaxRapper: NextPage = () => {
                                     Pastinya anda selalu bisa{" "}
                                     <a
                                         id="konversi_konsultasi_web"
-                                        href="https://wa.me/6289628196420?text=Hai%20min,%20bisa%buatkan%20saya%20website?"
                                         className="underline"
                                     >
                                         {" "}
@@ -1068,7 +1062,6 @@ const ParallaxRapper: NextPage = () => {
                         </p>
                         <a
                             id="konversi_konsultasi_web"
-                            href="https://wa.me/6289628196420?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
                             className="inline-block text-xl text-center  rounded-lg bg-snow text-springGreen px-8 py-4"
                         >
                             {" "}
@@ -1267,7 +1260,6 @@ const ParallaxRapper: NextPage = () => {
                                 </div>
                                 <a
                                     id="konversi_konsultasi_web"
-                                    href="https://wa.me/6289628196420"
                                     className="bg-springGreen px-4 py-2 hover:bg-mediumSpringGreen transition-all rounded inline-block text-snow mb-2"
                                 >
                                     <FaWhatsapp className="inline" /> Chat
