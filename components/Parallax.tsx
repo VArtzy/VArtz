@@ -148,10 +148,18 @@ const ParallaxRapper: NextPage = () => {
                                 }}
                             >
                                 <div className="flex gap-4">
-                                    <a className="konversi_konsultasi_web inline-block text-md rounded bg-springGreen hover:bg-mediumSpringGreen transition px-4 py-2">
+                                    <a
+                                        href="https://wa.me/6289628196420?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
+                                        id="konversi_konsultasi_web"
+                                        className="inline-block text-md rounded bg-springGreen hover:bg-mediumSpringGreen transition px-4 py-2"
+                                    >
                                         Buatkan Saya
                                     </a>
-                                    <a className="konversi_konsultasi_web flex items-center gap-2 text-md rounded bg-mediumSpringGreen hover:bg-SpringGreen transition px-4 py-2">
+                                    <a
+                                        href="https://wa.me/6289628196420?text=Hai%20min,%20bisa%20konsultasi%20buat%20website?"
+                                        id="konversi_konsultasi_web"
+                                        className="flex items-center gap-2 text-md rounded bg-mediumSpringGreen hover:bg-SpringGreen transition px-4 py-2"
+                                    >
                                         <BsWhatsapp />
                                         Konsultasi Gratis
                                     </a>
