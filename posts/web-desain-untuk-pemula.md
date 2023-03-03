@@ -39,10 +39,12 @@ Balance menunjukan bahwa komponen-komponen desain harus seimbang. Dalam artian m
 Contohnya?
 
 Elemen teks yang memiliki font yang sama
+
 Elemen gambar yang memiliki panjang, tinggi, rounded yang sama dengan gambar lainnya
+
 Elemen yang memiliki tekstur tidak boleh beda beda
 
-Loh berarti kita cuma boleh pakai satu font, satu ukuran, satu tekstur? Ya ga gitu juga. Contohnya jika kita mau menekankan teks, kita bisa menggunakan *bold text*. Ini nanti akan kita bahas di terms hierarki nantinya, makanya silahkan baca sampai bawah.
+Loh berarti kita cuma boleh pakai satu font, satu ukuran, satu tekstur? Ya ga gitu juga. Contohnya jika kita mau menekankan teks, kita bisa menggunakan **bold text**. Ini nanti akan kita bahas di terms hierarki nantinya, makanya silahkan baca sampai bawah.
 
 ## Terms - Aligment
 
@@ -90,7 +92,7 @@ Contohnya?
 
 teks ini lebih sulit dibaca
 
-*dibanding teks ini*
+**dibanding teks ini**
 
 Ya, kan?
 
@@ -106,7 +108,7 @@ Mengetahui alat apa dan apa yang harus dilakukan dari tooling yang kita miliki. 
 
 Sudah siap? Mari kita coba!
 
-<PoppupLangganan />
+<Langganan />
 
 ## Tools - Figma
 
@@ -144,7 +146,7 @@ Anda bisa belajar teori warna kalau mau. Belajar tentang psikologinya. Tetapi ka
 
 Sekali lagi, masih banyak tools yang saya bisa bagikan. Namun agar artikel ini tidak terlalu panjang nanti akan saya bahas di artikel terpisah.
 
-<PoppupPromo />
+<Promo />
 
 ## Summary
 
