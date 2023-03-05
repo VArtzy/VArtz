@@ -883,6 +883,17 @@ const ParallaxRapper: NextPage = () => {
                             </a>
                         </div>
                     </div>
+                    <p className="text-center text-grayweb">
+                        Merasa kurang cocok? Anda bisa{" "}
+                        <a
+                            id="konversi_konsultasi_web"
+                            className="underline"
+                            href="https://wa.me/6289628196420?text=Hai%20min,%20bisa%buatkan%20saya%20website?"
+                        >
+                            berikan penawaran
+                        </a>
+                        .
+                    </p>
                 </ParallaxLayer>
 
                 <ParallaxLayer
