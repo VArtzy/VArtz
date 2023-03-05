@@ -34,10 +34,6 @@ export default function Head() {
                 property="og:image"
                 content="https://vartz.web.id/og/JasaPembuatanWeb11.png"
             />
-            <meta
-                property="og:image"
-                content="https://vartz.web.id/og/JasaPembuatanWeb11.png"
-            />
             <meta property="og:image:type" content="image/png" />
             <meta property="og:image:width" content="1080" />
             <meta property="og:image:height" content="1080" />
