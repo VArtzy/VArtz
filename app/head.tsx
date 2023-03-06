@@ -53,17 +53,6 @@ export default function Head() {
                 property="og:image:alt"
                 content="Jasa Pembuatan Web VArtz Square"
             />
-            <meta
-                property="og:image"
-                content="https://vartz.web.id/og/JasaPembuatanWeb11256.png"
-            />
-            <meta property="og:image:type" content="image/png" />
-            <meta property="og:image:width" content="256" />
-            <meta property="og:image:height" content="256" />
-            <meta
-                property="og:image:alt"
-                content="Jasa Pembuatan Web VArtz Square 256"
-            />
         </>
     )
 }
