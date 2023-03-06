@@ -32,15 +32,14 @@ export default function Head() {
             <meta property="og:url" content="https://vartz.web.id" />
             <meta
                 property="og:image"
-                itemProp="image"
-                content="https://vartz.web.id/og/JasaPembuatanWeb11256.png"
+                content="https://vartz.web.id/og/JasaPembuatanWeb169.png"
             />
             <meta property="og:image:type" content="image/png" />
-            <meta property="og:image:width" content="256" />
-            <meta property="og:image:height" content="256" />
+            <meta property="og:image:width" content="1200" />
+            <meta property="og:image:height" content="628" />
             <meta
                 property="og:image:alt"
-                content="Jasa Pembuatan Web VArtz Square 500"
+                content="Jasa Pembuatan Web VArtz Landscape"
             />
             <meta
                 property="og:image"
@@ -55,14 +54,15 @@ export default function Head() {
             />
             <meta
                 property="og:image"
-                content="https://vartz.web.id/og/JasaPembuatanWeb169.png"
+                itemProp="image"
+                content="https://vartz.web.id/og/JasaPembuatanWeb11256.png"
             />
             <meta property="og:image:type" content="image/png" />
-            <meta property="og:image:width" content="1200" />
-            <meta property="og:image:height" content="628" />
+            <meta property="og:image:width" content="256" />
+            <meta property="og:image:height" content="256" />
             <meta
                 property="og:image:alt"
-                content="Jasa Pembuatan Web VArtz Landscape"
+                content="Jasa Pembuatan Web VArtz Square 256"
             />
         </>
     )
