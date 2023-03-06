@@ -26,7 +26,7 @@ export default function Head() {
             />
             <meta
                 property="og:description"
-                content="Hadirkan Eksistensi Bisnis Online anda dengan Website berkualitas tinggi dan terjangkau hanya di vartz"
+                content="Dapatkan solusi pembuatan situs web yang berkualitas tinggi dengan harga terjangkau untuk bisnis Anda. Kami siap membantu Anda dalam meningkatkan bisnis Anda dengan solusi pembuatan situs web yang dioptimalkan untuk SEO dan user-friendly. Dapatkan konsultasi gratis dengan tim ahli kami sekarang dan lihat bagaimana kami dapat membantu bisnis Anda berkembang."
             />
             <meta property="og:type" content="website" />
             <meta property="og:url" content="https://vartz.web.id" />
