@@ -32,6 +32,7 @@ export default function Head() {
             <meta property="og:url" content="https://vartz.web.id" />
             <meta
                 property="og:image"
+                itemProp="image"
                 content="https://vartz.web.id/og/JasaPembuatanWeb169.png"
             />
             <meta property="og:image:type" content="image/png" />
@@ -54,7 +55,6 @@ export default function Head() {
             />
             <meta
                 property="og:image"
-                itemProp="image"
                 content="https://vartz.web.id/og/JasaPembuatanWeb11256.png"
             />
             <meta property="og:image:type" content="image/png" />
