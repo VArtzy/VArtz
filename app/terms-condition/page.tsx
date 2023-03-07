@@ -25,7 +25,11 @@ const About = () => {
                             transfer tunai ke rekening BCA atas nama Eko Purnomo
                         </span>{" "}
                         Atau{" "}
-                        <span className="text-mediumSpringGreen">Gopay</span>.
+                        <span className="text-mediumSpringGreen">Gopay</span>.{" "}
+                        *Catatan: dalam beberapa kondisi, misalnya sedang
+                        mengerjakan atau banyak pemesanan. Mungkin membutuhkan
+                        waktu untuk mendapatkan respons. Tunggu paling lama
+                        1x24jam untuk respon dari kami.
                     </p>
 
                     <ul className="list-disc pl-4">
