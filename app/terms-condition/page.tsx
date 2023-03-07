@@ -20,8 +20,12 @@ const About = () => {
 
                     <p className="mb-4">
                         Lakukan pemesanan di platform whatsapp, pembayaran
-                        secara tunai atau down payment (DP) minimal 50% (Hanya
-                        transfer tunai ke rekening BCA atas nama Eko Purnomo)
+                        secara tunai atau down payment (DP) minimal 50%. Hanya
+                        <span className="text-mediumSpringGreen">
+                            transfer tunai ke rekening BCA atas nama Eko Purnomo
+                        </span>{" "}
+                        Atau{" "}
+                        <span className="text-mediumSpringGreen">Gopay</span>.
                     </p>
 
                     <ul className="list-disc pl-4">
@@ -125,6 +129,14 @@ const About = () => {
                                 sudah kami sertakan dalam setiap paket pembuatan
                                 web ini, dan kami siap membantu untuk melakukan
                                 perbaikan gratis ketika terjadi website “error”."
+                        />
+                        <Accordion
+                            title="Metode pembayaran apa sajakah yang tersedia?"
+                            content="Transfer Rekening BCA atau Gopay. Nomor akan dikirim setelah melakukan pemesanan."
+                        />
+                        <Accordion
+                            title="Melayani ekstensi kebutuhan situs?"
+                            content="Ya, Kami menerima berbagai macam ekstensi tambahan situs untuk Anda. Misalnya, mendaftarkan situs ke google search console, memambahkan opengraph meta untuk socmed/wa, dll. *beberapa ekstensi dikenai biaya tambahan."
                         />
                         <Accordion
                             title="Bagaimana saya dapat mengembangkan bisnis

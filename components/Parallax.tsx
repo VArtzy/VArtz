@@ -977,9 +977,14 @@ const ParallaxRapper: NextPage = () => {
                                     <span className="font-semibold">
                                         Lakukan pemesanan di platform whatsapp,
                                         pembayaran secara tunai atau down
-                                        payment (DP) minimal 50% (Hanya transfer
-                                        tunai ke rekening BCA atas nama Eko
-                                        Purnomo){"  "}
+                                        payment (DP) minimal 50% dengan{" "}
+                                        <Link
+                                            href="/terms-condition#faq"
+                                            className="underline"
+                                        >
+                                            metode pembayaran
+                                        </Link>
+                                        . Lalu mengisi data untuk keperluan web.
                                     </span>
                                     <Link
                                         href="/terms-condition"
