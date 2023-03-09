@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { FaCheck } from "react-icons/fa"
 
 const Invoice = ({ searchParams }: any) => {
@@ -28,7 +29,7 @@ const Invoice = ({ searchParams }: any) => {
                 Detail:
             </h2>
             <p>Paket yang dipilih: </p>
-            <div className="lg:grid grid-cols-[60%_1fr] gap-8 mb-8">
+            <div className="lg:grid grid-cols-[60%_1fr] gap-8 mb-16">
                 {searchParams.paket === "basic" && (
                     <div className="bg-snow text-grayweb shadow-md mb-4 rounded p-4 text-center lg:text-left">
                         <h3 className="text-lg font-bold">Basic</h3>
@@ -120,11 +121,29 @@ const Invoice = ({ searchParams }: any) => {
                 </a>
                 .
             </p>
+
             <p className="text-sm mb-4">
                 Kami sangat senang dapat membantu Anda untuk mempermudah
                 mendapatkan web impian. Bagikan jika anda merasa terbantu oleh
                 kami. Kami juga siap untuk membantu kamu jika ada masalah & ada
                 penambahan lainnya. Sekali lagi terimakasih!
+            </p>
+
+            <p className="mb-4">
+                Selanjutnya ngapain? Anda bisa
+                <Link href="/blog">
+                    belajar bisnis online dari blog kami
+                </Link>{" "}
+                <p className="text-sm">
+                    (Secara otomatis terdaftar ke newsletter blog. jika anda
+                    tidak ingin silahkan{" "}
+                    <a
+                        href={`https://wa.me/6289628196420?text=Unsubscribe%20newsletter%20blog%20vartz%20atas%20nama:%20${searchParams.nama}`}
+                    >
+                        unsubscribe
+                    </a>
+                    .)
+                </p>
             </p>
         </div>
     )
