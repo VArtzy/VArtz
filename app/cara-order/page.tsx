@@ -10,7 +10,7 @@ const CaraOrder = () => {
                     alignItems: "center",
                     gap: "2em",
                 }}
-                className="max-w-6xl mx-auto px-8"
+                className="max-w-6xl mx-auto px-8 py-16"
                 id="cara-order"
             >
                 <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb">
@@ -126,6 +126,13 @@ const CaraOrder = () => {
                         </div>
                     </li>
                 </ol>
+                <Link
+                    href="/pricing"
+                    className="inline-block text-xl text-center mx-auto rounded-lg text-snow bg-springGreen px-8 py-4"
+                >
+                    {" "}
+                    Lihat Harga{" "}
+                </Link>
                 <a
                     id="konversi_konsultasi_web"
                     href="https://wa.me/6289628196420?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
