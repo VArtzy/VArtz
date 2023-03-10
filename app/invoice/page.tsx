@@ -28,9 +28,9 @@ const Invoice = () => {
         html2canvas(divRef.current).then(function (canvas) {
             // Add the image to the PDF
             doc.setFontSize(24)
-            doc.text(`Invoice Jasa Web - Atas Nama ${nama}`, 35, 25)
+            doc.text(`Invoice Jasa Web - Atas Nama ${nama}`, 0, 25)
             const imgData = canvas.toDataURL("image/png")
-            doc.addImage(imgData, "PNG", 15, 40, 180, 160)
+            doc.addImage(imgData, "PNG", 15, 40, 180, 240)
 
             // Save the PDF
             doc.save(`invoice-jasa-web-${nama}.pdf`)
