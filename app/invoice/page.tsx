@@ -28,7 +28,7 @@ const Invoice = () => {
         html2canvas(divRef.current).then(function (canvas) {
             // Add the image to the PDF
             doc.setFontSize(24)
-            doc.text(`Invoice Jasa Web - Atas Nama ${nama}`, 0, 25)
+            doc.text(`Invoice Jasa Web - Atas Nama ${nama}`, 10, 25)
             const imgData = canvas.toDataURL("image/png")
             doc.addImage(imgData, "PNG", 15, 40, 180, 240)
 
@@ -47,8 +47,8 @@ const Invoice = () => {
             <h2>
                 Pemesanan Anda akan segera diproses dan dikerjakan. Silahkan cek
                 berkala progress website Anda di{" "}
-                <a className="underline" href={`https://${url}`}>
-                    https://{url}
+                <a className="underline" href={url}>
+                    {url}
                 </a>{" "}
                 atau{" "}
                 <a
