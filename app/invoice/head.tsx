@@ -8,6 +8,7 @@ export default function Head() {
                 name="viewport"
             />
             <link rel="icon" href="/favicon.ico" />
+            <meta name="robots" content="noindex" />
         </>
     )
 }

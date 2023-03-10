@@ -47,7 +47,7 @@ const Invoice = () => {
             <h2>
                 Pemesanan Anda akan segera diproses dan dikerjakan. Silahkan cek
                 berkala progress website Anda di{" "}
-                <a className="underline" href={url}>
+                <a className="underline" href={`${url}`}>
                     {url}
                 </a>{" "}
                 atau{" "}
