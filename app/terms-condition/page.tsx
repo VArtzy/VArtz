@@ -64,7 +64,7 @@ const About = () => {
                         <li className="mb-2">
                             Jika anda sudah mempunyai domain dan hosting, maka
                             anda cukup mengurangi harga pembuatan website
-                            sebesar Rp.200.000
+                            sebesar Rp.100.000
                         </li>
                         <li className="mb-2">
                             Layanan tidak mencakup pembuatan script yang
