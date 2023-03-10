@@ -1,24 +1,34 @@
+"use client"
+
 import Link from "next/link"
+import { useSearchParams } from "next/navigation"
 import { FaCheck } from "react-icons/fa"
 
-const Invoice = ({ searchParams }: any) => {
+const Invoice = () => {
+    const search = useSearchParams()
+
+    const nama = search.get("nama")
+    const harga = search.get("harga")
+    const dp = search.get("dp")
+    const paket = search.get("paket")
+    const url = search.get("url")
     return (
         <div className="max-w-3xl mx-auto px-8 grid place-content-center gap-8 tracking-wider leading-relaxed">
             <FaCheck className="text-snow text-4xl" />
             <h1 className="text-3xl md:text-4xl w-full font-bold mt-24">
-                <span className="text-springGreen">Terimakasih</span>{" "}
-                {searchParams.nama} atas pembelian Anda 🤗!
+                <span className="text-springGreen">Terimakasih</span> {nama}{" "}
+                atas pembelian Anda 🤗!
             </h1>
             <h2>
                 Pemesanan Anda akan segera diproses dan dikerjakan. Silahkan cek
                 berkala progress website Anda di{" "}
-                <a className="underline" href={`https://${searchParams.url}`}>
-                    https://{searchParams.url}
+                <a className="underline" href={`https://${url}`}>
+                    https://{url}
                 </a>{" "}
                 atau{" "}
                 <a
                     className="underline"
-                    href={`https://wa.me/6289628196420?text=Hai,%20min.%20Progress%20website%20saya%20(https://${searchParams.url})%20bagaimana?`}
+                    href={`https://wa.me/6289628196420?text=Hai,%20min.%20Progress%20website%20saya%20(https://${url})%20bagaimana?`}
                 >
                     kontak kami
                 </a>{" "}
@@ -30,7 +40,7 @@ const Invoice = ({ searchParams }: any) => {
             </h2>
             <p>Paket yang dipilih: </p>
             <div className="lg:grid grid-cols-[60%_1fr] gap-8 mb-16">
-                {searchParams.paket === "basic" && (
+                {paket === "basic" && (
                     <div className="bg-snow text-grayweb shadow-md mb-4 rounded p-4 text-center lg:text-left">
                         <h3 className="text-lg font-bold">Basic</h3>
                         <h4 className="font-bold mb-4">Start From</h4>
@@ -92,24 +102,17 @@ const Invoice = ({ searchParams }: any) => {
                 <div className="">
                     <p>
                         Total:{" "}
-                        <span className="font-semibold">
-                            Rp. {searchParams.harga}
-                        </span>
+                        <span className="font-semibold">Rp. {harga}</span>
                     </p>
-                    {searchParams.dp && (
+                    {dp && (
                         <p>
                             Pemb. DP:{" "}
-                            <span className="font-semibold">
-                                Rp.{searchParams.dp}
-                            </span>
+                            <span className="font-semibold">Rp.{dp}</span>
                         </p>
                     )}
-                    {searchParams.nama && (
+                    {nama && (
                         <p>
-                            Nama:{" "}
-                            <span className="font-semibold">
-                                {searchParams.nama}
-                            </span>
+                            Nama: <span className="font-semibold">{nama}</span>
                         </p>
                     )}
                 </div>
@@ -131,14 +134,15 @@ const Invoice = ({ searchParams }: any) => {
 
             <p className="mb-4">
                 Selanjutnya ngapain? Anda bisa
-                <Link href="/blog">
+                <Link className="underline" href="/blog">
                     belajar bisnis online dari blog kami
                 </Link>{" "}
                 <p className="text-sm">
                     (Secara otomatis terdaftar ke newsletter blog. jika anda
                     tidak ingin silahkan{" "}
                     <a
-                        href={`https://wa.me/6289628196420?text=Unsubscribe%20newsletter%20blog%20vartz%20atas%20nama:%20${searchParams.nama}`}
+                        className="underline"
+                        href={`https://wa.me/6289628196420?text=Unsubscribe%20newsletter%20blog%20vartz%20atas%20nama:%20${nama}`}
                     >
                         unsubscribe
                     </a>
