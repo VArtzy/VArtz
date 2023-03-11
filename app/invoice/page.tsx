@@ -53,7 +53,7 @@ const Invoice = () => {
                 atau{" "}
                 <a
                     className="underline"
-                    href={`https://wa.me/6289628196420?text=Hai,%20min.%20Progress%20website%20saya%20(https://${url})%20bagaimana?`}
+                    href={`https://wa.me/6289611905599?text=Hai,%20min.%20Progress%20website%20saya%20(https://${url})%20bagaimana?`}
                 >
                     kontak kami
                 </a>{" "}
@@ -285,7 +285,7 @@ const Invoice = () => {
                     tidak ingin silahkan{" "}
                     <a
                         className="underline"
-                        href={`https://wa.me/6289628196420?text=Unsubscribe%20newsletter%20blog%20vartz%20atas%20nama:%20${nama}`}
+                        href={`https://wa.me/6289611905599?text=Unsubscribe%20newsletter%20blog%20vartz%20atas%20nama:%20${nama}`}
                     >
                         unsubscribe
                     </a>

@@ -150,7 +150,7 @@ const Foo: React.FC = () => {
                     </div>
                     <a
                         id="konversi_konsultasi_web"
-                        href="https://wa.me/6289628196420"
+                        href="https://wa.me/6289611905599"
                         className="bg-springGreen px-4 py-2 rounded inline-block text-snow mb-2"
                     >
                         <FaWhatsapp className="inline" /> Chat Whatsapp
