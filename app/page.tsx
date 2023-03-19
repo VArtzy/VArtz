@@ -61,13 +61,26 @@ const Home = () => {
         return () => clearInterval(interval)
     }, [namas, alamats, pakets, times])
 
+    const [show, setShow] = useState(false)
+
+    useEffect(() => {
+        if (nama) {
+            setShow(true)
+            setTimeout(() => {
+                setShow(false)
+            }, 9500)
+        }
+    }, [namas])
+
     return (
         <>
             <div className="max-w-5xl px-4 tracking-wider leading-relaxed">
                 <ParallaxRapper></ParallaxRapper>
                 {nama && (
                     <div
-                        className={`fixed bottom-0 right-0 left-0 w-[80%] max-w-md md:-right-0 bg-snow mx-auto p-4 animate-fade-in-out rounded-tl-md rounded-tr-md shadow-sm`}
+                        className={`fixed bottom-0 right-0 left-0 w-[80%] max-w-md md:-right-auto bg-snow mx-auto p-4 rounded-tl-md rounded-tr-md shadow-sm ${
+                            show ? "animate-fade-in" : "animate-fade-out"
+                        }`}
                     >
                         <div className="flex gap-4 align-center">
                             <FaShoppingCart className="text-mediumSpringGreen" />
