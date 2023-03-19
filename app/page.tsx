@@ -67,9 +67,7 @@ const Home = () => {
                 <ParallaxRapper></ParallaxRapper>
                 {nama && (
                     <div
-                        className={`message fixed bottom-0 right-0 left-0 w-[80%] max-w-md md:-right-0 bg-snow mx-auto rounded-md p-4 ${
-                            nama ? "show" : ""
-                        }`}
+                        className={`fixed bottom-0 right-0 left-0 w-[80%] max-w-md md:-right-0 bg-snow mx-auto p-4 animate-fade-in-out rounded-tl-md rounded-tr-md shadow-sm`}
                     >
                         <div className="flex gap-4 align-center">
                             <FaShoppingCart className="text-mediumSpringGreen" />
