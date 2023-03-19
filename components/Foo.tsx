@@ -90,7 +90,7 @@ const Foo: React.FC = () => {
                                 <Link
                                     className="text-snow"
                                     scroll={false}
-                                    href="/#cara-order"
+                                    href="/cara-order"
                                 >
                                     Cara Order
                                 </Link>

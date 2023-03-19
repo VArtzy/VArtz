@@ -883,6 +883,17 @@ const ParallaxRapper: NextPage = () => {
                             </a>
                         </div>
                     </div>
+                    <p className="text-grayweb text-center mb-2">
+                        Anda juga dapat menambahkan lebih banyak ekstensi situs
+                        seperti Design Figma, Tambahan Halaman/Section Interkasi
+                        Situs, Jasa Google Ads, SEO.
+                    </p>
+                    <Link
+                        className="inline-block text-md rounded bg-springGreen hover:bg-mediumSpringGreen transition px-4 py-2 mb-4"
+                        href="/pricing#extension"
+                    >
+                        Lihat Ekstensi Tambahan
+                    </Link>
                     <p className="text-center text-grayweb">
                         Merasa kurang cocok? Anda bisa{" "}
                         <a
