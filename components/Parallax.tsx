@@ -709,19 +709,14 @@ const ParallaxRapper: NextPage = () => {
                                         Dengan pengalaman bertahun-tahun dalam
                                         industri ini, kami telah membantu banyak
                                         klien dalam berbagai industri mencapai
-                                        tujuan mereka.
-                                        <p>
-                                            {" "}
-                                            Jangan ragu{" "}
-                                            <a
-                                                id="konversi_konsultasi_web"
-                                                className="underline"
-                                                href="https://wa.me/6289611905599?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
-                                            >
-                                                menghubungi kami
-                                            </a>
-                                            .
-                                        </p>
+                                        tujuan mereka. Jangan ragu{" "}
+                                        <a
+                                            id="konversi_konsultasi_web"
+                                            className="underline"
+                                            href="https://wa.me/6289611905599?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
+                                        >
+                                            menghubungi kami
+                                        </a>
                                     </p>
                                 </div>
                             </div>

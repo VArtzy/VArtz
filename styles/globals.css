@@ -286,6 +286,14 @@ nav {
     -webkit-backdrop-filter: blur(0);
 }
 
+.message {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.message.show {
+    opacity: 1;
+}
+
 @media screen and (max-width: 900px) {
     .nav-table {
         position: static;

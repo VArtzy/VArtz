@@ -67,7 +67,7 @@ const Home = () => {
                 <ParallaxRapper></ParallaxRapper>
                 {nama && (
                     <div
-                        className={`message fixed bottom-0 right-0 left-0 w-[80%] max-w-[128px] md:-right-0 bg-snow mx-auto rounded-md p-4 ${
+                        className={`message fixed bottom-0 right-0 left-0 w-[80%] max-w-md md:-right-0 bg-snow mx-auto rounded-md p-4 ${
                             nama ? "show" : ""
                         }`}
                     >
@@ -82,15 +82,6 @@ const Home = () => {
                         </p>
                     </div>
                 )}
-                <style jsx>{`
-                    .message {
-                        opacity: 0;
-                        transition: opacity 0.5s ease-in-out;
-                    }
-                    .message.show {
-                        opacity: 1;
-                    }
-                `}</style>
             </div>
             <ProductJsonLd
                 type="Product"
