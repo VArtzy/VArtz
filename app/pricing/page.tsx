@@ -227,7 +227,7 @@ const Pricing = () => {
                     baik dalam hal kinerja, tampilan, penjualan, keamanan, dan
                     pengalaman pengguna.
                 </p>
-                <div className="grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 place-content-center gap-16">
+                <div className="grid grid-cols-3 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-content-center gap-16">
                     <div className="py-2 px-4 outline-offset-2 outline-2 outline-springGreen rounded bg-snow text-grayweb">
                         <div className="flex justify-center align-center gap-2 mb-2">
                             <div className="p-1 rounded-full mb-2">
@@ -335,7 +335,10 @@ const Pricing = () => {
                             Hasilkan Situs dengan Page Speed paling optimal.
                             Seluruh media terutama gambar akan dioptimasi dengan
                             compress, crop dan lazy load. Pelajari{" "}
-                            <Link href="/blog/website-lebih-cepat-dengan-teknik-ini">
+                            <Link
+                                className="underline"
+                                href="/blog/website-lebih-cepat-dengan-teknik-ini"
+                            >
                                 Teknik membuat website lebih cepat{" "}
                             </Link>
                         </p>
@@ -358,7 +361,10 @@ const Pricing = () => {
                             Peningkatan hasilpun tak terbendung lagi,
                             peningkatan akusisi bisa meningkat hingga 200%.
                             Pelajari
-                            <Link href="/blog/copywriting-untuk-pemula">
+                            <Link
+                                className="underline"
+                                href="/blog/copywriting-untuk-pemula"
+                            >
                                 membuat copywriting optimal{" "}
                             </Link>
                         </p>
