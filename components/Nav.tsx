@@ -60,6 +60,16 @@ const Nav: React.FC = () => {
                     </li>
                     <li className="relative w-max two">
                         <Link
+                            className="text-grayweb transition-all hover:text-slate-600 after:contents after:absolute after:w-2 after:h-4 after:bg-slate-800"
+                            href="/pricing"
+                        >
+                            Layanan
+                        </Link>
+                        <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
+                        <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
+                    </li>
+                    <li className="relative w-max two">
+                        <Link
                             className="text-grayweb transition-all hover:text-slate-600"
                             href="/blog"
                         >
@@ -98,6 +108,16 @@ const Nav: React.FC = () => {
                             href="/"
                         >
                             Home
+                        </Link>
+                        <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
+                        <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
+                    </li>
+                    <li className="relative w-max two">
+                        <Link
+                            className="text-grayweb transition-all hover:text-slate-600 after:contents after:absolute after:w-2 after:h-4 after:bg-slate-800"
+                            href="/pricing"
+                        >
+                            Layanan
                         </Link>
                         <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                         <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>

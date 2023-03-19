@@ -72,7 +72,7 @@ const ParallaxRapper: NextPage = () => {
         <>
             <Parallax
                 ref={ParallaxRef}
-                pages={20}
+                pages={22}
                 style={{ top: "0", left: "0" }}
             >
                 <ParallaxLayer
@@ -651,6 +651,105 @@ const ParallaxRapper: NextPage = () => {
                         flexDirection: "column",
                         alignItems: "center",
                         gap: "2em",
+                    }}
+                    className="max-w-6xl mx-auto px-8"
+                >
+                    <div className="grid grid-cols-1 md:grid-cols-[40%_1fr] gap-16">
+                        <div className="">
+                            <Image
+                                src="/img/online.webp"
+                                width={640}
+                                height={900}
+                                alt="Onlinekan bisnis Anda dengan mudah"
+                                className="object-fit rounded-md"
+                            />
+                        </div>
+                        <div className="">
+                            <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-grayweb">
+                                Siap buat{" "}
+                                <span className="text-turquoise">
+                                    Website Bisnis dan Landing Page
+                                </span>{" "}
+                                yang Sesuai dengan Kebutuhan UMKM Anda.
+                            </h2>
+                            <p className="text-grayweb text-xl mb-16">
+                                Kami adalah jasa web profesional yang
+                                menyediakan layanan pembuatan website dan
+                                landing page untuk membantu UMKM meningkatkan
+                                bisnis online mereka. Kami menawarkan solusi
+                                yang tepat untuk membuat website bisnis yang
+                                menarik dan efektif, serta landing page yang
+                                menghasilkan konversi tinggi.
+                            </p>
+
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+                                <div className="">
+                                    <div className="bg-grayweb text-snow px-1 py-1 rounded-xl">
+                                        Ahli & Terampil
+                                    </div>
+                                    <h3 className="text-lg text-semibold">
+                                        Tim ahli yang terampil dan berdedikasi
+                                    </h3>
+                                    <p>
+                                        Dengan pengalaman bertahun-tahun dalam
+                                        industri ini, kami telah membantu banyak
+                                        klien dalam berbagai industri mencapai
+                                        tujuan mereka.
+                                    </p>
+                                </div>
+                                <div className="">
+                                    <div className="bg-grayweb text-snow px-1 py-1 rounded-xl">
+                                        Terjangkau & Fleksible
+                                    </div>
+                                    <h3 className="text-lg text-semibold">
+                                        Dapatkan situs berkulitas dengan mudah
+                                    </h3>
+                                    <p>
+                                        Tidak hanya itu, kami juga menawarkan
+                                        harga yang terjangkau dan fleksibel agar
+                                        sesuai dengan budget UMKM. Mendapatkan
+                                        kualitas yang baik dan layanan yang
+                                        memuaskan.
+                                    </p>
+                                </div>
+                            </div>
+                            <p className="text-center">
+                                {" "}
+                                Jangan ragu untuk{" "}
+                                <a
+                                    id="konversi_konsultasi_web"
+                                    class="underline"
+                                    href="https://wa.me/6289611905599?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
+                                >
+                                    menghubungi kami
+                                </a>
+                                pembuatan website bisnis dan landing page Anda
+                                hari ini!
+                            </p>
+                        </div>
+                    </div>
+                </ParallaxLayer>
+
+                <ParallaxLayer
+                    offset={13}
+                    speed={0.5}
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        gap: "2em",
+                    }}
+                    className="max-w-6xl mx-auto px-8 text-grayweb"
+                ></ParallaxLayer>
+
+                <ParallaxLayer
+                    offset={14}
+                    speed={0.5}
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        gap: "2em",
                         color: "white",
                     }}
                     className="max-w-6xl mx-auto px-8"
@@ -908,7 +1007,7 @@ const ParallaxRapper: NextPage = () => {
                 </ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={13}
+                    offset={15}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -920,7 +1019,7 @@ const ParallaxRapper: NextPage = () => {
                 ></ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={14}
+                    offset={16}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -933,7 +1032,7 @@ const ParallaxRapper: NextPage = () => {
                 ></ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={15}
+                    offset={17}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -1059,7 +1158,7 @@ const ParallaxRapper: NextPage = () => {
                 </ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={16}
+                    offset={18}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -1072,7 +1171,7 @@ const ParallaxRapper: NextPage = () => {
                 ></ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={17}
+                    offset={19}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -1105,7 +1204,7 @@ const ParallaxRapper: NextPage = () => {
                 </ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={18}
+                    offset={20}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -1118,7 +1217,7 @@ const ParallaxRapper: NextPage = () => {
                 />
 
                 <ParallaxLayer
-                    offset={19}
+                    offset={21}
                     speed={0.5}
                     style={{
                         display: "flex",

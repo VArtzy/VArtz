@@ -230,7 +230,7 @@ const Pricing = () => {
                     baik dalam hal kinerja, tampilan, penjualan, keamanan, dan
                     pengalaman pengguna.
                 </p>
-                <div className="grid grid-cols-3 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-content-center gap-16">
+                <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 place-content-center gap-16">
                     <div className="py-2 px-4 outline-offset-2 outline-2 outline-springGreen rounded bg-snow text-grayweb">
                         <div className="flex justify-center align-center gap-2 mb-2">
                             <div className="p-1 rounded-full mb-2">
