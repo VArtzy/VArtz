@@ -219,7 +219,10 @@ const Pricing = () => {
                     </div>
                 </div>
 
-                <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb">
+                <h2
+                    id="extension"
+                    className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb"
+                >
                     Perluas Fungsionalitas Situs Web dengan Ekstensi
                 </h2>
                 <p className="text-grayweb text-xl text-center mb-8">
