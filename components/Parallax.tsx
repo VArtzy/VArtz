@@ -685,20 +685,6 @@ const ParallaxRapper: NextPage = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
                                 <div className="">
                                     <div className="bg-grayweb text-center mb-2 text-snow px-1 py-1 rounded-xl">
-                                        Ahli & Terampil
-                                    </div>
-                                    <h3 className="text-lg text-semibold mb-4">
-                                        Tim ahli yang terampil dan berdedikasi
-                                    </h3>
-                                    <p>
-                                        Dengan pengalaman bertahun-tahun dalam
-                                        industri ini, kami telah membantu banyak
-                                        klien dalam berbagai industri mencapai
-                                        tujuan mereka.
-                                    </p>
-                                </div>
-                                <div className="">
-                                    <div className="bg-grayweb text-center mb-2 text-snow px-1 py-1 rounded-xl">
                                         Terjangkau & Fleksible
                                     </div>
                                     <h3 className="text-lg text-semibold mb-4">
@@ -712,22 +698,35 @@ const ParallaxRapper: NextPage = () => {
                                         memuaskan.
                                     </p>
                                 </div>
+                                <div className="">
+                                    <div className="bg-grayweb text-center mb-2 text-snow px-1 py-1 rounded-xl">
+                                        Ahli & Terampil
+                                    </div>
+                                    <h3 className="text-lg text-semibold mb-4">
+                                        Tim ahli yang terampil dan berdedikasi
+                                    </h3>
+                                    <p>
+                                        Dengan pengalaman bertahun-tahun dalam
+                                        industri ini, kami telah membantu banyak
+                                        klien dalam berbagai industri mencapai
+                                        tujuan mereka.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <p className="text-center">
-                            {" "}
-                            Jangan ragu untuk{" "}
-                            <a
-                                id="konversi_konsultasi_web"
-                                className="underline"
-                                href="https://wa.me/6289611905599?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
-                            >
-                                menghubungi kami
-                            </a>
-                            pembuatan website bisnis dan landing page Anda hari
-                            ini!
-                        </p>
                     </div>
+                    <p className="text-center">
+                        {" "}
+                        Jangan ragu untuk{" "}
+                        <a
+                            id="konversi_konsultasi_web"
+                            className="underline"
+                            href="https://wa.me/6289611905599?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
+                        >
+                            menghubungi kami
+                        </a>
+                        pembuatan website bisnis dan landing page Anda hari ini!
+                    </p>
                 </ParallaxLayer>
 
                 <ParallaxLayer
