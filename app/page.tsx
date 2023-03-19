@@ -1,13 +1,96 @@
 "use client"
 
 import { ProductJsonLd } from "next-seo"
+import { FaShoppingCart } from "react-icons/fa"
 import ParallaxRapper from "../components/Parallax"
+import { useState, useEffect } from "react"
 
 const Home = () => {
+    const [nama, setNama] = useState("")
+    const [alamat, setAlamat] = useState("")
+    const [paket, setPaket] = useState("")
+    const [time, setTime] = useState("")
+    const namas = [
+        "Ihsan Jihad",
+        "Nenti Dian Ratnasari",
+        "Aryo Segolo",
+        "Sigit Prayit",
+        "Rian Jihadi",
+        "Meli Irene",
+        "Nathanael",
+        "Neri Suhadi",
+        "Agus Sugiarto",
+    ]
+    const alamats = [
+        "Depok",
+        "Surabaya",
+        "Solo",
+        "Jogja",
+        "Bandung",
+        "Medan",
+        "Kudus",
+        "Jakarta",
+        "Semarang",
+    ]
+    const pakets = ["Basic", "Super", "Custom"]
+    const times = [
+        "Kemarin",
+        "Hari ini",
+        "2 Hari lalu",
+        "1 Jam lalu",
+        "5 Jam lalu",
+        "12 Jam lalu",
+        "7 Jam lalu",
+        "3 Hari lalu",
+        "29 Menit lalu",
+    ]
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            const randomIndex = Math.floor(Math.random() * namas.length)
+            const randomIndexPaket = Math.floor(Math.random() * pakets.length)
+            setNama(namas[randomIndex])
+            setAlamat(alamats[randomIndex])
+            setPaket(pakets[randomIndexPaket])
+            setTime(times[randomIndex])
+            setTimeout(() => {
+                setNama("")
+            }, 10000)
+        }, 30000)
+
+        return () => clearInterval(interval)
+    }, [namas, alamats, pakets, times])
+
     return (
         <>
             <div className="max-w-5xl px-4 tracking-wider leading-relaxed">
                 <ParallaxRapper></ParallaxRapper>
+                {nama && (
+                    <div
+                        className={`message fixed bottom-0 right-0 left-0 w-[80%] max-w-[128px] md:-right-0 bg-snow mx-auto rounded-md p-4 ${
+                            nama ? "show" : ""
+                        }`}
+                    >
+                        <div className="flex gap-4 align-center">
+                            <FaShoppingCart className="text-mediumSpringGreen" />
+                            <h2 className="text-xs md:text-md font-semibold">
+                                {nama} dari {alamat}
+                            </h2>
+                        </div>
+                        <p className="text-xs md:text-md">
+                            telah membeli web {paket} {time}.
+                        </p>
+                    </div>
+                )}
+                <style jsx>{`
+                    .message {
+                        opacity: 0;
+                        transition: opacity 0.5s ease-in-out;
+                    }
+                    .message.show {
+                        opacity: 1;
+                    }
+                `}</style>
             </div>
             <ProductJsonLd
                 type="Product"

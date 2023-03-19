@@ -44,7 +44,7 @@ const Nav: React.FC = () => {
                     </div>
                 </div>
                 <ul
-                    className={`flex text-center pt-6 pb-2 gap-8 justify-between md:hidden items-center transition-all ${
+                    className={`flex flex-wrap text-center pt-8 pb-2 gap-8 justify-center md:hidden items-center transition-all ${
                         isOpen ? "block" : "hidden"
                     }`}
                 >
