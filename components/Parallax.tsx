@@ -343,7 +343,7 @@ const ParallaxRapper: NextPage = () => {
                                 <li>
                                     Dan masih banyak lagi. Anda seharusnya sudah
                                     tahu betapa banyak benefit yang dimiliki
-                                    jika mempunyai website/landing page.
+                                    jika mempunyai website/landing page
                                 </li>
                             </ul>
 
