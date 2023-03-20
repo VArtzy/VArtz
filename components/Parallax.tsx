@@ -333,8 +333,8 @@ const ParallaxRapper: NextPage = () => {
                                 </li>
                                 <li>Membangun kredibilitas usaha Anda</li>
                                 <li>
-                                    Website dapat memberikan informasi yang anda
-                                    berikan
+                                    Website/landing dapat memberikan informasi
+                                    yang anda berikan
                                 </li>
                                 <li>
                                     Laman bertenggernya pelanggan untuk
@@ -343,7 +343,7 @@ const ParallaxRapper: NextPage = () => {
                                 <li>
                                     Dan masih banyak lagi. Anda seharusnya sudah
                                     tahu betapa banyak benefit yang dimiliki
-                                    jika mempunyai website.
+                                    jika mempunyai website/landing page.
                                 </li>
                             </ul>
 
