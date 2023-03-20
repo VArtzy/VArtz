@@ -46,8 +46,6 @@ const Home = () => {
     ]
 
     useEffect(() => {
-        let interval: any
-
         const showPopup = () => {
             const randomIndex = Math.floor(Math.random() * namas.length)
             const randomIndexPaket = Math.floor(Math.random() * pakets.length)
@@ -62,10 +60,11 @@ const Home = () => {
 
         setTimeout(() => {
             showPopup()
-            interval = setInterval(() => {
-                showPopup()
-            }, 30000)
         }, 5000)
+
+        const interval = setInterval(() => {
+            showPopup()
+        }, 30000)
 
         return () => clearInterval(interval)
     }, [namas, alamats, pakets, times])
