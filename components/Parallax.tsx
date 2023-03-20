@@ -322,7 +322,9 @@ const ParallaxRapper: NextPage = () => {
                                 youtube pasti akan menyuruh Anda untuk
                                 mengunjungi Website akun mereka. Kenapa para
                                 pelaku usaha tersebut membuat Website? Apa
-                                keuntungannya?
+                                keuntungannya? Inilah alasan harus menggunakan
+                                jasa pembuatan website dan buat/bikin jasa
+                                pembuatan website.
                             </p>
 
                             <ul className="text-xs flex flex-col gap-2 list-disc mt-4">
@@ -458,12 +460,13 @@ const ParallaxRapper: NextPage = () => {
                             </div>
 
                             <p>
-                                Awale tak lihat banyak figure yang buat bikin
+                                Awale tak lihat banyak figure yang bikin buat
                                 website personal. Tak liat kok keren tenan. Aku
                                 yo mau bikin personal website. Mong mahal, angel
                                 lan ribet tenan. Lah untunge ketemu karo Farrel,
                                 dee tak kira kerjaane benerke printer. Ternyata
-                                gawe ngenean. Edan lek puas tenan.
+                                gawe ngenean. Edan lek puas tenan. Jasa buat
+                                website tebaik.
                             </p>
                         </div>
                         <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
@@ -486,13 +489,13 @@ const ParallaxRapper: NextPage = () => {
                             </div>
 
                             <p>
-                                Gila enak banget rasanya punya situs. Saya
-                                sebenarnya nggak punya jualan online, saya
-                                jualan mie ayam di sekitar Singosaren dan
-                                Surakarta. Setelah membuat situs, sudah pasti
-                                restoran saya jadi lebih kredible. Berasa kaya
-                                restoran bintang 5 padahal mah beda jauh. Mana
-                                murah banget lagi buatnya disini{" "}
+                                Jasa pembuatan website terbaik. Bikin website
+                                mudah. Saya sebenarnya nggak punya jualan
+                                online, saya jualan mie ayam di sekitar
+                                Singosaren dan Surakarta. Setelah membuat situs,
+                                sudah pasti restoran saya jadi lebih kredible.
+                                Berasa kaya restoran bintang 5 padahal mah beda
+                                jauh. Mana murah banget lagi buatnya disini{" "}
                                 <span className="text-xs">#RECOMMENDED</span>
                             </p>
                         </div>
@@ -523,7 +526,7 @@ const ParallaxRapper: NextPage = () => {
                                 malah jadi bisnis yang bisa dimonetisasi. Ketika
                                 saya upgrade website saya di sini, semakin
                                 ciamik dan aesthethic sesuai dengan kemauan
-                                saya.
+                                saya. Ini memang jasa pembuatan website bagus.
                             </p>
                         </div>
                     </div>
