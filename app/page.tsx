@@ -83,14 +83,19 @@ const Home = () => {
                         }`}
                     >
                         <div className="flex gap-4 align-center">
-                            <FaShoppingCart className="text-mediumSpringGreen" />
-                            <h2 className="text-xs md:text-md font-semibold">
-                                {nama} dari {alamat}
-                            </h2>
+                            <FaShoppingCart className="text-mediumSpringGreen text-xl" />
+                            <div className="">
+                                <h2 className="text-xs md:text-md font-semibold">
+                                    {nama} dari {alamat}
+                                </h2>
+                                <p className="text-xs md:text-md">
+                                    telah membeli web {paket}
+                                </p>
+                                <p className="text-xs md:text-md opacity-50">
+                                    {time}
+                                </p>
+                            </div>
                         </div>
-                        <p className="text-xs md:text-md">
-                            telah membeli web {paket} {time}.
-                        </p>
                     </div>
                 )}
             </div>
