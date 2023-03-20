@@ -46,6 +46,8 @@ const Home = () => {
     ]
 
     useEffect(() => {
+        let interval: any
+
         const showPopup = () => {
             const randomIndex = Math.floor(Math.random() * namas.length)
             const randomIndexPaket = Math.floor(Math.random() * pakets.length)
@@ -58,15 +60,21 @@ const Home = () => {
             }, 10000)
         }
 
-        setTimeout(() => {
-            showPopup()
-        }, 5000)
-
-        const interval = setInterval(() => {
+        interval = setInterval(() => {
             showPopup()
         }, 30000)
 
-        return () => clearInterval(interval)
+        const timeoutId = setTimeout(() => {
+            showPopup()
+            interval = setInterval(() => {
+                showPopup()
+            }, 30000)
+        }, 5000)
+
+        return () => {
+            clearInterval(interval)
+            clearTimeout(timeoutId)
+        }
     }, [namas, alamats, pakets, times])
 
     const [show, setShow] = useState(false)
