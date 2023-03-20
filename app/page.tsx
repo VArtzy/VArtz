@@ -82,7 +82,7 @@ const Home = () => {
                             show ? "animate-fade-in" : "animate-fade-out"
                         }`}
                     >
-                        <div className="flex gap-4 align-center">
+                        <div className="flex gap-4 items-center">
                             <FaShoppingCart className="text-mediumSpringGreen text-xl" />
                             <div className="">
                                 <h2 className="text-xs md:text-md font-semibold">
