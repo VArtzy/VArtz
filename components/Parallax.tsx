@@ -323,8 +323,7 @@ const ParallaxRapper: NextPage = () => {
                                 mengunjungi Website akun mereka. Kenapa para
                                 pelaku usaha tersebut membuat Website? Apa
                                 keuntungannya? Inilah alasan harus menggunakan
-                                jasa pembuatan website dan buat/bikin jasa
-                                pembuatan website.
+                                jasa pembuatan website dan buat/bikin website.
                             </p>
 
                             <ul className="text-xs flex flex-col gap-2 list-disc mt-4">
