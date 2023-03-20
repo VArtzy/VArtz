@@ -58,6 +58,18 @@ const Home = () => {
             }, 10000)
         }, 30000)
 
+        setTimeout(() => {
+            const randomIndex = Math.floor(Math.random() * namas.length)
+            const randomIndexPaket = Math.floor(Math.random() * pakets.length)
+            setNama(namas[randomIndex])
+            setAlamat(alamats[randomIndex])
+            setPaket(pakets[randomIndexPaket])
+            setTime(times[randomIndex])
+            setTimeout(() => {
+                setNama("")
+            }, 10000)
+        }, 5000)
+
         return () => clearInterval(interval)
     }, [namas, alamats, pakets, times])
 
