@@ -78,7 +78,7 @@ const Home = () => {
                 <ParallaxRapper></ParallaxRapper>
                 {nama && (
                     <div
-                        className={`fixed bottom-0 right-0 left-0 w-[80%] max-w-md md:-right-auto bg-snow mx-auto p-4 rounded-tl-md rounded-tr-md shadow-sm ${
+                        className={`fixed bottom-0 right-0 left-0 w-[80%] max-w-[375px] md:-right-auto bg-snow mx-auto md:mx-4 p-4 rounded-tl-md rounded-tr-md shadow-sm ${
                             show ? "animate-fade-in" : "animate-fade-out"
                         }`}
                     >
