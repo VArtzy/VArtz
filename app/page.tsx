@@ -45,10 +45,10 @@ const Home = () => {
         "29 Menit lalu",
     ]
 
-    const [show, setShow] = useState(true)
+    const [show, setShow] = useState(false)
 
     useEffect(() => {
-        if (show) {
+        if (!show) {
             const timeout = setTimeout(() => {
                 const randomIndex = Math.floor(Math.random() * namas.length)
                 const randomIndexPaket = Math.floor(
