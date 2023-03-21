@@ -317,7 +317,7 @@ const ParallaxRapper: NextPage = () => {
                     <div className="grid lg:grid-cols-2 gap-8">
                         <div className="flex flex-col gap-8">
                             <p className="mt-4">
-                                Hampir setiap kali anda mengakses iklan di media
+                                Hampir setiap kali Anda mengakses iklan di media
                                 sosial seperti facebook, instagram, tiktok dan
                                 youtube pasti akan menyuruh Anda untuk
                                 mengunjungi Website akun mereka. Kenapa para
@@ -329,12 +329,12 @@ const ParallaxRapper: NextPage = () => {
                             <ul className="text-xs flex flex-col gap-2 list-disc mt-4">
                                 <li>
                                     Website ibarat lapak untuk mempromosikan
-                                    produk/usaha/diri anda kepada dunia
+                                    produk/usaha/diri Anda kepada dunia
                                 </li>
                                 <li>Membangun kredibilitas usaha Anda</li>
                                 <li>
                                     Website/landing dapat memberikan informasi
-                                    yang anda berikan
+                                    yang Anda berikan
                                 </li>
                                 <li>
                                     Laman bertenggernya pelanggan untuk
@@ -350,7 +350,7 @@ const ParallaxRapper: NextPage = () => {
                             <div className="">
                                 <h3 className="text-xs">
                                     Baca Blog atau Tentang Kontak Kami untuk
-                                    optimalkan Website anda.
+                                    optimalkan Website Anda.
                                 </h3>
                                 <Link
                                     href="/blog"
@@ -593,7 +593,7 @@ const ParallaxRapper: NextPage = () => {
                                 <BiDevices /> Mobile Freindly
                             </h3>
                             <p>
-                                Website anda dapat diakses optimal dalam
+                                Website Anda dapat diakses optimal dalam
                                 desktop, tablet dan handphone. Menjangkau lebih
                                 banyak pengguna.
                             </p>
@@ -604,7 +604,7 @@ const ParallaxRapper: NextPage = () => {
                             </h3>
                             <p>
                                 Kami membangun desain Website yang EKSLUSIF.
-                                sesuai dengan brand dan karateristik anda.
+                                sesuai dengan brand dan karateristik Anda.
                                 Dengan desain yang modern juga.{" "}
                                 <span className="font-bold">100% Original</span>
                                 .
@@ -616,7 +616,7 @@ const ParallaxRapper: NextPage = () => {
                             </h3>
                             <p>
                                 Kami dapat membangun Website sesuai kebutuhan
-                                anda. Cukup konsultasi dan Website kamu jadi.
+                                Anda. Cukup konsultasi dan Website kamu jadi.
                             </p>
                         </div>
                     </div>
@@ -1049,7 +1049,7 @@ const ParallaxRapper: NextPage = () => {
                     <p className="text-grayweb text-xl text-center mb-8">
                         Gak perlu pusing mikirin gimana buat bikinnya, Anda
                         hanya perlu ikut intsruksi saja. Sisanya waktu anda
-                        fokus kepada bisnis anda.
+                        fokus kepada bisnis Anda.
                     </p>
                     <ol className="grid md:grid-cols-2 lg:grid-cols-3 gap-16 px-6 lg:overflow-hidden">
                         <li className="">
@@ -1067,7 +1067,7 @@ const ParallaxRapper: NextPage = () => {
                                     Lima Belas Menit
                                 </time>
                                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                                    Pastinya anda selalu bisa{" "}
+                                    Pastinya Anda selalu bisa{" "}
                                     <a
                                         id="konversi_konsultasi_web"
                                         href="https://wa.me/6289611905599?text=Hai%20min,%20bisa%buatkan%20saya%20website?"
@@ -1078,7 +1078,7 @@ const ParallaxRapper: NextPage = () => {
                                     </a>
                                     {"  "}
                                     untuk mendapatkan hasil dan solusi terbaik
-                                    yang anda inginkan. Jangan lepaskan
+                                    yang Anda inginkan. Jangan lepaskan
                                     kesempatan ini!{"  "}
                                     <span className="font-semibold">
                                         Lakukan pemesanan di platform whatsapp,
@@ -1118,7 +1118,7 @@ const ParallaxRapper: NextPage = () => {
                                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                                     Setelah melakukan pembayaran dan menentukan
                                     apa yang akan dibuat. Anda dapat melakukan
-                                    pengecekan website anda secara berkala.
+                                    pengecekan website Anda secara berkala.
                                     Nantinya, web akan dihosting sementara. Anda
                                     akan selalu bisa datang/visit ke website
                                     selama masa pengembangan. Memperbaiki apa
@@ -1142,11 +1142,11 @@ const ParallaxRapper: NextPage = () => {
                                 </time>
                                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                                     Lalu setelah progress development selesai,
-                                    anda dapat melakukan evaluasi dan revisi
+                                    Anda dapat melakukan evaluasi dan revisi
                                     untuk memperbaiki. Akhirnya website
                                     dipublikasikan ke internet sesuai dengan
-                                    domain yang anda inginkan serta siap untuk
-                                    mengembangkan bisnis anda.{"  "}
+                                    domain yang Anda inginkan serta siap untuk
+                                    mengembangkan bisnis Anda.{"  "}
                                 </p>
                             </div>
                         </li>
@@ -1179,7 +1179,7 @@ const ParallaxRapper: NextPage = () => {
                 >
                     <div className="max-w-4xl mx-auto px-8 flex flex-col gap-8 md:gap-16">
                         <h2 className="text-4xl md:text-5xl font-bold">
-                            Dalam waktu dekat, bisnis anda meningkat{" "}
+                            Dalam waktu dekat, bisnis Anda meningkat{" "}
                             <span className="underline">pesat</span>.
                         </h2>
                         <p className="text-xl md:text-2xl">
