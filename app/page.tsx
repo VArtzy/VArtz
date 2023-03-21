@@ -46,9 +46,11 @@ const Home = () => {
     ]
 
     const [show, setShow] = useState(false)
+    const [sudah, setSudah] = useState(false)
 
     useEffect(() => {
-        if (!show) {
+        if (!sudah) {
+            setSudah(true)
             const timeout = setTimeout(() => {
                 const randomIndex = Math.floor(Math.random() * namas.length)
                 const randomIndexPaket = Math.floor(
