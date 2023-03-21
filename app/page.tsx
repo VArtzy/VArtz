@@ -20,6 +20,11 @@ const Home = () => {
         "Nathanael",
         "Neri Suhadi",
         "Agus Sugiarto",
+        "Reynhard Tanuwijaya",
+        "Mumhammad Iwan",
+        "Yusuf Dharmawan",
+        "Angelina Nadeak",
+        "Fevrie Barmaka",
     ]
     const alamats = [
         "Depok",
@@ -31,6 +36,11 @@ const Home = () => {
         "Kudus",
         "Jakarta",
         "Semarang",
+        "Jambi",
+        "Surakarta",
+        "Blitar",
+        "Jember",
+        "Makassar",
     ]
     const pakets = ["Basic", "Super", "Custom"]
     const times = [
@@ -43,6 +53,11 @@ const Home = () => {
         "7 Jam lalu",
         "3 Hari lalu",
         "29 Menit lalu",
+        "12 Menit lalu",
+        "4 Jam lalu",
+        "54 Menit lalu",
+        "22 Jam lalu",
+        "45 Menit lalu",
     ]
 
     const [show, setShow] = useState(false)
