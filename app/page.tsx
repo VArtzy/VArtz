@@ -48,7 +48,7 @@ const Home = () => {
     const [show, setShow] = useState(false)
 
     useEffect(() => {
-        setTimeout(() => {
+        const timeout = setTimeout(() => {
             const randomIndex = Math.floor(Math.random() * namas.length)
             const randomIndexPaket = Math.floor(Math.random() * pakets.length)
             setNama(namas[randomIndex])
@@ -59,6 +59,8 @@ const Home = () => {
                 setNama("")
             }, 10000)
         }, 5000)
+
+        return () => clearTimeout(timeout)
     })
 
     useEffect(() => {
