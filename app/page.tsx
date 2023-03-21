@@ -45,22 +45,26 @@ const Home = () => {
         "29 Menit lalu",
     ]
 
-    const [show, setShow] = useState(false)
+    const [show, setShow] = useState(true)
 
     useEffect(() => {
-        const timeout = setTimeout(() => {
-            const randomIndex = Math.floor(Math.random() * namas.length)
-            const randomIndexPaket = Math.floor(Math.random() * pakets.length)
-            setNama(namas[randomIndex])
-            setAlamat(alamats[randomIndex])
-            setPaket(pakets[randomIndexPaket])
-            setTime(times[randomIndex])
-            setTimeout(() => {
-                setNama("")
-            }, 10000)
-        }, 5000)
+        if (show) {
+            const timeout = setTimeout(() => {
+                const randomIndex = Math.floor(Math.random() * namas.length)
+                const randomIndexPaket = Math.floor(
+                    Math.random() * pakets.length
+                )
+                setNama(namas[randomIndex])
+                setAlamat(alamats[randomIndex])
+                setPaket(pakets[randomIndexPaket])
+                setTime(times[randomIndex])
+                setTimeout(() => {
+                    setNama("")
+                }, 10000)
+            }, 5000)
 
-        return () => clearTimeout(timeout)
+            return () => clearTimeout(timeout)
+        }
     })
 
     useEffect(() => {
