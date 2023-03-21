@@ -59,7 +59,9 @@ const Home = () => {
                 setNama("")
             }, 10000)
         }, 5000)
+    })
 
+    useEffect(() => {
         const interval = setInterval(() => {
             const randomIndex = Math.floor(Math.random() * namas.length)
             const randomIndexPaket = Math.floor(Math.random() * pakets.length)
