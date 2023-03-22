@@ -61,10 +61,10 @@ const Home = () => {
     ]
 
     const [show, setShow] = useState(false)
-    const [sudah, setSudah] = useState(false)
+    const [sudah, setSudah] = useState(0)
 
     useEffect(() => {
-        if (!sudah && !show) {
+        if (sudah < 2 && !show) {
             const timeout = setTimeout(() => {
                 const randomIndex = Math.floor(Math.random() * namas.length)
                 const randomIndexPaket = Math.floor(
@@ -76,7 +76,7 @@ const Home = () => {
                 setTime(times[randomIndex])
                 setTimeout(() => {
                     setNama("")
-                    setSudah(true)
+                    setSudah(sudah + 1)
                 }, 10000)
             }, 5000)
 
