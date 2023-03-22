@@ -12,7 +12,6 @@ const Pricing = () => {
                     flexDirection: "column",
                     alignItems: "center",
                     gap: "2em",
-                    color: "white",
                 }}
                 className="max-w-6xl py-16 mx-auto px-8"
                 id="pricing"
@@ -24,7 +23,7 @@ const Pricing = () => {
                     Nikmati Layanan Pembuatan Website Terbaik
                 </h2>
                 <p className="text-grayweb text-xl text-center mb-8 max-w-prose">
-                    <span className="text-semibold">
+                    <span className="font-semibold">
                         Kami akan membantu Anda mengirimkan Website yang lebih
                         baik, lebih cepat.
                     </span>{" "}
@@ -36,39 +35,39 @@ const Pricing = () => {
 
                 <ul className="mb-8">
                     <li>
-                        <span className="text-semibold">Konsultasi:</span>{" "}
+                        <span className="font-semibold">Konsultasi:</span>{" "}
                         Konsultasi satu-satu dengan ahli Konsultasi satu-satu
                         dengan ahli Website (Webmaster) dan perbaikan bug
                     </li>
                     <li>
-                        <span className="text-semibold">
+                        <span className="font-semibold">
                             Dari Ide sampai Online:
                         </span>{" "}
                         Proses penulisan, desain, pengembangan sampai online
                     </li>
                     <li>
-                        <span className="text-semibold">
+                        <span className="font-semibold">
                             Komunikasi Terbaik dan Transparan:
                         </span>{" "}
                         Kami percaya pada komunikasi yang baik dan transparan
                         untuk proses pengembangan.{" "}
                     </li>
                     <li>
-                        <span className="text-semibold">
+                        <span className="font-semibold">
                             Optimasi Performa:
                         </span>{" "}
                         Waktu mulai, Animasi, dan pengoptimalan kelancaran
                         keseluruhan untuk Website yang ada
                     </li>
                     <li>
-                        <span className="text-semibold">
+                        <span className="font-semibold">
                             Pengembangan Modul Kustom:
                         </span>{" "}
                         Pengembangan UI, animasi, gerakan, atau modul asli
                         khusus untuk Website yang ada
                     </li>
                     <li>
-                        <span className="text-semibold">
+                        <span className="font-semibold">
                             Lebih Banyak dan Dikustomisasi:
                         </span>{" "}
                         Lebih lanjut kami dapat menambahkan{" "}
