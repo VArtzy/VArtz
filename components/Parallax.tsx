@@ -3,7 +3,11 @@ import Image from "next/image"
 import { IParallax, Parallax, ParallaxLayer } from "@react-spring/parallax"
 import { useEffect, useRef, useState } from "react"
 import { useSpring, animated, config } from "@react-spring/web"
-import { BsFillJournalBookmarkFill, BsWhatsapp } from "react-icons/bs"
+import {
+    BsArrowRight,
+    BsFillJournalBookmarkFill,
+    BsWhatsapp,
+} from "react-icons/bs"
 import { BiDevices, BiMailSend } from "react-icons/bi"
 import { SiMaterialdesignicons } from "react-icons/si"
 import {
@@ -298,6 +302,13 @@ const ParallaxRapper: NextPage = () => {
                             ></Image>
                         </div>
                     </div>
+
+                    <a href="" className="text-center text-grayweb mt-4">
+                        Lihat lebih banyak <BsArrowRight />
+                    </a>
+                    <a href="" className="text-center text-grayweb">
+                        Lihat alur proses pengerjaan <BsArrowRight />
+                    </a>
                 </ParallaxLayer>
 
                 <ParallaxLayer
@@ -698,8 +709,14 @@ const ParallaxRapper: NextPage = () => {
                                         Tidak hanya itu, kami juga menawarkan
                                         harga yang terjangkau dan fleksibel agar
                                         sesuai dengan budget UMKM. Mendapatkan
-                                        kualitas yang baik dan layanan yang
-                                        memuaskan.
+                                        kualitas yang baik dan{" "}
+                                        <Link
+                                            href="/pricing"
+                                            className="underline"
+                                        >
+                                            layanan yang memuaskan
+                                        </Link>
+                                        .
                                     </p>
                                 </div>
                                 <div className="">
@@ -721,6 +738,7 @@ const ParallaxRapper: NextPage = () => {
                                         >
                                             menghubungi kami
                                         </a>
+                                        .
                                     </p>
                                 </div>
                             </div>

@@ -79,7 +79,10 @@ const Pricing = () => {
                     </ul>
                 </div>
 
-                <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb">
+                <h2
+                    id="pricing"
+                    className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb"
+                >
                     Harga Yang Cocok dengan Segala Jenis Bisnis.
                 </h2>
                 <p className="text-grayweb text-xl text-center mb-8 max-w-prose">
