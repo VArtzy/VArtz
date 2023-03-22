@@ -31,9 +31,8 @@ const Pricing = () => {
                     terbaik di beberapa Website paling populer di seluruh dunia.
                 </p>
 
-                <p>Layanan kami:</p>
-
-                <ul className="mb-8">
+                <ul className="mb-16 flex flex-col gap-2">
+                    <p>Layanan kami:</p>
                     <li>
                         <span className="font-semibold">Konsultasi:</span>{" "}
                         Konsultasi satu-satu dengan ahli Konsultasi satu-satu
@@ -50,7 +49,7 @@ const Pricing = () => {
                             Komunikasi Terbaik dan Transparan:
                         </span>{" "}
                         Kami percaya pada komunikasi yang baik dan transparan
-                        untuk proses pengembangan.{" "}
+                        untuk proses pengembangan{" "}
                     </li>
                     <li>
                         <span className="font-semibold">
@@ -77,7 +76,7 @@ const Pricing = () => {
                         >
                             berbagai macam jenis ekstensi
                         </a>{" "}
-                        untuk Website, semuanya semaunya.
+                        untuk Website, semuanya semaunya
                     </li>
                 </ul>
 
@@ -89,7 +88,7 @@ const Pricing = () => {
                     Solusi yang selalu memberikan manfaat di setiap
                     detail-detail kecilnya.
                 </p>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16 mb-8">
                     <div className="bg-snow text-grayweb shadow-md rounded p-4 text-center lg:text-left">
                         <h3 className="text-lg font-bold">Basic</h3>
                         <h4 className="font-bold mb-4">Start From</h4>
