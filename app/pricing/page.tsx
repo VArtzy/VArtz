@@ -31,12 +31,12 @@ const Pricing = () => {
                     terbaik di beberapa Website paling populer di seluruh dunia.
                 </p>
 
-                <ul className="mb-16 flex flex-col gap-2">
+                <ul className="mb-24 flex flex-col gap-2">
                     <p>Layanan kami:</p>
                     <li>
                         <span className="font-semibold">Konsultasi:</span>{" "}
-                        Konsultasi satu-satu dengan ahli Konsultasi satu-satu
-                        dengan ahli Website (Webmaster) dan perbaikan bug
+                        Konsultasi satu-dengan-satu dengan ahli Website
+                        (Webmaster) dan perbaikan bug
                     </li>
                     <li>
                         <span className="font-semibold">
@@ -88,7 +88,7 @@ const Pricing = () => {
                     Solusi yang selalu memberikan manfaat di setiap
                     detail-detail kecilnya.
                 </p>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16 mb-8">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16 mb-24">
                     <div className="bg-snow text-grayweb shadow-md rounded p-4 text-center lg:text-left">
                         <h3 className="text-lg font-bold">Basic</h3>
                         <h4 className="font-bold mb-4">Start From</h4>
