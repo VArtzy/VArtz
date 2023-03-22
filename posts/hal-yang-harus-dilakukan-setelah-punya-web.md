@@ -1,6 +1,6 @@
 ---
 title: "4 Hal Yang Harus Dilakukan Setelah Memiliki Web"
-subtitle: "Membahas tentang keempat hal yang penting untuk dimiliki setelah membuat Web, yaitu analisis lalu lintas dan pengguna, email collecting, blogging, serta penyuntingan dan pengujian situs agar berfungsi dengan baik dan mudah dinavigasi oleh pengunjung."
+subtitle: "Membahas 4 hal penting setelah membuat website: analisis traffic, email collecting, blogging, dan penyuntingan serta pengujian agar mudah dinavigasi oleh pengunjung."
 date: "2023-03-22 - 8 min read"
 ---
 
@@ -92,11 +92,11 @@ Menambahkan blog ke website Anda juga dapat meningkatkan jumlah lalu lintas yang
 
 Bangun Blog sebenarnya tak begitu sulit, Anda hanya perlu CMS (Content Management System) atau saya menggunakan static site generation dan markdown untuk menulis blog.
 
-[Blogspot](blogspot.com) atau [wordpress](wordpress.com) adalah dua CMS yang bisa kalian gunakan secara gratis.
+[Blogspot](https://blogspot.com) atau [https://wordpress](wordpress.com) adalah dua CMS yang bisa kalian gunakan secara gratis.
 
 Bahkan Anda bisa membangun blog jika menggunakan jasa pembuatan website [VArtz](vartz.web.id) 😁
 
-<PopupPromo />
+<Promo />
 
 ## Email Collecting & Marketing
 
@@ -138,7 +138,7 @@ Mulai bangun email list Anda mulai dari sekarang. Saya jamin itu dapat digunakan
 
 Anda bisa melakukannya manual, seperti membuat spreadsheet lalu memberikan email satu-satu kepada pelanggan Anda.
 
-Namun cara terbaik dengan menggunakan tools yang sudah disediakan. [Mailchimp](mailchimp.com) dari luar atau [kirim.email](kirim.email) dari dalam negeri misalnya.
+Namun cara terbaik dengan menggunakan tools yang sudah disediakan. [Mailchimp](https://mailchimp.com) dari luar atau [kirim.email](https://kirim.email) dari dalam negeri misalnya.
 
 Intinya, mulai bangun list anda agar tujuan anda tak hanya dapat tercapai tapi bisa mencapai maksimal.
 
@@ -148,13 +148,13 @@ Intinya, mulai bangun list anda agar tujuan anda tak hanya dapat tercapai tapi b
 
 Langkah terakhir, jika Anda merasa masih ada yang kurang dari situs Anda, coba Edit Situs dan lakukan A/B Testing.
 
-Sebagai gambaran, saya baru saja melakukan update untuk membuat social proof notification yang dapat Anda lihat di kanan bawah landing page web [VArtz](vartz.web.id) lalu melakukan testing dengan berbagai macam model notif dan segera melihat peningkatan konversi setelah melakukannya.
+Sebagai gambaran, saya baru saja melakukan update untuk membuat social proof notification yang dapat Anda lihat di kanan bawah landing page web [VArtz](https://vartz.web.id) lalu melakukan testing dengan berbagai macam model notif dan segera melihat peningkatan konversi setelah melakukannya.
 
 Maka jika saya, orang lain dan pebisnis melakukannya. Kenapa Anda tidak?
 
-Mungkin paling mudah, coba tes teks dan copy Anda. Apakah sudah menjual dan bagus? mungkin Anda bisa lakukan test dan [Pelajari membuat copy](vartz.web.id/blog/copywriting-untuk-pemula) atau langsung [Belajar membuat copy ala Apple](vartz.web.id/blog/cara-menulis-seperti-apple).
+Mungkin paling mudah, coba tes teks dan copy Anda. Apakah sudah menjual dan bagus? mungkin Anda bisa lakukan test dan [Pelajari membuat copy](/copywriting-untuk-pemula) atau langsung [Belajar membuat copy ala Apple](/cara-menulis-seperti-apple).
 
-Atau cobalah cek apakah desain web anda sudah berfungsi atau bagus dimata orang. Apakah itu sudah [menganut 5 dasar web desain](vartz.web.id/blog/web-desain-untuk-pemula)? atau bahkan membuat orang kesulitan mengguankan atau tidak betah untuk melihatnya.
+Atau cobalah cek apakah desain web anda sudah berfungsi atau bagus dimata orang. Apakah itu sudah [menganut 5 dasar web desain](/web-desain-untuk-pemula)? atau bahkan membuat orang kesulitan mengguankan atau tidak betah untuk melihatnya.
 
 Anda dapat melakukan berbagai macam strategi untuk mencapai tujuan.
 
@@ -166,7 +166,7 @@ Pastikan konten di website Anda relevan dan terbaru serta memperhatikan tampilan
 
 Selain itu, pengujian situs dapat membantu memastikan bahwa semua link dan formulir berfungsi dengan baik dan memberikan pengalaman pengguna yang baik.
 
-<PopupLangganan />
+<Langganan />
 
 ## Kesimpulan
 
@@ -176,6 +176,6 @@ Dengan memperhatikan empat hal yang disebutkan di atas, Anda dapat meningkatkan 
 
 Penting untuk terus memperbaharui dan memperbaiki website Anda agar tetap menarik dan efektif di mata pengunjung.
 
-Jika Anda ingin fokus untuk membangun sales page yang bagus, pastikan [4 Komponen sales page sukses](vartz.web.id/blog/komponen-sales-page-sukses) ada didalam web Anda.
+Jika Anda ingin fokus untuk membangun sales page yang bagus, pastikan [4 Komponen sales page sukses](/komponen-sales-page-sukses) ada didalam web Anda.
 
-Semoga bermanfaat, [VArtz](vartz.web.id)
+Semoga bermanfaat, [VArtz](https://vartz.web.id)
