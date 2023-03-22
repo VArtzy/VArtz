@@ -306,7 +306,10 @@ const ParallaxRapper: NextPage = () => {
                             Lihat lebih banyak{" "}
                             <BsArrowRight className="inline" />
                         </a>
-                        <a href="" className="text-grayweb px-8">
+                        <a
+                            href=""
+                            className="text-grayweb px-8 block md:inline"
+                        >
                             Lihat alur proses pengerjaan{" "}
                             <BsArrowRight className="inline" />
                         </a>
