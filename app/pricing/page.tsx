@@ -17,10 +17,75 @@ const Pricing = () => {
                 className="max-w-6xl py-16 mx-auto px-8"
                 id="pricing"
             >
-                <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb">
-                    Harga yang cocok dengan segala jenis bisnis.
+                <h2
+                    id="service"
+                    className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb"
+                >
+                    Nikmati Layanan Pembuatan Website Terbaik
                 </h2>
-                <p className="text-grayweb text-xl text-center mb-8">
+                <p className="text-grayweb text-xl text-center mb-8 max-w-prose">
+                    <span className="text-semibold">
+                        Kami akan membantu Anda mengirimkan Website yang lebih
+                        baik, lebih cepat.
+                    </span>{" "}
+                    Tim insinyur ahli kami telah menciptakan pengalaman pengguna
+                    terbaik di beberapa Website paling populer di seluruh dunia.
+                </p>
+
+                <p>Layanan kami:</p>
+
+                <ul className="mb-8">
+                    <li>
+                        <span className="text-semibold">Konsultasi:</span>{" "}
+                        Konsultasi satu-satu dengan ahli Konsultasi satu-satu
+                        dengan ahli Website (Webmaster) dan perbaikan bug
+                    </li>
+                    <li>
+                        <span className="text-semibold">
+                            Dari Ide sampai Online:
+                        </span>{" "}
+                        Proses penulisan, desain, pengembangan sampai online
+                    </li>
+                    <li>
+                        <span className="text-semibold">
+                            Komunikasi Terbaik dan Transparan:
+                        </span>{" "}
+                        Kami percaya pada komunikasi yang baik dan transparan
+                        untuk proses pengembangan.{" "}
+                    </li>
+                    <li>
+                        <span className="text-semibold">
+                            Optimasi Performa:
+                        </span>{" "}
+                        Waktu mulai, Animasi, dan pengoptimalan kelancaran
+                        keseluruhan untuk Website yang ada
+                    </li>
+                    <li>
+                        <span className="text-semibold">
+                            Pengembangan Modul Kustom:
+                        </span>{" "}
+                        Pengembangan UI, animasi, gerakan, atau modul asli
+                        khusus untuk Website yang ada
+                    </li>
+                    <li>
+                        <span className="text-semibold">
+                            Lebih Banyak dan Dikustomisasi:
+                        </span>{" "}
+                        Lebih lanjut kami dapat menambahkan{" "}
+                        <a
+                            href="https://vartz.web.id/pricing#extension"
+                            className="underline"
+                        >
+                            berbagai macam jenis ekstensi
+                        </a>{" "}
+                        untuk Website, semuanya semaunya.
+                    </li>
+                </ul>
+
+                <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb">
+                    Harga Yang Cocok dengan Segala Jenis Bisnis.
+                </h2>
+                <p className="text-grayweb text-xl text-center mb-8 max-w-prose">
                     Merupakan yang terbaik, terkeren, termurah di kelasnya.
                     Solusi yang selalu memberikan manfaat di setiap
                     detail-detail kecilnya.
@@ -225,7 +290,7 @@ const Pricing = () => {
                 >
                     Perluas Fungsionalitas Situs Web dengan Ekstensi
                 </h2>
-                <p className="text-grayweb text-xl text-center mb-8">
+                <p className="text-grayweb text-xl text-center mb-8 max-w-prose">
                     Dengan ekstensi yang tepat, situs web-mu akan menjadi lebih
                     baik dalam hal kinerja, tampilan, penjualan, keamanan, dan
                     pengalaman pengguna.

@@ -213,7 +213,7 @@ const ParallaxRapper: NextPage = () => {
                         className={`text-3xl md:text-4xl text-center text-grayweb w-full lg:w-auto bg-white lg:bg-transparent py-4 lg:py-0 mt-16 lg:mt-0`}
                     >
                         <h2 className="">
-                            Kita{" "}
+                            Kami{" "}
                             <span className="text-turquoise">
                                 {`${
                                     entry?.isIntersecting
@@ -579,12 +579,14 @@ const ParallaxRapper: NextPage = () => {
                         className="pt-4 text-3xl text-center lg:text-4xl font-bold mt-8"
                         onClick={() => ParallaxRef.current?.scrollTo(0)}
                     >
-                        Go Online dan lebarkan sayap bisnis Anda.
+                        Go Online dan Lebarkan Sayap Bisnis Anda.
                     </h2>
 
                     <p className="text-xl mb-8 text-center">
                         Dengan situs buatan kami, peningkatan bisnis Anda akan
-                        lebih mudah dan hasilnya akan lebih maksimal.
+                        lebih mudah dan hasilnya akan lebih maksimal. Kami
+                        percaya pada komunikasi yang baik dan transparan untuk
+                        proses pengembangan.
                     </p>
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -978,7 +980,7 @@ const ParallaxRapper: NextPage = () => {
                             </a>
                         </div>
                     </div>
-                    <p className="text-grayweb text-center mb-2">
+                    <p className="text-grayweb text-center mb-2 max-w-prose">
                         Anda juga dapat menambahkan lebih banyak ekstensi situs
                         seperti Design Figma, Tambahan Halaman/Section Interkasi
                         Situs, Jasa Google Ads, SEO.
@@ -987,7 +989,7 @@ const ParallaxRapper: NextPage = () => {
                         className="inline-block text-md rounded bg-springGreen hover:bg-mediumSpringGreen transition px-4 py-2 mb-4"
                         href="/pricing#extension"
                     >
-                        Lihat Ekstensi Tambahan
+                        Layanan & Ekstensi
                     </Link>
                     <p className="text-center text-grayweb">
                         Merasa kurang cocok? Anda bisa{" "}
@@ -1040,13 +1042,13 @@ const ParallaxRapper: NextPage = () => {
                     id="cara-order"
                 >
                     <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb">
-                        Buat website{" "}
+                        Buat Website{" "}
                         <span className="underline">
-                            gak perlu ribet & lama
+                            Gak Perlu Ribet & Lama
                         </span>
                         .
                     </h2>
-                    <p className="text-grayweb text-xl text-center mb-8">
+                    <p className="text-grayweb text-xl text-center mb-8 max-w-prose">
                         Gak perlu pusing mikirin gimana buat bikinnya, Anda
                         hanya perlu ikut intsruksi saja. Sisanya waktu anda
                         fokus kepada bisnis Anda.
@@ -1179,8 +1181,8 @@ const ParallaxRapper: NextPage = () => {
                 >
                     <div className="max-w-4xl mx-auto px-8 flex flex-col gap-8 md:gap-16">
                         <h2 className="text-4xl md:text-5xl font-bold">
-                            Dalam waktu dekat, bisnis Anda meningkat{" "}
-                            <span className="underline">pesat</span>.
+                            Dalam Waktu Dekat, Bisnis Anda Meningkat{" "}
+                            <span className="underline">Pesat</span>.
                         </h2>
                         <p className="text-xl md:text-2xl">
                             &quot;Jangan ketinggalan kesempatan untuk
@@ -1328,7 +1330,7 @@ const ParallaxRapper: NextPage = () => {
                                             <Link
                                                 className="text-snow"
                                                 scroll={false}
-                                                href="/#carar"
+                                                href="/cara-order"
                                             >
                                                 Cara Order
                                             </Link>
