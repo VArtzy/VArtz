@@ -13,7 +13,7 @@ const Pricing = () => {
                     alignItems: "center",
                     gap: "2em",
                 }}
-                className="max-w-6xl py-16 mx-auto px-8"
+                className="max-w-6xl mx-auto px-8"
                 id="pricing"
             >
                 <div className="max-w-3xl mx-auto">
