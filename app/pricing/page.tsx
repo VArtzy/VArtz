@@ -17,10 +17,10 @@ const Pricing = () => {
                 id="pricing"
             >
                 <div className="max-w-3xl mx-auto">
-                    <h1 className="text-3xl md:text-4xl w-full font-bold mt-24">
+                    <h1 className="text-3xl md:text-4xl w-full font-bold mt-24 mb-8">
                         Layanan Kami
                     </h1>
-                    <h2 className="text-2xl md:text-3xl w-full lg:mb-4">
+                    <h2 className="text-2xl md:text-3xl w-full mb-8">
                         <span className="font-semibold">
                             Kami akan membantu Anda mengirimkan Website yang
                             lebih baik, lebih cepat.
@@ -79,7 +79,7 @@ const Pricing = () => {
                     </ul>
                 </div>
 
-                <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8">
+                <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb">
                     Harga Yang Cocok dengan Segala Jenis Bisnis.
                 </h2>
                 <p className="text-grayweb text-xl text-center mb-8 max-w-prose">
@@ -283,7 +283,7 @@ const Pricing = () => {
 
                 <h2
                     id="extension"
-                    className="text-3xl text-center lg:text-4xl font-bold"
+                    className="text-3xl text-center lg:text-4xl font-bold text-grayweb"
                 >
                     Perluas Fungsionalitas Situs Web dengan Ekstensi
                 </h2>
