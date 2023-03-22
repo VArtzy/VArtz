@@ -92,7 +92,7 @@ Menambahkan blog ke website Anda juga dapat meningkatkan jumlah lalu lintas yang
 
 Bangun Blog sebenarnya tak begitu sulit, Anda hanya perlu CMS (Content Management System) atau saya menggunakan static site generation dan markdown untuk menulis blog.
 
-[Blogspot](https://blogspot.com) atau [https://wordpress](wordpress.com) adalah dua CMS yang bisa kalian gunakan secara gratis.
+[Blogspot](https://blogspot.com) atau [wordpress](https://wordpress.com) adalah dua CMS yang bisa kalian gunakan secara gratis.
 
 Bahkan Anda bisa membangun blog jika menggunakan jasa pembuatan website [VArtz](vartz.web.id) 😁
 
@@ -142,6 +142,8 @@ Namun cara terbaik dengan menggunakan tools yang sudah disediakan. [Mailchimp](h
 
 Intinya, mulai bangun list anda agar tujuan anda tak hanya dapat tercapai tapi bisa mencapai maksimal.
 
+<Langganan />
+
 ## Edit Situs dan Testing
 
 ![Testing](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrks0DXyo9hLadRe2YLeNcqTwbRtPvRi2zznurPz8&s)
@@ -165,8 +167,6 @@ Penting untuk melakukan penyuntingan dan pengujian untuk memastikan situs Anda b
 Pastikan konten di website Anda relevan dan terbaru serta memperhatikan tampilan dan fungsi website agar lebih menarik dan mudah digunakan. 
 
 Selain itu, pengujian situs dapat membantu memastikan bahwa semua link dan formulir berfungsi dengan baik dan memberikan pengalaman pengguna yang baik.
-
-<Langganan />
 
 ## Kesimpulan
 

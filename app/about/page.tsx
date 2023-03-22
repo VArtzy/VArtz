@@ -16,7 +16,7 @@ const About = () => {
                     Pengembangan Aplikasi lengkap disertai pemeliharaan atau
                     maintenance berkala.
                 </p>
-
+<p>VArtz pun dimiliki oleh seorang profesional bernama Farrel Nikoson. Seorang Developer, Desainer, Penulis, Internet Marketer atau apapun yang berkaitan dengan komputer selama masuk kategori apapun-dikerjakan-selama-ada-manfaatnya. Anda bisa  <a href="https://vartzy.github.io" class="underline text-bold">melihat lebih banyak tentangnya</a>.</p>
                 <p>
                     Profesional yang memahami pentingnya sebuah bisnis memiliki
                     website yang menarik, mudah digunakan, desain bagus, serta
