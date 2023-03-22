@@ -301,14 +301,14 @@ const ParallaxRapper: NextPage = () => {
                                 className="w-full object-cover object-top aspect-[9/15] lg:aspect-video"
                             ></Image>
                         </div>
-                    </div>
 
-                    <a href="" className="text-center text-grayweb mt-4">
-                        Lihat lebih banyak <BsArrowRight />
-                    </a>
-                    <a href="" className="text-center text-grayweb">
-                        Lihat alur proses pengerjaan <BsArrowRight />
-                    </a>
+                        <a href="" className="text-center text-grayweb mt-4">
+                            Lihat lebih banyak <BsArrowRight />
+                        </a>
+                        <a href="" className="text-center text-grayweb">
+                            Lihat alur proses pengerjaan <BsArrowRight />
+                        </a>
+                    </div>
                 </ParallaxLayer>
 
                 <ParallaxLayer
