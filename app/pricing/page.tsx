@@ -16,71 +16,70 @@ const Pricing = () => {
                 className="max-w-6xl py-16 mx-auto px-8"
                 id="pricing"
             >
-                <h2
-                    id="service"
-                    className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb"
-                >
-                    Nikmati Layanan Pembuatan Website Terbaik
-                </h2>
-                <p className="text-grayweb text-xl text-center mb-8 max-w-prose">
-                    <span className="font-semibold">
-                        Kami akan membantu Anda mengirimkan Website yang lebih
-                        baik, lebih cepat.
-                    </span>{" "}
-                    Tim insinyur ahli kami telah menciptakan pengalaman pengguna
-                    terbaik di beberapa Website paling populer di seluruh dunia.
-                </p>
+                <div className="max-w-3xl mx-auto">
+                    <h1 className="text-3xl md:text-4xl w-full font-bold mt-24">
+                        Layanan Kami
+                    </h1>
+                    <h2 className="text-2xl md:text-3xl w-full lg:mb-4">
+                        <span className="font-semibold">
+                            Kami akan membantu Anda mengirimkan Website yang
+                            lebih baik, lebih cepat.
+                        </span>{" "}
+                        Tim insinyur ahli kami telah menciptakan pengalaman
+                        pengguna terbaik di beberapa Website paling populer di
+                        seluruh dunia.
+                    </h2>
+                    <ul className="mb-24 flex flex-col gap-2">
+                        <p>Layanan kami:</p>
+                        <li>
+                            <span className="font-semibold">Konsultasi:</span>{" "}
+                            Konsultasi satu-dengan-satu dengan ahli Website
+                            (Webmaster) dan perbaikan bug
+                        </li>
+                        <li>
+                            <span className="font-semibold">
+                                Dari Ide sampai Online:
+                            </span>{" "}
+                            Proses penulisan, desain, pengembangan sampai online
+                        </li>
+                        <li>
+                            <span className="font-semibold">
+                                Komunikasi Terbaik dan Transparan:
+                            </span>{" "}
+                            Kami percaya pada komunikasi yang baik dan
+                            transparan untuk proses pengembangan{" "}
+                        </li>
+                        <li>
+                            <span className="font-semibold">
+                                Optimasi Performa:
+                            </span>{" "}
+                            Waktu mulai, Animasi, dan pengoptimalan kelancaran
+                            keseluruhan untuk Website yang ada
+                        </li>
+                        <li>
+                            <span className="font-semibold">
+                                Pengembangan Modul Kustom:
+                            </span>{" "}
+                            Pengembangan UI, animasi, gerakan, atau modul asli
+                            khusus untuk Website yang ada
+                        </li>
+                        <li>
+                            <span className="font-semibold">
+                                Lebih Banyak dan Dikustomisasi:
+                            </span>{" "}
+                            Lebih lanjut kami dapat menambahkan{" "}
+                            <a
+                                href="https://vartz.web.id/pricing#extension"
+                                className="underline"
+                            >
+                                berbagai macam jenis ekstensi
+                            </a>{" "}
+                            untuk Website, semuanya semaunya
+                        </li>
+                    </ul>
+                </div>
 
-                <ul className="mb-24 flex flex-col gap-2">
-                    <p>Layanan kami:</p>
-                    <li>
-                        <span className="font-semibold">Konsultasi:</span>{" "}
-                        Konsultasi satu-dengan-satu dengan ahli Website
-                        (Webmaster) dan perbaikan bug
-                    </li>
-                    <li>
-                        <span className="font-semibold">
-                            Dari Ide sampai Online:
-                        </span>{" "}
-                        Proses penulisan, desain, pengembangan sampai online
-                    </li>
-                    <li>
-                        <span className="font-semibold">
-                            Komunikasi Terbaik dan Transparan:
-                        </span>{" "}
-                        Kami percaya pada komunikasi yang baik dan transparan
-                        untuk proses pengembangan{" "}
-                    </li>
-                    <li>
-                        <span className="font-semibold">
-                            Optimasi Performa:
-                        </span>{" "}
-                        Waktu mulai, Animasi, dan pengoptimalan kelancaran
-                        keseluruhan untuk Website yang ada
-                    </li>
-                    <li>
-                        <span className="font-semibold">
-                            Pengembangan Modul Kustom:
-                        </span>{" "}
-                        Pengembangan UI, animasi, gerakan, atau modul asli
-                        khusus untuk Website yang ada
-                    </li>
-                    <li>
-                        <span className="font-semibold">
-                            Lebih Banyak dan Dikustomisasi:
-                        </span>{" "}
-                        Lebih lanjut kami dapat menambahkan{" "}
-                        <a
-                            href="https://vartz.web.id/pricing#extension"
-                            className="underline"
-                        >
-                            berbagai macam jenis ekstensi
-                        </a>{" "}
-                        untuk Website, semuanya semaunya
-                    </li>
-                </ul>
-
-                <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb">
+                <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8">
                     Harga Yang Cocok dengan Segala Jenis Bisnis.
                 </h2>
                 <p className="text-grayweb text-xl text-center mb-8 max-w-prose">
@@ -284,7 +283,7 @@ const Pricing = () => {
 
                 <h2
                     id="extension"
-                    className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb"
+                    className="text-3xl text-center lg:text-4xl font-bold"
                 >
                     Perluas Fungsionalitas Situs Web dengan Ekstensi
                 </h2>
