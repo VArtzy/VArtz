@@ -302,10 +302,16 @@ const ParallaxRapper: NextPage = () => {
                             ></Image>
                         </div>
 
-                        <a href="" className="text-center text-grayweb mt-4">
+                        <a
+                            href=""
+                            className="text-center text-grayweb mt-4 flex flex-col items-center justify-center"
+                        >
                             Lihat lebih banyak <BsArrowRight />
                         </a>
-                        <a href="" className="text-center text-grayweb">
+                        <a
+                            href=""
+                            className="text-center text-grayweb items-center justify-center"
+                        >
                             Lihat alur proses pengerjaan <BsArrowRight />
                         </a>
                     </div>
