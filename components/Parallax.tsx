@@ -302,16 +302,14 @@ const ParallaxRapper: NextPage = () => {
                             ></Image>
                         </div>
 
-                        <div className="flex flex-col items-center justify-center">
-                            <a href="" className="text-grayweb mt-4">
-                                Lihat lebih banyak <BsArrowRight />
-                            </a>
-                        </div>
-                        <div className="flex flex-col items-center justify-center">
-                            <a href="" className="text-grayweb">
-                                Lihat alur proses pengerjaan <BsArrowRight />
-                            </a>
-                        </div>
+                        <a href="" className="text-grayweb mt-4">
+                            Lihat lebih banyak{" "}
+                            <BsArrowRight className="inline" />
+                        </a>
+                        <a href="" className="text-grayweb">
+                            Lihat alur proses pengerjaan{" "}
+                            <BsArrowRight className="inline" />
+                        </a>
                     </div>
                 </ParallaxLayer>
 
