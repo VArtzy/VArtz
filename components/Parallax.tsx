@@ -302,11 +302,11 @@ const ParallaxRapper: NextPage = () => {
                             ></Image>
                         </div>
 
-                        <a href="" className="text-grayweb mt-4">
+                        <a href="" className="text-grayweb mt-4 px-8">
                             Lihat lebih banyak{" "}
                             <BsArrowRight className="inline" />
                         </a>
-                        <a href="" className="text-grayweb">
+                        <a href="" className="text-grayweb px-8">
                             Lihat alur proses pengerjaan{" "}
                             <BsArrowRight className="inline" />
                         </a>
