@@ -305,7 +305,7 @@ const Pricing = () => {
                             <FaWhatsapp className="inline" /> Pesan Sekarang
                         </a>
                     </div>
-                    <p>
+                    <p className="text-grayweb text-sm">
                         Banyak pilihan jasa pembuatan website yang ditawarkan
                         dengan harga berbeda di Google. VArtz mungkin tidak
                         termurah, apalagi paling mahal. Tetapi menawarkan value
@@ -317,7 +317,7 @@ const Pricing = () => {
                         Bingung memilih?
                         <Link
                             href="/quiz"
-                            className="text-grayweb text-center px-8 md:px-0 block md:inline"
+                            className="text-grayweb text-center md:px-0 block md:inline"
                         >
                             {" "}
                             diagnosis dengan kuis singkat untuk pilihan yang

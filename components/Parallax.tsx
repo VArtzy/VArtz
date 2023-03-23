@@ -1007,7 +1007,7 @@ const ParallaxRapper: NextPage = () => {
                         Bingung memilih?
                         <Link
                             href="/quiz"
-                            className="text-grayweb px-8 block md:inline"
+                            className="text-grayweb block md:inline"
                         >
                             {" "}
                             diagnosis dengan kuis singkat untuk pilihan yang
@@ -1015,7 +1015,7 @@ const ParallaxRapper: NextPage = () => {
                             <BsArrowRight className="inline" />
                         </Link>
                     </span>
-                    <p className="texy-center text-grayweb text-md">
+                    <p className="text-grayweb text-sm">
                         Banyak pilihan jasa pembuatan website yang ditawarkan
                         dengan harga berbeda di Google. VArtz mungkin tidak
                         termurah, apalagi paling mahal. Tetapi menawarkan value
