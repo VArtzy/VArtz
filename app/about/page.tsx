@@ -1,3 +1,4 @@
+import Link from "next/link"
 import Foo from "../../components/Foo"
 const About = () => {
     return (
@@ -16,7 +17,20 @@ const About = () => {
                     Pengembangan Aplikasi lengkap disertai pemeliharaan atau
                     maintenance berkala.
                 </p>
-<p>VArtz pun dimiliki oleh seorang profesional bernama Farrel Nikoson. Seorang Developer, Desainer, Penulis, Internet Marketer atau apapun yang berkaitan dengan komputer selama masuk kategori apapun-dikerjakan-selama-ada-manfaatnya. Anda bisa  <a href="https://vartzy.github.io" className="underline text-bold">melihat lebih banyak tentangnya</a>.</p>
+                <p>
+                    VArtz pun dimiliki oleh seorang profesional bernama Farrel
+                    Nikoson. Seorang Developer, Desainer, Penulis, Internet
+                    Marketer atau apapun yang berkaitan dengan komputer selama
+                    masuk kategori apapun-dikerjakan-selama-ada-manfaatnya. Anda
+                    bisa{" "}
+                    <a
+                        href="https://vartzy.github.io"
+                        className="underline text-bold"
+                    >
+                        melihat lebih banyak tentangnya
+                    </a>
+                    .
+                </p>
                 <p>
                     Profesional yang memahami pentingnya sebuah bisnis memiliki
                     website yang menarik, mudah digunakan, desain bagus, serta
@@ -29,7 +43,12 @@ const About = () => {
                     Secara umum layanan berlangganan sudah termasuk biaya
                     pembuatan, nama domain, hosting/server, optimasi mobile,
                     optimasi SEO (agar website Anda masuk ke mesin pencarian),
-                    pengoperasian dan pemeliharaan.
+                    pengoperasian dan pemeliharaan.{" "}
+                    <Link href="/pricing" className="font-semibold">
+                        Lihat apa yang kami lakukan untuk meningkatkan bisnis
+                        Anda
+                    </Link>
+                    .
                 </p>
 
                 <p>

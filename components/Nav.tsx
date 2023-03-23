@@ -98,6 +98,16 @@ const Nav: React.FC = () => {
                         <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                         <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                     </li>
+                    <li className="relative w-max two">
+                        <Link
+                            className="text-xl text-snow px-4 py-2 bg-mediumSpringGreen transition-all hover:text-slate-600"
+                            href="/about"
+                        >
+                            Dapatkan Web
+                        </Link>
+                        <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
+                        <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
+                    </li>
                 </ul>
                 <ul
                     className={`text-center gap-8 py-4 md:py-0 transition-all hidden md:flex`}
@@ -148,6 +158,16 @@ const Nav: React.FC = () => {
                             href="/about"
                         >
                             About
+                        </Link>
+                        <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
+                        <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
+                    </li>
+                    <li className="relative w-max two">
+                        <Link
+                            className="text-xl text-snow px-4 py-2 bg-mediumSpringGreen transition-all hover:text-slate-600"
+                            href="/about"
+                        >
+                            Dapatkan Web
                         </Link>
                         <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                         <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>

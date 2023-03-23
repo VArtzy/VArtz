@@ -1003,6 +1003,25 @@ const ParallaxRapper: NextPage = () => {
                             </a>
                         </div>
                     </div>
+                    <span>
+                        Bingung memilih?
+                        <Link
+                            href="/quiz"
+                            className="text-grayweb px-8 block md:inline"
+                        >
+                            {" "}
+                            diagnosis dengan kuis singkat untuk pilihan yang
+                            optimal
+                            <BsArrowRight className="inline" />
+                        </Link>
+                    </span>
+                    <Link
+                        href="/pricing"
+                        className="text-grayweb px-8 block md:inline"
+                    >
+                        Apa yang kami kerjakan untuk meningkatkan bisnis Anda{" "}
+                        <BsArrowRight className="inline" />
+                    </Link>
                     <p className="text-grayweb text-center mb-2 max-w-prose">
                         Anda juga dapat menambahkan lebih banyak ekstensi situs
                         seperti Design Figma, Tambahan Halaman/Section Interkasi

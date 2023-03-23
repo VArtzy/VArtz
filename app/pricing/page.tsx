@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { BsArrowRight } from "react-icons/bs"
 import { FaCheck, FaWhatsapp, FaPager, FaReact } from "react-icons/fa"
 import { MdScreenSearchDesktop, MdOutlineDesignServices } from "react-icons/md"
 import { SiGoogleads, SiPagespeedinsights, SiWritedotas } from "react-icons/si"
@@ -75,6 +76,21 @@ const Pricing = () => {
                                 berbagai macam jenis ekstensi
                             </a>{" "}
                             untuk Website, semuanya semaunya
+                        </li>
+                        <li>
+                            <span className="font-semibold">
+                                Perbaikan dan Pembaharuan:
+                            </span>{" "}
+                            Bahkan after-sales pun kami tetap melayani perbaikan
+                            dan pembaharuan dari Anda. Selain itu kami
+                            menyediakan{" "}
+                            <a
+                                href="https://vartz.web.id/pricing#extension"
+                                className="underline"
+                            >
+                                blog tingkatkan bisnis
+                            </a>{" "}
+                            untuk mendapatkan insight bisnis online.
                         </li>
                     </ul>
                 </div>
@@ -282,6 +298,18 @@ const Pricing = () => {
                             <FaWhatsapp className="inline" /> Pesan Sekarang
                         </a>
                     </div>
+                    <span>
+                        Bingung memilih?
+                        <Link
+                            href="/quiz"
+                            className="text-grayweb text-center px-8 md:px-0 block md:inline"
+                        >
+                            {" "}
+                            diagnosis dengan kuis singkat untuk pilihan yang
+                            optimal
+                            <BsArrowRight className="inline" />
+                        </Link>
+                    </span>
                 </div>
 
                 <h2

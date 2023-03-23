@@ -47,7 +47,7 @@ const Invoice = () => {
             <h2>
                 Pemesanan Anda akan segera diproses dan dikerjakan. Silahkan cek
                 berkala progress website Anda di{" "}
-                <a className="underline" href={`${url}`}>
+                <a className="underline" href={`https://${url}`}>
                     {url}
                 </a>{" "}
                 atau{" "}
@@ -60,6 +60,16 @@ const Invoice = () => {
                 lebih lanjut. Setelah proses development sudah jadi dan
                 disetujui, baru web akan diberi ke domain yang diinginkan.
             </h2>
+            <p>
+                Luangkan sedikit waktu Anda untuk{" "}
+                <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSd7QAPpeOGmEJX4DlJge-XMWQ8QnZXjPYCnw1R9r7JS0h1ubg/viewform"
+                    className="underline"
+                >
+                    menjawab dan memberikan feedback
+                </a>{" "}
+                kepada kami, tentu Anda dapat mengerjakannya kapan saja.
+            </p>
             <h2 className="text-2xl md:text-3xl w-full font-bold lg:mb-4">
                 Detail:
             </h2>
