@@ -1,20 +1,74 @@
 ---
-title: Hal Yang Aku Pelajari Dari Landing Page Milik Apple.
-subtitle: Dari Apple kita bisa belajar banyak hal. Salah satunya kita dapat melihat bagaimana cara mereka membuat landing pagenya.
-date: 2023-02-15 - 5 min read
+title: Ketika Yang Diatas Yang Cuma Ditonton - Above The Fold - Web Design
+subtitle: Pernahkah Anda memperhatikan elemen di web muncul di depan mata Anda, sementara yang lain tersembunyi di bawahnya? Konsep "Above the Fold" akan menjelaskannya.
+date: 2023-02-15 - 6 min read
 ---
 
-## Belajar Dari Apple
+## Above The Fold dan Kekesalan Saya
 
-Hai teman-teman 👋, apakah nih? Hari ini aku mau observasi landing page milik Apple dan apa yang bisa kita petik atau pelajari. Bahkan untuk mengaplikasikannya ke landing page yang kita miliki.
+![Above The Fold Illustration](https://www.marketingtracer.com/include/images/s/above-the-fold.png?1)
 
-Dari teknik-teknik ini, kita bisa melihat perspektif lebih luas tentang landing page dan bagiamana make a good copies as always! Kita akan belajar salah satu landing page terbarunya, yaitu landing page [iPhone 14 Pro / Max](https://www.apple.com/id/iphone-14-pro/).
+Pernahkah Anda memperhatikan bagaimana beberapa elemen di situs web muncul tepat di depan mata Anda, sementara yang lain tersembunyi di bawahnya?
 
-<Langganan />
+Konsep "Above the Fold" dalam desain web menjelaskan mengapa elemen-elemen kunci seperti gambar, judul, dan panggilan tindakan harus ditempatkan di bagian atas halaman yang terlihat **tanpa perlu menggulir/scroll**. 
 
-Tanpa berlama-lama lagi, Inilah yang aku pelajari dari 🍎~
+Itu karena pengguna web umumnya cenderung malas dan tidak ingin berjuang untuk mencari informasi yang mereka cari. 
 
-## Bigger Text, Bigest Context.
+Oleh karena itu, menempatkan elemen penting di atas lipatan akan membantu meningkatkan konversi dan mengoptimalkan pengalaman pengguna secara keseluruhan. 
+
+Dengan demikian, Above the Fold bukanlah hanya tentang penampilan situs web yang bagus, tetapi juga tentang strategi pemasaran yang cerdas.
+
+Inipun berujung pada saya yang kesal.
+
+![Illustrasi Kesal](https://media.istockphoto.com/id/1201363008/id/vektor/seorang-wanita-muda-memegang-tangannya-dan-berteriak-marah.jpg?s=612x612&w=0&k=20&c=moQI2-7Og-CCSj-ILyl5oxeOAsIcry3pTiJsieBfB-0=)
+
+- Sudah buat banyak page/halaman prospek malah cuma nonton atasnya doang.
+
+- Sudah buat daftar harga/FAQ tetap saja tanya di WA.
+
+- Sudah buat section dengan copy ciamik sedemikian rupa yang ditonton heronya aja.
+
+Ngeselin bukan?
+
+Ya tak heran landing page menjadi salah satu opsi paling bagus ketika ingin melakukan penjualan. Karenanya sangat singkat dan hanya satu halaman. Bahkan, difokusikan ke satu tujuan. 
+
+Sesuai aturan orang malas, saya malas, Anda malas, anjing dirumah sayapun juga malas.
+
+**Malas. Tidak ingin berjuang untuk mencari informasi yang ingin dicari**
+
+Maka Anda, sebagai pemilik situs harus belajar memanfaatkan Above The Fold dengan bijak.
+
+Untuk memanfaatkannya, saya akan membahas:
+
+- Penggunaannya
+
+- Desainnya
+
+- Kesalahan-kesalahan didalamnya
+
+Sudah cukup pengantarnya, mari kita **bahas detail Above The Fold**~
+
+<Promo />
+
+## Penggunannya
+
+Untuk Above The Fold, harus bisa untuk memberitahu user tentang bisnis atau tentang situs. Asumsikan bahwa kita atau pelanggan anda tak pernah mendengarkannya sebelumnya.
+
+Bagaimana cara untuk melakukannya? Coba jawab pertanyaan ini
+
+- Siapa diri Anda/Bisnis Anda
+
+- Apa yang Anda/Bisnis Anda lakukan
+
+- Bagaimana cara kamu membantu saya
+
+Yang pertama, Anda hanya perlu menaruh logo atau tulisan nama bisnis Anda. **Dan itu harus terlihat**.
+
+Yang kedua, Anda dapat membuat hero section yang berisi tentang apa yang Anda/Bisnis Anda lakukan. Biasanya langsung terletak di heading atau subheading.
+
+Yang ketiga, buat deskripsi hero section tentang apa yang dapat Anda/Bisnis Anda lakukan untuk user.
+
+**Terlihat mudah dan dapat dilakukan**
 
 ![Teks Besar Apple](/media/appleteksbesar.png)
 
