@@ -2,6 +2,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import React, { useState } from "react"
+import { BsArrowRight } from "react-icons/bs"
 import useReadingProgress from "./Progress"
 
 const Nav: React.FC = () => {
@@ -100,17 +101,18 @@ const Nav: React.FC = () => {
                     </li>
                     <li className="relative w-max two">
                         <Link
-                            className="text-xl text-snow px-4 py-2 bg-mediumSpringGreen transition-all hover:text-slate-600"
-                            href="/about"
+                            className="text-lg text-snow px-4 py-2 rounded-md bg-mediumSpringGreen transition-all hover:text-slate-600"
+                            href="/quiz"
                         >
-                            Dapatkan Web
+                            Dapatkan Web{" "}
+                            <BsArrowRight className="inline font-bold" />
                         </Link>
                         <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                         <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                     </li>
                 </ul>
                 <ul
-                    className={`text-center gap-8 py-4 md:py-0 transition-all hidden md:flex`}
+                    className={`text-center justify-center items-center gap-8 py-4 md:py-0 transition-all hidden md:flex`}
                 >
                     <li className="relative w-max two">
                         <Link
@@ -164,10 +166,11 @@ const Nav: React.FC = () => {
                     </li>
                     <li className="relative w-max two">
                         <Link
-                            className="text-xl text-snow px-4 py-2 bg-mediumSpringGreen transition-all hover:text-slate-600"
-                            href="/about"
+                            className="text-lg text-snow px-4 py-2 rounded-md bg-mediumSpringGreen transition-all hover:text-slate-600"
+                            href="/quiz"
                         >
-                            Dapatkan Web
+                            Dapatkan Web{" "}
+                            <BsArrowRight className="inline font-bold" />
                         </Link>
                         <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                         <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
