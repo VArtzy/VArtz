@@ -801,7 +801,7 @@ const ParallaxRapper: NextPage = () => {
                                 <p>/Tahun</p>
                             </div>
                             <p className="text-xs">
-                                *Harga akan naik nantinya.
+                                *Harga promo ramadhan terbatas.
                             </p>
                             <p className="text-xs mb-4">
                                 Perpanjangan hanya dikenai 50%
@@ -876,7 +876,7 @@ const ParallaxRapper: NextPage = () => {
                                 <p>/Tahun</p>
                             </div>
                             <p className="text-xs">
-                                *Harga akan naik nantinya.
+                                *Harga promo ramadhan terbatas.
                             </p>
                             <p className="text-xs mb-4">
                                 Perpanjangan hanya dikenai 80%
@@ -948,7 +948,7 @@ const ParallaxRapper: NextPage = () => {
                                 <p>/Tahun</p>
                             </div>
                             <p className="text-xs">
-                                *Harga akan naik nantinya.
+                                *Harga promo ramadhan terbatas.
                             </p>
                             <p className="text-xs mb-4">
                                 Perpanjangan hanya dikenai 50%
@@ -1015,6 +1015,14 @@ const ParallaxRapper: NextPage = () => {
                             <BsArrowRight className="inline" />
                         </Link>
                     </span>
+                    <p className="texy-center text-grayweb text-md">
+                        Banyak pilihan jasa pembuatan website yang ditawarkan
+                        dengan harga berbeda di Google. VArtz mungkin tidak
+                        termurah, apalagi paling mahal. Tetapi menawarkan value
+                        for money terbaik dengan web berkualitas dan support
+                        yang baik, sehingga Anda bisa fokus pada pengembangan
+                        bisnis Anda.
+                    </p>
                     <Link
                         href="/pricing"
                         className="text-grayweb px-8 block md:inline"
