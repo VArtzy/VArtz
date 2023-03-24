@@ -1015,14 +1015,6 @@ const ParallaxRapper: NextPage = () => {
                             <BsArrowRight className="inline" />
                         </Link>
                     </span>
-                    <p className="text-grayweb text-sm">
-                        Banyak pilihan jasa pembuatan website yang ditawarkan
-                        dengan harga berbeda di Google. VArtz mungkin tidak
-                        termurah, apalagi paling mahal. Tetapi menawarkan value
-                        for money terbaik dengan web berkualitas dan support
-                        yang baik, sehingga Anda bisa fokus pada pengembangan
-                        bisnis Anda.
-                    </p>
                     <Link
                         href="/pricing"
                         className="text-grayweb px-8 block md:inline"
