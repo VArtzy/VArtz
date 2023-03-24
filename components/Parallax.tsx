@@ -1004,7 +1004,7 @@ const ParallaxRapper: NextPage = () => {
                             </a>
                         </div>
                     </div>
-                    <span class="block">
+                    <span class="block text-slate-800">
                         Bingung memilih?
                         <Link
                             href="/quiz"
