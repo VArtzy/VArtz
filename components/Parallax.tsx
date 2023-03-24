@@ -1004,7 +1004,7 @@ const ParallaxRapper: NextPage = () => {
                             </a>
                         </div>
                     </div>
-                    <span>
+                    <span class="block">
                         Bingung memilih?
                         <Link
                             href="/quiz"
@@ -1012,8 +1012,7 @@ const ParallaxRapper: NextPage = () => {
                         >
                             {" "}
                             diagnosis dengan kuis singkat untuk pilihan yang
-                            optimal
-                            <BsArrowRight className="inline" />
+                            optimal <BsArrowRight className="inline" />
                         </Link>
                     </span>
                     <Link
