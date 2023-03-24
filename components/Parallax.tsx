@@ -777,7 +777,8 @@ const ParallaxRapper: NextPage = () => {
                     id="pricing"
                 >
                     <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb">
-                        Mulai Buat. Dari Sekarang.
+                        Dapatkan Harga Terbaik Khusus dan Terbatas Di Bulan Suci
+                        Ramadhan Ini Sekarang.
                     </h2>
                     <p className="text-grayweb text-xl text-center mb-8">
                         Solusi yang didukung kinerja untuk membantu menumbuhkan
@@ -1017,12 +1018,12 @@ const ParallaxRapper: NextPage = () => {
                     </span>
                     <Link
                         href="/pricing"
-                        className="text-grayweb px-8 block md:inline"
+                        className="text-grayweb block md:inline"
                     >
                         Apa yang kami kerjakan untuk meningkatkan bisnis Anda{" "}
                         <BsArrowRight className="inline" />
                     </Link>
-                    <p className="text-grayweb text-center mb-2 max-w-prose">
+                    <p className="text-grayweb text-center mb-2">
                         Anda juga dapat menambahkan lebih banyak ekstensi situs
                         seperti Design Figma, Tambahan Halaman/Section Interkasi
                         Situs, Jasa Google Ads, SEO.

@@ -99,8 +99,8 @@ const Pricing = () => {
                     id="pricing"
                     className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb"
                 >
-                    Harga Terbaik Khusus dan Terbatas Di Bulan Suci Ramadhan
-                    Ini.
+                    Dapatkan Harga Terbaik Khusus dan Terbatas Di Bulan Suci Ramadhan
+                    Ini Sekarang.
                 </h2>
                 <p className="text-grayweb text-xl text-center mb-8 max-w-prose">
                     Merupakan yang terbaik, terkeren, termurah di kelasnya.
