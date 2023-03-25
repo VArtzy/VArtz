@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import React from "react"
 import { BiMailSend } from "react-icons/bi"
+import { BsArrowRight } from "react-icons/bs"
 import { FaLocationArrow, FaWhatsapp } from "react-icons/fa"
 
 const Foo: React.FC = () => {
@@ -24,6 +25,13 @@ const Foo: React.FC = () => {
                         kamu. Kami akan siap menerima konsultasi untuk pembuatan
                         dari kamu.
                     </p>
+                    <Link
+                        className="text-lg text-snow mt-2 px-4 py-2 rounded-md bg-mediumSpringGreen transition-all hover:bg-springGreen"
+                        href="/quiz"
+                    >
+                        Dapatkan Web{" "}
+                        <BsArrowRight className="inline font-bold" />
+                    </Link>
                 </div>
 
                 <div className="mb-8">
@@ -121,9 +129,9 @@ const Foo: React.FC = () => {
                                 <Link
                                     className="text-snow"
                                     scroll={false}
-                                    href="/#feature"
+                                    href="/pricing"
                                 >
-                                    Feature
+                                    Layanan
                                 </Link>
                             </li>
                             <li>
