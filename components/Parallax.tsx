@@ -138,7 +138,7 @@ const ParallaxRapper: NextPage = () => {
                                         luar biasa
                                     </span>
                                     . Untuk kamu dan bisnis kecil hingga
-                                    menengah keatas yang menginginkan website
+                                    menengah yang menginginkan website
                                     efektif, ramah pengguna dan indah
                                     sampai-sampai disukai pelanggan Anda dengan
                                     mudah.
