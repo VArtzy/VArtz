@@ -91,7 +91,7 @@ const ParallaxRapper: NextPage = () => {
                 >
                     <main className="grid lg:grid-cols-2 px-8 place-items-center min-h-screen">
                         <h1 className="sr-only">
-                            Buat Website dan jalankan berbagai bisnismu sekarang
+                            Jasa Pembuatan Website dan jalankan berbagai bisnismu sekarang
                             juga.
                         </h1>
                         <div className="">
@@ -101,7 +101,7 @@ const ParallaxRapper: NextPage = () => {
                                 style={props}
                             >
                                 <h2 className="text-3xl md:text-4xl w-full lg:text-right font-bold lg:mb-4 text-grayweb mt-32 lg:mt-0">
-                                    Jasa Buat Website
+                                    Buat Website
                                 </h2>
                                 <animated.div
                                     style={{
