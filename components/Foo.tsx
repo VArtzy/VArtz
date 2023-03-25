@@ -26,7 +26,7 @@ const Foo: React.FC = () => {
                         dari kamu.
                     </p>
                     <Link
-                        className="text-lg text-snow mt-2 px-4 py-2 rounded-md bg-mediumSpringGreen transition-all hover:bg-springGreen"
+                        className="text-lg text-snow inline-block mt-2 px-4 py-2 rounded-md bg-mediumSpringGreen transition-all hover:bg-springGreen"
                         href="/quiz"
                     >
                         Dapatkan Web{" "}
