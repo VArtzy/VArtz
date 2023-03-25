@@ -133,14 +133,16 @@ const ParallaxRapper: NextPage = () => {
                                     Online. Mulai dari kegiatan
                                     belanja-berbelanja sampai mencari informasi.
                                     Tentu itu bagus apabila kamu memiliki{" "} */}
-                                    Nikmati website ramah anggaran yang{" "}
+                                    Nikmati website eksklusif, ramah anggaran
+                                    yang{" "}
                                     <span className="font-semibold">
                                         luar biasa
                                     </span>
-                                    . Untuk bisnis kecil hingga menengah yang
-                                    menginginkan website efektif, ramah pengguna
-                                    dan indah sampai-sampai disukai pelanggan
-                                    Anda dengan mudah.
+                                    . Untuk kamu dan bisnis kecil hingga
+                                    menengah keatas yang menginginkan website
+                                    efektif, ramah pengguna dan indah
+                                    sampai-sampai disukai pelanggan Anda dengan
+                                    mudah.
                                     {/* <button
                                         type="button"
                                         onClick={() =>
