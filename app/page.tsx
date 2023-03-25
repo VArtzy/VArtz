@@ -87,7 +87,7 @@ const Home = () => {
                     setNama("")
                     setSudah(sudah + 1)
                 }, 10000)
-            }, 5000)
+            }, 3000)
 
             return () => clearTimeout(timeout)
         }

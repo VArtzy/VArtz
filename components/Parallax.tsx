@@ -59,7 +59,7 @@ const ParallaxRapper: NextPage = () => {
         "Undangan",
         "Interaktif",
         "Responsive",
-        "Premium.",
+        "Premium",
     ]
 
     const { scroll } = useSpring({
@@ -129,11 +129,19 @@ const ParallaxRapper: NextPage = () => {
                             </animated.div>
                             <animated.div style={props}>
                                 <p className="max-w-lg mb-8 text-grayweb">
-                                    Sekarang ini semua hal sudah berjalan secara
+                                    {/* Sekarang ini semua hal sudah berjalan secara
                                     Online. Mulai dari kegiatan
                                     belanja-berbelanja sampai mencari informasi.
-                                    Tentu itu bagus apabila kamu memiliki{" "}
-                                    <button
+                                    Tentu itu bagus apabila kamu memiliki{" "} */}
+                                    Nikmati website ramah anggaran yang{" "}
+                                    <span className="font-semibold">
+                                        luar biasa
+                                    </span>
+                                    . Untuk kamu dan bisnis kecil hingga
+                                    menengah yang menginginkan web efektif,
+                                    ramah pengguna dan indah sampai-sampai
+                                    disukai pelanggan Anda dengan mudah.
+                                    {/* <button
                                         type="button"
                                         onClick={() =>
                                             ParallaxRef.current?.scrollTo(6)
@@ -143,7 +151,7 @@ const ParallaxRapper: NextPage = () => {
                                         super Website
                                     </button>{" "}
                                     untuk menunjang semua informasi atau
-                                    menjalankan bisnis kamu!
+                                    menjalankan bisnis kamu! */}
                                 </p>
                             </animated.div>
                             <animated.div
@@ -1004,7 +1012,7 @@ const ParallaxRapper: NextPage = () => {
                             </a>
                         </div>
                     </div>
-                    <span class="block text-slate-800">
+                    <span className="block text-slate-800">
                         Bingung memilih?
                         <Link
                             href="/quiz"
