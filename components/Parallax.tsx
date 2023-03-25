@@ -1299,6 +1299,13 @@ const ParallaxRapper: NextPage = () => {
                                     bisnis online kamu. Kami akan siap menerima
                                     konsultasi untuk pembuatan dari kamu.
                                 </p>
+                                <Link
+                                    className="text-lg text-snow px-4 py-2 rounded-md bg-mediumSpringGreen transition-all hover:bg-springGreen"
+                                    href="/quiz"
+                                >
+                                    Dapatkan Web{" "}
+                                    <BsArrowRight className="inline font-bold" />
+                                </Link>
                             </div>
 
                             <div className="mb-8">
@@ -1407,9 +1414,9 @@ const ParallaxRapper: NextPage = () => {
                                             <Link
                                                 className="text-snow"
                                                 scroll={false}
-                                                href="/#feature"
+                                                href="/pricing"
                                             >
-                                                Feature
+                                                Layanan
                                             </Link>
                                         </li>
                                         <li>
