@@ -101,7 +101,7 @@ const ParallaxRapper: NextPage = () => {
                                 style={props}
                             >
                                 <h2 className="text-3xl md:text-4xl w-full lg:text-right font-bold lg:mb-4 text-grayweb mt-32 lg:mt-0">
-                                    Buat Website
+                                    Jasa Pembuatan Website
                                 </h2>
                                 <animated.div
                                     style={{
@@ -702,7 +702,7 @@ const ParallaxRapper: NextPage = () => {
                                 yang Sesuai dengan Kebutuhan UMKM Anda.
                             </h2>
                             <p className="text-grayweb text-xl mb-16">
-                                Kami adalah jasa web profesional yang
+                                Kami adalah - web profesional yang
                                 menyediakan layanan pembuatan website dan
                                 landing page untuk membantu UMKM meningkatkan
                                 bisnis online mereka. Kami menawarkan solusi
