@@ -397,7 +397,7 @@ const ParallaxRapper: NextPage = () => {
                         </div>
                         <div className="">
                             <div className="browser-mockup with-url shadow-lg aspect-[9/15] lg:aspect-video"></div>
-                            <p class="mt-4">
+                            <p className="mt-4">
                                 Dalam banyak kasus, situs web tidak
                                 memperhatikan prinsip-prinsip dasar dan lanjutan
                                 dalam desain UX (User Experience), yang
@@ -405,7 +405,7 @@ const ParallaxRapper: NextPage = () => {
                                 penjualan dan prospek, serta sulit digunakan dan
                                 dipahami secara efektif.
                             </p>
-                            <p class="mt-4">
+                            <p className="mt-4">
                                 Oleh karena itu, sebagai seorang yang ingin
                                 membuat internet menjadi tempat yang lebih baik
                                 dan bermanfaat, saya berkomitmen untuk
