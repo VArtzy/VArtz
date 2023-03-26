@@ -91,8 +91,8 @@ const ParallaxRapper: NextPage = () => {
                 >
                     <main className="grid lg:grid-cols-2 px-8 place-items-center min-h-screen">
                         <h1 className="sr-only">
-                            Jasa Pembuatan Website dan jalankan berbagai bisnismu sekarang
-                            juga.
+                            Jasa Pembuatan Website dan jalankan berbagai
+                            bisnismu sekarang juga.
                         </h1>
                         <div className="">
                             <animated.div
@@ -138,10 +138,12 @@ const ParallaxRapper: NextPage = () => {
                                         luar biasa
                                     </span>
                                     . Untuk kamu dan bisnis kecil hingga
-                                    menengah yang menginginkan website
-                                    efektif, ramah pengguna dan indah
-                                    sampai-sampai disukai pelanggan Anda dengan
-                                    mudah.
+                                    menengah yang menginginkan website efektif,
+                                    ramah pengguna dan indah sampai-sampai{" "}
+                                    <span className="font-semibold">
+                                        disukai pelanggan
+                                    </span>{" "}
+                                    Anda dengan mudah.
                                     {/* <button
                                         type="button"
                                         onClick={() =>
@@ -337,7 +339,7 @@ const ParallaxRapper: NextPage = () => {
                     className="max-w-6xl mx-auto px-8 text-grayweb"
                 >
                     <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8">
-                        Tingkatkan Bisnis Anda dengan Website
+                        Tingkatkan Bisnis Anda dengan Jasa Pembuatan Website
                     </h2>
                     <div className="grid lg:grid-cols-2 gap-8">
                         <div className="flex flex-col gap-8">
@@ -702,7 +704,7 @@ const ParallaxRapper: NextPage = () => {
                                 yang Sesuai dengan Kebutuhan UMKM Anda.
                             </h2>
                             <p className="text-grayweb text-xl mb-16">
-                                Kami adalah - web profesional yang
+                                Kami adalah jasa web profesional yang
                                 menyediakan layanan pembuatan website dan
                                 landing page untuk membantu UMKM meningkatkan
                                 bisnis online mereka. Kami menawarkan solusi
