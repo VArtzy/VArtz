@@ -32,6 +32,23 @@ const About = () => {
                     .
                 </p>
                 <p>
+                    Mari kita hadapi, banyak situs payah. Saya mencoba
+                    mengubahnya dengan membuat setiap situs web dirancang dengan
+                    tujuan dan makna yang dijamin untuk menciptakan pengalaman
+                    yang lebih baik bagi para pengguna situs web.
+                </p>
+                <p>
+                    Banyak situs web tidak mengikuti praktik desain UX dasar dan
+                    lanjutan, Hal ini menyebabkan situs web kurang berkonversi
+                    (kehilangan penjualan & prospek), lebih sulit digunakan,
+                    lebih sulit dikonsumsi & dipahami, dan secara keseluruhan
+                    kurang efektif.
+                </p>
+                <p>
+                    Tujuan saya adalah menjadikan Internet tempat yang lebih
+                    indah dan bermanfaat, satu situs web dalam satu waktu.
+                </p>
+                <p>
                     Profesional yang memahami pentingnya sebuah bisnis memiliki
                     website yang menarik, mudah digunakan, desain bagus, serta
                     responsif. Semua kredibilitas kami dapat anda lihat di
