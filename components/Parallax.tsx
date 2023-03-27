@@ -403,18 +403,17 @@ const ParallaxRapper: NextPage = () => {
                                 dengan menerapkan praktik desain UX yang baik.
                             </p>
                         </div>
-                        <span className="block text-center text-slate-800">
-                            Berpikir membuat sendiri/web builder?
-                            <Link
-                                href="/quiz"
-                                className="text-grayweb block md:inline"
-                            >
-                                {" "}
-                                coba pikir lagi{" "}
-                                <BsArrowRight className="inline" />
-                            </Link>
-                        </span>
                     </div>
+                    <span className="block text-center text-slate-800">
+                        Berpikir membuat sendiri/web builder?
+                        <Link
+                            href="/blog/membuat-web-sendiri-vs-jasa-vs-builder"
+                            className="text-grayweb block mt-4 md:inline"
+                        >
+                            {" "}
+                            coba pikir lagi <BsArrowRight className="inline" />
+                        </Link>
+                    </span>
                 </ParallaxLayer>
 
                 <ParallaxLayer
