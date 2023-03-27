@@ -15,6 +15,7 @@ export default function Head() {
                     maintenance berkala."
             />
             <link rel="icon" href="/favicon.ico" />
+            <link rel="canonical" href="https://vartz.web.id/about" />
         </>
     )
 }

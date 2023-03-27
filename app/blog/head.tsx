@@ -12,6 +12,7 @@ export default function Head() {
                 name="viewport"
             />
             <link rel="icon" href="/favicon.ico" />
+            <link rel="canonical" href="https://vartz.web.id/blog" />
         </>
     )
 }

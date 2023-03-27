@@ -9,6 +9,7 @@ export default function Head() {
             />
             <link rel="icon" href="/favicon.ico" />
             <meta name="robots" content="noindex" />
+            <link rel="canonical" href="https://vartz.web.id/invoice" />
         </>
     )
 }

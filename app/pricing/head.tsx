@@ -11,6 +11,7 @@ export default function Head() {
                 content="Harga pembuatan website murah, perpanjangan harga kurang dari 50% harga awal!."
             />
             <link rel="icon" href="/favicon.ico" />
+            <link rel="canonical" href="https://vartz.web.id/pricing" />
         </>
     )
 }

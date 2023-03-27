@@ -21,6 +21,7 @@ export default function Head({ params }: { params: { slug: string } }) {
                 name="viewport"
             />
             <link rel="icon" href="/favicon.ico" />
+            <link rel="canonical" href={`https://vartz.web.id/blog/${slug}`} />
             <meta property="og:title" content={post.data.title} />
             <meta
                 property="og:url"

@@ -11,6 +11,7 @@ export default function Head() {
                 content="Lebih mudah membuat website impian Anda"
             />
             <link rel="icon" href="/favicon.ico" />
+            <link rel="canonical" href="https://vartz.web.id/cara-order" />
         </>
     )
 }

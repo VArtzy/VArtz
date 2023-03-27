@@ -118,14 +118,9 @@ const About = () => {
                         />
                         <Accordion
                             title="Data apa saja yang perlu saya sediakan? 🤟"
-                            content="Kami membutuhkan beberapa data Anda sebagai
-                                bahan untuk membangun website terkait informasi
-                                yang ingin Anda tampilkan pada situs Anda.
-                                Antara lain: referensi (jika ada), data
-                                pengelola ( nama, alamat, nomor kontak ), materi copy/tulisan, company
-                                profile / profil bisnis, logo, deskripsi produk,
-                                foto / gambar produk, dan artikel yang
-                                diperlukan."
+                            content="Hal pertama dan utama adalah konten situs web. Ini semua teks, paragraf, gambar, halaman, dan daftar semua fungsi yang Anda perlukan (formulir kontak, feed Instagram).
+
+Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan font. Tidak apa-apa jika Anda tidak memilikinya karena beberapa organisasi nirlaba yang memulai belum memilikinya. Dalam hal ini, tunjukkan beberapa warna yang Anda suka dan kami dapat membuat merek/rasa untuk situs tersebut."
                         />
                         <Accordion
                             title="Apakah ada garansi?"

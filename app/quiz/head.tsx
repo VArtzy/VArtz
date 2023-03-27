@@ -13,6 +13,7 @@ export default function Head() {
                 content="Luangkan sedikit waktu untuk mengisi diagnosis untuk mendapatkan website impian dengan performa maksimal."
             />
             <link rel="icon" href="/favicon.ico" />
+            <link rel="canonical" href="https://vartz.web.id/quiz" />
         </>
     )
 }

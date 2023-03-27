@@ -13,6 +13,7 @@ export default function Head() {
                 content="Syarat & Ketentuan dan berbagai pertanyaan umum yang bisa kami jawab untuk meyakinkanmu"
             />
             <link rel="icon" href="/favicon.ico" />
+            <link rel="canonical" href="https://vartz.web.id/terms-condition" />
         </>
     )
 }

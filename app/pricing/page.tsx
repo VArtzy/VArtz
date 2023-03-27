@@ -100,7 +100,7 @@ const Pricing = () => {
                     className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb"
                 >
                     Dapatkan Harga Terbaik Khusus dan Terbatas Di Bulan Suci
-                    Puasa Ini Sekarang.
+                    Ramadhan Ini Sekarang.
                 </h2>
                 <p className="text-grayweb text-xl text-center mb-8 max-w-prose">
                     Merupakan yang terbaik, terkeren, termurah di kelasnya.
@@ -120,7 +120,9 @@ const Pricing = () => {
                             <h4 className="text-xl font-bold">Rp 599.000</h4>
                             <p>/Tahun</p>
                         </div>
-                        <p className="text-xs">*Harga promo puasa terbatas.</p>
+                        <p className="text-xs">
+                            *Harga promo ramadhan terbatas.
+                        </p>
                         <p className="text-xs mb-4">
                             Perpanjangan hanya dikenai 50%
                         </p>
@@ -185,7 +187,9 @@ const Pricing = () => {
                             <h4 className="text-xl font-bold">Rp 1.799.000</h4>
                             <p>/Tahun</p>
                         </div>
-                        <p className="text-xs">*Harga promo puasa terbatas.</p>
+                        <p className="text-xs">
+                            *Harga promo ramadhan terbatas.
+                        </p>
                         <p className="text-xs mb-4">
                             Perpanjangan hanya dikenai 80%
                         </p>
@@ -249,7 +253,9 @@ const Pricing = () => {
                             <h4 className="text-xl font-bold">Rp 999.000</h4>
                             <p>/Tahun</p>
                         </div>
-                        <p className="text-xs">*Harga promo puasa terbatas.</p>
+                        <p className="text-xs">
+                            *Harga promo ramadhan terbatas.
+                        </p>
                         <p className="text-xs mb-4">
                             Perpanjangan hanya dikenai 50%
                         </p>
