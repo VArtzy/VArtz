@@ -33,7 +33,7 @@ const Langganan = () => {
             <input type="hidden" name="sheetTab" value="Emails" />
             <button
                 id="konversi_daftar_blog"
-                className="bg-indigo-500 text-white p-2 rounded-md w-full hover:bg-indigo-600"
+                className="bg-indigo-600 text-white p-2 rounded-md w-full hover:bg-indigo-700"
                 type="submit"
             >
                 Berlangganan

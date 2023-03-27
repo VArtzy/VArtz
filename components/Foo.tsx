@@ -36,8 +36,8 @@ const Foo: React.FC = () => {
 
                 <div className="mb-8">
                     <h3 className="text-xl mb-2">Sitemap</h3>
-                    <ul className="mb-2">
-                        <div className="flex gap-8">
+                    <div className="mb-2">
+                        <ul className="flex gap-8">
                             <li>
                                 <Link className="text-snow" href="/">
                                     Home
@@ -61,12 +61,12 @@ const Foo: React.FC = () => {
                                     About
                                 </Link>
                             </li>
-                        </div>
-                    </ul>
+                        </ul>
+                    </div>
 
                     <h3 className="text-xl mb-2">Niche & Frequent</h3>
-                    <ul className="mb-2">
-                        <div className="lg:flex gap-8">
+                    <div className="mb-2">
+                        <ul className="lg:flex gap-8">
                             <li>
                                 <Link
                                     className="text-snow"
@@ -103,10 +103,10 @@ const Foo: React.FC = () => {
                                     Cara Order
                                 </Link>
                             </li>
-                        </div>
-                    </ul>
-                    <ul className="mb-2">
-                        <div className="lg:flex gap-8">
+                        </ul>
+                    </div>
+                    <div className="mb-2">
+                        <ul className="lg:flex gap-8">
                             <li>
                                 <Link
                                     className="text-snow"
@@ -143,8 +143,8 @@ const Foo: React.FC = () => {
                                     Contact
                                 </Link>
                             </li>
-                        </div>
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
 
                 <div className="lg:w-1/3 mb-8">

@@ -154,12 +154,12 @@ const TableOfContents = () => {
 
     return (
         <nav className="nav-table px-10 md:px-0" aria-label="Table of contents">
-            <h4 className="text-lg font-bold mt-8 mb-4">
+            <h2 className="text-lg font-bold mt-8 mb-4">
                 Daftar Isi -{" "}
                 <button onClick={() => setIsActive(!isActive)}>
                     {isActive ? "Hide" : "Show"}
                 </button>
-            </h4>
+            </h2>
             {isActive && (
                 <Headings headings={nestedHeadings} activeId={activeId} />
             )}

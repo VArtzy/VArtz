@@ -35,7 +35,7 @@ const PostPage = ({ params }: any) => {
                 <h1 className="text-2xl md:text-4xl font-bold text-slate-600">
                     {post.data.title}
                 </h1>
-                <p className="text-slate-400 md:text-xl mt-2">
+                <p className="text-slate-500 md:text-xl mt-2">
                     {post.data.date}
                 </p>
             </div>

@@ -130,21 +130,10 @@ const ParallaxRapper: NextPage = () => {
                             <animated.div style={props}>
                                 <p className="max-w-lg mb-8 text-grayweb">
                                     Nikmati website eksklusif, ramah anggaran
-                                    yang{" "}
-                                    <span className="font-semibold">
-                                        luar biasa
-                                    </span>
-                                    . Untuk Anda dan bisnis kecil-menengah yang
-                                    mendambakan web efektif, ramah pengguna
-                                    &amp; indah.{" "}
-                                    <span className="font-semibold">
-                                        Mudah digunakan
-                                    </span>{" "}
-                                    dan{" "}
-                                    <span className="font-semibold">
-                                        disukai pelanggan
-                                    </span>
-                                    .
+                                    yang luar biasa. Untuk Anda dan bisnis
+                                    kecil-menengah yang mendambakan web efektif,
+                                    ramah pengguna &amp; indah. Mudah digunakan
+                                    dan disukai pelanggan.
                                 </p>
                             </animated.div>
                             <animated.div
@@ -303,12 +292,12 @@ const ParallaxRapper: NextPage = () => {
                             ></Image>
                         </div>
 
-                        <a href="" className="text-grayweb mt-4 px-8">
+                        <a href="#" className="text-grayweb mt-4 px-8">
                             Lihat lebih banyak{" "}
                             <BsArrowRight className="inline" />
                         </a>
                         <a
-                            href=""
+                            href="#"
                             className="text-grayweb px-8 block md:inline"
                         >
                             Lihat alur proses pengerjaan{" "}
