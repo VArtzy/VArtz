@@ -131,7 +131,7 @@ const ParallaxRapper: NextPage = () => {
                                 <p class="max-w-lg mb-8 text-grayweb">
                                     Nikmati website eksklusif, ramah anggaran
                                     yang{" "}
-                                    <span class="font-semibold">
+                                    <span className="font-semibold">
                                         luar biasa
                                     </span>
                                     . Untuk Anda dan bisnis kecil-menengah yang
