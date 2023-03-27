@@ -128,7 +128,7 @@ const ParallaxRapper: NextPage = () => {
                                 </animated.div>
                             </animated.div>
                             <animated.div style={props}>
-                                <p className="max-w-lg mb-8 text-grayweb">
+                                <p className="max-w-lg mb-8 lg:text-lg text-grayweb">
                                     Nikmati website eksklusif, ramah anggaran
                                     yang luar biasa. Untuk Anda dan bisnis
                                     kecil-menengah yang mendambakan web efektif,
