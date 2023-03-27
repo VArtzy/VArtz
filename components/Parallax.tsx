@@ -128,33 +128,23 @@ const ParallaxRapper: NextPage = () => {
                                 </animated.div>
                             </animated.div>
                             <animated.div style={props}>
-                                <p className="max-w-lg mb-8 text-grayweb">
-                                    {/* Sekarang ini semua hal sudah berjalan secara
-                                    Online. Mulai dari kegiatan
-                                    belanja-berbelanja sampai mencari informasi.
-                                    Tentu itu bagus apabila kamu memiliki{" "} */}
-                                    Nikmati website ramah anggaran yang{" "}
-                                    <span className="font-semibold">
+                                <p class="max-w-lg mb-8 text-grayweb">
+                                    Nikmati website eksklusif, ramah anggaran
+                                    yang{" "}
+                                    <span class="font-semibold">
                                         luar biasa
                                     </span>
-                                    . Untuk kamu dan bisnis kecil hingga
-                                    menengah yang menginginkan website efektif,
-                                    ramah pengguna dan indah sampai-sampai{" "}
+                                    . Untuk Anda dan bisnis kecil-menengah yang
+                                    mendambakan web efektif, ramah pengguna
+                                    &amp; indah.{" "}
+                                    <span className="font-semibold">
+                                        Mudah digunakan
+                                    </span>{" "}
+                                    dan{" "}
                                     <span className="font-semibold">
                                         disukai pelanggan
-                                    </span>{" "}
-                                    Anda dengan mudah.
-                                    {/* <button
-                                        type="button"
-                                        onClick={() =>
-                                            ParallaxRef.current?.scrollTo(6)
-                                        }
-                                        className="underline"
-                                    >
-                                        super Website
-                                    </button>{" "}
-                                    untuk menunjang semua informasi atau
-                                    menjalankan bisnis kamu! */}
+                                    </span>
+                                    .
                                 </p>
                             </animated.div>
                             <animated.div
