@@ -154,7 +154,9 @@ const Pricing = () => {
                             <div className="p-1 bg-springGreen rounded-full mb-2">
                                 <FaCheck className="text-snow text-xs" />
                             </div>
-                            <p className="text-xs">Hosted + Domain (.com!)</p>
+                            <p className="text-xs">
+                                <strong>Bonus</strong> Hosted + Domain (.com!)
+                            </p>
                         </div>
                         <div className="flex gap-4 items-center">
                             <div className="p-1 bg-springGreen rounded-full mb-2">

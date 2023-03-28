@@ -868,7 +868,8 @@ const ParallaxRapper: NextPage = () => {
                                     <FaCheck className="text-snow text-xs" />
                                 </div>
                                 <p className="text-xs">
-                                    Hosted + Domain (.com!)
+                                    <strong>Bonus</strong> Hosted + Domain
+                                    (.com!)
                                 </p>
                             </div>
                             <div className="flex gap-4 items-center">

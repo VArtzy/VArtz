@@ -146,15 +146,15 @@ const Home = () => {
             <ArticleJsonLd
                 useAppDir={true}
                 type="BlogPosting"
-                url={`https://vartz.web.id/blog/${slug}`}
-                title={post.data.title}
+                url={`https://vartz.web.id/blog`}
+                title="a"
                 images={["https://vartz.web.id/logo.png"]}
-                datePublished={`${post.data.date.split(" ")[0]}T00:00:00+00:00`}
-                dateModified={`${post.data.date.split(" ")[0]}T00:00:00+00:00`}
+                datePublished="a"
+                dateModified="a"
                 authorName="Farrel Nikoson"
                 publisherLogo="https://vartz.web.id/logo.png"
                 publisherName="VArtz"
-                description={post.data.subtitle}
+                description="fiesta"
             />
         </div>
     )
