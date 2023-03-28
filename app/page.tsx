@@ -1,7 +1,7 @@
 "use client"
 
-import { WebPageJsonLd } from "next-seo"
 import { FaShoppingCart } from "react-icons/fa"
+import { WebPageJsonLd } from "next-seo"
 import ParallaxRapper from "../components/Parallax"
 import { useState, useEffect } from "react"
 
@@ -119,32 +119,30 @@ const Home = () => {
     }, [namas])
 
     return (
-        <>
-            <div className="max-w-5xl px-4 tracking-wider leading-relaxed">
-                <ParallaxRapper></ParallaxRapper>
-                {nama && (
-                    <div
-                        className={`fixed bottom-0 right-0 left-0 w-[80%] max-w-xs md:-right-auto bg-snow mx-auto md:mx-4 p-4 rounded-tl-md rounded-tr-md shadow-sm ${
-                            show ? "animate-fade-in" : "animate-fade-out"
-                        }`}
-                    >
-                        <div className="flex gap-4 items-center">
-                            <FaShoppingCart className="text-mediumSpringGreen text-xl" />
-                            <div className="">
-                                <h2 className="text-xs md:text-md font-semibold">
-                                    {nama} dari {alamat}
-                                </h2>
-                                <p className="text-xs md:text-md">
-                                    telah membeli web {paket}
-                                </p>
-                                <p className="text-xs md:text-md opacity-50">
-                                    {time}
-                                </p>
-                            </div>
+        <div className="max-w-5xl px-4 tracking-wider leading-relaxed">
+            <ParallaxRapper></ParallaxRapper>
+            {nama && (
+                <div
+                    className={`fixed bottom-0 right-0 left-0 w-[80%] max-w-xs md:-right-auto bg-snow mx-auto md:mx-4 p-4 rounded-tl-md rounded-tr-md shadow-sm ${
+                        show ? "animate-fade-in" : "animate-fade-out"
+                    }`}
+                >
+                    <div className="flex gap-4 items-center">
+                        <FaShoppingCart className="text-mediumSpringGreen text-xl" />
+                        <div className="">
+                            <h2 className="text-xs md:text-md font-semibold">
+                                {nama} dari {alamat}
+                            </h2>
+                            <p className="text-xs md:text-md">
+                                telah membeli web {paket}
+                            </p>
+                            <p className="text-xs md:text-md opacity-50">
+                                {time}
+                            </p>
                         </div>
                     </div>
-                )}
-            </div>
+                </div>
+            )}
             <WebPageJsonLd
                 name="VArtz"
                 url="https://vartz.web.id/"
@@ -214,7 +212,7 @@ const Home = () => {
                 }}
                 id={"https://vartz.web.id/"}
             />
-        </>
+        </div>
     )
 }
 

@@ -562,6 +562,17 @@ const ParallaxRapper: NextPage = () => {
                             </p>
                         </div>
                     </div>
+                    <span className="block text-center text-slate-800">
+                        Kami tidak mengatakan kami yang terbaik,
+                        <Link
+                            href="#"
+                            className="text-grayweb block mt-4 md:inline"
+                        >
+                            {" "}
+                            mereka yang mengatakan{" "}
+                            <BsArrowRight className="inline" />
+                        </Link>
+                    </span>
                 </ParallaxLayer>
 
                 <ParallaxLayer
