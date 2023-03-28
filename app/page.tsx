@@ -1,7 +1,7 @@
 "use client"
 
 import { FaShoppingCart } from "react-icons/fa"
-import { ArticleJsonLd } from "next-seo"
+import { WebPageJsonLd } from "next-seo"
 import ParallaxRapper from "../components/Parallax"
 import { useState, useEffect } from "react"
 
@@ -143,18 +143,74 @@ const Home = () => {
                     </div>
                 </div>
             )}
-            <ArticleJsonLd
-                useAppDir={true}
-                type="BlogPosting"
-                url={`https://vartz.web.id/blog`}
-                title="a"
-                images={["https://vartz.web.id/logo.png"]}
-                datePublished="a"
-                dateModified="a"
-                authorName="Farrel Nikoson"
-                publisherLogo="https://vartz.web.id/logo.png"
-                publisherName="VArtz"
-                description="fiesta"
+            <WebPageJsonLd
+                name="VArtz"
+                url="https://vartz.web.id/"
+                description="Jasa Pembuatan Situs Web Berkualitas dan Terjangkau untuk Bisnis Kecil Menengah."
+                hasOfferCatalog={{
+                    "@type": "OfferCatalog",
+                    name: "Paket Pembuatan Situs Web",
+                    itemListElement: [
+                        {
+                            "@type": "Offer",
+                            itemOffered: {
+                                "@type": "Service",
+                                name: "Paket Basic",
+                                description:
+                                    "Paket pembuatan situs web dengan fitur dasar pilihan",
+                                url: "https://vartz.web.id/pricing",
+                                provider: {
+                                    "@type": "Organization",
+                                    name: "VArtz",
+                                },
+                            },
+                            priceSpecification: {
+                                "@type": "PriceSpecification",
+                                price: "Rp 599.000",
+                                priceCurrency: "IDR",
+                            },
+                        },
+                        {
+                            "@type": "Offer",
+                            itemOffered: {
+                                "@type": "Service",
+                                name: "Paket Custom",
+                                description:
+                                    "Paket pembuatan situs web dengan fitur lebih lengkap dan kustom",
+                                url: "https://vartz.web.id/pricing",
+                                provider: {
+                                    "@type": "Organization",
+                                    name: "VArtz",
+                                },
+                            },
+                            priceSpecification: {
+                                "@type": "PriceSpecification",
+                                price: "Rp 999.000",
+                                priceCurrency: "IDR",
+                            },
+                        },
+                        {
+                            "@type": "Offer",
+                            itemOffered: {
+                                "@type": "Service",
+                                name: "Paket super",
+                                description:
+                                    "Paket pembuatan situs web dengan fitur lengkap dan desain super",
+                                url: "https://vartz.web.id/pricing",
+                                provider: {
+                                    "@type": "Organization",
+                                    name: "VArtz",
+                                },
+                            },
+                            priceSpecification: {
+                                "@type": "PriceSpecification",
+                                price: "Rp 1.799.000",
+                                priceCurrency: "IDR",
+                            },
+                        },
+                    ],
+                }}
+                id="https://vartz.web.id/"
             />
         </div>
     )
