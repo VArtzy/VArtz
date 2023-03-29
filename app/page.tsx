@@ -143,80 +143,58 @@ const Home = () => {
                     </div>
                 </div>
             )}
-            <LocalBusinessJsonLd
-                type="WebSite"
-                id="https://vartz.web.id"
-                name="VArtz"
-                url="https://vartz.web.id"
-                telephone="+629611905599"
-                description="Jasa Pembuatan Situs Web Berkualitas dan Terjangkau untuk Bisnis Kecil Menengah."
-                address={{
+<LocalBusinessJsonLd
+  type="WebSite"
+  id="https://vartz.web.id"
+  name="VArtz"
+  description="Jasa Pembuatan Situs Web Berkualitas dan Terjangkau untuk Bisnis Kecil Menengah."
+  url="https://vartz.web.id"
+  telephone="+629611905599"
+  address={{
                     streetAddress: "105 Gatot Subroto",
                     addressLocality: "Laweyan",
                     addressRegion: "Surakarta",
                     postalCode: "57111",
                     addressCountry: "ID",
                 }}
-                makesOffer={[
-                    {
-                        "@type": "Offer",
-                        itemOffered: {
-                            "@type": "Service",
-                            name: "Paket Basic",
-                            description:
-                                "Paket pembuatan situs web dengan fitur dasar pilihan",
-                            url: "https://vartz.web.id/pricing",
-                            provider: {
-                                "@type": "Organization",
-                                name: "VArtz",
-                            },
-                        },
-                        priceSpecification: {
-                            "@type": "PriceSpecification",
-                            price: "Rp 599.000",
-                            priceCurrency: "IDR",
-                        },
-                    },
-                    {
-                        "@type": "Offer",
-                        itemOffered: {
-                            "@type": "Service",
-                            name: "Paket Custom",
-                            description:
-                                "Paket pembuatan situs web dengan fitur lebih lengkap dan kustom",
-                            url: "https://vartz.web.id/pricing",
-                            provider: {
-                                "@type": "Organization",
-                                name: "VArtz",
-                            },
-                        },
-                        priceSpecification: {
-                            "@type": "PriceSpecification",
-                            price: "Rp 999.000",
-                            priceCurrency: "IDR",
-                        },
-                    },
-                    {
-                        "@type": "Offer",
-                        itemOffered: {
-                            "@type": "Service",
-                            name: "Paket super",
-                            description:
-                                "Paket pembuatan situs web dengan fitur lengkap dan desain super",
-                            url: "https://vartz.web.id/pricing",
-                            provider: {
-                                "@type": "Organization",
-                                name: "VArtz",
-                            },
-                        },
-                        priceSpecification: {
-                            "@type": "PriceSpecification",
-                            price: "Rp 1.799.000",
-                            priceCurrency: "IDR",
-                        },
-                    },
-                ]}
-            />
+  makesOffer={[
+    {
+      priceSpecification: {
+        type: 'UnitPriceSpecification',
+        priceCurrency: 'ID',
+        price: 'Rp 599.000',
+      },
+      itemOffered: {
+        name: 'Jasa Pembuatan Web Paket Basic',
+        description:
+          'Paket pembuatan situs web dengan fitur dasar pilihan',
+      },
+    },
+    {
+      priceSpecification: {
+        type: 'UnitPriceSpecification',
+        priceCurrency: 'IDR',
+        price: 'Rp 999.000',
+      },
+      itemOffered: {
+        name: 'Jasa Pembuatan Web Paket Custom',
+        description:
+          'Paket pembuatan situs web dengan fitur lebih lengkap dan kustom',
+      },
+{
+      priceSpecification: {
+        type: 'UnitPriceSpecification',
+        priceCurrency: 'IDR',
+        price: 'Rp 1.799.000',
+      },
+      itemOffered: {
+        name: 'Jasa Pembuatan Web Paket Super',
+        description:
+          'Paket pembuatan situs web dengan fitur lengkap dan desain super',
+      },
+    },
+  ]}
+/>
         </div>
     )
 }
