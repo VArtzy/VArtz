@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-const Custom404 = () => {
+const NotFound = () => {
     return (
         <div className="flex flex-col h-screen justify-center items-center">
             <h1 className="text-6xl font-bold mb-8">
@@ -20,4 +20,4 @@ const Custom404 = () => {
     )
 }
 
-export default Custom404
+export default NotFound
