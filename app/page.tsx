@@ -1,7 +1,6 @@
 "use client"
 
 import { FaShoppingCart } from "react-icons/fa"
-import { ArticleJsonLd } from "next-seo"
 import ParallaxRapper from "../components/Parallax"
 import { useState, useEffect } from "react"
 
@@ -143,19 +142,6 @@ const Home = () => {
                     </div>
                 </div>
             )}
-<ArticleJsonLd
-                useAppDir={true}
-                type="BlogPosting"
-                url="adadsj"
-                title="jadiginile"
-                images={["https://vartz.web.id/logo.png"]}
-                datePublished="kapankapan"
-                dateModified="kapankapan"
-                authorName="Farrel Nikoson"
-                publisherLogo="https://vartz.web.id/logo.png"
-                publisherName="VArtz"
-                description="apacoba"
-            />
         </div>
     )
 }
