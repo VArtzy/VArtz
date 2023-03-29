@@ -180,7 +180,7 @@ const Home = () => {
         name: 'Jasa Pembuatan Web Paket Custom',
         description:
           'Paket pembuatan situs web dengan fitur lebih lengkap dan kustom',
-      },
+    }},
 {
       priceSpecification: {
         type: 'UnitPriceSpecification',
