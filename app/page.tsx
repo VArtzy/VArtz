@@ -1,7 +1,7 @@
 "use client"
 
 import { FaShoppingCart } from "react-icons/fa"
-import { SiteLinksSearchBoxJsonLd } from "next-seo"
+import { ArticleJsonLd } from "next-seo"
 import ParallaxRapper from "../components/Parallax"
 import { useState, useEffect } from "react"
 
@@ -143,20 +143,32 @@ const Home = () => {
                     </div>
                 </div>
             )}
-<SiteLinksSearchBoxJsonLd
-      url="https://vartz.web.id"
-	name="VArtz"
-      potentialActions={[
+<ArticleJsonLd
+      url="https://example.com/article"
+      title="Article headline"
+      images={[
+        'https://example.com/photos/1x1/photo.jpg',
+        'https://example.com/photos/4x3/photo.jpg',
+        'https://example.com/photos/16x9/photo.jpg',
+      ]}
+      datePublished="2015-02-05T08:00:00+08:00"
+      dateModified="2015-02-05T09:00:00+08:00"
+      authorName={[
         {
-          target: 'https://vartz.web.id/search?q',
-          queryInput: 'search_term_string',
+          name: 'Jane Blogs',
+          url: 'https://example.com',
         },
         {
-          target: 'android-app://com.example/https/query.example.com/search/?q',
-          queryInput: 'search_term_string',
+          name: 'Mary Stone',
+          url: 'https://example.com',
         },
       ]}
+      publisherName="Gary Meehan"
+      publisherLogo="https://www.example.com/photos/logo.jpg"
+      description="This is a mighty good description of this article."
+      isAccessibleForFree={true}
     />
+
         </div>
     )
 }
