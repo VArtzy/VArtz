@@ -1,7 +1,5 @@
 "use client"
 
-export const config = { amp: true }
-
 import { FaShoppingCart } from "react-icons/fa"
 import ParallaxRapper from "../components/Parallax"
 import { useState, useEffect } from "react"

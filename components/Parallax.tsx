@@ -806,7 +806,7 @@ const ParallaxRapper: NextPage = () => {
                 >
                     <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb">
                         Dapatkan Harga Terbaik Khusus dan Terbatas Di Bulan Suci
-                        Puasa Ini Sekarang.
+                        Ramadhan Ini Sekarang.
                     </h2>
                     <p className="text-grayweb text-xl text-center mb-8">
                         Solusi yang didukung kinerja untuk membantu menumbuhkan
@@ -830,7 +830,7 @@ const ParallaxRapper: NextPage = () => {
                                 <p>/Tahun</p>
                             </div>
                             <p className="text-xs">
-                                *Harga promo puasa terbatas.
+                                *Harga promo ramadhan terbatas.
                             </p>
                             <p className="text-xs mb-4">
                                 Perpanjangan hanya dikenai 50%
@@ -906,7 +906,7 @@ const ParallaxRapper: NextPage = () => {
                                 <p>/Tahun</p>
                             </div>
                             <p className="text-xs">
-                                *Harga promo puasa terbatas.
+                                *Harga promo ramadhan terbatas.
                             </p>
                             <p className="text-xs mb-4">
                                 Perpanjangan hanya dikenai 80%
@@ -978,7 +978,7 @@ const ParallaxRapper: NextPage = () => {
                                 <p>/Tahun</p>
                             </div>
                             <p className="text-xs">
-                                *Harga promo puasa terbatas.
+                                *Harga promo ramadhan terbatas.
                             </p>
                             <p className="text-xs mb-4">
                                 Perpanjangan hanya dikenai 50%
