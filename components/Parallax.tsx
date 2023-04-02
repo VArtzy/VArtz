@@ -1311,7 +1311,7 @@ const ParallaxRapper: NextPage = () => {
                     </div>
 
                     <footer className="mt-16 text-snow">
-                        <div className="lg:flex justify-between py-16 px-16 bg-[#2d2d2d] gap-16">
+                        <div className="lg:flex justify-between pt-16 pb-8 px-16 bg-[#2d2d2d] gap-16">
                             <div className="lg:w-1/3 mb-8">
                                 <div className="flex items-center gap-4">
                                     <Image
@@ -1503,9 +1503,9 @@ const ParallaxRapper: NextPage = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="bg-[#252525] w-full flex flex-wrap gap-2 justify-around px-16 py-16">
+                        <div className="bg-[#252525] w-full flex flex-wrap gap-2 justify-around px-16 pt-8 pb-16">
                             <p className="text-lg">
-                                Copyright © 2023 | <Link href="/">VArtz</Link>.
+                                Copyright © 2023 | <Link href="/">VArtz</Link>
                                 All rights reserved
                             </p>
                             <p className="text-lg">
