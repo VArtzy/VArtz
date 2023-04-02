@@ -12,15 +12,18 @@ const Nav: React.FC = () => {
         <>
             <nav className="md:flex justify-between w-full fixed z-10 px-16 py-4 items-center">
                 <div className="flex justify-between items-center">
-                    <Link href="/">
-                        <Image
-                            src="/logo.png"
-                            alt="VArtz"
-                            width="32"
-                            height="32"
-                            className="object-fit"
-                        />
-                    </Link>
+                    <div className="flex items-center gap-8">
+                        <Link href="/">
+                            <Image
+                                src="/logo.png"
+                                alt="VArtz"
+                                width="32"
+                                height="32"
+                                className="object-fit"
+                            />
+                        </Link>
+                        <h2 className="font-2xl font-bold">VArtz</h2>
+                    </div>
                     <div
                         onClick={() => setIsOpen(!isOpen)}
                         className="flex flex-col md:hidden cursor-pointer"
@@ -75,6 +78,16 @@ const Nav: React.FC = () => {
                             href="/blog"
                         >
                             Blog
+                        </Link>
+                        <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
+                        <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
+                    </li>
+                    <li className="relative w-max two">
+                        <Link
+                            className="text-grayweb transition-all hover:text-slate-600"
+                            href="/work"
+                        >
+                            Works
                         </Link>
                         <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                         <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
@@ -138,6 +151,16 @@ const Nav: React.FC = () => {
                             href="/blog"
                         >
                             Blog
+                        </Link>
+                        <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
+                        <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
+                    </li>
+                    <li className="relative w-max two">
+                        <Link
+                            className="text-grayweb transition-all hover:text-slate-600"
+                            href="/work"
+                        >
+                            Works
                         </Link>
                         <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                         <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>

@@ -179,10 +179,10 @@ const Foo: React.FC = () => {
                     </p>
                 </div>
             </div>
-            <div className="bg-[#252525] w-full flex flex-wrap gap-2 justify-around px-16 pt-8 pb-16">
+            <div className="bg-[#252525] w-full flex flex-wrap gap-2 justify-between px-16 py-8">
                 <p className="text-lg">
-                    Copyright © 2023 | <Link href="/">VArtz</Link>
-                    All rights reserved
+                    Copyright © 2023 | <Link href="/">VArtz</Link> All rights
+                    reserved
                 </p>
                 <p className="text-lg">
                     Dibuat dengan <span className="text-red-600">❤️</span> oleh{" "}
