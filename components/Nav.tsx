@@ -22,7 +22,10 @@ const Nav: React.FC = () => {
                                 className="object-fit"
                             />
                         </Link>
-                        <h2 className="font-2xl font-bold">VArtz</h2>
+                        <div className="">
+                            <h2 className="text-2xl font-bold">VArtz</h2>
+                            <p>Jasa Web #1</p>
+                        </div>
                     </div>
                     <div
                         onClick={() => setIsOpen(!isOpen)}
@@ -97,7 +100,7 @@ const Nav: React.FC = () => {
                             className="text-grayweb transition-all hover:text-slate-600"
                             href="/terms-condition"
                         >
-                            S&K
+                            Persyaratan
                         </Link>
                         <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                         <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
@@ -170,7 +173,7 @@ const Nav: React.FC = () => {
                             className="text-grayweb transition-all hover:text-slate-600"
                             href="/terms-condition"
                         >
-                            S&K
+                            Persyaratan
                         </Link>
                         <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                         <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
