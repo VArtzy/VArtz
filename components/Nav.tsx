@@ -12,7 +12,7 @@ const Nav: React.FC = () => {
         <>
             <nav className="md:flex justify-between w-full fixed z-10 px-16 py-4 items-center">
                 <div className="flex justify-between items-center">
-                    <div className="flex items-center gap-2 lg:gap-8">
+                    <div className="flex items-center gap-4 lg:gap-8">
                         <Link href="/">
                             <Image
                                 src="/logo.png"
@@ -26,7 +26,7 @@ const Nav: React.FC = () => {
                             <h2 className="text-xl font-bold tracking-widest">
                                 VArtz
                             </h2>
-                            <p className="text-xs">Jasa Web #1</p>
+                            <p className="text-[10px]">Jasa Web #1</p>
                         </div>
                     </div>
                     <div
