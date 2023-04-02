@@ -304,6 +304,17 @@ const ParallaxRapper: NextPage = () => {
                             <BsArrowRight className="inline" />
                         </a>
                     </div>
+                    <span className="block text-center text-slate-800">
+                        Kami bangga dengan hubungan klien dan
+                        <Link
+                            href="/work"
+                            className="text-grayweb block mt-4 md:inline"
+                        >
+                            {" "}
+                            situs web yang telah kami bangun{" "}
+                            <BsArrowRight className="inline" />
+                        </Link>
+                    </span>
                 </ParallaxLayer>
 
                 <ParallaxLayer
@@ -492,13 +503,13 @@ const ParallaxRapper: NextPage = () => {
                             </div>
 
                             <p>
-                                Awale tak lihat banyak figure yang bikin buat
-                                website personal. Tak liat kok keren tenan. Aku
-                                yo mau bikin personal website. Mong mahal, angel
-                                lan ribet tenan. Lah untunge ketemu karo Farrel,
-                                dee tak kira kerjaane benerke printer. Ternyata
-                                gawe ngenean. Edan lek puas tenan. Jasa buat
-                                website tebaik.
+                                Jasa pembuatan website membuat website bisnis
+                                kami secara tepat waktu dan efisien, dan mereka
+                                selalu bersedia membantu memperbarui situs web
+                                kami bila diperlukan. Mereka sangat responsif
+                                dan hebat untuk diajak bekerja sama! Sangat
+                                merekomendasikan kepada siapa saja yang
+                                membutuhkan situs web baru yang cantik.
                             </p>
                         </div>
                         <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
@@ -1299,8 +1310,8 @@ const ParallaxRapper: NextPage = () => {
                         <FaArrowUp className="text-snow" />
                     </div>
 
-                    <footer className="mt-16 text-snow bg-grayweb py-16 px-16">
-                        <div className="lg:flex justify-between gap-16">
+                    <footer className="mt-16 text-snow">
+                        <div className="lg:flex justify-between py-16 px-16 bg-[#2d2d2d] gap-16">
                             <div className="lg:w-1/3 mb-8">
                                 <div className="flex items-center gap-4">
                                     <Image
@@ -1308,7 +1319,7 @@ const ParallaxRapper: NextPage = () => {
                                         height="32"
                                         src="/logo.png"
                                         alt="VArtz Logo"
-                                        className="rounded-md"
+                                        className="rounded-md invert"
                                     />
                                     <h2 className="text-2xl text-snow mb-2">
                                         VArtz
@@ -1331,7 +1342,7 @@ const ParallaxRapper: NextPage = () => {
                             <div className="mb-8">
                                 <h3 className="text-xl mb-2">Sitemap</h3>
                                 <div className="mb-2">
-                                    <ul className="flex gap-8">
+                                    <ul className="flex flex-wrap gap-8">
                                         <li>
                                             <Link
                                                 className="text-snow"
@@ -1343,9 +1354,25 @@ const ParallaxRapper: NextPage = () => {
                                         <li>
                                             <Link
                                                 className="text-snow"
+                                                href="/pricing"
+                                            >
+                                                Layanan
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link
+                                                className="text-snow"
                                                 href="/blog"
                                             >
                                                 Blog
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link
+                                                className="text-snow"
+                                                href="/work"
+                                            >
+                                                Works
                                             </Link>
                                         </li>
                                         <li>
@@ -1425,9 +1452,9 @@ const ParallaxRapper: NextPage = () => {
                                             <Link
                                                 className="text-snow"
                                                 scroll={false}
-                                                href="/#portofolio"
+                                                href="https://docs.google.com/forms/d/e/1FAIpQLSd7QAPpeOGmEJX4DlJge-XMWQ8QnZXjPYCnw1R9r7JS0h1ubg/viewform"
                                             >
-                                                Portofolio
+                                                Feedback
                                             </Link>
                                         </li>
                                         <li>
@@ -1476,11 +1503,17 @@ const ParallaxRapper: NextPage = () => {
                                 </p>
                             </div>
                         </div>
-
-                        <p className="text-lg text-center">
-                            Copyright © 2023. <Link href="/">VArtz</Link>. All
-                            rights reserved.
-                        </p>
+                        <div className="bg-[#252525] w-full flex flex-wrap gap-2 justify-around px-16 py-16">
+                            <p className="text-lg">
+                                Copyright © 2023 | <Link href="/">VArtz</Link>.
+                                All rights reserved
+                            </p>
+                            <p className="text-lg">
+                                Dibuat dengan{" "}
+                                <span className="text-red-600">❤️</span> oleh{" "}
+                                <Link href="/">Farrel Nikoson</Link>
+                            </p>
+                        </div>
                     </footer>
                 </ParallaxLayer>
             </Parallax>

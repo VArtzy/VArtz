@@ -61,7 +61,7 @@ const Invoice = () => {
                 disetujui, baru web akan diberi ke domain yang diinginkan.
             </h2>
             <p>
-                Luangkan sedikit waktu Anda untuk{" "}
+                Setelah selesai pesanan, luangkan sedikit waktu Anda untuk{" "}
                 <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSd7QAPpeOGmEJX4DlJge-XMWQ8QnZXjPYCnw1R9r7JS0h1ubg/viewform"
                     className="underline"

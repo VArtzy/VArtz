@@ -7,8 +7,8 @@ import { FaLocationArrow, FaWhatsapp } from "react-icons/fa"
 
 const Foo: React.FC = () => {
     return (
-        <footer className="mt-16 text-snow bg-grayweb py-16 px-16">
-            <div className="lg:flex justify-between gap-16">
+        <footer className="mt-16 text-snow">
+            <div className="lg:flex justify-between py-16 px-16 bg-[#2d2d2d] gap-16">
                 <div className="lg:w-1/3 mb-8">
                     <div className="flex items-center gap-4">
                         <Image
@@ -16,7 +16,7 @@ const Foo: React.FC = () => {
                             height="32"
                             src="/logo.png"
                             alt="VArtz Logo"
-                            className="rounded-md"
+                            className="rounded-md invert"
                         />
                         <h2 className="text-2xl text-snow mb-2">VArtz</h2>
                     </div>
@@ -26,7 +26,7 @@ const Foo: React.FC = () => {
                         dari kamu.
                     </p>
                     <Link
-                        className="text-lg text-snow inline-block mt-2 px-4 py-2 rounded-md bg-mediumSpringGreen transition-all hover:bg-springGreen"
+                        className="text-lg text-snow px-4 py-2 rounded-md inline-block mt-2 bg-mediumSpringGreen transition-all hover:bg-springGreen"
                         href="/quiz"
                     >
                         Dapatkan Web{" "}
@@ -37,15 +37,25 @@ const Foo: React.FC = () => {
                 <div className="mb-8">
                     <h3 className="text-xl mb-2">Sitemap</h3>
                     <div className="mb-2">
-                        <ul className="flex gap-8">
+                        <ul className="flex flex-wrap gap-8">
                             <li>
                                 <Link className="text-snow" href="/">
                                     Home
                                 </Link>
                             </li>
                             <li>
+                                <Link className="text-snow" href="/pricing">
+                                    Layanan
+                                </Link>
+                            </li>
+                            <li>
                                 <Link className="text-snow" href="/blog">
                                     Blog
+                                </Link>
+                            </li>
+                            <li>
+                                <Link className="text-snow" href="/work">
+                                    Works
                                 </Link>
                             </li>
                             <li>
@@ -120,9 +130,9 @@ const Foo: React.FC = () => {
                                 <Link
                                     className="text-snow"
                                     scroll={false}
-                                    href="/#portofolio"
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLSd7QAPpeOGmEJX4DlJge-XMWQ8QnZXjPYCnw1R9r7JS0h1ubg/viewform"
                                 >
-                                    Portofolio
+                                    Feedback
                                 </Link>
                             </li>
                             <li>
@@ -159,7 +169,7 @@ const Foo: React.FC = () => {
                     <a
                         id="konversi_konsultasi_web"
                         href="https://wa.me/6289611905599"
-                        className="bg-springGreen px-4 py-2 rounded inline-block text-snow mb-2"
+                        className="bg-springGreen px-4 py-2 hover:bg-mediumSpringGreen transition-all rounded inline-block text-snow mb-2"
                     >
                         <FaWhatsapp className="inline" /> Chat Whatsapp
                     </a>
@@ -169,10 +179,16 @@ const Foo: React.FC = () => {
                     </p>
                 </div>
             </div>
-            <p className="text-lg text-center">
-                Copyright © 2023. <Link href="/">VArtz</Link>. All rights
-                reserved.
-            </p>
+            <div className="bg-[#252525] w-full flex flex-wrap gap-2 justify-around px-16 py-16">
+                <p className="text-lg">
+                    Copyright © 2023 | <Link href="/">VArtz</Link>. All rights
+                    reserved
+                </p>
+                <p className="text-lg">
+                    Dibuat dengan <span className="text-red-600">❤️</span> oleh{" "}
+                    <Link href="/">Farrel Nikoson</Link>
+                </p>
+            </div>
         </footer>
     )
 }
