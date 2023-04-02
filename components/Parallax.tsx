@@ -1481,7 +1481,7 @@ const ParallaxRapper: NextPage = () => {
 
                             <div className="lg:w-1/3 mb-8">
                                 <h3 className="text-xl mb-2">Contacts</h3>
-                                <div className="flex items-center">
+                                <div className="flex gap-2 items-center">
                                     <FaLocationArrow className="inline" />
                                     <p>
                                         Jl. Gatot Subroto No.105, Kemlayan, Kec.
