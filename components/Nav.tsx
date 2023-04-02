@@ -23,10 +23,10 @@ const Nav: React.FC = () => {
                             />
                         </Link>
                         <div className="">
-                            <h2 className="text-xl font-bold tracking-widest">
+                            <h2 className="text-xl text-grayweb font-bold tracking-widest">
                                 VArtz
                             </h2>
-                            <p className="text-[11px]">Jasa Web #1</p>
+                            <p className="text-[10px]">Jasa Web #1</p>
                         </div>
                     </div>
                     <div
