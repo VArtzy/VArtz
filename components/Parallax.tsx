@@ -292,12 +292,12 @@ const ParallaxRapper: NextPage = () => {
                             ></Image>
                         </div>
 
-                        <a href="#" className="text-grayweb mt-4 px-8">
+                        <a href="/work" className="text-grayweb mt-4 px-8">
                             Lihat lebih banyak{" "}
                             <BsArrowRight className="inline" />
                         </a>
                         <a
-                            href="#"
+                            href="/blog/lika-liku-pengembangan-web-app"
                             className="text-grayweb px-8 block md:inline"
                         >
                             Lihat alur proses pengerjaan{" "}
@@ -576,7 +576,7 @@ const ParallaxRapper: NextPage = () => {
                     <span className="block text-center text-slate-800">
                         Kami tidak mengatakan kami yang terbaik,
                         <Link
-                            href="#"
+                            href="/work"
                             className="text-grayweb block mt-4 md:inline"
                         >
                             {" "}
