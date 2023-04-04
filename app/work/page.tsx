@@ -45,14 +45,14 @@ const Ork = () => {
                             </p>
                             <Link
                                 href="/blog/portofolio-proses-first-media"
-                                className="block mb-2 text-grayweb px-8"
+                                className="block mb-2 text-grayweb"
                             >
                                 Bagaimana kami membangunnya{" "}
                                 <BsArrowRight className="inline" />
                             </Link>
                             <a
                                 href="https://belifirstmedia.com"
-                                className="mb-2 text-grayweb px-8"
+                                className="mb-2 text-grayweb"
                             >
                                 Lihat langsung web{" "}
                                 <BsArrowRight className="inline" />
@@ -99,14 +99,14 @@ const Ork = () => {
                             </p>
                             <Link
                                 href="blog/lika-liku-pengembangan-web-app"
-                                className="mb-2 text-grayweb px-8"
+                                className="block mb-2 text-grayweb"
                             >
                                 Beginilah cerita kita{" "}
                                 <BsArrowRight className="inline" />
                             </Link>
                             <a
                                 href="https://www.joga-computer.com"
-                                className="mb-2 text-grayweb px-8"
+                                className="mb-2 text-grayweb"
                             >
                                 Lihat langsung web{" "}
                                 <BsArrowRight className="inline" />
@@ -151,16 +151,13 @@ const Ork = () => {
                                 1991. Digitalisasi adalah kunci bagi pemilik F&B
                                 di era digital.
                             </p>
-                            <a
-                                href="#"
-                                className="block mb-2 text-grayweb px-8"
-                            >
+                            <a href="#" className="block mb-2 text-grayweb">
                                 Kami dan UMKM{" "}
                                 <BsArrowRight className="inline" />
                             </a>
                             <a
                                 href="https://kuliner.joga-computer.com"
-                                className="mb-2 text-grayweb px-8"
+                                className="mb-2 text-grayweb"
                             >
                                 Lihat langsung web{" "}
                                 <BsArrowRight className="inline" />
