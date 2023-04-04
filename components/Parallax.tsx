@@ -293,7 +293,8 @@ const ParallaxRapper: NextPage = () => {
                         </div>
 
                         <a href="/work" className="text-grayweb mt-4 px-8">
-                            Lihat lebih banyak{" "}
+                            Kami bangga dengan hubungan klien dan situs web yang
+                            telah kami bangun
                             <BsArrowRight className="inline" />
                         </a>
                         <a
@@ -304,17 +305,6 @@ const ParallaxRapper: NextPage = () => {
                             <BsArrowRight className="inline" />
                         </a>
                     </div>
-                    <span className="block text-center text-slate-800">
-                        Kami bangga dengan hubungan klien dan
-                        <Link
-                            href="/work"
-                            className="text-grayweb block mt-4 md:inline"
-                        >
-                            {" "}
-                            situs web yang telah kami bangun{" "}
-                            <BsArrowRight className="inline" />
-                        </Link>
-                    </span>
                 </ParallaxLayer>
 
                 <ParallaxLayer
