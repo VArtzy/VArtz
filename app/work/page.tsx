@@ -51,6 +51,7 @@ const Ork = () => {
                                 <BsArrowRight className="inline" />
                             </Link>
                             <a
+                                target="_blank"
                                 href="https://belifirstmedia.com"
                                 className="mb-2 text-grayweb"
                             >
@@ -105,6 +106,7 @@ const Ork = () => {
                                 <BsArrowRight className="inline" />
                             </Link>
                             <a
+                                target="_blank"
                                 href="https://www.joga-computer.com"
                                 className="mb-2 text-grayweb"
                             >
@@ -156,6 +158,7 @@ const Ork = () => {
                                 <BsArrowRight className="inline" />
                             </a>
                             <a
+                                target="_blank"
                                 href="https://kuliner.joga-computer.com"
                                 className="mb-2 text-grayweb"
                             >
