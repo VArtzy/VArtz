@@ -299,7 +299,7 @@ const ParallaxRapper: NextPage = () => {
                             ></Image>
                         </div>
 
-                        <a href="/work" className="text-grayweb mt-4">
+                        <a href="/work" className="text-grayweb px-8 block md:inline mt-4">
                             Kami bangga dengan hubungan klien dan situs web yang
                             telah kami bangun
                             <BsArrowRight className="inline" />
@@ -1267,7 +1267,7 @@ const ParallaxRapper: NextPage = () => {
                         alignItems: "center",
                         color: "white",
                     }}
-                    className="bg-springGreen justify-center"
+                    className="bg-springGreen justify-center py-8"
                 >
                     <div className="max-w-4xl mx-auto px-8 flex flex-col gap-8 md:gap-16">
                         <h2 className="text-4xl md:text-5xl font-bold">
