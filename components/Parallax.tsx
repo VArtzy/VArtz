@@ -100,7 +100,7 @@ const ParallaxRapper: NextPage = () => {
                                 className="lg:flex gap-2 hover:cursor-pointer lg:relative right-4"
                                 style={props}
                             >
-                                <h2 className="text-3xl md:text-4xl w-full lg:text-right font-bold lg:mb-4 text-grayweb mt-32 lg:mt-0">
+                                <h2 className="text-3xl md:text-4xl w-full lg:text-right font-bold lg:mb-4 text-grayweb mt-36 lg:mt-0">
                                     Buat Website
                                 </h2>
                                 <animated.div
@@ -299,7 +299,7 @@ const ParallaxRapper: NextPage = () => {
                             ></Image>
                         </div>
 
-                        <a href="/work" className="text-grayweb mt-4 px-8">
+                        <a href="/work" className="text-grayweb mt-4">
                             Kami bangga dengan hubungan klien dan situs web yang
                             telah kami bangun
                             <BsArrowRight className="inline" />
@@ -1274,7 +1274,7 @@ const ParallaxRapper: NextPage = () => {
                             Dalam Waktu Dekat, Bisnis Anda Meningkat{" "}
                             <span className="underline">Pesat</span>.
                         </h2>
-                        <p className="text-4xl font-semibold md:text-xl">
+                        <p className="text-xl font-semibold md:text-4xl">
                             Penawaran Ini Tak Akan Datang 2x
                         </p>
                         <p className="text-xl md:text-2xl">
