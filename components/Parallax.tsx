@@ -128,7 +128,7 @@ const ParallaxRapper: NextPage = () => {
                                 </animated.div>
                             </animated.div>
                             <animated.div style={props}>
-                                <p className="max-w-lg mb-8 lg:text-lg font-semibold text-grayweb">
+                                <p className="max-w-lg mb-4 lg:text-lg font-semibold text-grayweb">
                                     Layanan Jasa Pembuat Website Terbaik: Web
                                     Mudah, Garansi Hasil, Bonus Domain &
                                     Transparan.
@@ -1038,7 +1038,7 @@ const ParallaxRapper: NextPage = () => {
                                 </div>
                                 <p className="text-xs">
                                     <strong>Bonus</strong> Konsultasi Lebih
-                                    <strong>senilai 209rb</strong>
+                                    <strong> senilai 209rb</strong>
                                 </p>
                             </div>
                             <div className="flex gap-4 items-center">
@@ -1273,8 +1273,8 @@ const ParallaxRapper: NextPage = () => {
                             Dalam Waktu Dekat, Bisnis Anda Meningkat{" "}
                             <span className="underline">Pesat</span>.
                         </h2>
-                        <p className="text-2xl font-semibold md:text-xl">
-                            Penawaran Ini Tak Datang 2x
+                        <p className="text-4xl font-semibold md:text-xl">
+                            Penawaran Ini Tak Akan Datang 2x
                         </p>
                         <p className="text-xl md:text-2xl">
                             &quot;Jangan ketinggalan kesempatan untuk
