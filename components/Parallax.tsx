@@ -887,8 +887,9 @@ const ParallaxRapper: NextPage = () => {
                                     <FaCheck className="text-snow text-xs" />
                                 </div>
                                 <p className="text-xs">
-                                    <strong>Bonus</strong> Hosted + Domain
-                                    (.com!) <strong>senilai 309rb</strong>
+                                    <strong>Bonus Spesial</strong> Hosting +
+                                    Domain (.com!){" "}
+                                    <strong>senilai 309rb</strong>
                                 </p>
                             </div>
                             <div className="flex gap-4 items-center">
@@ -1279,7 +1280,7 @@ const ParallaxRapper: NextPage = () => {
                         <p className="text-xl md:text-2xl">
                             &quot;Jangan ketinggalan kesempatan untuk
                             meningkatkan bisnis Anda dengan membuat
-                            website&quot;, Mau beli sekarang atau menyesal
+                            website&quot;, Mau miliki sekarang atau menyesal
                             nantinya, pilihan ada di tangan Anda.
                         </p>
                         <a
