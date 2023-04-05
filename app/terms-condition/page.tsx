@@ -126,7 +126,7 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                             title="Apakah ada garansi?"
                             content="Kami tumbuh ketika usaha Anda sukses. Garansi
                                 sudah kami sertakan dalam setiap paket pembuatan
-                                web ini, dan kami siap membantu untuk melakukan
+                                web agar sesuai dengan kemauan Anda. dan kami siap membantu untuk melakukan
                                 perbaikan gratis ketika terjadi website “error”."
                         />
                         <Accordion

@@ -128,7 +128,12 @@ const ParallaxRapper: NextPage = () => {
                                 </animated.div>
                             </animated.div>
                             <animated.div style={props}>
-                                <p className="max-w-lg mb-8 lg:text-lg text-grayweb">
+                                <p className="max-w-lg mb-8 lg:text-lg font-semibold text-grayweb">
+                                    Layanan Jasa Pembuat Website Terbaik: Web
+                                    Mudah, Garansi Hasil, Bonus Domain &
+                                    Transparan.
+                                </p>
+                                <p className="max-w-lg mb-8 text-md lg:text-base text-grayweb">
                                     Nikmati website eksklusif, ramah anggaran
                                     yang luar biasa. Untuk Anda dan bisnis
                                     kecil-menengah yang mendambakan web efektif,
@@ -234,7 +239,7 @@ const ParallaxRapper: NextPage = () => {
                         </h2>
                         <div className="browser-mockup with-url shadow-lg aspect-[9/13] lg:aspect-video">
                             <Image
-                                alt="Joga Computer web thumbail"
+                                alt="E-Book The Malaka web thumbail"
                                 src="/img/eb1.webp"
                                 width={500}
                                 height={700}
@@ -259,7 +264,7 @@ const ParallaxRapper: NextPage = () => {
                         </h2>
                         <div className="browser-mockup with-url shadow-lg aspect-[9/13] lg:aspect-video">
                             <Image
-                                alt="Joga Computer web thumbail"
+                                alt="Mie Bandung web thumbail"
                                 src="/img/eb5.webp"
                                 width={500}
                                 height={700}
@@ -275,7 +280,9 @@ const ParallaxRapper: NextPage = () => {
                     style={{ ...alignCenter }}
                     className="items-center justify-center lg:justify-end"
                 >
-                    <div className={`items-center justify-center`}>
+                    <div
+                        className={`items-center justify-center max-w-[640px]`}
+                    >
                         <h2 className="text-grayweb text-center lg:text-left text-xl mb-4 px-8">
                             <span className="text-mediumSpringGreen">
                                 E-Commerce
@@ -678,6 +685,17 @@ const ParallaxRapper: NextPage = () => {
                             yang lelet dan lemot itu.
                         </p>
                     </div>
+                    <span className="block text-center text-slate-800">
+                        Garansi uang kembali
+                        <Link
+                            href="/terms-condition#faq"
+                            className="text-grayweb block mt-4 md:inline"
+                        >
+                            {" "}
+                            jika hasil tidak sesuai kemauan{" "}
+                            <BsArrowRight className="inline" />
+                        </Link>
+                    </span>
                 </ParallaxLayer>
 
                 <ParallaxLayer
@@ -870,7 +888,7 @@ const ParallaxRapper: NextPage = () => {
                                 </div>
                                 <p className="text-xs">
                                     <strong>Bonus</strong> Hosted + Domain
-                                    (.com!)
+                                    (.com!) <strong>senilai 309rb</strong>
                                 </p>
                             </div>
                             <div className="flex gap-4 items-center">
@@ -944,7 +962,8 @@ const ParallaxRapper: NextPage = () => {
                                     <FaCheck className="text-snow text-xs" />
                                 </div>
                                 <p className="text-xs">
-                                    Copywrite & Content writing
+                                    <strong>Bonus</strong> Copywrite & Content
+                                    writing <strong>senilai 209rb</strong>
                                 </p>
                             </div>
                             <div className="flex gap-4 items-center">
@@ -1017,7 +1036,10 @@ const ParallaxRapper: NextPage = () => {
                                 <div className="p-1 bg-springGreen rounded-full mb-2">
                                     <FaCheck className="text-snow text-xs" />
                                 </div>
-                                <p className="text-xs">Konsultasi Lebih</p>
+                                <p className="text-xs">
+                                    <strong>Bonus</strong> Konsultasi Lebih
+                                    <strong>senilai 209rb</strong>
+                                </p>
                             </div>
                             <div className="flex gap-4 items-center">
                                 <div className="p-1 bg-springGreen rounded-full mb-2">
@@ -1251,6 +1273,9 @@ const ParallaxRapper: NextPage = () => {
                             Dalam Waktu Dekat, Bisnis Anda Meningkat{" "}
                             <span className="underline">Pesat</span>.
                         </h2>
+                        <p className="text-2xl font-semibold md:text-xl">
+                            Penawaran Ini Tak Datang 2x
+                        </p>
                         <p className="text-xl md:text-2xl">
                             &quot;Jangan ketinggalan kesempatan untuk
                             meningkatkan bisnis Anda dengan membuat
