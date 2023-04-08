@@ -89,7 +89,7 @@ const ParallaxRapper: NextPage = () => {
                         backgroundColor: "#FFFBFE",
                     }}
                 >
-                    <main className="grid lg:grid-cols-2 px-8 justify-center min-h-[130vh] lg:min-h-screen">
+                    <main className="grid lg:grid-cols-2 px-8 align-center min-h-[130vh] lg:min-h-screen">
                         <h1 className="sr-only">
                             Jasa Pembuatan Website dan jalankan berbagai
                             bisnismu sekarang juga.
