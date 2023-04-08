@@ -100,7 +100,7 @@ const ParallaxRapper: NextPage = () => {
                                 className="lg:flex gap-2 hover:cursor-pointer lg:relative right-4"
                                 style={props}
                             >
-                                <h2 className="text-3xl md:text-4xl w-full lg:text-right font-bold lg:mb-4 text-grayweb mt-36 lg:mt-0">
+                                <h2 className="text-3xl md:text-4xl w-full lg:text-right font-bold lg:mb-4 text-grayweb mt-16 lg:mt-0">
                                     Buat Website
                                 </h2>
                                 <animated.div
