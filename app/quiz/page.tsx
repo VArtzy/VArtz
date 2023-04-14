@@ -357,11 +357,11 @@ const OptinForm = () => {
                                 onChange={handleBudgetChange}
                             />
                             <p className="font-semibold text-xl mb-2">
-                                Rp. 199.000 - 799.000
+                                Rp. 599.000 - 999.000
                             </p>
                             <p>
-                                Anda memiliki budget sebesar 199.000 sampai
-                                799.000. Pilih pilihan ini jika budget Anda ada
+                                Anda memiliki budget sebesar 599.000 sampai
+                                999.000. Pilih pilihan ini jika budget Anda ada
                                 di range ini. Perlu diperhatikan hukum
                                 value-for-money atau ada-kualitas-ada-harga
                                 berlaku. Biasanya akan cocok dengan paket basic.
@@ -382,11 +382,11 @@ const OptinForm = () => {
                                 onChange={handleBudgetChange}
                             />
                             <p className="font-semibold text-xl mb-2">
-                                Rp. 599.000 - 999.000
+                                Rp. 999.000 - 1.799.000
                             </p>
                             <p>
-                                Anda memiliki budget sebesar 599.000 sampai
-                                999.000. Pilih pilihan ini jika budget Anda ada
+                                Anda memiliki budget sebesar 999.000 sampai
+                                1.799.000. Pilih pilihan ini jika budget Anda ada
                                 di range ini. Biasanya akan cocok dengan paket
                                 basic/custom.
                             </p>
@@ -406,10 +406,10 @@ const OptinForm = () => {
                                 onChange={handleBudgetChange}
                             />
                             <p className="font-semibold text-xl mb-2">
-                                Diatas 1 Juta
+                                Diatas 2 Juta
                             </p>
                             <p>
-                                Anda memiliki budget diatas 1.000.000 sampai
+                                Anda memiliki budget diatas 1.799.000 sampai
                                 5.000.000. Pilih pilihan ini jika budget Anda
                                 ada di range ini. Biasanya akan cocok dengan
                                 paket custom/super.
