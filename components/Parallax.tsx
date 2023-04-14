@@ -325,8 +325,8 @@ const ParallaxRapper: NextPage = () => {
                     }}
                     className="max-w-6xl mx-auto px-8 text-grayweb"
                 >
-                    <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8">
-                        Penting! Sekarang Semua Punya Website, Jangan Mau Ketinggalan
+                    <h2 className="max-w-3xl text-3xl text-center lg:text-4xl font-bold mt-8">
+                        Penting! Sekarang Semua Punya Website, Jangan Mau Ketinggalan.
                     </h2>
                     <div className="grid lg:grid-cols-2 gap-8">
                         <div className="flex flex-col gap-8">
@@ -823,7 +823,7 @@ const ParallaxRapper: NextPage = () => {
                     className="max-w-6xl mx-auto px-8"
                     id="pricing"
                 >
-                    <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb max-w-3xl">
+                    <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb max-w-4xl">
                         Hemat! Dapatkan Harga Terbaik yang Terbatas Di Bulan Suci
                         Ramadhan Ini Sekarang.
                     </h2>
@@ -838,9 +838,9 @@ const ParallaxRapper: NextPage = () => {
                             <hr className="mb-4" />
                             <div className="flex justify-center lg:justify-start">
                                 <h4 className="line-through text-xl font-bold">
-                                    Rp 1.009.000
+                                    Rp 999.000
                                 </h4>
-                                <p>/Tahun</p>
+                                <p className="line-through">/Tahun</p>
                             </div>
                             <div className="flex justify-center lg:justify-start">
                                 <h4 className="text-xl font-bold">
@@ -921,9 +921,9 @@ const ParallaxRapper: NextPage = () => {
                             <hr className="mb-4" />
 <div className="flex justify-center lg:justify-start">
                                 <h4 className="line-through text-xl font-bold">
-                                    Rp 5.009.000
+                                    Rp 4.799.000
                                 </h4>
-                                <p>/Tahun</p>
+                                <p className="line-through">/Tahun</p>
                             </div>
                             <div className="flex justify-center lg:justify-start">
                                 <h4 className="text-xl font-bold">
@@ -994,9 +994,9 @@ const ParallaxRapper: NextPage = () => {
                             <hr className="mb-4" />
                             <div className="flex justify-center lg:justify-start">
                                 <h4 className="line-through text-xl font-bold">
-                                    Rp 2.009.000
+                                    Rp 1.899.000
                                 </h4>
-                                <p>/Tahun</p>
+                                <p className="line-through">/Tahun</p>
                             </div>
                             <div className="flex justify-center lg:justify-start">
                                 <h4 className="text-xl font-bold">

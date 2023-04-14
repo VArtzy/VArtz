@@ -95,7 +95,7 @@ const Pricing = () => {
                     </ul>
                 </div>
 
-                <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb max-w-3xl">
+                <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb max-w-4xl">
                         Hemat! Dapatkan Harga Terbaik yang Terbatas Di Bulan Suci
                         Ramadhan Ini Sekarang.
                     </h2>
@@ -110,9 +110,9 @@ const Pricing = () => {
                             <hr className="mb-4" />
                             <div className="flex justify-center lg:justify-start">
                                 <h4 className="line-through text-xl font-bold">
-                                    Rp 1.009.000
+                                    Rp 999.000
                                 </h4>
-                                <p>/Tahun</p>
+                                <p className="line-through">/Tahun</p>
                             </div>
                             <div className="flex justify-center lg:justify-start">
                                 <h4 className="text-xl font-bold">
@@ -177,6 +177,79 @@ const Pricing = () => {
                                     <FaCheck className="text-snow text-xs" />
                                 </div>
                                 <p className="text-xs">Revisi maks. 2 kali</p>
+                            </div>
+
+                            <a
+                                id="konversi_penjualan_web_basic"
+                                href="https://wa.me/6289611905599?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website%20dengan%20pilihan20%paket20%BASIC.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
+                                className="bg-springGreen px-4 py-2 hover:bg-mediumSpringGreen transition-all rounded inline-block mt-4 text-snow"
+                            >
+                                <FaWhatsapp className="inline" /> Pesan Sekarang
+                            </a>
+                        </div>
+                        <div className="bg-turquoise text-snow shadow-md rounded p-4 text-center lg:text-left scale-105">
+                            <h3 className="text-lg font-bold">Super</h3>
+                            <h4 className="font-bold mb-4">Start From</h4>
+                            <hr className="mb-4" />
+<div className="flex justify-center lg:justify-start">
+                                <h4 className="line-through text-xl font-bold">
+                                    Rp 4.799.000
+                                </h4>
+                                <p className="line-through">/Tahun</p>
+                            </div>
+                            <div className="flex justify-center lg:justify-start">
+                                <h4 className="text-xl font-bold">
+                                    Rp 1.799.000
+                                </h4>
+                                <p>/Tahun</p>
+                            </div>
+                            <p className="text-xs">
+                                *Harga promo ramadhan terbatas.
+                            </p>
+                            <p className="text-xs mb-4">
+                                Perpanjangan hanya dikenai 80%
+                            </p>
+                            <p className="text-md mb-4">
+                                Company Profile Website. Cocok dengan bisnis
+                                skala besar untuk menunjukan berbagai visi, misi
+                                dan inovasi dari bisnis kamu.
+                            </p>
+                            <div className="flex gap-4 items-center text-center lg:text-left">
+                                <div className="p-1 bg-springGreen rounded-full mb-2">
+                                    <FaCheck className="text-snow text-xs" />
+                                </div>
+                                <p className="text-xs">
+                                    Semua fitur di harga bawahnya
+                                </p>
+                            </div>
+                            <div className="flex gap-4 items-center">
+                                <div className="p-1 bg-springGreen rounded-full mb-2">
+                                    <FaCheck className="text-snow text-xs" />
+                                </div>
+                                <p className="text-xs">
+                                    Bussiness Based Website
+                                </p>
+                            </div>
+                            <div className="flex gap-4 items-center">
+                                <div className="p-1 bg-springGreen rounded-full mb-2">
+                                    <FaCheck className="text-snow text-xs" />
+                                </div>
+                                <p className="text-xs">5 atau lebih halaman</p>
+                            </div>
+                            <div className="flex gap-4 items-center">
+                                <div className="p-1 bg-springGreen rounded-full mb-2">
+                                    <FaCheck className="text-snow text-xs" />
+                                </div>
+                                <p className="text-xs">
+                                    <strong>Bonus</strong> Copywrite & Content
+                                    writing <strong>senilai 209rb</strong>
+                                </p>
+                            </div>
+                            <div className="flex gap-4 items-center">
+                                <div className="p-1 bg-springGreen rounded-full mb-2">
+                                    <FaCheck className="text-snow text-xs" />
+                                </div>
+                                <p className="text-xs">Revisi maks. 5 kali</p>
                             </div>
 
                             <a
