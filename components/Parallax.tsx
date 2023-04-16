@@ -443,7 +443,7 @@ const ParallaxRapper: NextPage = () => {
                         className="pt-4 text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb"
                         onClick={() => ParallaxRef.current?.scrollTo(0)}
                     >
-                        Kisah Sukses.
+                        Sukses Online Bersama Kami: Ini Kata Mereka.
                     </h2>
 
                     <p className="text-xl mb-8 text-grayweb text-center">
