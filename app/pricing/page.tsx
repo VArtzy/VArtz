@@ -259,6 +259,80 @@ const Pricing = () => {
                             <FaWhatsapp className="inline" /> Pesan Sekarang
                         </a>
                     </div>
+<div className="bg-snow text-grayweb shadow-md rounded p-4 text-center lg:text-left">
+                            <h3 className="text-lg font-bold">Custom</h3>
+                            <h4 className="font-bold mb-4">Start From</h4>
+                            <hr className="mb-4" />
+                            <div className="flex justify-center lg:justify-start">
+                                <h4 className="line-through text-xl font-bold">
+                                    Rp 1.899.000
+                                </h4>
+                                <p className="line-through">/Tahun</p>
+                            </div>
+                            <div className="flex justify-center lg:justify-start">
+                                <h4 className="text-xl font-bold">
+                                    Rp 999.000
+                                </h4>
+                                <p>/Tahun</p>
+                            </div>
+                            <p className="text-xs">
+                                *Harga promo ramadhan terbatas.
+                            </p>
+                            <p className="text-xs mb-4">
+                                Perpanjangan hanya dikenai 50%
+                            </p>
+                            <p className="text-md mb-4">
+                                Custom Website. Cocok dengan pembuatan Website
+                                blogging, web App, Kartu Undangan,
+                                Email/Newsletter.
+                            </p>
+                            <div className="flex gap-4 items-center text-center lg:text-left">
+                                <div className="p-1 bg-springGreen rounded-full mb-2">
+                                    <FaCheck className="text-snow text-xs" />
+                                </div>
+                                <p className="text-xs">
+                                    Semua fitur di harga bawahnya
+                                </p>
+                            </div>
+                            <div className="flex gap-4 items-center">
+                                <div className="p-1 bg-springGreen rounded-full mb-2">
+                                    <FaCheck className="text-snow text-xs" />
+                                </div>
+                                <p className="text-xs">
+                                    Custom Sesuai Kemauan Anda
+                                </p>
+                            </div>
+                            <div className="flex gap-4 items-center">
+                                <div className="p-1 bg-springGreen rounded-full mb-2">
+                                    <FaCheck className="text-snow text-xs" />
+                                </div>
+                                <p className="text-xs">
+                                    Berbagai Jenis Website
+                                </p>
+                            </div>
+                            <div className="flex gap-4 items-center">
+                                <div className="p-1 bg-springGreen rounded-full mb-2">
+                                    <FaCheck className="text-snow text-xs" />
+                                </div>
+                                <p className="text-xs">
+                                    <strong>Bonus</strong> Konsultasi Lebih
+                                    <strong> senilai 209rb</strong>
+                                </p>
+                            </div>
+                            <div className="flex gap-4 items-center">
+                                <div className="p-1 bg-springGreen rounded-full mb-2">
+                                    <FaCheck className="text-snow text-xs" />
+                                </div>
+                                <p className="text-xs">Revisi maks. 2 kali</p>
+                            </div>
+                            <a
+                                id="konversi_penjualan_web_custom"
+                                href="https://wa.me/6289611905599?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website%20dengan%20pilihan20%paket20%CUSTOM.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
+                                className="bg-springGreen px-4 py-2 hover:bg-mediumSpringGreen transition-all rounded inline-block mt-4 text-snow"
+                            >
+                                <FaWhatsapp className="inline" /> Pesan Sekarang
+                            </a>
+                        </div>
                     <p className="text-grayweb text-sm">
                         Banyak pilihan jasa pembuatan website yang ditawarkan
                         dengan harga berbeda di Google. VArtz mungkin tidak
