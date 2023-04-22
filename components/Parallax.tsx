@@ -129,7 +129,7 @@ const ParallaxRapper: NextPage = () => {
                             </animated.div>
                             <animated.div style={props}>
                                 <p className="max-w-lg mb-4 text-emerald-700 lg:text-lg font-semibold text-grayweb">
-                                    <span className="font-bold">Promo Idul Fitri</span> Jasa Web Terbaik: Web
+                                    Promo Idul Fitri Terbatas Jasa Web Terbaik: Web
                                     Mudah, Garansi Hasil, Bonus Domain &
                                     Transparan.
                                 </p>
