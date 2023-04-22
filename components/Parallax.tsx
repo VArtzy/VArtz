@@ -152,7 +152,7 @@ const ParallaxRapper: NextPage = () => {
                                         id="konversi_konsultasi_web"
                                         className="inline-block text-md rounded bg-springGreen hover:bg-mediumSpringGreen transition px-4 py-2"
                                     >
-                                        Saya Ambil Promo
+                                        Saya Ambil Harga Promo
                                     </a>
                                     <a
                                         href="https://wa.me/6289611905599?text=Hai%20min,%20bisa%20konsultasi%20buat%20website?"
