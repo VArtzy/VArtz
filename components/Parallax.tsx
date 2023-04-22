@@ -128,8 +128,8 @@ const ParallaxRapper: NextPage = () => {
                                 </animated.div>
                             </animated.div>
                             <animated.div style={props}>
-                                <p className="max-w-lg mb-4 lg:text-lg font-semibold text-grayweb">
-                                    Layanan Jasa Pembuat Website Terbaik: Web
+                                <p className="max-w-lg mb-4 text-emerald-700 lg:text-lg font-semibold text-grayweb">
+                                    <span className="font-bold">Promo Idul Fitri</span> Jasa Web Terbaik: Web
                                     Mudah, Garansi Hasil, Bonus Domain &
                                     Transparan.
                                 </p>
@@ -152,7 +152,7 @@ const ParallaxRapper: NextPage = () => {
                                         id="konversi_konsultasi_web"
                                         className="inline-block text-md rounded bg-springGreen hover:bg-mediumSpringGreen transition px-4 py-2"
                                     >
-                                        Buatkan Saya
+                                        Saya Ambil Promo
                                     </a>
                                     <a
                                         href="https://wa.me/6289611905599?text=Hai%20min,%20bisa%20konsultasi%20buat%20website?"
@@ -824,8 +824,7 @@ const ParallaxRapper: NextPage = () => {
                     id="pricing"
                 >
                     <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb max-w-4xl">
-                        Hemat! Dapatkan Harga Terbaik yang Terbatas Di Bulan Suci
-                        Ramadhan Ini Sekarang.
+                        Hemat! Dapatkan Harga Promo Idul Fitri Terbaik yang Terbatas Untuk Hari Ini.
                     </h2>
                     <p className="text-grayweb text-xl text-center mb-8">
                         Solusi yang didukung kinerja untuk membantu menumbuhkan

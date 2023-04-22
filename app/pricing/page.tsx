@@ -96,8 +96,7 @@ const Pricing = () => {
                 </div>
 
                 <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb max-w-4xl">
-                        Hemat! Dapatkan Harga Terbaik yang Terbatas Di Bulan Suci
-                        Ramadhan Ini Sekarang.
+                        Hemat! Dapatkan Harga Promo Idul Fitri Terbaik yang Terbatas Untuk Hari Ini.
                     </h2>
                     <p className="text-grayweb text-xl text-center mb-8">
                         Solusi yang didukung kinerja untuk membantu menumbuhkan
