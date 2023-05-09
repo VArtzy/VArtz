@@ -95,7 +95,7 @@ const OptinForm = () => {
             {step === 1 && (
                 <>
                     <h2 className="text-3xl font-bold mb-2">
-                        Dapatkan website terbaik yang sesuai dengan tujuan yang
+                        Dapatkan website promo terbatas terbaik yang sesuai dengan tujuan yang
                         Anda miliki
                     </h2>
                     <p className="text-xl mb-8">
@@ -123,11 +123,10 @@ const OptinForm = () => {
                     </p>
                     <div className="flex flex-wrap gap-16">
                         <label
-                            className={`p-8 outline outline-black rounded-md transition-all hover:outline-grayweb ${
-                                type === "sales-page"
-                                    ? "bg-green-500 text-white outline-grayweb"
-                                    : ""
-                            }`}
+                            className={`p-8 outline outline-black rounded-md transition-all hover:outline-grayweb ${type === "sales-page"
+                                ? "bg-green-500 text-white outline-grayweb"
+                                : ""
+                                }`}
                         >
                             <input
                                 className="hidden"
@@ -151,11 +150,10 @@ const OptinForm = () => {
                             </p>
                         </label>
                         <label
-                            className={`p-8 outline outline-black rounded-md transition-all hover:outline-grayweb ${
-                                type === "squeeze-page"
-                                    ? "bg-green-500 text-white outline-grayweb"
-                                    : ""
-                            }`}
+                            className={`p-8 outline outline-black rounded-md transition-all hover:outline-grayweb ${type === "squeeze-page"
+                                ? "bg-green-500 text-white outline-grayweb"
+                                : ""
+                                }`}
                         >
                             <input
                                 className="hidden"
@@ -175,11 +173,10 @@ const OptinForm = () => {
                             </p>
                         </label>
                         <label
-                            className={`p-8 outline outline-black rounded-md transition-all hover:outline-grayweb ${
-                                type === "web-page"
-                                    ? "bg-green-500 text-white outline-grayweb"
-                                    : ""
-                            }`}
+                            className={`p-8 outline outline-black rounded-md transition-all hover:outline-grayweb ${type === "web-page"
+                                ? "bg-green-500 text-white outline-grayweb"
+                                : ""
+                                }`}
                         >
                             <input
                                 className="hidden"
@@ -236,11 +233,10 @@ const OptinForm = () => {
                     </p>
                     <div className="flex flex-wrap gap-16">
                         <label
-                            className={`p-8 outline outline-black rounded-md transition-all hover:outline-grayweb ${
-                                tujuan === "informasi"
-                                    ? "bg-green-500 text-white outline-grayweb"
-                                    : ""
-                            }`}
+                            className={`p-8 outline outline-black rounded-md transition-all hover:outline-grayweb ${tujuan === "informasi"
+                                ? "bg-green-500 text-white outline-grayweb"
+                                : ""
+                                }`}
                         >
                             <input
                                 className="hidden"
@@ -260,11 +256,10 @@ const OptinForm = () => {
                             </p>
                         </label>
                         <label
-                            className={`p-8 outline outline-black rounded-md transition-all hover:outline-grayweb ${
-                                tujuan === "konversi"
-                                    ? "bg-green-500 text-white outline-grayweb"
-                                    : ""
-                            }`}
+                            className={`p-8 outline outline-black rounded-md transition-all hover:outline-grayweb ${tujuan === "konversi"
+                                ? "bg-green-500 text-white outline-grayweb"
+                                : ""
+                                }`}
                         >
                             <input
                                 className="hidden"
@@ -283,11 +278,10 @@ const OptinForm = () => {
                             </p>
                         </label>
                         <label
-                            className={`p-8 outline outline-black rounded-md transition-all hover:outline-grayweb ${
-                                tujuan === "tidak-yakin"
-                                    ? "bg-green-500 text-white outline-grayweb"
-                                    : ""
-                            }`}
+                            className={`p-8 outline outline-black rounded-md transition-all hover:outline-grayweb ${tujuan === "tidak-yakin"
+                                ? "bg-green-500 text-white outline-grayweb"
+                                : ""
+                                }`}
                         >
                             <input
                                 className="hidden"
@@ -343,11 +337,10 @@ const OptinForm = () => {
                     </p>
                     <div className="flex flex-wrap gap-16">
                         <label
-                            className={`p-8 outline outline-black rounded-md transition-all hover:outline-grayweb ${
-                                budget === "199"
-                                    ? "bg-green-500 text-white outline-grayweb"
-                                    : ""
-                            }`}
+                            className={`p-8 outline outline-black rounded-md transition-all hover:outline-grayweb ${budget === "199"
+                                ? "bg-green-500 text-white outline-grayweb"
+                                : ""
+                                }`}
                         >
                             <input
                                 className="hidden"
@@ -368,11 +361,10 @@ const OptinForm = () => {
                             </p>
                         </label>
                         <label
-                            className={`p-8 outline outline-black rounded-md transition-all hover:outline-grayweb ${
-                                budget === "599"
-                                    ? "bg-green-500 text-white outline-grayweb"
-                                    : ""
-                            }`}
+                            className={`p-8 outline outline-black rounded-md transition-all hover:outline-grayweb ${budget === "599"
+                                ? "bg-green-500 text-white outline-grayweb"
+                                : ""
+                                }`}
                         >
                             <input
                                 className="hidden"
@@ -392,11 +384,10 @@ const OptinForm = () => {
                             </p>
                         </label>
                         <label
-                            className={`p-8 outline outline-black rounded-md transition-all hover:outline-grayweb ${
-                                budget === "999"
-                                    ? "bg-green-500 text-white outline-grayweb"
-                                    : ""
-                            }`}
+                            className={`p-8 outline outline-black rounded-md transition-all hover:outline-grayweb ${budget === "999"
+                                ? "bg-green-500 text-white outline-grayweb"
+                                : ""
+                                }`}
                         >
                             <input
                                 className="hidden"
@@ -456,10 +447,10 @@ const OptinForm = () => {
                             {points < 25
                                 ? "BASIC"
                                 : points > 25 && points < 32
-                                ? "CUSTOM"
-                                : points > 32
-                                ? "SUPER"
-                                : "belum terdifinisi"}
+                                    ? "CUSTOM"
+                                    : points > 32
+                                        ? "SUPER"
+                                        : "belum terdifinisi"}
                         </span>
                         .
                     </p>
@@ -491,21 +482,19 @@ const OptinForm = () => {
                         rel="noreferrer"
                         className="text-2xl bg-mediumSpringGreen text-snow px-4 py-2 rounded-md mb-4"
                         type="submit"
-                        href={`https://wa.me/6289611905599?text=Hai%20min,%20saya%ingin%20membuat%20website%20paket%20${
-                            points < 25
-                                ? "BASIC"
-                                : points > 25 && points < 32
+                        href={`https://wa.me/6289611905599?text=Hai%20min,%20saya%ingin%20membuat%20website%20paket%20${points < 25
+                            ? "BASIC"
+                            : points > 25 && points < 32
                                 ? "CUSTOM"
                                 : points > 32
-                                ? "SUPER"
-                                : "belum terdifinisi"
-                        }%20dengan%20tipe%20${
-                            type === "sales-page"
+                                    ? "SUPER"
+                                    : "belum terdifinisi"
+                            }%20dengan%20tipe%20${type === "sales-page"
                                 ? "halaman%20penjualan"
                                 : type === "squeeze-page"
-                                ? "halaman%20prospek"
-                                : "halaman%20web"
-                        }%20dan%20tujuan%20${tujuan}%20serta%20budget%20minimal%20sebesar%20Rp.%20${budget}.000.`}
+                                    ? "halaman%20prospek"
+                                    : "halaman%20web"
+                            }%20dan%20tujuan%20${tujuan}%20serta%20budget%20minimal%20sebesar%20Rp.%20${budget === '199' ? '599' : budget === '599' ? '999' : '1.799'}.000.`}
                     >
                         Lakukan Pemesanan Sekarang (wa)
                     </a>

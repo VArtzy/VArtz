@@ -128,8 +128,8 @@ const ParallaxRapper: NextPage = () => {
                                 </animated.div>
                             </animated.div>
                             <animated.div style={props}>
-                                <p className="max-w-lg mb-4 text-emerald-700 lg:text-lg font-semibold text-grayweb">
-                                    Promo Idul Fitri Terbatas Jasa Web Terbaik: Web
+                                <p className="max-w-lg mb-4 lg:text-lg font-semibold text-grayweb">
+                                    Jasa Web Terbaik: Web
                                     Mudah, Garansi Hasil, Bonus Domain &
                                     Transparan.
                                 </p>
@@ -147,13 +147,12 @@ const ParallaxRapper: NextPage = () => {
                                 }}
                             >
                                 <div className="flex gap-4">
-                                    <a
-                                        href="https://wa.me/6289611905599?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
-                                        id="konversi_konsultasi_web"
+                                    <Link
+                                        href="/quiz"
                                         className="inline-block text-md rounded bg-springGreen hover:bg-mediumSpringGreen transition px-4 py-2"
                                     >
                                         Saya Ambil Harga Promo
-                                    </a>
+                                    </Link>
                                     <a
                                         href="https://wa.me/6289611905599?text=Hai%20min,%20bisa%20konsultasi%20buat%20website?"
                                         id="konversi_konsultasi_web"
@@ -214,11 +213,10 @@ const ParallaxRapper: NextPage = () => {
                         <h2 className="">
                             Kami{" "}
                             <span className="text-turquoise">
-                                {`${
-                                    entry?.isIntersecting
-                                        ? "Mengembangkan"
-                                        : "Membangun"
-                                }`}
+                                {`${entry?.isIntersecting
+                                    ? "Mengembangkan"
+                                    : "Membangun"
+                                    }`}
                             </span>
                         </h2>
                     </div>
@@ -351,9 +349,7 @@ const ParallaxRapper: NextPage = () => {
                                     yang Anda berikan
                                 </li>
                                 <li>
-                                    Laman bertenggernya pelanggan untuk
-                                    mementukan pilihan pembelian
-                                </li>
+                                    Customer Anda akan selalu mengecek informasi usaha Anda lewat website. Bayangkan saja jika Anda tidak punya atau sudah punya namun kurang menarik. 100% RUGI.                               </li>
                                 <li>
                                     Dan masih banyak lagi. Anda seharusnya sudah
                                     tahu betapa banyak benefit yang dimiliki
@@ -824,7 +820,7 @@ const ParallaxRapper: NextPage = () => {
                     id="pricing"
                 >
                     <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb max-w-4xl">
-                        Hemat! Dapatkan Harga Promo Idul Fitri Terbaik yang Terbatas Untuk Hari Ini.
+                        Hemat! Dapatkan Harga Promo Terbaik yang Terbatas Untuk Hari Ini.
                     </h2>
                     <p className="text-grayweb text-xl text-center mb-8">
                         Solusi yang didukung kinerja untuk membantu menumbuhkan
@@ -848,7 +844,7 @@ const ParallaxRapper: NextPage = () => {
                                 <p>/Tahun</p>
                             </div>
                             <p className="text-xs">
-                                *Harga promo ramadhan terbatas.
+                                *Harga promo terbatas.
                             </p>
                             <p className="text-xs mb-4">
                                 Perpanjangan hanya dikenai 50%
@@ -918,7 +914,7 @@ const ParallaxRapper: NextPage = () => {
                             <h3 className="text-lg font-bold">Super</h3>
                             <h4 className="font-bold mb-4">Start From</h4>
                             <hr className="mb-4" />
-<div className="flex justify-center lg:justify-start">
+                            <div className="flex justify-center lg:justify-start">
                                 <h4 className="line-through text-xl font-bold">
                                     Rp 4.799.000
                                 </h4>
@@ -931,7 +927,7 @@ const ParallaxRapper: NextPage = () => {
                                 <p>/Tahun</p>
                             </div>
                             <p className="text-xs">
-                                *Harga promo ramadhan terbatas.
+                                *Harga promo terbatas.
                             </p>
                             <p className="text-xs mb-4">
                                 Perpanjangan hanya dikenai 80%
@@ -1004,7 +1000,7 @@ const ParallaxRapper: NextPage = () => {
                                 <p>/Tahun</p>
                             </div>
                             <p className="text-xs">
-                                *Harga promo ramadhan terbatas.
+                                *Harga promo terbatas.
                             </p>
                             <p className="text-xs mb-4">
                                 Perpanjangan hanya dikenai 50%
