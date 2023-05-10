@@ -1132,7 +1132,7 @@ const ParallaxRapper: NextPage = () => {
                     className="max-w-6xl mx-auto px-8"
                     id="cara-order"
                 >
-                    <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb">
+                    <h2 className="text-3xl text-center lg:text-4xl font-bold mt-12">
                         Buat Website{" "}
                         <span className="underline">
                             Gak Perlu Ribet & Lama
