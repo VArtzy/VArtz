@@ -6,6 +6,7 @@ import {
     FaRegArrowAltCircleRight,
     FaRegArrowAltCircleLeft,
 } from "react-icons/fa"
+import { BsWhatsapp } from 'react-icons/bs'
 
 const OptinForm = () => {
     const [step, setStep] = useState(1)
@@ -496,7 +497,7 @@ const OptinForm = () => {
                                     : "halaman%20web"
                             }%20dan%20tujuan%20${tujuan}%20serta%20budget%20minimal%20sebesar%20Rp.%20${budget === '199' ? '599' : budget === '599' ? '999' : '1.799'}.000.`}
                     >
-                        Lakukan Pemesanan Sekarang (wa)
+                        <BsWhatsapp className="inline" /> Lakukan Pemesanan Sekarang
                     </a>
                 </div>
             )}
