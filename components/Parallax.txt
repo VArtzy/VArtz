@@ -128,7 +128,7 @@ const ParallaxRapper: NextPage = () => {
                                 </animated.div>
                             </animated.div>
                             <animated.div style={props}>
-                                <p className="max-w-lg mb-4 lg:text-lg font-semibold text-grayweb">
+                                <p className="max-w-lg mb-4 lg:text-lg font-medium text-grayweb">
                                     Jasa Web Terbaik: Web
                                     Mudah, Garansi Hasil, Bonus Domain &
                                     Transparan.
@@ -1132,7 +1132,7 @@ const ParallaxRapper: NextPage = () => {
                     className="max-w-6xl mx-auto px-8"
                     id="cara-order"
                 >
-                    <h2 className="text-3xl text-center lg:text-4xl font-bold mt-12">
+                    <h2 className="text-3xl text-center text-grayweb lg:text-4xl font-bold mt-12">
                         Buat Website{" "}
                         <span className="underline">
                             Gak Perlu Ribet & Lama
