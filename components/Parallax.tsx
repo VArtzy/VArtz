@@ -233,12 +233,12 @@ const ParallaxRapper: NextPage = () => {
                             <span className="text-mediumSpringGreen">
                                 Landing Page
                             </span>{" "}
-                            Produk E-Book The Malaka
+                            First Media
                         </h2>
                         <div className="browser-mockup with-url shadow-lg aspect-[9/13] lg:aspect-video">
                             <Image
-                                alt="E-Book The Malaka web thumbail"
-                                src="/img/eb1.webp"
+                                alt="First media web thumbail"
+                                src="/img/eb2.webp"
                                 width={500}
                                 height={700}
                                 className="w-full object-cover object-top aspect-[9/13] lg:aspect-video"
