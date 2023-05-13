@@ -119,6 +119,7 @@ const Nav: React.FC = () => {
                     </li>
                     <li className="relative w-max two">
                         <Link
+                            id="konversi_quiz_web"
                             className="text-lg text-snow px-4 py-2 rounded-md bg-mediumSpringGreen transition-all hover:bg-springGreen"
                             href="/quiz"
                         >

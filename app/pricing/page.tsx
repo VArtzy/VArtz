@@ -96,7 +96,8 @@ const Pricing = () => {
                 </div>
 
                 <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb max-w-4xl">
-                    Hemat! Dapatkan Harga Promo Terbaik yang Terbatas Untuk Hari Ini.
+                    Hemat! Dapatkan Harga Promo Terbaik yang Terbatas Untuk Hari
+                    Ini.
                 </h2>
                 <p className="text-grayweb text-xl text-center mb-8">
                     Solusi yang didukung kinerja untuk membantu menumbuhkan
@@ -114,28 +115,22 @@ const Pricing = () => {
                             <p className="line-through">/Tahun</p>
                         </div>
                         <div className="flex justify-center lg:justify-start">
-                            <h4 className="text-xl font-bold">
-                                Rp 599.000
-                            </h4>
+                            <h4 className="text-xl font-bold">Rp 599.000</h4>
                             <p>/Tahun</p>
                         </div>
-                        <p className="text-xs">
-                            *Harga promo terbatas.
-                        </p>
+                        <p className="text-xs">*Harga promo terbatas.</p>
                         <p className="text-xs mb-4">
                             Perpanjangan hanya dikenai 50%
                         </p>
                         <p className="text-md mb-4">
-                            Landing Page dengan 1 halaman serta maks. 5
-                            Section. Cocok untuk produk/portofolio.
+                            Landing Page dengan 1 halaman serta maks. 5 Section.
+                            Cocok untuk produk/portofolio.
                         </p>
                         <div className="flex gap-4 items-center text-center lg:text-left">
                             <div className="p-1 bg-springGreen rounded-full mb-2">
                                 <FaCheck className="text-snow text-xs" />
                             </div>
-                            <p className="text-xs">
-                                Informasi Tersampaikan
-                            </p>
+                            <p className="text-xs">Informasi Tersampaikan</p>
                         </div>
                         <div className="flex gap-4 items-center">
                             <div className="p-1 bg-springGreen rounded-full mb-2">
@@ -149,18 +144,15 @@ const Pricing = () => {
                             <div className="p-1 bg-springGreen rounded-full mb-2">
                                 <FaCheck className="text-snow text-xs" />
                             </div>
-                            <p className="text-xs">
-                                Responsive + Interaktif
-                            </p>
+                            <p className="text-xs">Responsive + Interaktif</p>
                         </div>
                         <div className="flex gap-4 items-center">
                             <div className="p-1 bg-springGreen rounded-full mb-2">
                                 <FaCheck className="text-snow text-xs" />
                             </div>
                             <p className="text-xs">
-                                <strong>Bonus Spesial</strong> Hosting +
-                                Domain (.com!){" "}
-                                <strong>senilai 309rb</strong>
+                                <strong>Bonus Spesial</strong> Hosting + Domain
+                                (.com!) <strong>senilai 309rb</strong>
                             </p>
                         </div>
                         <div className="flex gap-4 items-center">
@@ -197,21 +189,17 @@ const Pricing = () => {
                             <p>/Tahun</p>
                         </div>
                         <div className="flex justify-center lg:justify-start">
-                            <h4 className="text-xl font-bold">
-                                Rp 1.799.000
-                            </h4>
+                            <h4 className="text-xl font-bold">Rp 1.799.000</h4>
                             <p>/Tahun</p>
                         </div>
-                        <p className="text-xs">
-                            *Harga promo terbatas.
-                        </p>
+                        <p className="text-xs">*Harga promo terbatas.</p>
                         <p className="text-xs mb-4">
                             Perpanjangan hanya dikenai 80%
                         </p>
                         <p className="text-md mb-4">
-                            Company Profile Website. Cocok dengan bisnis
-                            skala besar untuk menunjukan berbagai visi, misi
-                            dan inovasi dari bisnis kamu.
+                            Company Profile Website. Cocok dengan bisnis skala
+                            besar untuk menunjukan berbagai visi, misi dan
+                            inovasi dari bisnis kamu.
                         </p>
                         <div className="flex gap-4 items-center text-center lg:text-left">
                             <div className="p-1 bg-springGreen rounded-full mb-2">
@@ -225,9 +213,7 @@ const Pricing = () => {
                             <div className="p-1 bg-springGreen rounded-full mb-2">
                                 <FaCheck className="text-snow text-xs" />
                             </div>
-                            <p className="text-xs">
-                                Bussiness Based Website
-                            </p>
+                            <p className="text-xs">Bussiness Based Website</p>
                         </div>
                         <div className="flex gap-4 items-center">
                             <div className="p-1 bg-springGreen rounded-full mb-2">
@@ -269,21 +255,16 @@ const Pricing = () => {
                             <p className="line-through">/Tahun</p>
                         </div>
                         <div className="flex justify-center lg:justify-start">
-                            <h4 className="text-xl font-bold">
-                                Rp 999.000
-                            </h4>
+                            <h4 className="text-xl font-bold">Rp 999.000</h4>
                             <p>/Tahun</p>
                         </div>
-                        <p className="text-xs">
-                            *Harga promo terbatas.
-                        </p>
+                        <p className="text-xs">*Harga promo terbatas.</p>
                         <p className="text-xs mb-4">
                             Perpanjangan hanya dikenai 50%
                         </p>
                         <p className="text-md mb-4">
                             Custom Website. Cocok dengan pembuatan Website
-                            blogging, web App, Kartu Undangan,
-                            Email/Newsletter.
+                            blogging, web App, Kartu Undangan, Email/Newsletter.
                         </p>
                         <div className="flex gap-4 items-center text-center lg:text-left">
                             <div className="p-1 bg-springGreen rounded-full mb-2">
@@ -305,9 +286,7 @@ const Pricing = () => {
                             <div className="p-1 bg-springGreen rounded-full mb-2">
                                 <FaCheck className="text-snow text-xs" />
                             </div>
-                            <p className="text-xs">
-                                Berbagai Jenis Website
-                            </p>
+                            <p className="text-xs">Berbagai Jenis Website</p>
                         </div>
                         <div className="flex gap-4 items-center">
                             <div className="p-1 bg-springGreen rounded-full mb-2">
@@ -343,6 +322,7 @@ const Pricing = () => {
                     <span>
                         Bingung memilih?
                         <Link
+                            id="konversi_quiz_web"
                             href="/quiz"
                             className="text-grayweb text-center md:px-0 block md:inline"
                         >
