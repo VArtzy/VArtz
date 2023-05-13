@@ -469,7 +469,7 @@ window.scrollTo({
                         id="konversi_konsultasi_web"
                         target="_blank"
                         rel="noreferrer"
-                        className="text-2xl bg-mediumSpringGreen text-snow px-4 py-2 rounded-md mb-4"
+                        className="mt-8 text-2xl bg-mediumSpringGreen text-snow px-4 py-2 rounded-md mb-4"
                         type="submit"
                         href={`https://wa.me/6289611905599?text=Hai%20min,%20saya%ingin%20membuat%20website%20paket%20${points < 25
                             ? "BASIC"
@@ -488,7 +488,7 @@ window.scrollTo({
                         <BsWhatsapp className="inline" /> Lakukan Pemesanan Sekarang
                     </a>
 
-                    <div className="md:flex justify-between w-full mt-8">
+                    <div className="md:flex justify-between w-full mt-4">
                         <button
                             className="text-xl mb-4"
                             type="button"
