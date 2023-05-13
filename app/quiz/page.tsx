@@ -149,8 +149,8 @@ window.scrollTo({
                             <p>
                                 Halaman yang dikhususkan untuk terjadinya
                                 transaksi dan biasanya hanya terdiri dari 1
-                                halaman. Contohnya seperti halaman penjualan
-                                produk herbal, personal portofolio singkat,
+                                halaman informatif & persuasif. Contohnya seperti halaman penjualan
+                                company profile, produk herbal, personal portofolio singkat,
                                 penjualan buku dan lain lain.
                             </p>
                         </label>
