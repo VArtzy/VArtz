@@ -58,7 +58,7 @@ const Home = () => {
         "7 Jam lalu",
         "3 Hari lalu",
         "29 Menit lalu",
-        "12 Menit lalu",
+        "13 Jam lalu",
         "4 Jam lalu",
         "54 Menit lalu",
         "22 Jam lalu",

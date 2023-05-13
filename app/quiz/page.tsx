@@ -36,6 +36,10 @@ const OptinForm = () => {
             } else {
                 setMessage("Anda belum mengisi pilihan yang tersedia!")
             }
+window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
         } else {
             setStep(step + 1)
             setMessage("")
@@ -461,23 +465,7 @@ const OptinForm = () => {
                         konsultasi atau pesan dengan tombol di untuk
                         menvalidasi.
                     </p>
-
-                    <div className="md:flex justify-between w-full mt-8">
-                        <button
-                            className="text-xl mb-4"
-                            type="button"
-                            onClick={() => setStep(step - 1)}
-                        >
-                            {" "}
-                            <FaRegArrowAltCircleLeft className="inline" />
-                            Kembali
-                        </button>
-                        <Link href="/pricing" className="block text-xl mb-4">
-                            Kembali ke layanan & harga
-                            <FaRegArrowAltCircleRight className="inline" />
-                        </Link>
-                    </div>
-                    <a
+<a
                         id="konversi_konsultasi_web"
                         target="_blank"
                         rel="noreferrer"
@@ -499,6 +487,22 @@ const OptinForm = () => {
                     >
                         <BsWhatsapp className="inline" /> Lakukan Pemesanan Sekarang
                     </a>
+
+                    <div className="md:flex justify-between w-full mt-8">
+                        <button
+                            className="text-xl mb-4"
+                            type="button"
+                            onClick={() => setStep(step - 1)}
+                        >
+                            {" "}
+                            <FaRegArrowAltCircleLeft className="inline" />
+                            Kembali
+                        </button>
+                        <Link href="/pricing" className="block text-xl mb-4">
+                            Kembali ke layanan & harga
+                            <FaRegArrowAltCircleRight className="inline" />
+                        </Link>
+                    </div>
                 </div>
             )}
         </form>
