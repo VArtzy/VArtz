@@ -110,7 +110,7 @@ window.scrollTo({
                         menekan tombol mulai dibawah ini.
                     </p>
 <div className="md:flex justify-between w-full mt-4">
-<Link href="/" className="block text-xl mb-4">
+<Link href="/" className="text-xl mb-4">
                             Kembali
                             <FaRegArrowAltCircleLeft className="inline" />
                         </Link>
