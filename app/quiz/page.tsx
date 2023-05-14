@@ -109,7 +109,11 @@ window.scrollTo({
                         Anda bisa mengerjakannya kapan saja. Mulai kuis dengan
                         menekan tombol mulai dibawah ini.
                     </p>
-
+<div className="md:flex justify-between w-full mt-4">
+<Link href="/" className="block text-xl mb-4">
+                            Kembali
+                            <FaRegArrowAltCircleLeft className="inline" />
+                        </Link>
                     <button
                         className="text-xl"
                         type="button"
@@ -117,6 +121,7 @@ window.scrollTo({
                     >
                         Mulai <FaRegArrowAltCircleRight className="inline" />
                     </button>
+</div>
                 </>
             )}
             {step === 2 && (
@@ -149,7 +154,7 @@ window.scrollTo({
                             <p>
                                 Halaman yang dikhususkan untuk terjadinya
                                 transaksi dan biasanya hanya terdiri dari 1
-                                halaman informatif & persuasif. Contohnya seperti halaman penjualan
+                                halaman informatif & persuasif. Contohnya seperti halaman penjualan,
                                 company profile, produk herbal, personal portofolio singkat,
                                 penjualan buku dan lain lain.
                             </p>
@@ -196,7 +201,7 @@ window.scrollTo({
                             <p>
                                 webpage penuh dan terdiri berbagai banyak
                                 halaman dan section. Cotohnya seperti toko
-                                online, binis/bussiness web atau personal,
+                                online, bisnis/bussiness web atau personal,
                                 portofolio web yang panjang, blog.
                             </p>
                         </label>
