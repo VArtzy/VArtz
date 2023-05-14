@@ -110,7 +110,7 @@ window.scrollTo({
                         menekan tombol mulai dibawah ini.
                     </p>
 <div className="flex justify-between w-full align-center mt-4">
-<Link href="/" className="text-xl mb-4">
+<Link href="/" className="text-xl">
                             <FaRegArrowAltCircleLeft className="inline" /> Kembali
                         </Link>
                     <button
@@ -499,12 +499,10 @@ window.scrollTo({
                             onClick={() => setStep(step - 1)}
                         >
                             {" "}
-                            <FaRegArrowAltCircleLeft className="inline" />
-                            Kembali
+                            <FaRegArrowAltCircleLeft className="inline" /> Kembali
                         </button>
                         <Link href="/pricing" className="block text-xl mb-4">
-                            Kembali ke layanan & harga
-                            <FaRegArrowAltCircleRight className="inline" />
+                            Kembali ke layanan & harga <FaRegArrowAltCircleRight className="inline" />
                         </Link>
                     </div>
                 </div>
