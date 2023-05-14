@@ -109,7 +109,7 @@ window.scrollTo({
                         Anda bisa mengerjakannya kapan saja. Mulai kuis dengan
                         menekan tombol mulai dibawah ini.
                     </p>
-<div className="flex justify-between w-full align-center mt-4">
+<div className="flex justify-between w-full align-center mt-4 mb-4">
 <Link href="/" className="text-xl">
                             <FaRegArrowAltCircleLeft className="inline" /> Kembali
                         </Link>
@@ -121,6 +121,8 @@ window.scrollTo({
                         Mulai <FaRegArrowAltCircleRight className="inline" />
                     </button>
 </div>
+<a id="konversi_konsultasi_web" target="_blank" rel="noreferrer" href="https://wa.me/6289611905599?text=Hai%20min,%20bisa%20konsultasi%20buat%20website?" className="text-emerald-50 px-4 py-2 bg-emerald-800 text-lg rounded-md">Atau konsultasi langsung lewat whatsapp</a>
+      <span className="text-grayweb text-sm leading-none mb-4">Kami siap membantu Anda dalam mendapatkan website terbaik yang terjangkau sesuai impian Anda</span>
                 </>
             )}
             {step === 2 && (
@@ -212,7 +214,7 @@ window.scrollTo({
                         </h3>
                     )}
 
-                    <div className="flex justify-between w-full mt-8">
+                    <div className="flex justify-between w-full mt-8 mb-4">
                         <button
                             className="text-xl"
                             type="button"
@@ -318,7 +320,7 @@ window.scrollTo({
                         </h3>
                     )}
 
-                    <div className="flex justify-between w-full mt-8">
+                    <div className="flex justify-between w-full mt-8 mb-4">
                         <button
                             className="text-xl"
                             type="button"
@@ -477,7 +479,7 @@ window.scrollTo({
                         id="konversi_konsultasi_web"
                         target="_blank"
                         rel="noreferrer"
-                        className="mt-8 text-2xl bg-mediumSpringGreen text-snow px-4 py-2 rounded-md mb-4"
+                        className="mt-8 text-2xl bg-emerald-800 text-snow px-4 py-2 rounded-md mb-4"
                         type="submit"
                         href={`https://wa.me/6289611905599?text=Hai%20min,%20saya%ingin%20membuat%20website%20paket%20${points < 25
                             ? "BASIC"
