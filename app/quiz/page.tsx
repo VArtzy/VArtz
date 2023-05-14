@@ -421,8 +421,7 @@ window.scrollTo({
                             {message}
                         </h3>
                     )}
-
-                    <div className="flex justify-between w-full mt-8">
+                    <div className="flex justify-between w-full mt-8 mb-4">
                         <button
                             className="text-xl"
                             type="button"
@@ -440,6 +439,8 @@ window.scrollTo({
                             <FaRegArrowAltCircleRight className="inline" />
                         </button>
                     </div>
+<span class="text-emerald-50 px-4 py-2 bg-emerald-800 text-lg rounded-md">Saya tidak mengerti, konsultasi lewat whatsapp saja</span>
+      <span class="text-grayweb text-sm leading-none mb-4">Kami siap membantu Anda dalam mendapatkan website terbaik yang terjangkau sesuai impian Anda</span>
                 </>
             )}
 
