@@ -439,8 +439,8 @@ window.scrollTo({
                             <FaRegArrowAltCircleRight className="inline" />
                         </button>
                     </div>
-<span class="text-emerald-50 px-4 py-2 bg-emerald-800 text-lg rounded-md">Saya tidak mengerti, konsultasi lewat whatsapp saja</span>
-      <span class="text-grayweb text-sm leading-none mb-4">Kami siap membantu Anda dalam mendapatkan website terbaik yang terjangkau sesuai impian Anda</span>
+<span className="text-emerald-50 px-4 py-2 bg-emerald-800 text-lg rounded-md">Saya tidak mengerti, konsultasi lewat whatsapp saja</span>
+      <span className="text-grayweb text-sm leading-none mb-4">Kami siap membantu Anda dalam mendapatkan website terbaik yang terjangkau sesuai impian Anda</span>
                 </>
             )}
 
