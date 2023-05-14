@@ -359,11 +359,10 @@ window.scrollTo({
                                 onChange={handleBudgetChange}
                             />
                             <p className="font-semibold text-xl mb-2">
-                                Rp. 599.000 - 999.000
+                                Rp. 599.000 ±
                             </p>
                             <p>
-                                Anda memiliki budget sebesar 599.000 sampai
-                                999.000. Pilih pilihan ini jika budget Anda ada
+                                Anda memiliki budget kurang lebih sebesar 599.000. Pilih pilihan ini jika budget Anda ada
                                 di range ini. Perlu diperhatikan hukum
                                 value-for-money atau ada-kualitas-ada-harga
                                 berlaku. Biasanya akan cocok dengan paket basic.
