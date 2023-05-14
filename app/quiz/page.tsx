@@ -111,8 +111,7 @@ window.scrollTo({
                     </p>
 <div className="flex justify-between w-full mt-4">
 <Link href="/" className="text-xl mb-4">
-                            Kembali
-                            <FaRegArrowAltCircleLeft className="inline" />
+                            <FaRegArrowAltCircleLeft className="inline" /> Kembali
                         </Link>
                     <button
                         className="text-xl"
