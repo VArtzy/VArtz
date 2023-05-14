@@ -336,7 +336,7 @@ window.scrollTo({
                             <FaRegArrowAltCircleRight className="inline" />
                         </button>
                     </div>
-<a id="konversi_konsultasi_web" type="submit" target="_blank" rel="noreferrer" href={`href="https://wa.me/6289611905599?text=Hai%20min,%20bisa%20konsultasi%20buat%20website ${type}?`} className="text-emerald-50 px-4 py-2 bg-emerald-800 text-lg rounded-md">Saya tidak mengerti, konsultasi lewat whatsapp saja</a>
+<a id="konversi_konsultasi_web" target="_blank" rel="noreferrer" href="https://wa.me/6289611905599?text=Hai%20min,%20bisa%20konsultasi%20buat%20website?" className="text-emerald-50 px-4 py-2 bg-emerald-800 text-lg rounded-md">Saya tidak mengerti, konsultasi lewat whatsapp saja</a>
       <span className="text-grayweb text-sm leading-none mb-4">Kami siap membantu Anda dalam mendapatkan website terbaik yang terjangkau sesuai impian Anda</span>
                 </>
             )}
@@ -443,7 +443,7 @@ window.scrollTo({
                             <FaRegArrowAltCircleRight className="inline" />
                         </button>
                     </div>
-<a id="konversi_konsultasi_web" type="submit" target="_blank" rel="noreferrer" href={`href="https://wa.me/6289611905599?text=Hai%20min,%20bisa%20konsultasi%20buat%20website ${type} dengan tujuan ${tujuan}?`} className="text-emerald-50 px-4 py-2 bg-emerald-800 text-lg rounded-md">Saya tidak mengerti, konsultasi lewat whatsapp saja</a>
+<a id="konversi_konsultasi_web" target="_blank" rel="noreferrer" href="https://wa.me/6289611905599?text=Hai%20min,%20bisa%20konsultasi%20buat%20website?" className="text-emerald-50 px-4 py-2 bg-emerald-800 text-lg rounded-md">Saya tidak mengerti, konsultasi lewat whatsapp saja</a>
       <span className="text-grayweb text-sm leading-none mb-4">Kami siap membantu Anda dalam mendapatkan website terbaik yang terjangkau sesuai impian Anda</span>
                 </>
             )}
