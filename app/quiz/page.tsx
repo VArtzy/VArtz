@@ -109,7 +109,7 @@ window.scrollTo({
                         Anda bisa mengerjakannya kapan saja. Mulai kuis dengan
                         menekan tombol mulai dibawah ini.
                     </p>
-<div className="flex justify-between w-full mt-4">
+<div className="flex justify-between w-full align-center mt-4">
 <Link href="/" className="text-xl mb-4">
                             <FaRegArrowAltCircleLeft className="inline" /> Kembali
                         </Link>
