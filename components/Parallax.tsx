@@ -146,13 +146,13 @@ const ParallaxRapper: NextPage = () => {
                                 }}
                             >
                                 <div className="flex gap-4">
-                                    <Link
-                                        id="konversi_quiz_web"
-                                        href="/quiz"
+                                    <a
+                                        href="https://wa.me/6289611905599?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
+                                        id="konversi_konsultasi_web"
                                         className="inline-block text-md rounded bg-springGreen hover:bg-mediumSpringGreen transition px-4 py-2"
                                     >
                                         Saya Ambil Harga Promo
-                                    </Link>
+                                    </a>
                                     <a
                                         href="https://wa.me/6289611905599?text=Hai%20min,%20bisa%20konsultasi%20buat%20website?"
                                         id="konversi_konsultasi_web"
@@ -1064,15 +1064,15 @@ const ParallaxRapper: NextPage = () => {
                     </div>
                     <span className="block text-slate-800">
                         Bingung memilih?
-                        <Link
-                            id="konversi_quiz_web"
-                            href="/quiz"
+                        <a
+                            href="https://wa.me/6289611905599?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
+                            id="konversi_konsultasi_web"
                             className="text-grayweb block md:inline"
                         >
                             {" "}
                             diagnosis dengan kuis singkat untuk pilihan yang
                             optimal <BsArrowRight className="inline" />
-                        </Link>
+                        </a>
                     </span>
                     <Link
                         href="/pricing"
@@ -1353,8 +1353,8 @@ const ParallaxRapper: NextPage = () => {
                                     konsultasi untuk pembuatan dari kamu.
                                 </p>
                                 <Link
-                                    id="konversi_quiz_web"
-                                    className="text-lg text-snow px-4 py-2 rounded-md inline-block mt-2 bg-mediumSpringGreen transition-all hover:bg-springGreen"
+                                    id="konversi_konsultasi_web"
+                                    className="text-snow px-4 py-2 rounded-md inline-block mt-2 bg-mediumSpringGreen transition-all hover:bg-springGreen"
                                     href="/quiz"
                                 >
                                     Dapatkan Web{" "}
