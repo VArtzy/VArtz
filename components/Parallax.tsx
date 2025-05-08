@@ -240,7 +240,7 @@ const ParallaxRapper: NextPage = () => {
                         <div className="browser-mockup with-url shadow-lg aspect-[9/13] lg:aspect-video">
                             <Image
                                 alt="First media web thumbail"
-                                src="/img/eb2.webp"
+                                src="/img/eb21.webp"
                                 width={500}
                                 height={700}
                                 className="w-full object-cover object-top aspect-[9/13] lg:aspect-video"
@@ -1272,9 +1272,10 @@ const ParallaxRapper: NextPage = () => {
                         display: "flex",
                         flexDirection: "column",
                         alignItems: "center",
+                        justifyContent: "end",
+                        gap: "4em",
                         color: "white",
                     }}
-                    className="bg-springGreen justify-center py-8"
                 >
                 <h2
                     id="faq"
@@ -1370,10 +1371,9 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                         display: "flex",
                         flexDirection: "column",
                         alignItems: "center",
-                        justifyContent: "end",
-                        gap: "4em",
                         color: "white",
                     }}
+                    className="bg-springGreen justify-center py-8"
                 >
                     <div className="max-w-4xl mx-auto px-8 flex flex-col gap-8 md:gap-16">
                         <h2 className="text-4xl md:text-5xl font-bold">

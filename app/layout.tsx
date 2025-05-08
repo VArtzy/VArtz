@@ -19,10 +19,6 @@ export default function RootLayout({
             className={`${dm.className} scroll-smooth scroll-pt-16`}
         >
             <head>
-                <Script
-                    src="https://www.googletagmanager.com/gtag/js?id=G-QR9EGES1FV"
-                    strategy="afterInteractive"
-                />
                 <Script id="google-analytics" strategy="afterInteractive">
                     {`
             window.dataLayer = window.dataLayer || [];
