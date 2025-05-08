@@ -24,6 +24,7 @@ import {
 import { useInView } from "react-intersection-observer"
 
 import Link from "next/link"
+import Accordion from "./Accor"
 
 const ParallaxRapper: NextPage = () => {
     const { ref, entry } = useInView({ trackVisibility: true, delay: 100 })
@@ -132,7 +133,7 @@ const ParallaxRapper: NextPage = () => {
                                     Jasa Web Terbaik: Web Mudah, Garansi Hasil,
                                     Bonus Domain & Transparan.
                                 </p>
-                                <p className="max-w-lg mb-8 text-md lg:text-base text-grayweb">
+                                <p className="max-w-lg mb-8 text-grayweb">
                                     Nikmati website eksklusif, ramah anggaran
                                     yang luar biasa. Untuk Anda dan bisnis
                                     kecil-menengah yang mendambakan web efektif,
@@ -291,7 +292,7 @@ const ParallaxRapper: NextPage = () => {
                         <div className="browser-mockup with-url shadow-lg aspect-[9/15] lg:aspect-video">
                             <Image
                                 alt="Joga Computer web thumbail"
-                                src="/img/eb4.webp"
+                                src="/img/eb41.webp"
                                 width={500}
                                 height={700}
                                 className="w-full object-cover object-top aspect-[9/15] lg:aspect-video"
@@ -1275,6 +1276,105 @@ const ParallaxRapper: NextPage = () => {
                     }}
                     className="bg-springGreen justify-center py-8"
                 >
+                <h2
+                    id="faq"
+                    className="text-3xl md:text-4xl w-full font-bold mt-24"
+                >
+                    FAQs
+                </h2>
+                <h2 className="text-2xl md:text-3xl w-full font-bold lg:mb-4">
+                    Frequently Asked Questions. Pertanyaan yang paling banyak
+                    ditanyakan dan mungkin menjawab pertanyaan kamu.
+                </h2>
+
+                <div className="p-4">
+                    <div className="accordion">
+                        <Accordion
+                            title="Apa itu VArtz jasa pembuatan web? 👋"
+                            content="merupakan personil jasa yang menyediakan
+                                berbagai macam layanan IT mulai dari Pembuatan
+                                Website seperti toko online, company profile,
+                                portofiolio, personal dan lainnya, Pengembangan
+                                Aplikasi lengkap disertai pemeliharaan atau
+                                maintenance berkala."
+                        />
+                        <Accordion
+                            title="Jasa pembuatan termasuk pembuatan apa saja?"
+                            content="
+                                Secara umum layanan berlangganan sudah termasuk
+                                biaya HAKI (Hak Kekayaan Intelektual), desain, copy advices, developemnt (pembuatan), nama domain, hosting/server,
+                                optimasi mobile, optimasi SEO (agar website Anda
+                                masuk ke mesin pencarian), pengoperasian dan
+                                pemeliharaan."
+                        />
+                        <Accordion
+                            title="Data apa saja yang perlu saya sediakan? 🤟"
+                            content="Hal pertama dan utama adalah konten situs web. Ini semua teks, paragraf, gambar, halaman, dan daftar semua fungsi yang Anda perlukan (formulir kontak, feed Instagram).
+
+Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan font. Tidak apa-apa jika Anda tidak memilikinya karena beberapa organisasi nirlaba yang memulai belum memilikinya. Dalam hal ini, tunjukkan beberapa warna yang Anda suka dan kami dapat membuat merek/rasa untuk situs tersebut."
+                        />
+                        <Accordion
+                            title="Apakah ada garansi?"
+                            content="Kami tumbuh ketika usaha Anda sukses. Garansi
+                                sudah kami sertakan dalam setiap paket pembuatan
+                                web agar sesuai dengan kemauan Anda. dan kami siap membantu untuk melakukan
+                                perbaikan gratis ketika terjadi website “error”."
+                        />
+                        <Accordion
+                            title="Metode pembayaran apa sajakah yang tersedia?"
+                            content="Transfer Rekening BCA atau Gopay. Nomor akan dikirim setelah melakukan pemesanan."
+                        />
+                        <Accordion
+                            title="Melayani ekstensi kebutuhan situs?"
+                            content="Ya, Kami menerima berbagai macam ekstensi tambahan situs untuk Anda. Misalnya, mendaftarkan situs ke google search console, memambahkan opengraph meta untuk socmed/wa, dll. *beberapa ekstensi dikenai biaya tambahan."
+                        />
+                        <Accordion
+                            title="Bagaimana saya dapat mengembangkan bisnis
+                                    saya?"
+                            content="Kami tumbuh bersama usaha Anda. Anda dapat
+                                membaca blog milik kami yang selalu update dan
+                                relevan dengan perkembagan zaman. Tentu anda
+                                akan mendapatkan ilmu yang banyak dari sana dan
+                                selamat membaca! (Jika anda menggunakan jasa
+                                VArtz, secara otomatis anda akan terdaftar di
+                                blog 😀)"
+                        />
+                        <Accordion
+                            title="Bisakah saya melakukan slicing desain?"
+                            content="Tentu Boleh. Jika anda memiliki desain dalam bentuk PDF atau figma files, dengan senang hati kami akan melakukan slicing desain ke HTML CSS untuk kamu. Biaya dapat dikurangi dengan 50ribu!"
+                        />
+                        <Accordion
+                            title="Bisakah saya menggunakan template sendiri?"
+                            content="Jika Anda sudah mempunyai template sendiri,
+                                silakan kirimkan kepada kami. Dengan senang hati
+                                kami akan mengeditkan dan menguploadnya untuk
+                                Anda. Biaya dikurangi 50ribu!"
+                        />
+                        <Accordion
+                            title="Maintenance apa saja yang termasuk dalam
+                                    paket di atas? 🤖"
+                            content="Maintenance yang kami lakukan yaitu memastikan
+                                website tidak down dan tidak kena hack."
+                        />
+                        <Accordion
+                            title="Ada pertanyaan lain?"
+                            content="Jangan sungkan untuk tanya kepada kami! silahkan lakukan konsultasi dibawah ini. 100% GRATIS. Kami akan selalu mencari SOLUSI untuk bisnis anda!"
+                        />
+                    </div>
+                </div>
+                </ParallaxLayer>
+                <ParallaxLayer
+                    offset={20}
+                    speed={0.5}
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        justifyContent: "end",
+                        gap: "4em",
+                        color: "white",
+                    }}
+                >
                     <div className="max-w-4xl mx-auto px-8 flex flex-col gap-8 md:gap-16">
                         <h2 className="text-4xl md:text-5xl font-bold">
                             Dalam Waktu Dekat, Bisnis Anda Meningkat{" "}
@@ -1299,20 +1399,6 @@ const ParallaxRapper: NextPage = () => {
                         </a>
                     </div>
                 </ParallaxLayer>
-
-                <ParallaxLayer
-                    offset={20}
-                    speed={0.5}
-                    style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "center",
-                        justifyContent: "end",
-                        gap: "4em",
-                        color: "white",
-                    }}
-                />
-
                 <ParallaxLayer
                     offset={21}
                     speed={0.5}
@@ -1538,7 +1624,7 @@ const ParallaxRapper: NextPage = () => {
                             </p>
                         </div>
                     </footer>
-                </ParallaxLayer>
+                    </ParallaxLayer>
             </Parallax>
         </>
     )
