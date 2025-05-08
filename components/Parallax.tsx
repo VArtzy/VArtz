@@ -129,11 +129,11 @@ const ParallaxRapper: NextPage = () => {
                                 </animated.div>
                             </animated.div>
                             <animated.div style={props}>
-                                <p className="max-w-lg mb-4 lg:text-lg font-medium text-grayweb">
+                                <p className="max-w-lg mb-4 lg:text-lg font-medium">
                                     Jasa Web Terbaik: Web Mudah, Garansi Hasil,
                                     Bonus Domain & Transparan.
                                 </p>
-                                <p className="max-w-lg mb-8 text-grayweb">
+                                <p className="max-w-lg mb-8">
                                     Nikmati website eksklusif, ramah anggaran
                                     yang luar biasa. Untuk Anda dan bisnis
                                     kecil-menengah yang mendambakan web efektif,
@@ -1275,7 +1275,7 @@ const ParallaxRapper: NextPage = () => {
                         justifyContent: "end",
                         gap: "4em"
                     }}
-                    className="max-w-4xl"
+                    className="max-w-4xl mx-auto text-grayweb"
                 >
                 <h2
                     id="faq"
