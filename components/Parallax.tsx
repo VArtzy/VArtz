@@ -240,7 +240,7 @@ const ParallaxRapper: NextPage = () => {
                         <div className="browser-mockup with-url shadow-lg aspect-[9/13] lg:aspect-video">
                             <Image
                                 alt="First media web thumbail"
-                                src="/img/eb21.webp"
+                                src="/img/eb2.webp"
                                 width={500}
                                 height={700}
                                 className="w-full object-cover object-top aspect-[9/13] lg:aspect-video"
@@ -292,7 +292,7 @@ const ParallaxRapper: NextPage = () => {
                         <div className="browser-mockup with-url shadow-lg aspect-[9/15] lg:aspect-video">
                             <Image
                                 alt="Joga Computer web thumbail"
-                                src="/img/eb41.webp"
+                                src="/img/eb4.webp"
                                 width={500}
                                 height={700}
                                 className="w-full object-cover object-top aspect-[9/15] lg:aspect-video"
