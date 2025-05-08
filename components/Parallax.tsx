@@ -1283,11 +1283,6 @@ const ParallaxRapper: NextPage = () => {
                 >
                     FAQs
                 </h2>
-                <h2 className="text-2xl md:text-3xl w-full font-bold lg:mb-4">
-                    Frequently Asked Questions. Pertanyaan yang paling banyak
-                    ditanyakan dan mungkin menjawab pertanyaan kamu.
-                </h2>
-
                 <div className="p-4">
                     <div className="accordion">
                         <Accordion
