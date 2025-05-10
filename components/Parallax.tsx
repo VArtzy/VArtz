@@ -389,7 +389,15 @@ const ParallaxRapper: NextPage = () => {
                             </div>
                         </div>
                         <div className="">
-                            <div className="browser-mockup with-url shadow-lg aspect-[9/15] lg:aspect-video"></div>
+                            <div className="browser-mockup with-url shadow-lg aspect-[9/15] lg:aspect-video">
+                            <Image
+                                alt="Performa website"
+                                src="/img/eb12.webp"
+                                width={464}
+                                height={229}
+                                className="w-full object-cover object-top aspect-[9/15] lg:aspect-video"
+                            ></Image>
+                            </div>
                             <p className="mt-4 lg:ml-8 text-xs">
                                 Dalam banyak kasus, situs web tidak
                                 memperhatikan prinsip-prinsip dasar dan lanjutan
