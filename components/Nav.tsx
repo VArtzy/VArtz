@@ -26,7 +26,7 @@ const Nav: React.FC = () => {
                             <h2 className="text-xl text-grayweb font-bold tracking-widest">
                                 VArtz
                             </h2>
-                            <p className="text-[10px]">Jasa Web #1</p>
+                            <p className="text-[10px]">Jasa Web</p>
                         </div>
                     </div>
                     <div
@@ -72,7 +72,7 @@ const Nav: React.FC = () => {
                             className="text-grayweb transition-all hover:text-slate-600 after:contents after:absolute after:w-2 after:h-4 after:bg-slate-800"
                             href="/pricing"
                         >
-                            Layanan
+                            Services
                         </Link>
                         <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                         <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
@@ -102,7 +102,7 @@ const Nav: React.FC = () => {
                             className="text-grayweb transition-all hover:text-slate-600"
                             href="/terms-condition"
                         >
-                            Persyaratan
+                            Terms
                         </Link>
                         <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-slate-600"></span>
                         <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-slate-600"></span>
