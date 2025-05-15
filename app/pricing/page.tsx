@@ -34,9 +34,15 @@ const Pricing = () => {
                         <p>Layanan kami:</p>
                         <li>
                         <span className="font-semibold">
-                        Pengembangan Website Kustom
+                        Pengembangan Website Kustom:
                         </span>{" "}
                         Dari ide sampai online. Proses penulisan, desain, pengembangan sampai online
+                        </li>
+                        <li>
+                        <span className="font-semibold">
+                        Sistem Informasi, Manajemen dan Desain Produk:
+                        </span>{" "}
+                        Solusi sistem digital end-to-end dari UI/UX, frontend, backend hingga deployment. Desain produk kami memadukan estetika yang ramping dan inovatif dengan fungsionalitas yang disesuaikan, didorong oleh visi yang penuh semangat untuk menciptakan pengalaman pengguna yang mulus yang membuat perbedaan.
                         </li>
                         <li>
                             <span className="font-semibold">Konsultasi:</span>{" "}
@@ -45,36 +51,36 @@ const Pricing = () => {
                         </li>
                         <li>
                             <span className="font-semibold">
-                                Monetisasi Website
+                                Monetisasi Website:
                             </span>{" "}
                             Pembuatan halaman penjualan produk digital (e-book, template, kursus online). Integrasi payment gateway (Duitku, Midtrans, PayPal, dll.) untuk transaksi otomatis.
                         </li>
                             <li>
                             <span className="font-semibold">
-                            WebAI
+                            WebAI:
                             </span>{" "}
                             Integrasi AI dengan website (chatbot, object detection, image classification, generative AI, agent AI)
                             </li>
                             <li>
                             <span className="font-semibold">
-                            Fitur Kustom & Integrasi
+                            Pengembangan Modul Kustom & Integrasi:
                             </span>{" "}
-                            Embed feed Instagram, YouTube, atau portofolio secara otomatis. Pembuatan landing page untuk promosi layanan/produk. Pemasangan Google Analytics / Google Tag Manager
+
+                            Pengembangan UI, animasi, gerakan, atau modul asli khusus untuk Website yang ada. Embed feed Instagram, YouTube, atau portofolio secara otomatis. Pembuatan landing page untuk promosi layanan/produk. Pemasangan Google Analytics / Google Tag Manager
                             </li>
                         <li>
                             <span className="font-semibold">
-                                Optimasi Performa:
+                                Redesign Website Kustom:
                             </span>{" "}
+                            Jaga website tetap modern dengan tren dan teknologi terbaru agar tetap relevan dalam mendukung bisnis Anda dengan perbaikan UI/UX desain, kode refactoring yang dirancang dengan baik, peningkatan keandalan, peningkatan skalabilitas, dan keamanan yang lebih baik.
+                        </li>
+                            <li>
+                            <span className="font-semibold">
+                            Optimasi Performa:
+                                </span>{" "}
                             Waktu mulai, Animasi, dan pengoptimalan kelancaran
                             keseluruhan untuk Website yang ada
-                        </li>
-                        <li>
-                            <span className="font-semibold">
-                                Pengembangan Modul Kustom:
-                            </span>{" "}
-                            Pengembangan UI, animasi, gerakan, atau modul asli
-                            khusus untuk Website yang ada
-                        </li>
+                            </li>
                     </ul>
                 </div>
 
