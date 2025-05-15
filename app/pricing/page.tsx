@@ -33,23 +33,34 @@ const Pricing = () => {
                     <ul className="mb-24 flex flex-col gap-2">
                         <p>Layanan kami:</p>
                         <li>
+                        <span className="font-semibold">
+                        Pengembangan Website Kustom
+                        </span>{" "}
+                        Dari ide sampai online. Proses penulisan, desain, pengembangan sampai online
+                        </li>
+                        <li>
                             <span className="font-semibold">Konsultasi:</span>{" "}
                             Konsultasi satu-dengan-satu dengan ahli Website
                             (Webmaster) dan perbaikan bug
                         </li>
                         <li>
                             <span className="font-semibold">
-                                Dari Ide sampai Online:
+                                Monetisasi Website
                             </span>{" "}
-                            Proses penulisan, desain, pengembangan sampai online
+                            Pembuatan halaman penjualan produk digital (e-book, template, kursus online). Integrasi payment gateway (Duitku, Midtrans, PayPal, dll.) untuk transaksi otomatis.
                         </li>
-                        <li>
+                            <li>
                             <span className="font-semibold">
-                                Komunikasi Terbaik dan Transparan:
+                            WebAI
                             </span>{" "}
-                            Kami percaya pada komunikasi yang baik dan
-                            transparan untuk proses pengembangan{" "}
-                        </li>
+                            Integrasi AI dengan website (chatbot, object detection, image classification, generative AI, agent AI)
+                            </li>
+                            <li>
+                            <span className="font-semibold">
+                            Fitur Kustom & Integrasi
+                            </span>{" "}
+                            Embed feed Instagram, YouTube, atau portofolio secara otomatis. Pembuatan landing page untuk promosi layanan/produk. Pemasangan Google Analytics / Google Tag Manager
+                            </li>
                         <li>
                             <span className="font-semibold">
                                 Optimasi Performa:
@@ -63,34 +74,6 @@ const Pricing = () => {
                             </span>{" "}
                             Pengembangan UI, animasi, gerakan, atau modul asli
                             khusus untuk Website yang ada
-                        </li>
-                        <li>
-                            <span className="font-semibold">
-                                Lebih Banyak dan Dikustomisasi:
-                            </span>{" "}
-                            Lebih lanjut kami dapat menambahkan{" "}
-                            <a
-                                href="https://vartz.web.id/pricing#extension"
-                                className="underline"
-                            >
-                                berbagai macam jenis ekstensi
-                            </a>{" "}
-                            untuk Website, semuanya semaunya
-                        </li>
-                        <li>
-                            <span className="font-semibold">
-                                Perbaikan dan Pembaharuan:
-                            </span>{" "}
-                            Bahkan after-sales pun kami tetap melayani perbaikan
-                            dan pembaharuan dari Anda. Selain itu kami
-                            menyediakan{" "}
-                            <a
-                                href="https://vartz.web.id/pricing#extension"
-                                className="underline"
-                            >
-                                blog tingkatkan bisnis
-                            </a>{" "}
-                            untuk mendapatkan insight bisnis online.
                         </li>
                     </ul>
                 </div>
