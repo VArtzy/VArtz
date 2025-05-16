@@ -33,6 +33,11 @@ const Pricing = () => {
                     <ul className="mb-24 flex flex-col gap-2">
                         <p>Layanan kami:</p>
                         <li>
+                        <span className="font-semibold">Konsultasi:</span>{" "}
+                        Konsultasi satu-dengan-satu dengan ahli Website
+                        (Webmaster) dan perbaikan bug
+                        </li>
+                        <li>
                         <span className="font-semibold">
                         Pengembangan Website Kustom:
                         </span>{" "}
@@ -43,11 +48,6 @@ const Pricing = () => {
                         Sistem Informasi, Manajemen dan Desain Produk:
                         </span>{" "}
                         Solusi sistem digital end-to-end dari UI/UX, frontend, backend hingga deployment. Desain produk kami memadukan estetika yang ramping dan inovatif dengan fungsionalitas yang disesuaikan, didorong oleh visi yang penuh semangat untuk menciptakan pengalaman pengguna yang mulus yang membuat perbedaan.
-                        </li>
-                        <li>
-                            <span className="font-semibold">Konsultasi:</span>{" "}
-                            Konsultasi satu-dengan-satu dengan ahli Website
-                            (Webmaster) dan perbaikan bug
                         </li>
                         <li>
                             <span className="font-semibold">
@@ -72,7 +72,7 @@ const Pricing = () => {
                             <span className="font-semibold">
                                 Redesign Website Kustom:
                             </span>{" "}
-                            Jaga website tetap modern dengan tren dan teknologi terbaru agar tetap relevan dalam mendukung bisnis Anda dengan perbaikan UI/UX desain, kode refactoring yang dirancang dengan baik, peningkatan keandalan, peningkatan skalabilitas, dan keamanan yang lebih baik.
+                            Punya Website lama yang udah usang? jaga website tetap modern dengan tren dan teknologi terbaru agar tetap relevan dalam mendukung bisnis Anda dengan perbaikan UI/UX desain, kode refactoring yang dirancang dengan baik, peningkatan keandalan, peningkatan skalabilitas, dan keamanan yang lebih baik.
                         </li>
                             <li>
                             <span className="font-semibold">
@@ -83,6 +83,174 @@ const Pricing = () => {
                             </li>
                     </ul>
                 </div>
+
+                <h2
+                    id="extension"
+                    className="text-3xl text-center lg:text-4xl font-bold text-grayweb"
+                >
+                    Perluas Fungsionalitas Situs Web dengan Ekstensi
+                </h2>
+                <p className="text-grayweb text-xl text-center mb-8 max-w-prose">
+                    Dengan ekstensi yang tepat, situs web-mu akan menjadi lebih
+                    baik dalam hal kinerja, tampilan, penjualan, keamanan, dan
+                    pengalaman pengguna.
+                </p>
+                <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 place-content-center gap-16">
+                    <div className="py-2 px-4 outline-offset-2 outline-2 outline-springGreen rounded bg-snow text-grayweb">
+                        <div className="flex justify-center align-center gap-2 mb-2">
+                            <div className="p-1 rounded-full mb-2">
+                                <MdOutlineDesignServices className="text-mediumSpringGreen text-xl" />
+                            </div>
+                            <h3 className="text-xl font-bold">Design Figma</h3>
+                        </div>
+                        <h4 className="text-2xl text-center font-bold mb-4">
+                            <span className="text-lg">Start from</span> Rp 100K
+                        </h4>
+                        <p>
+                            Dengan adanya ekstensi ini, proses desain dapat
+                            jelas dan diatur secara lebih efisien. Berbeda
+                            dengan tanpa ekstensi, situs akan didesign secara
+                            langsung bersama proses development.
+                        </p>
+                    </div>
+                    <div className="py-2 px-4 outline-offset-2 outline-2 outline-springGreen rounded bg-snow text-grayweb">
+                        <div className="flex justify-center align-center gap-2 mb-2">
+                            <div className="p-1 rounded-full mb-2">
+                                <FaPager className="text-mediumSpringGreen text-xl" />
+                            </div>
+                            <h3 className="text-xl font-bold">
+                                Halaman/Section Tambahan
+                            </h3>
+                        </div>
+                        <h4 className="text-2xl text-center font-bold mb-4">
+                            <span className="text-lg">Start from</span> Rp 50K
+                        </h4>
+                        <p>
+                            Tambahkan konteks dan konten baru di situs Anda biar
+                            pembeli dan visitor lebih mengerti konteks dan
+                            tujuan bisnis Anda.
+                        </p>
+                    </div>
+                    <div className="py-2 px-4 outline-offset-2 outline-2 outline-springGreen rounded bg-snow text-grayweb">
+                        <div className="flex justify-center align-center gap-2 mb-2">
+                            <div className="p-1 rounded-full mb-2">
+                                <SiGoogleads className="text-mediumSpringGreen text-xl" />
+                            </div>
+                            <h3 className="text-xl font-bold">
+                                Search Engine Marketing
+                            </h3>
+                        </div>
+                        <h4 className="text-2xl text-center font-bold mb-4">
+                            <span className="text-lg">Start from</span> Rp 200K
+                            + Budget
+                        </h4>
+                        <p>
+                            Perbanyak channel marketing bisnis anda dengan jasa
+                            SEM atau ADS. Biaya termasuk operasi, pembuatan
+                            iklan dan laporan berkala.
+                        </p>
+                    </div>
+                    <div className="py-2 px-4 outline-offset-2 outline-2 outline-springGreen rounded bg-snow text-grayweb">
+                        <div className="flex justify-center align-center gap-2 mb-2">
+                            <div className="p-1 rounded-full mb-2">
+                                <MdScreenSearchDesktop className="text-mediumSpringGreen text-xl" />
+                            </div>
+                            <h3 className="text-xl font-bold">
+                                Search Engine Optimization
+                            </h3>
+                        </div>
+                        <h4 className="text-2xl text-center font-bold mb-4">
+                            <span className="text-lg">Start from</span> Rp 500K
+                            / bln
+                        </h4>
+                        <p>
+                            Buat Bisnis Online Anda menjadi sustain dengan SEO.
+                            layanan yang ditawarkan oleh para ahli digital
+                            marketing untuk membantu meningkatkan visibilitas
+                            sebuah website di mesin pencari seperti Google,
+                            Bing, dan Yahoo.
+                        </p>
+                    </div>
+                    <div className="py-2 px-4 outline-offset-2 outline-2 outline-springGreen rounded bg-snow text-grayweb">
+                        <div className="flex justify-center align-center gap-2 mb-2">
+                            <div className="p-1 rounded-full mb-2">
+                                <FaReact className="text-mediumSpringGreen text-xl" />
+                            </div>
+                            <h3 className="text-xl font-bold">
+                                Super Interactive
+                            </h3>
+                        </div>
+                        <h4 className="text-2xl text-center font-bold mb-4">
+                            <span className="text-lg">Start from</span> Rp 100K
+                        </h4>
+                        <p>
+                            Situs lebih interaktif. Buat pengalaman terbaik di
+                            situs Anda. Parralax dan efek tingkat tinggi
+                            lainnya.
+                        </p>
+                    </div>
+                    <div className="py-2 px-4 outline-offset-2 outline-2 outline-springGreen rounded bg-snow text-grayweb">
+                        <div className="flex justify-center align-center gap-2 mb-2">
+                            <div className="p-1 rounded-full mb-2">
+                                <SiPagespeedinsights className="text-mediumSpringGreen text-xl" />
+                            </div>
+                            <h3 className="text-xl font-bold">Speedy Task</h3>
+                        </div>
+                        <h4 className="text-2xl text-center font-bold mb-4">
+                            <span className="text-lg">Start from</span> Rp 50K
+                        </h4>
+                        <p>
+                            Hasilkan Situs dengan Page Speed paling optimal.
+                            Seluruh media terutama gambar akan dioptimasi dengan
+                            compress, crop dan lazy load. Pelajari{" "}
+                            <Link
+                                className="underline"
+                                href="/blog/website-lebih-cepat-dengan-teknik-ini"
+                            >
+                                Teknik membuat website lebih cepat{" "}
+                            </Link>
+                        </p>
+                    </div>
+                    <div className="py-2 px-4 outline-offset-2 outline-2 outline-springGreen rounded bg-snow text-grayweb">
+                        <div className="flex justify-center align-center gap-2 mb-2">
+                            <div className="p-1 rounded-full mb-2">
+                                <SiWritedotas className="text-mediumSpringGreen text-xl" />
+                            </div>
+                            <h3 className="text-xl font-bold">Super Copy</h3>
+                        </div>
+                        <h4 className="text-2xl text-center font-bold mb-4">
+                            <span className="text-lg">Start from</span> Rp 50K
+                        </h4>
+                        <p>
+                            Hasilkan Copy dan Tulisan dengan persuasi dan
+                            penjualan paling optimal. Seluruh copy atau tulisan
+                            akan dibuat dan dipikirkan secara matang
+                            dioptimalkan untuk menuju tujuan konversi Anda.
+                            Peningkatan hasilpun tak terbendung lagi,
+                            peningkatan akusisi bisa meningkat hingga 200%.
+                            Pelajari
+                            <Link
+                                className="underline"
+                                href="/blog/copywriting-untuk-pemula"
+                            >
+                                membuat copywriting optimal{" "}
+                            </Link>
+                        </p>
+                    </div>
+                </div>
+
+                <p className="text-center text-grayweb">
+                    Merasa kurang cocok? Anda bisa{" "}
+                    <a
+                        id="konversi_konsultasi_web"
+                        className="underline"
+                        href="https://wa.me/6289611905599?text=Hai%20min,%20bisa%buatkan%20saya%20website?"
+                    >
+                        berikan penawaran
+                    </a>
+                    .
+                </p>
+            </div>
 
                 <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb max-w-4xl">
                     Hemat! Dapatkan Harga Promo Terbaik yang Terbatas Untuk Hari
@@ -321,174 +489,6 @@ const Pricing = () => {
                         </Link>
                     </span>
                 </div>
-
-                <h2
-                    id="extension"
-                    className="text-3xl text-center lg:text-4xl font-bold text-grayweb"
-                >
-                    Perluas Fungsionalitas Situs Web dengan Ekstensi
-                </h2>
-                <p className="text-grayweb text-xl text-center mb-8 max-w-prose">
-                    Dengan ekstensi yang tepat, situs web-mu akan menjadi lebih
-                    baik dalam hal kinerja, tampilan, penjualan, keamanan, dan
-                    pengalaman pengguna.
-                </p>
-                <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 place-content-center gap-16">
-                    <div className="py-2 px-4 outline-offset-2 outline-2 outline-springGreen rounded bg-snow text-grayweb">
-                        <div className="flex justify-center align-center gap-2 mb-2">
-                            <div className="p-1 rounded-full mb-2">
-                                <MdOutlineDesignServices className="text-mediumSpringGreen text-xl" />
-                            </div>
-                            <h3 className="text-xl font-bold">Design Figma</h3>
-                        </div>
-                        <h4 className="text-2xl text-center font-bold mb-4">
-                            <span className="text-lg">Start from</span> Rp 100K
-                        </h4>
-                        <p>
-                            Dengan adanya ekstensi ini, proses desain dapat
-                            jelas dan diatur secara lebih efisien. Berbeda
-                            dengan tanpa ekstensi, situs akan didesign secara
-                            langsung bersama proses development.
-                        </p>
-                    </div>
-                    <div className="py-2 px-4 outline-offset-2 outline-2 outline-springGreen rounded bg-snow text-grayweb">
-                        <div className="flex justify-center align-center gap-2 mb-2">
-                            <div className="p-1 rounded-full mb-2">
-                                <FaPager className="text-mediumSpringGreen text-xl" />
-                            </div>
-                            <h3 className="text-xl font-bold">
-                                Halaman/Section Tambahan
-                            </h3>
-                        </div>
-                        <h4 className="text-2xl text-center font-bold mb-4">
-                            <span className="text-lg">Start from</span> Rp 50K
-                        </h4>
-                        <p>
-                            Tambahkan konteks dan konten baru di situs Anda biar
-                            pembeli dan visitor lebih mengerti konteks dan
-                            tujuan bisnis Anda.
-                        </p>
-                    </div>
-                    <div className="py-2 px-4 outline-offset-2 outline-2 outline-springGreen rounded bg-snow text-grayweb">
-                        <div className="flex justify-center align-center gap-2 mb-2">
-                            <div className="p-1 rounded-full mb-2">
-                                <SiGoogleads className="text-mediumSpringGreen text-xl" />
-                            </div>
-                            <h3 className="text-xl font-bold">
-                                Search Engine Marketing
-                            </h3>
-                        </div>
-                        <h4 className="text-2xl text-center font-bold mb-4">
-                            <span className="text-lg">Start from</span> Rp 200K
-                            + Budget
-                        </h4>
-                        <p>
-                            Perbanyak channel marketing bisnis anda dengan jasa
-                            SEM atau ADS. Biaya termasuk operasi, pembuatan
-                            iklan dan laporan berkala.
-                        </p>
-                    </div>
-                    <div className="py-2 px-4 outline-offset-2 outline-2 outline-springGreen rounded bg-snow text-grayweb">
-                        <div className="flex justify-center align-center gap-2 mb-2">
-                            <div className="p-1 rounded-full mb-2">
-                                <MdScreenSearchDesktop className="text-mediumSpringGreen text-xl" />
-                            </div>
-                            <h3 className="text-xl font-bold">
-                                Search Engine Optimization
-                            </h3>
-                        </div>
-                        <h4 className="text-2xl text-center font-bold mb-4">
-                            <span className="text-lg">Start from</span> Rp 500K
-                            / bln
-                        </h4>
-                        <p>
-                            Buat Bisnis Online Anda menjadi sustain dengan SEO.
-                            layanan yang ditawarkan oleh para ahli digital
-                            marketing untuk membantu meningkatkan visibilitas
-                            sebuah website di mesin pencari seperti Google,
-                            Bing, dan Yahoo.
-                        </p>
-                    </div>
-                    <div className="py-2 px-4 outline-offset-2 outline-2 outline-springGreen rounded bg-snow text-grayweb">
-                        <div className="flex justify-center align-center gap-2 mb-2">
-                            <div className="p-1 rounded-full mb-2">
-                                <FaReact className="text-mediumSpringGreen text-xl" />
-                            </div>
-                            <h3 className="text-xl font-bold">
-                                Super Interactive
-                            </h3>
-                        </div>
-                        <h4 className="text-2xl text-center font-bold mb-4">
-                            <span className="text-lg">Start from</span> Rp 100K
-                        </h4>
-                        <p>
-                            Situs lebih interaktif. Buat pengalaman terbaik di
-                            situs Anda. Parralax dan efek tingkat tinggi
-                            lainnya.
-                        </p>
-                    </div>
-                    <div className="py-2 px-4 outline-offset-2 outline-2 outline-springGreen rounded bg-snow text-grayweb">
-                        <div className="flex justify-center align-center gap-2 mb-2">
-                            <div className="p-1 rounded-full mb-2">
-                                <SiPagespeedinsights className="text-mediumSpringGreen text-xl" />
-                            </div>
-                            <h3 className="text-xl font-bold">Speedy Task</h3>
-                        </div>
-                        <h4 className="text-2xl text-center font-bold mb-4">
-                            <span className="text-lg">Start from</span> Rp 50K
-                        </h4>
-                        <p>
-                            Hasilkan Situs dengan Page Speed paling optimal.
-                            Seluruh media terutama gambar akan dioptimasi dengan
-                            compress, crop dan lazy load. Pelajari{" "}
-                            <Link
-                                className="underline"
-                                href="/blog/website-lebih-cepat-dengan-teknik-ini"
-                            >
-                                Teknik membuat website lebih cepat{" "}
-                            </Link>
-                        </p>
-                    </div>
-                    <div className="py-2 px-4 outline-offset-2 outline-2 outline-springGreen rounded bg-snow text-grayweb">
-                        <div className="flex justify-center align-center gap-2 mb-2">
-                            <div className="p-1 rounded-full mb-2">
-                                <SiWritedotas className="text-mediumSpringGreen text-xl" />
-                            </div>
-                            <h3 className="text-xl font-bold">Super Copy</h3>
-                        </div>
-                        <h4 className="text-2xl text-center font-bold mb-4">
-                            <span className="text-lg">Start from</span> Rp 50K
-                        </h4>
-                        <p>
-                            Hasilkan Copy dan Tulisan dengan persuasi dan
-                            penjualan paling optimal. Seluruh copy atau tulisan
-                            akan dibuat dan dipikirkan secara matang
-                            dioptimalkan untuk menuju tujuan konversi Anda.
-                            Peningkatan hasilpun tak terbendung lagi,
-                            peningkatan akusisi bisa meningkat hingga 200%.
-                            Pelajari
-                            <Link
-                                className="underline"
-                                href="/blog/copywriting-untuk-pemula"
-                            >
-                                membuat copywriting optimal{" "}
-                            </Link>
-                        </p>
-                    </div>
-                </div>
-
-                <p className="text-center text-grayweb">
-                    Merasa kurang cocok? Anda bisa{" "}
-                    <a
-                        id="konversi_konsultasi_web"
-                        className="underline"
-                        href="https://wa.me/6289611905599?text=Hai%20min,%20bisa%buatkan%20saya%20website?"
-                    >
-                        berikan penawaran
-                    </a>
-                    .
-                </p>
-            </div>
             <Foo />
         </>
     )

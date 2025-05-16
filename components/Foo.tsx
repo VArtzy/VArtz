@@ -46,7 +46,7 @@ const Foo: React.FC = () => {
                             </li>
                             <li>
                                 <Link className="text-snow" href="/pricing">
-                                    Layanan
+                                    Services
                                 </Link>
                             </li>
                             <li>
@@ -64,7 +64,7 @@ const Foo: React.FC = () => {
                                     className="text-snow"
                                     href="/terms-condition"
                                 >
-                                    S&K
+                                    Terms
                                 </Link>
                             </li>
                             <li>
@@ -111,7 +111,7 @@ const Foo: React.FC = () => {
                                     scroll={false}
                                     href="/cara-order"
                                 >
-                                    Cara Order
+                                    Order Process
                                 </Link>
                             </li>
                         </ul>
@@ -142,7 +142,7 @@ const Foo: React.FC = () => {
                                     scroll={false}
                                     href="/pricing"
                                 >
-                                    Layanan
+                                    Services
                                 </Link>
                             </li>
                             <li>
@@ -176,18 +176,18 @@ const Foo: React.FC = () => {
                     </a>
                     <p>
                         <BiMailSend className="inline" />{" "}
-                        farrelnikoson@gmail.com
+                        admin@vartz.web.id
                     </p>
                 </div>
             </div>
             <div className="bg-[#252525] w-full flex flex-wrap gap-2 justify-between px-16 py-8">
                 <p className="text-lg">
-                    Copyright © 2023 | <Link href="/">VArtz</Link> All rights
+                    Copyright © 2025 | <Link href="/">VArtz</Link> All rights
                     reserved
                 </p>
                 <p className="text-lg">
-                    Dibuat dengan <span className="text-red-600">❤️</span> oleh{" "}
-                    <Link href="/">Farrel Nikoson</Link>
+                    Dibuat dengan passion <span className="text-red-600">❤️</span> oleh{" "}
+                    <Link href="/">vartz.web.id</Link>
                 </p>
             </div>
         </footer>
