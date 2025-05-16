@@ -1066,13 +1066,13 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                     }}
                     className="bg-springGreen justify-center py-8"
                 >
-                <div className="grid md:grid-cols-2 place-items-center">
-                    <div className="max-w-4xl mx-auto px-8 flex flex-col gap-8 md:gap-16">
+                <div className="max-w-4xl mx-auto px-8 grid md:grid-cols-2 place-items-center">
+                    <div className="flex flex-col gap-8 md:gap-16 w-[65%]">
                         <h2 className="text-4xl md:text-5xl font-bold">
                             Suka dengan {" "}
                             <span className="underline">karya kami?</span>.
                         </h2>
-                        <p className="text-xl font-semibold md:text-4xl">
+                        <p className="text-xl md:text-2xl">
                         Ide-ide Anda sangat berarti bagi kami. Ceritakan kebutuhan Anda, diskusikan (gratis), dan lihat bagaimana kami bisa mewujudkannya!
                         </p>
                         <a
