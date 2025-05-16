@@ -1063,11 +1063,11 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                     }}
                     className="bg-springGreen py-8"
                 >
-                <div className="max-w-6xl mx-auto px-8 grid md:grid-cols-[1fr_540px] place-items-center">
+                <div className="max-w-6xl mx-auto px-8 grid md:grid-cols-[1fr_270px] place-items-center">
                     <div className="flex flex-col gap-8 md:gap-16">
                         <h2 className="text-4xl md:text-5xl font-bold">
-                            Suka dengan {" "}
-                            <span className="underline">karya kami?</span>.
+                            Mau buat {" "}
+                            <span className="underline">website keren?</span>
                         </h2>
                         <p className="text-xl md:text-2xl">
                         Ide-ide Anda sangat berarti bagi kami. Ceritakan kebutuhan Anda, diskusikan (gratis), dan lihat bagaimana kami bisa mewujudkannya!
@@ -1082,8 +1082,8 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                     </div>
                     <Image
                     src="/media/pesawat.png"
-                    width={540}
-                    height={540}
+                    width={270}
+                    height={270}
                     alt="Kontak kami"
                     className="object-fit rounded-md"
                     />
