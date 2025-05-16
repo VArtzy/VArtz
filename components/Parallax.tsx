@@ -971,7 +971,7 @@ const ParallaxRapper: NextPage = () => {
                         justifyContent: "end",
                         gap: "4em"
                     }}
-                    className="max-w-3xl mx-auto text-grayweb"
+                    className="max-w-6xl mx-auto text-grayweb"
                 >
                 <h2
                     id="faq"
@@ -1059,11 +1059,14 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                     offset={17}
                     speed={0.5}
                     style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
                         color: "white",
                     }}
                     className="bg-springGreen py-8"
                 >
-                <div className="max-w-6xl mx-auto px-8 grid md:grid-cols-[1fr_400px] place-items-center">
+                <div className="max-w-6xl mx-auto px-8 grid md:grid-cols-[1fr_420px] place-items-center">
                     <div className="flex flex-col gap-8 md:gap-16">
                         <h2 className="text-4xl md:text-5xl font-bold">
                             Mau buat {" "}
@@ -1082,8 +1085,8 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                     </div>
                     <Image
                     src="/media/pesawat.png"
-                    width={400}
-                    height={400}
+                    width={420}
+                    height={420}
                     alt="Kontak kami"
                     className="object-fit rounded-md"
                     />
