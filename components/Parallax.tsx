@@ -1059,17 +1059,15 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                     offset={17}
                     speed={0.5}
                     style={{
-                        display: "grid",
-                        gridTemplateColumns: "1fr 540px",
-                        placeItems: "center",
                         color: "white",
                     }}
-                    className="bg-springGreen max-w-3xl mx-auto py-8"
+                    className="bg-springGreen py-8"
                 >
+                <div className="max-w-3xl mx-auto px-8 grid md:grid-cols-[1fr 540px] place-items-center">
                     <div className="flex flex-col gap-8 md:gap-16">
                         <h2 className="text-4xl md:text-5xl font-bold">
                             Suka dengan {" "}
-                            <span className="underline">karya kami?</span>
+                            <span className="underline">karya kami?</span>.
                         </h2>
                         <p className="text-xl md:text-2xl">
                         Ide-ide Anda sangat berarti bagi kami. Ceritakan kebutuhan Anda, diskusikan (gratis), dan lihat bagaimana kami bisa mewujudkannya!
@@ -1089,6 +1087,7 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                     alt="Kontak kami"
                     className="object-fit rounded-md"
                     />
+                    </div>
                 </ParallaxLayer>
                 <ParallaxLayer
                     offset={18}
