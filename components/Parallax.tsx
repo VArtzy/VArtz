@@ -971,14 +971,17 @@ const ParallaxRapper: NextPage = () => {
                         justifyContent: "end",
                         gap: "4em"
                     }}
-                    className="max-w-6xl mx-auto text-grayweb"
+                    className="max-w-3xl mx-auto text-grayweb"
                 >
                 <h2
                     id="faq"
-                    className="text-3xl md:text-4xl w-full font-bold mt-24"
+                    className="text-3xl text-center md:text-4xl w-full font-bold mt-24"
                 >
                     FAQs
                 </h2>
+                    <p className="text-grayweb text-xl text-center mb-8 max-w-prose">
+                    Frequently asked questions (pertanyaan yang sering ditanyakan)
+                    </p>
                 <div className="p-4">
                     <div className="accordion">
                         <Accordion
@@ -1064,7 +1067,7 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                         alignItems: "center",
                         color: "white",
                     }}
-                    className="bg-springGreen py-8"
+                    className="bg-springGreen justify-center py-8"
                 >
                 <div className="max-w-6xl mx-auto px-8 grid md:grid-cols-[1fr_420px] place-items-center">
                     <div className="flex flex-col gap-8 md:gap-16">
