@@ -75,7 +75,7 @@ const ParallaxRapper: NextPage = () => {
         <>
             <Parallax
                 ref={ParallaxRef}
-                pages={18}
+                pages={19}
                 style={{ top: "0", left: "0" }}
             >
                 <ParallaxLayer
@@ -971,7 +971,7 @@ const ParallaxRapper: NextPage = () => {
                         justifyContent: "end",
                         gap: "4em"
                     }}
-                    className="max-w-4xl mx-auto text-grayweb"
+                    className="max-w-3xl mx-auto text-grayweb"
                 >
                 <h2
                     id="faq"
@@ -1059,15 +1059,15 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                     offset={17}
                     speed={0.5}
                     style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "center",
+                        display: "grid",
+                        gridTemplateColumns: "1fr 540px",
+                        placeItems: "center",
                         color: "white",
                     }}
-                    className="bg-springGreen justify-center py-8"
+                    className="bg-springGreen py-8"
                 >
-                <div className="max-w-4xl mx-auto px-8 grid md:grid-cols-2 place-items-center">
-                    <div className="flex flex-col gap-8 md:gap-16 w-[65%]">
+                <div className="max-w-3xl mx-auto px-8">
+                    <div className="flex flex-col gap-8 md:gap-16">
                         <h2 className="text-4xl md:text-5xl font-bold">
                             Suka dengan {" "}
                             <span className="underline">karya kami?</span>.
