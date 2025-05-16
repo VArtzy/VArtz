@@ -1063,7 +1063,7 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                     }}
                     className="bg-springGreen py-8"
                 >
-                <div className="max-w-3xl mx-auto px-8 grid md:grid-cols-[1fr 540px] place-items-center">
+                <div className="max-w-6xl mx-auto px-8 grid md:grid-cols-[1fr_540px] place-items-center">
                     <div className="flex flex-col gap-8 md:gap-16">
                         <h2 className="text-4xl md:text-5xl font-bold">
                             Suka dengan {" "}
