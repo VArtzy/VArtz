@@ -26,7 +26,7 @@ const Pricing = () => {
                             Kami akan membantu Anda mengirimkan Website yang
                             lebih baik, lebih cepat.
                         </span>{" "}
-Tim ahli kami memiliki pengalaman dalam mengembangkan solusi digital yang optimal, efesien dan andal untuk berbagai kebutuhan bisnis.
+Tim ahli kami memiliki pengalaman dalam mengembangkan solusi digital yang optimal dan efesien untuk berbagai kebutuhan bisnis.
                     </h2>
                     <ul className="mb-24 flex flex-col gap-2">
                         <p>Layanan kami:</p>
