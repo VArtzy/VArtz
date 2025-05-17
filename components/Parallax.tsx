@@ -332,7 +332,7 @@ const ParallaxRapper: NextPage = () => {
                     </h2>
                     <div className="grid lg:grid-cols-2 gap-8">
                         <div className="flex flex-col gap-8">
-                            <p className="mt-4">
+                            <p className="mt-8">
                                 Hampir setiap kali Anda mengakses iklan di media
                                 sosial seperti facebook, instagram, tiktok dan
                                 youtube pasti akan menyuruh Anda untuk
@@ -342,7 +342,7 @@ const ParallaxRapper: NextPage = () => {
                                 jasa pembuatan website dan buat/bikin website.
                             </p>
 
-                            <ul className="text-sm flex flex-col gap-2 list-disc mt-4">
+                            <ul className="text-xs flex flex-col gap-2 list-disc mt-4">
                                 <li>
                                     Website ibarat lapak untuk mempromosikan
                                     produk/usaha/diri Anda kepada dunia.                              </li>
