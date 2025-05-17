@@ -345,9 +345,11 @@ const ParallaxRapper: NextPage = () => {
                             <ul className="text-xs flex flex-col gap-2 list-disc mt-4">
                                 <li>
                                     Website ibarat lapak untuk mempromosikan
-                                    produk/usaha/diri Anda kepada dunia
+                                    produk/usaha/diri Anda kepada dunia dan Anda dapat mengotomatisasi proses penjualan bisnis!
                                 </li>
-                                <li>Membangun kredibilitas usaha Anda</li>
+                                <li>
+                                Membangun kredibilitas usaha Anda lewat branding mulai dari gaya tema, warna dan tulisan yang autentik membentuk profesionalitas brand Anda.
+                                    </li>
                                 <li>
                                     Website/landing dapat memberikan informasi
                                     yang Anda berikan
@@ -356,13 +358,9 @@ const ParallaxRapper: NextPage = () => {
                                     Customer Anda akan selalu mengecek informasi
                                     usaha Anda lewat website. Bayangkan saja
                                     jika Anda tidak punya atau sudah punya namun
-                                    kurang menarik. 100% RUGI.{" "}
+                                    kurang menarik.
                                 </li>
-                                <li>
-                                    Dan masih banyak lagi. Anda seharusnya sudah
-                                    tahu betapa banyak benefit yang dimiliki
-                                    jika mempunyai website/landing page
-                                </li>
+                                    <li>Otomatisasi proses bisnis seperti penjualan dan fitur interaktif lainnya lewat sistem informasi atau sistem pembayaran</li>
                             </ul>
 
                             <div className="">
