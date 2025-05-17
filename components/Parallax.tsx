@@ -214,7 +214,7 @@ const ParallaxRapper: NextPage = () => {
                             <span className="text-turquoise">
                                 {`${
                                     entry?.isIntersecting
-                                        ? "Mengembangkan"
+                                        ? "Kembangkan"
                                         : "Membangun"
                                 }`}
                             </span>
