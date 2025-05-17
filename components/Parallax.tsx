@@ -1051,7 +1051,7 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                         alignItems: "center",
                         color: "white",
                     }}
-                    className="bg-springGreen justify-center py-8"
+                    className="bg-springGreen justify-end md:justify-center"
                 >
                 <div className="max-w-6xl mx-auto px-8 grid md:grid-cols-[420px_1fr] place-items-center">
                     <Image
