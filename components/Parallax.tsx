@@ -391,19 +391,19 @@ const ParallaxRapper: NextPage = () => {
                             <div>
                                 <Link
                                     href="/blog"
-                                    className="bg-mediumSpringGreen px-4 py-2 hover:bg-springGreen transition-all rounded mt-4 text-snow mr-4"
+                                    className="bg-mediumSpringGreen px-4 py-2 hover:bg-springGreen transition-all rounded inline-block mt-4 text-snow mr-4"
                                 >
                                     <BsFillJournalBookmarkFill className="inline" />{" "}
                                     Baca Blog
                                 </Link>
                                 <Link
                                     href="/about"
-                                    className="bg-mediumSpringGreen px-4 py-2 hover:bg-springGreen transition-all rounded mt-4 text-snow mr-4"
+                                    className="bg-mediumSpringGreen px-4 py-2 hover:bg-springGreen transition-all rounded inline-block mt-4 text-snow mr-4"
                                 >
                                     <FaInfo className="inline" />
                                     Tentang Kami
                                 </Link>
-                    <span className="block text-center text-slate-800">
+                    <span className="text-center text-slate-800">
                         Berpikir membuat sendiri/web builder?
                         <Link
                             href="/blog/membuat-web-sendiri-vs-jasa-vs-builder"
