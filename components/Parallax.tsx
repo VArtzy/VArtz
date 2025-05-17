@@ -653,11 +653,7 @@ const ParallaxRapper: NextPage = () => {
                     id="cara-order"
                 >
                     <h2 className="text-3xl text-center text-grayweb lg:text-4xl font-bold mt-12">
-                        Buat Website{" "}
-                        <span className="underline">
-                            Gak Perlu Ribet & Lama
-                        </span>
-                        .
+                        Buat Website Gak Perlu Ribet & Lama.
                     </h2>
                     <p className="text-grayweb text-xl text-center mb-8 max-w-prose">
                         Gak perlu pusing mikirin gimana buat bikinnya, Anda
@@ -768,19 +764,6 @@ const ParallaxRapper: NextPage = () => {
 
                 <ParallaxLayer
                     offset={12}
-                    speed={0.5}
-                    style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "center",
-                        gap: "4em",
-                        color: "white",
-                    }}
-                    className="md:hidden max-w-6xl mx-auto px-8"
-                ></ParallaxLayer>
-
-                <ParallaxLayer
-                    offset={13}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -938,7 +921,7 @@ const ParallaxRapper: NextPage = () => {
                 </ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={14}
+                    offset={13}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -950,7 +933,7 @@ const ParallaxRapper: NextPage = () => {
                 ></ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={15}
+                    offset={14}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -962,7 +945,7 @@ const ParallaxRapper: NextPage = () => {
                 ></ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={16}
+                    offset={15}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -999,6 +982,19 @@ const ParallaxRapper: NextPage = () => {
                     />
                     </div>
                 </ParallaxLayer>
+
+                <ParallaxLayer
+                    offset={16}
+                    speed={0.5}
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        gap: "4em",
+                        color: "white",
+                    }}
+                    className="md:hidden max-w-6xl mx-auto px-8"
+                ></ParallaxLayer>
 
                 <ParallaxLayer
                     offset={17}
