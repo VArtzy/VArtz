@@ -26,9 +26,7 @@ const Pricing = () => {
                             Kami akan membantu Anda mengirimkan Website yang
                             lebih baik, lebih cepat.
                         </span>{" "}
-                        Tim insinyur ahli kami telah menciptakan pengalaman
-                        pengguna terbaik di beberapa Website paling populer di
-                        seluruh dunia.
+Tim ahli kami memiliki pengalaman dalam mengembangkan solusi digital yang optimal, efesien dan andal untuk berbagai kebutuhan bisnis.
                     </h2>
                     <ul className="mb-24 flex flex-col gap-2">
                         <p>Layanan kami:</p>
