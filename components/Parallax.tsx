@@ -1059,7 +1059,7 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                     width={420}
                     height={420}
                     alt="Kontak kami"
-                    className="object-fit w-[210px] md:w-full rounded-md"
+                    className="object-fit md:w-full rounded-md"
                     />
                     <div className="flex flex-col gap-8 md:gap-16">
                     <div>
