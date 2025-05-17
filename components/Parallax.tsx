@@ -345,14 +345,13 @@ const ParallaxRapper: NextPage = () => {
                             <ul className="text-xs flex flex-col gap-2 list-disc mt-4">
                                 <li>
                                     Website ibarat lapak untuk mempromosikan
-                                    produk/usaha/diri Anda kepada dunia dan Anda dapat mengotomatisasi proses penjualan bisnis!
-                                </li>
+                                    produk/usaha/diri Anda kepada dunia.                              </li>
                                 <li>
                                 Membangun kredibilitas usaha Anda lewat branding mulai dari gaya tema, warna dan tulisan yang autentik membentuk profesionalitas brand Anda.
                                     </li>
                                 <li>
                                     Website/landing dapat memberikan informasi
-                                    yang Anda berikan
+                                    yang Anda berikan.
                                 </li>
                                 <li>
                                     Customer Anda akan selalu mengecek informasi
@@ -360,7 +359,7 @@ const ParallaxRapper: NextPage = () => {
                                     jika Anda tidak punya atau sudah punya namun
                                     kurang menarik.
                                 </li>
-                                    <li>Otomatisasi proses bisnis seperti penjualan dan fitur interaktif lainnya lewat sistem informasi atau sistem pembayaran</li>
+                                    <li>Otomatisasi proses bisnis seperti penjualan dan fitur interaktif lainnya lewat sistem informasi atau sistem pembayaran.</li>
                             </ul>
 
                             <div className="">

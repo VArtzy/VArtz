@@ -26,7 +26,7 @@ const Nav: React.FC = () => {
                             <h2 className="text-xl text-grayweb font-bold tracking-widest">
                                 VArtz
                             </h2>
-                            <p className="text-[10px]">Web Services</p>
+                            <p className="text-xs">Webmaster</p>
                         </div>
                     </div>
                     <div
