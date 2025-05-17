@@ -123,7 +123,7 @@ const Nav: React.FC = () => {
                             className="text-lg text-snow px-4 py-2 rounded-md bg-mediumSpringGreen transition-all hover:bg-springGreen"
                             href="/quiz"
                         >
-                            Dapatkan Web{" "}
+                            Get Website{" "}
                             <BsArrowRight className="inline font-bold" />
                         </Link>
                     </li>
@@ -196,7 +196,7 @@ const Nav: React.FC = () => {
                             className="text-lg text-snow px-4 py-2 rounded-md bg-mediumSpringGreen transition-all hover:bg-springGreen"
                             href="/quiz"
                         >
-                            Dapatkan Web{" "}
+                            Get Website{" "}
                             <BsArrowRight className="inline font-bold" />
                         </Link>
                     </li>

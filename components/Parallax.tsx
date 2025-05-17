@@ -75,7 +75,7 @@ const ParallaxRapper: NextPage = () => {
         <>
             <Parallax
                 ref={ParallaxRef}
-                pages={19}
+                pages={18}
                 style={{ top: "0", left: "0" }}
             >
                 <ParallaxLayer
@@ -326,7 +326,7 @@ const ParallaxRapper: NextPage = () => {
                     className="max-w-6xl mx-auto px-8 text-grayweb"
                 >
                     <h2 className="max-w-3xl text-3xl text-center lg:text-4xl font-bold mt-8">
-                    Bangun Website Yang Disukai Anda, Bukan Yang Sekadar Hanya Ada
+                    Bangun Website Yang Disukai Anda, Bukan Hanya Yang Sekadar Ada
                     </h2>
                     <div className="grid lg:grid-cols-2 gap-8">
                         <div className="flex flex-col gap-8">
