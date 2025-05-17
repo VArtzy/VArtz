@@ -342,7 +342,7 @@ const ParallaxRapper: NextPage = () => {
                                 jasa pembuatan website dan buat/bikin website.
                             </p>
 
-                            <ul className="text-xs flex flex-col gap-2 list-disc mt-4">
+                            <ul className="text-sm flex flex-col gap-2 list-disc mt-4">
                                 <li>
                                     Website ibarat lapak untuk mempromosikan
                                     produk/usaha/diri Anda kepada dunia.                              </li>
