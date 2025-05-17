@@ -75,7 +75,7 @@ const ParallaxRapper: NextPage = () => {
         <>
             <Parallax
                 ref={ParallaxRef}
-                pages={20}
+                pages={19}
                 style={{ top: "0", left: "0" }}
             >
                 <ParallaxLayer
@@ -328,7 +328,7 @@ const ParallaxRapper: NextPage = () => {
                 >
                     <h2 className="max-w-3xl text-3xl text-center lg:text-4xl font-bold mt-8">
                         Penting! Sekarang Semua Punya Website, Jangan Mau
-                        Ketinggalan.
+                        Ketinggalan
                     </h2>
                     <div className="grid lg:grid-cols-2 gap-8">
                         <div className="flex flex-col gap-8">
@@ -461,7 +461,7 @@ const ParallaxRapper: NextPage = () => {
                         className="pt-4 text-3xl text-center lg:text-4xl font-bold mt-8"
                         onClick={() => ParallaxRef.current?.scrollTo(0)}
                     >
-                        Go Online dan Lebarkan Sayap Bisnis Anda.
+                        Go Online dan Lebarkan Sayap Bisnis Anda
                     </h2>
 
                     <p className="text-xl mb-8 text-center">
@@ -567,7 +567,7 @@ const ParallaxRapper: NextPage = () => {
                                 <span className="text-turquoise">
                                     Website Bisnis dan Landing Page
                                 </span>{" "}
-                                yang Sesuai dengan Kebutuhan UMKM Anda.
+                                yang Sesuai dengan Kebutuhan UMKM Anda
                             </h2>
                             <p className="text-grayweb text-xl mb-16">
                                 Kami adalah jasa web profesional yang
@@ -653,7 +653,7 @@ const ParallaxRapper: NextPage = () => {
                     id="cara-order"
                 >
                     <h2 className="text-3xl text-center text-grayweb lg:text-4xl font-bold mt-12">
-                        Buat Website Gak Perlu Ribet & Lama.
+                        Buat Website Gak Perlu Ribet & Lama
                     </h2>
                     <p className="text-grayweb text-xl text-center mb-8 max-w-prose">
                         Gak perlu pusing mikirin gimana buat bikinnya, Anda
@@ -663,19 +663,19 @@ const ParallaxRapper: NextPage = () => {
                     <ol className="grid md:grid-cols-2 lg:grid-cols-3 gap-16 px-6 lg:overflow-hidden">
                         <li className="">
                             <div className="flex items-center">
-                                <div className="z-10 flex items-center justify-center w-6 h-6 bg-springGreen text-snow font-bold rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                                <div className="z-10 flex items-center justify-center w-6 h-6 bg-springGreen text-snow font-bold rounded-full ring-0 ring-white sm:ring-8 dark:ring-gray-900 shrink-0">
                                     1
                                 </div>
-                                <div className="hidden sm:flex w-full bg-mediumSpringGreen h-0.5 scale-x-[2] dark:bg-gray-700"></div>
+                                <div className="hidden sm:flex w-full bg-mediumSpringGreen h-0.5 scale-x-[2]"></div>
                             </div>
                             <div className="">
-                                <h3 className="text-xl mb-1 font-semibold text-gray-900 dark:text-white">
+                                <h3 className="text-xl mb-1 font-semibold text-gray-900">
                                     Melakukan Pemesanan
                                 </h3>
-                                <time className="block mb-6 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                                <time className="block mb-6 text-sm font-normal leading-none text-gray-400">
                                     Lima Belas Menit
                                 </time>
-                                <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                                <p className="text-base font-normal text-gray-500 ">
                                     Pastinya Anda selalu bisa{" "}
                                     <a
                                         id="konversi_konsultasi_web"
@@ -712,19 +712,19 @@ const ParallaxRapper: NextPage = () => {
                         </li>
                         <li className="">
                             <div className="flex items-center">
-                                <div className="z-10 flex items-center justify-center w-6 h-6 bg-springGreen text-snow font-bold rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                                <div className="z-10 flex items-center justify-center w-6 h-6 bg-springGreen text-snow font-bold rounded-full ring-0 ring-white sm:ring-8 dark:ring-gray-900 shrink-0">
                                     2
                                 </div>
-                                <div className="hidden sm:flex w-full bg-mediumSpringGreen h-0.5 scale-x-[2] dark:bg-gray-700"></div>
+                                <div className="hidden sm:flex w-full bg-mediumSpringGreen h-0.5 scale-x-[2] "></div>
                             </div>
                             <div className="">
-                                <h3 className="text-xl mb-1 font-semibold text-gray-900 dark:text-white">
+                                <h3 className="text-xl mb-1 font-semibold text-gray-900 ">
                                     Pengecekan Berkala
                                 </h3>
-                                <time className="block mb-6 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                                <time className="block mb-6 text-sm font-normal leading-none text-gray-400 ">
                                     Kapan Saja
                                 </time>
-                                <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                                <p className="text-base font-normal text-gray-500 ">
                                     Setelah melakukan pembayaran dan menentukan
                                     apa yang akan dibuat. Anda dapat melakukan
                                     pengecekan website Anda secara berkala.
@@ -737,19 +737,19 @@ const ParallaxRapper: NextPage = () => {
                         </li>
                         <li className="">
                             <div className="flex items-center">
-                                <div className="z-10 flex items-center justify-center w-6 h-6 bg-springGreen text-snow font-bold rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                                <div className="z-10 flex items-center justify-center w-6 h-6 bg-springGreen text-snow font-bold rounded-full ring-0 ring-white sm:ring-8 dark:ring-gray-900 shrink-0">
                                     3
                                 </div>
-                                <div className="hidden sm:flex w-full bg-mediumSpringGreen h-0.5 scale-x-[2] dark:bg-gray-700"></div>
+                                <div className="hidden sm:flex w-full bg-mediumSpringGreen h-0.5 scale-x-[2] "></div>
                             </div>
                             <div className="">
-                                <h3 className="text-xl mb-1 font-semibold text-gray-900 dark:text-white">
+                                <h3 className="text-xl mb-1 font-semibold text-gray-900 ">
                                     Penyelesaian & Publikasi
                                 </h3>
-                                <time className="block mb-6 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                                <time className="block mb-6 text-sm font-normal leading-none text-gray-400 ">
                                     Sepuluh Menit
                                 </time>
-                                <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                                <p className="text-base font-normal text-gray-500 ">
                                     Lalu setelah progress development selesai,
                                     Anda dapat melakukan evaluasi dan revisi
                                     untuk memperbaiki. Akhirnya website
@@ -792,7 +792,7 @@ const ParallaxRapper: NextPage = () => {
                         className="pt-4 text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb"
                         onClick={() => ParallaxRef.current?.scrollTo(0)}
                     >
-                        Sukses Online Bersama Kami: Ini Kata Mereka.
+                        Sukses Online Bersama Kami: Ini Kata Mereka
                     </h2>
 
                     <p className="text-xl mb-8 text-grayweb text-center">
@@ -963,57 +963,6 @@ const ParallaxRapper: NextPage = () => {
                         display: "flex",
                         flexDirection: "column",
                         alignItems: "center",
-                        color: "white",
-                    }}
-                    className="bg-springGreen justify-center py-8"
-                >
-                <div className="max-w-6xl mx-auto px-8 grid md:grid-cols-[420px_1fr] place-items-center">
-                    <Image
-                    src="/media/pesawat.png"
-                    width={420}
-                    height={420}
-                    alt="Kontak kami"
-                    className="object-fit rounded-md"
-                    />
-                    <div className="flex flex-col gap-8 md:gap-16">
-                        <h2 className="text-4xl md:text-5xl font-bold">
-                            Mau buat {" "}
-                            <span className="underline">website keren?</span>
-                        </h2>
-                        <p className="text-xl md:text-2xl">
-                        Ide-ide Anda sangat berarti bagi kami. Ceritakan kebutuhan Anda, diskusikan (gratis), dan lihat bagaimana kami bisa mewujudkannya!
-                        </p>
-                        <a
-                            id="konversi_konsultasi_web"
-                            href="https://wa.me/6289611905599?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
-                            className="inline-block text-xl text-center  rounded-lg bg-snow text-springGreen px-8 py-4"
-                        >
-                            Saya Mau{" "}
-                        </a>
-                    </div>
-                    </div>
-                </ParallaxLayer>
-
-                <ParallaxLayer
-                    offset={17}
-                    speed={0.5}
-                    style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "center",
-                        gap: "4em",
-                        color: "white",
-                    }}
-                    className="md:hidden max-w-6xl mx-auto px-8"
-                ></ParallaxLayer>
-
-                <ParallaxLayer
-                    offset={18}
-                    speed={0.5}
-                    style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "center",
                         justifyContent: "end",
                         gap: "4em"
                     }}
@@ -1104,7 +1053,47 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                 </ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={19}
+                    offset={17}
+                    speed={0.5}
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        color: "white",
+                    }}
+                    className="bg-springGreen justify-center py-8"
+                >
+                <div className="max-w-6xl mx-auto px-8 grid md:grid-cols-[420px_1fr] place-items-center">
+                    <Image
+                    src="/media/pesawat.png"
+                    width={420}
+                    height={420}
+                    alt="Kontak kami"
+                    className="object-fit rounded-md"
+                    />
+                    <div className="flex flex-col gap-8 md:gap-16">
+                        <h2 className="text-4xl md:text-5xl font-bold">
+                            Mau Buat Website Keren?
+                        </h2>
+                        <p className="text-xl font-semibold md:text-4xl">
+                            Atau suka dengan karya kami?
+                        </p>
+                        <p className="text-xl md:text-2xl">
+                        Ide-ide Anda sangat berarti bagi kami. Ceritakan kebutuhan Anda, diskusikan (gratis), dan lihat bagaimana kami bisa mewujudkannya!
+                        </p>
+                        <a
+                            id="konversi_konsultasi_web"
+                            href="https://wa.me/6289611905599?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
+                            className="inline-block text-xl text-center  rounded-lg bg-snow text-springGreen px-8 py-4"
+                        >
+                            Saya Mau{" "}
+                        </a>
+                    </div>
+                    </div>
+                </ParallaxLayer>
+
+                <ParallaxLayer
+                    offset={18}
                     speed={0.5}
                     style={{
                         display: "flex",
