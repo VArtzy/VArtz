@@ -75,7 +75,7 @@ const ParallaxRapper: NextPage = () => {
         <>
             <Parallax
                 ref={ParallaxRef}
-                pages={19}
+                pages={20}
                 style={{ top: "0", left: "0" }}
             >
                 <ParallaxLayer
@@ -770,6 +770,18 @@ const ParallaxRapper: NextPage = () => {
                         flexDirection: "column",
                         alignItems: "center",
                         gap: "2em",
+                    }}
+                    className="max-w-6xl mx-auto px-8 text-grayweb"
+                ></ParallaxLayer>
+
+                <ParallaxLayer
+                    offset={13}
+                    speed={0.5}
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        gap: "2em",
                         color: "white",
                         height: "auto",
                     }}
@@ -921,7 +933,7 @@ const ParallaxRapper: NextPage = () => {
                 </ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={13}
+                    offset={14}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -933,7 +945,7 @@ const ParallaxRapper: NextPage = () => {
                 ></ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={14}
+                    offset={15}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -945,7 +957,7 @@ const ParallaxRapper: NextPage = () => {
                 ></ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={15}
+                    offset={16}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -955,7 +967,14 @@ const ParallaxRapper: NextPage = () => {
                     }}
                     className="bg-springGreen justify-center py-8"
                 >
-                <div className="max-w-6xl mx-auto px-8 grid md:grid-cols-[1fr_420px] place-items-center">
+                <div className="max-w-6xl mx-auto px-8 grid md:grid-cols-[420px_1fr] place-items-center">
+                    <Image
+                    src="/media/pesawat.png"
+                    width={420}
+                    height={420}
+                    alt="Kontak kami"
+                    className="object-fit rounded-md"
+                    />
                     <div className="flex flex-col gap-8 md:gap-16">
                         <h2 className="text-4xl md:text-5xl font-bold">
                             Mau buat {" "}
@@ -972,19 +991,11 @@ const ParallaxRapper: NextPage = () => {
                             Saya Mau{" "}
                         </a>
                     </div>
-
-                    <Image
-                    src="/media/pesawat.png"
-                    width={420}
-                    height={420}
-                    alt="Kontak kami"
-                    className="object-fit rounded-md"
-                    />
                     </div>
                 </ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={16}
+                    offset={17}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -997,7 +1008,7 @@ const ParallaxRapper: NextPage = () => {
                 ></ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={17}
+                    offset={18}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -1010,11 +1021,11 @@ const ParallaxRapper: NextPage = () => {
                 >
                 <h2
                     id="faq"
-                    className="text-3xl text-center md:text-4xl w-full font-bold mt-24"
+                    className="text-3xl text-center md:text-4xl w-full font-bold"
                 >
                     FAQs
                 </h2>
-                    <p className="text-grayweb text-xl text-center mb-8 max-w-prose">
+                    <p className="text-grayweb text-xl text-center max-w-prose">
                     Frequently asked questions (pertanyaan yang sering ditanyakan)
                     </p>
                     <div className="accordion w-full">
@@ -1093,7 +1104,7 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                 </ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={18}
+                    offset={19}
                     speed={0.5}
                     style={{
                         display: "flex",
