@@ -228,56 +228,6 @@ const ParallaxRapper: NextPage = () => {
                     style={{ ...alignCenter }}
                     className="items-center justify-center lg:justify-end"
                 >
-                    <div className={`items-center justify-center`}>
-                        <h2 className="text-grayweb text-center lg:text-left text-xl mb-4 px-8">
-                            <span className="text-mediumSpringGreen">
-                                Landing Page
-                            </span>{" "}
-                            First Media
-                        </h2>
-                        <div className="browser-mockup with-url shadow-lg aspect-[9/13] lg:aspect-video">
-                            <Image
-                                alt="First media web thumbail"
-                                src="/img/eb2.webp"
-                                width={500}
-                                height={700}
-                                className="w-full object-cover object-top aspect-[9/13] lg:aspect-video"
-                            ></Image>
-                        </div>
-                    </div>
-                </ParallaxLayer>
-
-                <ParallaxLayer
-                    offset={2.5}
-                    speed={1.5}
-                    style={{ ...alignCenter }}
-                    className="items-center justify-center lg:justify-end"
-                >
-                    <div ref={ref} className={`items-center justify-center`}>
-                        <h2 className="text-grayweb text-center lg:text-left text-xl mb-4 px-8">
-                            <span className="text-mediumSpringGreen">
-                                Personal Portofolio
-                            </span>{" "}
-                            Mie Bandung Singosaren
-                        </h2>
-                        <div className="browser-mockup with-url shadow-lg aspect-[9/13] lg:aspect-video">
-                            <Image
-                                alt="Mie Bandung web thumbail"
-                                src="/img/eb5.webp"
-                                width={500}
-                                height={700}
-                                className="w-full object-cover object-top aspect-[9/13] lg:aspect-video"
-                            ></Image>
-                        </div>
-                    </div>
-                </ParallaxLayer>
-
-                <ParallaxLayer
-                    offset={3.5}
-                    speed={1.5}
-                    style={{ ...alignCenter }}
-                    className="items-center justify-center lg:justify-end"
-                >
                     <div
                         className={`items-center justify-center max-w-[640px]`}
                     >
@@ -312,6 +262,55 @@ const ParallaxRapper: NextPage = () => {
                             Lihat alur proses pengerjaan{" "}
                             <BsArrowRight className="inline" />
                         </a>
+                    </div>
+                </ParallaxLayer>
+                <ParallaxLayer
+                    offset={2.5}
+                    speed={1.5}
+                    style={{ ...alignCenter }}
+                    className="items-center justify-center lg:justify-end"
+                >
+                    <div className={`items-center justify-center`}>
+                        <h2 className="text-grayweb text-center lg:text-left text-xl mb-4 px-8">
+                            <span className="text-mediumSpringGreen">
+                                Landing Page
+                            </span>{" "}
+                            First Media
+                        </h2>
+                        <div className="browser-mockup with-url shadow-lg aspect-[9/13] lg:aspect-video">
+                            <Image
+                                alt="First media web thumbail"
+                                src="/img/eb2.webp"
+                                width={500}
+                                height={700}
+                                className="w-full object-cover object-top aspect-[9/13] lg:aspect-video"
+                            ></Image>
+                        </div>
+                    </div>
+                </ParallaxLayer>
+
+                <ParallaxLayer
+                    offset={3.5}
+                    speed={1.5}
+                    style={{ ...alignCenter }}
+                    className="items-center justify-center lg:justify-end"
+                >
+                    <div ref={ref} className={`items-center justify-center`}>
+                        <h2 className="text-grayweb text-center lg:text-left text-xl mb-4 px-8">
+                            <span className="text-mediumSpringGreen">
+                                Company Profile
+                            </span>{" "}
+                            Mie Bandung Singosaren
+                        </h2>
+                        <div className="browser-mockup with-url shadow-lg aspect-[9/13] lg:aspect-video">
+                            <Image
+                                alt="Mie Bandung web thumbail"
+                                src="/img/eb5.webp"
+                                width={500}
+                                height={700}
+                                className="w-full object-cover object-top aspect-[9/13] lg:aspect-video"
+                            ></Image>
+                        </div>
                     </div>
                 </ParallaxLayer>
 
@@ -361,23 +360,6 @@ const ParallaxRapper: NextPage = () => {
                                 </li>
                                     <li>Otomatisasi proses bisnis seperti penjualan dan fitur interaktif lainnya lewat sistem informasi atau sistem pembayaran.</li>
                             </ul>
-
-                            <div>
-                                <Link
-                                    href="/blog"
-                                    className="bg-mediumSpringGreen px-4 py-2 hover:bg-springGreen transition-all rounded inline-block mt-4 text-snow mr-4"
-                                >
-                                    <BsFillJournalBookmarkFill className="inline" />{" "}
-                                    Baca Blog
-                                </Link>
-                                <Link
-                                    href="/about"
-                                    className="bg-mediumSpringGreen px-4 py-2 hover:bg-springGreen transition-all rounded inline-block mt-4 text-snow"
-                                >
-                                    <FaInfo className="inline" />
-                                    Tentang Kami
-                                </Link>
-                                </div>
                             </div>
                         <div className="">
                             <div className="browser-mockup with-url shadow-lg aspect-[9/15] lg:aspect-video">
@@ -406,6 +388,22 @@ const ParallaxRapper: NextPage = () => {
                             </p>
                         </div>
                     </div>
+                            <div>
+                                <Link
+                                    href="/blog"
+                                    className="bg-mediumSpringGreen px-4 py-2 hover:bg-springGreen transition-all rounded inline-block mt-4 text-snow mr-4"
+                                >
+                                    <BsFillJournalBookmarkFill className="inline" />{" "}
+                                    Baca Blog
+                                </Link>
+                                <Link
+                                    href="/about"
+                                    className="bg-mediumSpringGreen px-4 py-2 hover:bg-springGreen transition-all rounded inline-block mt-4 text-snow"
+                                >
+                                    <FaInfo className="inline" />
+                                    Tentang Kami
+                                </Link>
+                                </div>
                     <span className="block text-center text-slate-800">
                         Berpikir membuat sendiri/web builder?
                         <Link
