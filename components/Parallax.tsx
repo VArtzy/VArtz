@@ -1079,6 +1079,12 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                         </a>
                     </div>
                     </div>
+                    <div
+                        onClick={() => ParallaxRef.current?.scrollTo(0)}
+                        className="mx-auto mt-8 p-4 bg-mediumSpringGreen rounded cursor-pointer"
+                    >
+                        <FaArrowUp className="text-snow" />
+                    </div>
                 </ParallaxLayer>
 
                 <ParallaxLayer
@@ -1093,13 +1099,6 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                         color: "white",
                     }}
                 >
-                    <div
-                        onClick={() => ParallaxRef.current?.scrollTo(0)}
-                        className="mx-auto p-4 bg-mediumSpringGreen rounded cursor-pointer"
-                    >
-                        <FaArrowUp className="text-snow" />
-                    </div>
-
                     <Foo />
                     </ParallaxLayer>
             </Parallax>
