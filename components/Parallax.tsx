@@ -233,14 +233,14 @@ const ParallaxRapper: NextPage = () => {
                     >
                         <h2 className="text-grayweb text-center lg:text-left text-xl mb-4 px-8">
                             <span className="text-mediumSpringGreen">
-                                E-Commerce
+                            Landing Page
                             </span>{" "}
-                            Joga Computer
+                            First Media
                         </h2>
                         <div className="browser-mockup with-url shadow-lg aspect-[9/15] lg:aspect-video">
                             <Image
-                                alt="Joga Computer web thumbail"
-                                src="/img/eb4.webp"
+                                alt="First media web thumbail"
+                                src="/img/eb2.webp"
                                 width={500}
                                 height={700}
                                 className="w-full object-cover object-top aspect-[9/15] lg:aspect-video"
@@ -257,14 +257,14 @@ const ParallaxRapper: NextPage = () => {
                     <div ref={ref} className={`items-center justify-center`}>
                         <h2 className="text-grayweb text-center lg:text-left text-xl mb-4 px-8">
                             <span className="text-mediumSpringGreen">
-                                Landing Page
+                                E-Commerce
                             </span>{" "}
-                            First Media
+                            Joga Computer
                         </h2>
                         <div className="browser-mockup with-url shadow-lg aspect-[9/13] lg:aspect-video">
                             <Image
-                                alt="First media web thumbail"
-                                src="/img/eb2.webp"
+                                alt="Joga Computer web thumbail"
+                                src="/img/eb4.webp"
                                 width={500}
                                 height={700}
                                 className="w-full object-cover object-top aspect-[9/13] lg:aspect-video"
