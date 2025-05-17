@@ -38,7 +38,7 @@ const Foo: React.FC = () => {
                 <div className="mb-8">
                     <h3 className="text-xl mb-2">Sitemap</h3>
                     <div className="mb-2">
-                        <ul className="flex flex-wrap gap-8">
+                        <ul className="flex flex-wrap gap-2">
                             <li>
                                 <Link className="text-snow" href="/">
                                     Home
