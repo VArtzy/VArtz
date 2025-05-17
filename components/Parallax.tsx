@@ -964,9 +964,9 @@ const ParallaxRapper: NextPage = () => {
                         flexDirection: "column",
                         alignItems: "center",
                         justifyContent: "end",
-                        gap: "4em"
+                        gap: "2em"
                     }}
-                    className="max-w-3xl mx-auto text-grayweb"
+                    className="max-w-3xl mx-auto text-grayweb px-8"
                 >
                 <h2
                     id="faq"
