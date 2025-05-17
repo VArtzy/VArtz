@@ -75,7 +75,7 @@ const ParallaxRapper: NextPage = () => {
         <>
             <Parallax
                 ref={ParallaxRef}
-                pages={19}
+                pages={20}
                 style={{ top: "0", left: "0" }}
             >
                 <ParallaxLayer
@@ -1087,6 +1087,18 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
 
                 <ParallaxLayer
                     offset={18}
+                    speed={0.5}
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        gap: "2em",
+                    }}
+                    className="max-w-6xl mx-auto px-8 text-grayweb"
+                ></ParallaxLayer>
+
+                <ParallaxLayer
+                    offset={19}
                     speed={0.5}
                     style={{
                         display: "flex",
