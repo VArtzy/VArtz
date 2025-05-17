@@ -403,7 +403,6 @@ const ParallaxRapper: NextPage = () => {
                                     <FaInfo className="inline" />
                                     Tentang Kami
                                 </Link>
-                                </div>
                     <span className="block text-center text-slate-800">
                         Berpikir membuat sendiri/web builder?
                         <Link
@@ -414,6 +413,7 @@ const ParallaxRapper: NextPage = () => {
                             coba pikir lagi <BsArrowRight className="inline" />
                         </Link>
                     </span>
+                    </div>
                 </ParallaxLayer>
 
                 <ParallaxLayer
