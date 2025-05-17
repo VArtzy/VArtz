@@ -246,22 +246,6 @@ const ParallaxRapper: NextPage = () => {
                                 className="w-full object-cover object-top aspect-[9/15] lg:aspect-video"
                             ></Image>
                         </div>
-
-                        <a
-                            href="/work"
-                            className="text-grayweb px-8 block md:inline mt-4"
-                        >
-                            Kami bangga dengan hubungan klien dan situs web yang
-                            telah kami bangun
-                            <BsArrowRight className="inline" />
-                        </a>
-                        <a
-                            href="/blog/lika-liku-pengembangan-web-app"
-                            className="text-grayweb px-8 block md:inline"
-                        >
-                            Lihat alur proses pengerjaan{" "}
-                            <BsArrowRight className="inline" />
-                        </a>
                     </div>
                 </ParallaxLayer>
                 <ParallaxLayer
@@ -270,7 +254,7 @@ const ParallaxRapper: NextPage = () => {
                     style={{ ...alignCenter }}
                     className="items-center justify-center lg:justify-end"
                 >
-                    <div className={`items-center justify-center`}>
+                    <div ref={ref} className={`items-center justify-center`}>
                         <h2 className="text-grayweb text-center lg:text-left text-xl mb-4 px-8">
                             <span className="text-mediumSpringGreen">
                                 Landing Page
@@ -295,7 +279,7 @@ const ParallaxRapper: NextPage = () => {
                     style={{ ...alignCenter }}
                     className="items-center justify-center lg:justify-end"
                 >
-                    <div ref={ref} className={`items-center justify-center`}>
+                    <div className={`items-center justify-center`}>
                         <h2 className="text-grayweb text-center lg:text-left text-xl mb-4 px-8">
                             <span className="text-mediumSpringGreen">
                                 Company Profile
@@ -311,6 +295,22 @@ const ParallaxRapper: NextPage = () => {
                                 className="w-full object-cover object-top aspect-[9/13] lg:aspect-video"
                             ></Image>
                         </div>
+
+                        <a
+                            href="/work"
+                            className="text-grayweb px-8 block md:inline mt-4"
+                        >
+                            Kami bangga dengan hubungan klien dan situs web yang
+                            telah kami bangun
+                            <BsArrowRight className="inline" />
+                        </a>
+                        <a
+                            href="/blog/lika-liku-pengembangan-web-app"
+                            className="text-grayweb px-8 block md:inline"
+                        >
+                            Lihat alur proses pengerjaan{" "}
+                            <BsArrowRight className="inline" />
+                        </a>
                     </div>
                 </ParallaxLayer>
 
