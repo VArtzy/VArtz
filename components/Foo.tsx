@@ -3,7 +3,7 @@ import Link from "next/link"
 import React from "react"
 import { BiMailSend } from "react-icons/bi"
 import { BsArrowRight } from "react-icons/bs"
-import { FaLocationArrow, FaWhatsapp } from "react-icons/fa"
+import { FaLocationArrow, FaWhatsapp, FaInstagram, FaTiktok } from "react-icons/fa"
 
 const Foo: React.FC = () => {
     return (
@@ -178,6 +178,12 @@ const Foo: React.FC = () => {
                         <BiMailSend className="inline" />{" "}
                         admin@vartz.web.id
                     </p>
+                    <a href="https://instagram.com/@vartz.web">
+                        <FaInstagram className="inline" />{" "}
+                    </a>
+                    <a href="https://tiktok.com/@vartz.web">
+                        <FaTiktok className="inline" />{" "}
+                    </a>
                 </div>
             </div>
             <div className="bg-[#252525] w-full flex flex-wrap gap-2 justify-between px-16 py-8">
