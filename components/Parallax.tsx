@@ -76,7 +76,7 @@ const ParallaxRapper: NextPage = () => {
             <Parallax
                 ref={ParallaxRef}
                 pages={18.5}
-                style={{ top: "0", left: "0" }}
+                style={{ top: "0", left: "0", bottom: "0" }}
             >
                 <ParallaxLayer
                     offset={0}
