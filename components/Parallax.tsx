@@ -439,6 +439,348 @@ const ParallaxRapper: NextPage = () => {
 
                 <ParallaxLayer
                     offset={7}
+                    speed={2}
+                    className="bg-mediumSpringGreen"
+                />
+
+                <ParallaxLayer
+                    offset={7}
+                    speed={0.5}
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        gap: "2em",
+                        color: "white",
+                        height: "auto",
+                    }}
+                    className="max-w-3xl mx-auto px-8"
+                    id="feature"
+                >
+                    <h2
+                        className="pt-4 text-3xl text-center lg:text-4xl font-bold mt-8"
+                        onClick={() => ParallaxRef.current?.scrollTo(0)}
+                    >
+                        Go Online dan Lebarkan Sayap Bisnis Anda.
+                    </h2>
+
+                    <p className="text-xl mb-8 text-center">
+                        Dengan situs buatan kami, peningkatan bisnis Anda akan
+                        lebih mudah dan hasilnya akan lebih maksimal. Kami
+                        percaya pada komunikasi yang baik dan transparan untuk
+                        proses pengembangan.
+                    </p>
+
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div className="shadow-md rounded bg-grayweb p-4">
+                            <h3 className="text-lg font-bold mb-4">
+                                <BiDevices /> Mobile Freindly
+                            </h3>
+                            <p>
+                                Website Anda dapat diakses optimal dalam
+                                desktop, tablet dan handphone. Menjangkau lebih
+                                banyak pengguna.
+                            </p>
+                        </div>
+                        <div className="shadow-md rounded bg-grayweb p-4">
+                            <h3 className="text-lg font-bold mb-4">
+                                <SiMaterialdesignicons /> Desain Ekslusif
+                            </h3>
+                            <p>
+                                Kami membangun desain Website yang EKSLUSIF.
+                                sesuai dengan brand dan karateristik Anda.
+                                Dengan desain yang modern juga.{" "}
+                                <span className="font-bold">100% Original</span>
+                                .
+                            </p>
+                        </div>
+                        <div className="shadow-md rounded bg-grayweb p-4">
+                            <h3 className="text-lg font-bold mb-4">
+                                <FaRegWindowRestore /> Sesuai Kebutuhan Anda
+                            </h3>
+                            <p>
+                                Kami dapat membangun Website sesuai kebutuhan
+                                Anda. Cukup konsultasi dan Website kamu jadi.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="shadow-md rounded bg-grayweb p-4">
+                        <h3 className="text-lg font-bold mb-4">
+                            <FaBolt />
+                            Website cepat, seperti kilat.{" "}
+                        </h3>
+                        <p>
+                            Performa Website kami sangatlah cepat. Pastinya kamu
+                            tidak akan kehilangan pelanggan hanya karena Website
+                            yang lelet dan lemot itu.
+                        </p>
+                    </div>
+                    <span className="block text-center text-slate-800">
+                        Garansi uang kembali
+                        <Link
+                            href="/terms-condition#faq"
+                            className="text-grayweb block mt-4 md:inline"
+                        >
+                            {" "}
+                            jika hasil tidak sesuai kemauan{" "}
+                            <BsArrowRight className="inline" />
+                        </Link>
+                    </span>
+                </ParallaxLayer>
+
+                <ParallaxLayer
+                    offset={8}
+                    speed={0.5}
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        gap: "2em",
+                    }}
+                    className="max-w-6xl mx-auto px-8 text-grayweb"
+                ></ParallaxLayer>
+
+                <ParallaxLayer
+                    offset={9}
+                    speed={0.5}
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        gap: "2em",
+                    }}
+                    className="max-w-6xl mx-auto px-8"
+                >
+                    <div className="grid grid-cols-1 md:grid-cols-[40%_1fr] gap-16">
+                        <div className="">
+                            <Image
+                                src="/img/online.webp"
+                                width={640}
+                                height={900}
+                                alt="Onlinekan bisnis Anda dengan mudah"
+                                className="object-fit rounded-md"
+                            />
+                        </div>
+                        <div className="">
+                            <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-grayweb">
+                                Siap buat{" "}
+                                <span className="text-turquoise">
+                                    Website Bisnis dan Landing Page
+                                </span>{" "}
+                                yang Sesuai dengan Kebutuhan UMKM Anda.
+                            </h2>
+                            <p className="text-grayweb text-xl mb-16">
+                                Kami adalah jasa web profesional yang
+                                menyediakan layanan pembuatan website dan
+                                landing page untuk membantu UMKM meningkatkan
+                                bisnis online mereka. Kami menawarkan solusi
+                                yang tepat untuk membuat website bisnis yang
+                                menarik dan efektif, serta landing page yang
+                                menghasilkan konversi tinggi.
+                            </p>
+
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+                                <div className="">
+                                    <div className="bg-grayweb text-center mb-2 text-snow px-1 py-1 rounded-xl">
+                                        Terjangkau & Fleksible
+                                    </div>
+                                    <h3 className="text-lg text-semibold mb-4">
+                                        Dapatkan situs berkulitas dengan mudah
+                                    </h3>
+                                    <p>
+                                        Tidak hanya itu, kami juga menawarkan
+                                        harga yang terjangkau dan fleksibel agar
+                                        sesuai dengan budget UMKM. Mendapatkan
+                                        kualitas yang baik dan{" "}
+                                        <Link
+                                            href="/pricing"
+                                            className="underline"
+                                        >
+                                            layanan yang memuaskan
+                                        </Link>
+                                        .
+                                    </p>
+                                </div>
+                                <div className="">
+                                    <div className="bg-grayweb text-center mb-2 text-snow px-1 py-1 rounded-xl">
+                                        Ahli & Terampil
+                                    </div>
+                                    <h3 className="text-lg text-semibold mb-4">
+                                        Tim ahli yang terampil dan berdedikasi
+                                    </h3>
+                                    <p>
+                                        Dengan pengalaman bertahun-tahun dalam
+                                        industri ini, kami telah membantu banyak
+                                        klien dalam berbagai industri mencapai
+                                        tujuan mereka. Jangan ragu{" "}
+                                        <a
+                                            id="konversi_konsultasi_web"
+                                            className="underline"
+                                            href="https://wa.me/6289611905599?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
+                                        >
+                                            menghubungi kami
+                                        </a>
+                                        .
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ParallaxLayer>
+
+                <ParallaxLayer
+                    offset={10}
+                    speed={0.5}
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        gap: "2em",
+                    }}
+                    className="max-w-6xl mx-auto px-8 text-grayweb"
+                ></ParallaxLayer>
+
+                <ParallaxLayer
+                    offset={11}
+                    speed={0.5}
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        gap: "2em",
+                    }}
+                    className="max-w-6xl mx-auto px-8"
+                    id="cara-order"
+                >
+                    <h2 className="text-3xl text-center text-grayweb lg:text-4xl font-bold mt-12">
+                        Buat Website{" "}
+                        <span className="underline">
+                            Gak Perlu Ribet & Lama
+                        </span>
+                        .
+                    </h2>
+                    <p className="text-grayweb text-xl text-center mb-8 max-w-prose">
+                        Gak perlu pusing mikirin gimana buat bikinnya, Anda
+                        hanya perlu ikut intsruksi saja. Sisanya waktu anda
+                        fokus kepada bisnis Anda.
+                    </p>
+                    <ol className="grid md:grid-cols-2 lg:grid-cols-3 gap-16 px-6 lg:overflow-hidden">
+                        <li className="">
+                            <div className="flex items-center">
+                                <div className="z-10 flex items-center justify-center w-6 h-6 bg-springGreen text-snow font-bold rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                                    1
+                                </div>
+                                <div className="hidden sm:flex w-full bg-mediumSpringGreen h-0.5 scale-x-[2] dark:bg-gray-700"></div>
+                            </div>
+                            <div className="">
+                                <h3 className="text-xl mb-1 font-semibold text-gray-900 dark:text-white">
+                                    Melakukan Pemesanan
+                                </h3>
+                                <time className="block mb-6 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                                    Lima Belas Menit
+                                </time>
+                                <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                                    Pastinya Anda selalu bisa{" "}
+                                    <a
+                                        id="konversi_konsultasi_web"
+                                        href="https://wa.me/6289611905599?text=Hai%20min,%20bisa%buatkan%20saya%20website?"
+                                        className="underline"
+                                    >
+                                        {" "}
+                                        Konsultasi dengan kami{" "}
+                                    </a>
+                                    {"  "}
+                                    untuk mendapatkan hasil dan solusi terbaik
+                                    yang Anda inginkan. Jangan lepaskan
+                                    kesempatan ini!{"  "}
+                                    <span className="font-semibold">
+                                        Lakukan pemesanan di platform whatsapp,
+                                        pembayaran secara tunai atau down
+                                        payment (DP) minimal 50% dengan{" "}
+                                        <Link
+                                            href="/terms-condition#faq"
+                                            className="underline"
+                                        >
+                                            metode pembayaran
+                                        </Link>
+                                        . Lalu mengisi data untuk keperluan web.
+                                    </span>
+                                    <Link
+                                        href="/terms-condition"
+                                        className="underline"
+                                    >
+                                        S&K Berlaku.
+                                    </Link>
+                                </p>
+                            </div>
+                        </li>
+                        <li className="">
+                            <div className="flex items-center">
+                                <div className="z-10 flex items-center justify-center w-6 h-6 bg-springGreen text-snow font-bold rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                                    2
+                                </div>
+                                <div className="hidden sm:flex w-full bg-mediumSpringGreen h-0.5 scale-x-[2] dark:bg-gray-700"></div>
+                            </div>
+                            <div className="">
+                                <h3 className="text-xl mb-1 font-semibold text-gray-900 dark:text-white">
+                                    Pengecekan Berkala
+                                </h3>
+                                <time className="block mb-6 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                                    Kapan Saja
+                                </time>
+                                <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                                    Setelah melakukan pembayaran dan menentukan
+                                    apa yang akan dibuat. Anda dapat melakukan
+                                    pengecekan website Anda secara berkala.
+                                    Nantinya, web akan dihosting sementara. Anda
+                                    akan selalu bisa datang/visit ke website
+                                    selama masa pengembangan. Memperbaiki apa
+                                    yang perlu diperbaiki.{"  "}
+                                </p>
+                            </div>
+                        </li>
+                        <li className="">
+                            <div className="flex items-center">
+                                <div className="z-10 flex items-center justify-center w-6 h-6 bg-springGreen text-snow font-bold rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                                    3
+                                </div>
+                                <div className="hidden sm:flex w-full bg-mediumSpringGreen h-0.5 scale-x-[2] dark:bg-gray-700"></div>
+                            </div>
+                            <div className="">
+                                <h3 className="text-xl mb-1 font-semibold text-gray-900 dark:text-white">
+                                    Penyelesaian & Publikasi
+                                </h3>
+                                <time className="block mb-6 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                                    Sepuluh Menit
+                                </time>
+                                <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                                    Lalu setelah progress development selesai,
+                                    Anda dapat melakukan evaluasi dan revisi
+                                    untuk memperbaiki. Akhirnya website
+                                    dipublikasikan ke internet sesuai dengan
+                                    domain yang Anda inginkan serta siap untuk
+                                    mengembangkan bisnis Anda.{"  "}
+                                </p>
+                            </div>
+                        </li>
+                    </ol>
+                </ParallaxLayer>
+
+                <ParallaxLayer
+                    offset={12}
+                    speed={0.5}
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        gap: "4em",
+                        color: "white",
+                    }}
+                    className="md:hidden max-w-6xl mx-auto px-8"
+                ></ParallaxLayer>
+
+                <ParallaxLayer
+                    offset={13}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -596,7 +938,7 @@ const ParallaxRapper: NextPage = () => {
                 </ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={8}
+                    offset={14}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -608,7 +950,7 @@ const ParallaxRapper: NextPage = () => {
                 ></ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={9}
+                    offset={15}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -620,349 +962,46 @@ const ParallaxRapper: NextPage = () => {
                 ></ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={10}
-                    speed={2}
-                    className="bg-mediumSpringGreen"
-                />
-
-                <ParallaxLayer
-                    offset={10}
-                    speed={0.5}
-                    style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "center",
-                        gap: "2em",
-                        color: "white",
-                        height: "auto",
-                    }}
-                    className="max-w-3xl mx-auto px-8"
-                    id="feature"
-                >
-                    <h2
-                        className="pt-4 text-3xl text-center lg:text-4xl font-bold mt-8"
-                        onClick={() => ParallaxRef.current?.scrollTo(0)}
-                    >
-                        Go Online dan Lebarkan Sayap Bisnis Anda.
-                    </h2>
-
-                    <p className="text-xl mb-8 text-center">
-                        Dengan situs buatan kami, peningkatan bisnis Anda akan
-                        lebih mudah dan hasilnya akan lebih maksimal. Kami
-                        percaya pada komunikasi yang baik dan transparan untuk
-                        proses pengembangan.
-                    </p>
-
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        <div className="shadow-md rounded bg-grayweb p-4">
-                            <h3 className="text-lg font-bold mb-4">
-                                <BiDevices /> Mobile Freindly
-                            </h3>
-                            <p>
-                                Website Anda dapat diakses optimal dalam
-                                desktop, tablet dan handphone. Menjangkau lebih
-                                banyak pengguna.
-                            </p>
-                        </div>
-                        <div className="shadow-md rounded bg-grayweb p-4">
-                            <h3 className="text-lg font-bold mb-4">
-                                <SiMaterialdesignicons /> Desain Ekslusif
-                            </h3>
-                            <p>
-                                Kami membangun desain Website yang EKSLUSIF.
-                                sesuai dengan brand dan karateristik Anda.
-                                Dengan desain yang modern juga.{" "}
-                                <span className="font-bold">100% Original</span>
-                                .
-                            </p>
-                        </div>
-                        <div className="shadow-md rounded bg-grayweb p-4">
-                            <h3 className="text-lg font-bold mb-4">
-                                <FaRegWindowRestore /> Sesuai Kebutuhan Anda
-                            </h3>
-                            <p>
-                                Kami dapat membangun Website sesuai kebutuhan
-                                Anda. Cukup konsultasi dan Website kamu jadi.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="shadow-md rounded bg-grayweb p-4">
-                        <h3 className="text-lg font-bold mb-4">
-                            <FaBolt />
-                            Website cepat, seperti kilat.{" "}
-                        </h3>
-                        <p>
-                            Performa Website kami sangatlah cepat. Pastinya kamu
-                            tidak akan kehilangan pelanggan hanya karena Website
-                            yang lelet dan lemot itu.
-                        </p>
-                    </div>
-                    <span className="block text-center text-slate-800">
-                        Garansi uang kembali
-                        <Link
-                            href="/terms-condition#faq"
-                            className="text-grayweb block mt-4 md:inline"
-                        >
-                            {" "}
-                            jika hasil tidak sesuai kemauan{" "}
-                            <BsArrowRight className="inline" />
-                        </Link>
-                    </span>
-                </ParallaxLayer>
-
-                <ParallaxLayer
-                    offset={11}
-                    speed={0.5}
-                    style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "center",
-                        gap: "2em",
-                    }}
-                    className="max-w-6xl mx-auto px-8 text-grayweb"
-                ></ParallaxLayer>
-
-                <ParallaxLayer
-                    offset={12}
-                    speed={0.5}
-                    style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "center",
-                        gap: "2em",
-                    }}
-                    className="max-w-6xl mx-auto px-8"
-                >
-                    <div className="grid grid-cols-1 md:grid-cols-[40%_1fr] gap-16">
-                        <div className="">
-                            <Image
-                                src="/img/online.webp"
-                                width={640}
-                                height={900}
-                                alt="Onlinekan bisnis Anda dengan mudah"
-                                className="object-fit rounded-md"
-                            />
-                        </div>
-                        <div className="">
-                            <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-grayweb">
-                                Siap buat{" "}
-                                <span className="text-turquoise">
-                                    Website Bisnis dan Landing Page
-                                </span>{" "}
-                                yang Sesuai dengan Kebutuhan UMKM Anda.
-                            </h2>
-                            <p className="text-grayweb text-xl mb-16">
-                                Kami adalah jasa web profesional yang
-                                menyediakan layanan pembuatan website dan
-                                landing page untuk membantu UMKM meningkatkan
-                                bisnis online mereka. Kami menawarkan solusi
-                                yang tepat untuk membuat website bisnis yang
-                                menarik dan efektif, serta landing page yang
-                                menghasilkan konversi tinggi.
-                            </p>
-
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-                                <div className="">
-                                    <div className="bg-grayweb text-center mb-2 text-snow px-1 py-1 rounded-xl">
-                                        Terjangkau & Fleksible
-                                    </div>
-                                    <h3 className="text-lg text-semibold mb-4">
-                                        Dapatkan situs berkulitas dengan mudah
-                                    </h3>
-                                    <p>
-                                        Tidak hanya itu, kami juga menawarkan
-                                        harga yang terjangkau dan fleksibel agar
-                                        sesuai dengan budget UMKM. Mendapatkan
-                                        kualitas yang baik dan{" "}
-                                        <Link
-                                            href="/pricing"
-                                            className="underline"
-                                        >
-                                            layanan yang memuaskan
-                                        </Link>
-                                        .
-                                    </p>
-                                </div>
-                                <div className="">
-                                    <div className="bg-grayweb text-center mb-2 text-snow px-1 py-1 rounded-xl">
-                                        Ahli & Terampil
-                                    </div>
-                                    <h3 className="text-lg text-semibold mb-4">
-                                        Tim ahli yang terampil dan berdedikasi
-                                    </h3>
-                                    <p>
-                                        Dengan pengalaman bertahun-tahun dalam
-                                        industri ini, kami telah membantu banyak
-                                        klien dalam berbagai industri mencapai
-                                        tujuan mereka. Jangan ragu{" "}
-                                        <a
-                                            id="konversi_konsultasi_web"
-                                            className="underline"
-                                            href="https://wa.me/6289611905599?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
-                                        >
-                                            menghubungi kami
-                                        </a>
-                                        .
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </ParallaxLayer>
-
-                <ParallaxLayer
-                    offset={13}
-                    speed={0.5}
-                    style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "center",
-                        gap: "2em",
-                    }}
-                    className="max-w-6xl mx-auto px-8 text-grayweb"
-                ></ParallaxLayer>
-
-                <ParallaxLayer
-                    offset={14}
-                    speed={0.5}
-                    style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "center",
-                        gap: "2em",
-                    }}
-                    className="max-w-6xl mx-auto px-8"
-                    id="cara-order"
-                >
-                    <h2 className="text-3xl text-center text-grayweb lg:text-4xl font-bold mt-12">
-                        Buat Website{" "}
-                        <span className="underline">
-                            Gak Perlu Ribet & Lama
-                        </span>
-                        .
-                    </h2>
-                    <p className="text-grayweb text-xl text-center mb-8 max-w-prose">
-                        Gak perlu pusing mikirin gimana buat bikinnya, Anda
-                        hanya perlu ikut intsruksi saja. Sisanya waktu anda
-                        fokus kepada bisnis Anda.
-                    </p>
-                    <ol className="grid md:grid-cols-2 lg:grid-cols-3 gap-16 px-6 lg:overflow-hidden">
-                        <li className="">
-                            <div className="flex items-center">
-                                <div className="z-10 flex items-center justify-center w-6 h-6 bg-springGreen text-snow font-bold rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                                    1
-                                </div>
-                                <div className="hidden sm:flex w-full bg-mediumSpringGreen h-0.5 scale-x-[2] dark:bg-gray-700"></div>
-                            </div>
-                            <div className="">
-                                <h3 className="text-xl mb-1 font-semibold text-gray-900 dark:text-white">
-                                    Melakukan Pemesanan
-                                </h3>
-                                <time className="block mb-6 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                                    Lima Belas Menit
-                                </time>
-                                <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                                    Pastinya Anda selalu bisa{" "}
-                                    <a
-                                        id="konversi_konsultasi_web"
-                                        href="https://wa.me/6289611905599?text=Hai%20min,%20bisa%buatkan%20saya%20website?"
-                                        className="underline"
-                                    >
-                                        {" "}
-                                        Konsultasi dengan kami{" "}
-                                    </a>
-                                    {"  "}
-                                    untuk mendapatkan hasil dan solusi terbaik
-                                    yang Anda inginkan. Jangan lepaskan
-                                    kesempatan ini!{"  "}
-                                    <span className="font-semibold">
-                                        Lakukan pemesanan di platform whatsapp,
-                                        pembayaran secara tunai atau down
-                                        payment (DP) minimal 50% dengan{" "}
-                                        <Link
-                                            href="/terms-condition#faq"
-                                            className="underline"
-                                        >
-                                            metode pembayaran
-                                        </Link>
-                                        . Lalu mengisi data untuk keperluan web.
-                                    </span>
-                                    <Link
-                                        href="/terms-condition"
-                                        className="underline"
-                                    >
-                                        S&K Berlaku.
-                                    </Link>
-                                </p>
-                            </div>
-                        </li>
-                        <li className="">
-                            <div className="flex items-center">
-                                <div className="z-10 flex items-center justify-center w-6 h-6 bg-springGreen text-snow font-bold rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                                    2
-                                </div>
-                                <div className="hidden sm:flex w-full bg-mediumSpringGreen h-0.5 scale-x-[2] dark:bg-gray-700"></div>
-                            </div>
-                            <div className="">
-                                <h3 className="text-xl mb-1 font-semibold text-gray-900 dark:text-white">
-                                    Pengecekan Berkala
-                                </h3>
-                                <time className="block mb-6 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                                    Kapan Saja
-                                </time>
-                                <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                                    Setelah melakukan pembayaran dan menentukan
-                                    apa yang akan dibuat. Anda dapat melakukan
-                                    pengecekan website Anda secara berkala.
-                                    Nantinya, web akan dihosting sementara. Anda
-                                    akan selalu bisa datang/visit ke website
-                                    selama masa pengembangan. Memperbaiki apa
-                                    yang perlu diperbaiki.{"  "}
-                                </p>
-                            </div>
-                        </li>
-                        <li className="">
-                            <div className="flex items-center">
-                                <div className="z-10 flex items-center justify-center w-6 h-6 bg-springGreen text-snow font-bold rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                                    3
-                                </div>
-                                <div className="hidden sm:flex w-full bg-mediumSpringGreen h-0.5 scale-x-[2] dark:bg-gray-700"></div>
-                            </div>
-                            <div className="">
-                                <h3 className="text-xl mb-1 font-semibold text-gray-900 dark:text-white">
-                                    Penyelesaian & Publikasi
-                                </h3>
-                                <time className="block mb-6 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                                    Sepuluh Menit
-                                </time>
-                                <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                                    Lalu setelah progress development selesai,
-                                    Anda dapat melakukan evaluasi dan revisi
-                                    untuk memperbaiki. Akhirnya website
-                                    dipublikasikan ke internet sesuai dengan
-                                    domain yang Anda inginkan serta siap untuk
-                                    mengembangkan bisnis Anda.{"  "}
-                                </p>
-                            </div>
-                        </li>
-                    </ol>
-                </ParallaxLayer>
-
-                <ParallaxLayer
-                    offset={15}
-                    speed={0.5}
-                    style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "center",
-                        gap: "4em",
-                        color: "white",
-                    }}
-                    className="md:hidden max-w-6xl mx-auto px-8"
-                ></ParallaxLayer>
-
-                <ParallaxLayer
                     offset={16}
+                    speed={0.5}
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        color: "white",
+                    }}
+                    className="bg-springGreen justify-center py-8"
+                >
+                <div className="max-w-6xl mx-auto px-8 grid md:grid-cols-[1fr_420px] place-items-center">
+                    <div className="flex flex-col gap-8 md:gap-16">
+                        <h2 className="text-4xl md:text-5xl font-bold">
+                            Mau buat {" "}
+                            <span className="underline">website keren?</span>
+                        </h2>
+                        <p className="text-xl md:text-2xl">
+                        Ide-ide Anda sangat berarti bagi kami. Ceritakan kebutuhan Anda, diskusikan (gratis), dan lihat bagaimana kami bisa mewujudkannya!
+                        </p>
+                        <a
+                            id="konversi_konsultasi_web"
+                            href="https://wa.me/6289611905599?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
+                            className="inline-block text-xl text-center  rounded-lg bg-snow text-springGreen px-8 py-4"
+                        >
+                            Saya Mau{" "}
+                        </a>
+                    </div>
+
+                    <Image
+                    src="/media/pesawat.png"
+                    width={420}
+                    height={420}
+                    alt="Kontak kami"
+                    className="object-fit rounded-md"
+                    />
+                    </div>
+                </ParallaxLayer>
+
+                <ParallaxLayer
+                    offset={17}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -1056,43 +1095,7 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                         />
                     </div>
                 </ParallaxLayer>
-                <ParallaxLayer
-                    offset={17}
-                    speed={0.5}
-                    style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "center",
-                        color: "white",
-                    }}
-                    className="bg-springGreen justify-center py-8"
-                >
-                <div className="max-w-6xl mx-auto px-8 grid md:grid-cols-[1fr_420px] place-items-center">
-                    <Image
-                    src="/media/pesawat.png"
-                    width={420}
-                    height={420}
-                    alt="Kontak kami"
-                    className="object-fit rounded-md"
-                    />
-                    <div className="flex flex-col gap-8 md:gap-16">
-                        <h2 className="text-4xl md:text-5xl font-bold">
-                            Mau buat {" "}
-                            <span className="underline">website keren?</span>
-                        </h2>
-                        <p className="text-xl md:text-2xl">
-                        Ide-ide Anda sangat berarti bagi kami. Ceritakan kebutuhan Anda, diskusikan (gratis), dan lihat bagaimana kami bisa mewujudkannya!
-                        </p>
-                        <a
-                            id="konversi_konsultasi_web"
-                            href="https://wa.me/6289611905599?text=Hai,%20min.%20Saya%20berminat%20untuk%20membuat%20website.%20Berikut%20ini%20adalah%20data%20saya%3A%0A%0ANama%3A%0ABidang%20Usaha%3A%0A%0A%28Mohon%20isi%20data%20di%20atas%20lalu%20kirim%29"
-                            className="inline-block text-xl text-center  rounded-lg bg-snow text-springGreen px-8 py-4"
-                        >
-                            Saya Mau{" "}
-                        </a>
-                    </div>
-                    </div>
-                </ParallaxLayer>
+
                 <ParallaxLayer
                     offset={18}
                     speed={0.5}
