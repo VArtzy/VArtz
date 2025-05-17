@@ -178,11 +178,11 @@ const Foo: React.FC = () => {
                         <BiMailSend className="inline" />{" "}
                         admin@vartz.web.id
                     </p>
-                    <a href="https://instagram.com/@vartz.web">
-                        <FaInstagram className="inline" />{" "}
+                    <a href="https://instagram.com/@vartz.web" aria-label="instagram">
+                        <FaInstagram className="inline" />
                     </a>
-                    <a href="https://tiktok.com/@vartz.web">
-                        <FaTiktok className="inline" />{" "}
+                    <a href="https://tiktok.com/@vartz.web" aria-label="tiktok">
+                        <FaTiktok className="inline" />
                     </a>
                 </div>
             </div>
