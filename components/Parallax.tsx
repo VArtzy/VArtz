@@ -391,14 +391,14 @@ const ParallaxRapper: NextPage = () => {
                             <div>
                                 <Link
                                     href="/blog"
-                                    className="bg-mediumSpringGreen px-4 py-2 hover:bg-springGreen transition-all rounded inline-block mt-4 text-snow mr-4"
+                                    className="bg-mediumSpringGreen px-4 py-2 hover:bg-springGreen transition-all rounded mt-4 text-snow mr-4"
                                 >
                                     <BsFillJournalBookmarkFill className="inline" />{" "}
                                     Baca Blog
                                 </Link>
                                 <Link
                                     href="/about"
-                                    className="bg-mediumSpringGreen px-4 py-2 hover:bg-springGreen transition-all rounded inline-block mt-4 text-snow"
+                                    className="bg-mediumSpringGreen px-4 py-2 hover:bg-springGreen transition-all rounded mt-4 text-snow mr-4"
                                 >
                                     <FaInfo className="inline" />
                                     Tentang Kami
