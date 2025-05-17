@@ -342,7 +342,7 @@ const ParallaxRapper: NextPage = () => {
                                 jasa pembuatan website dan buat/bikin website.
                             </p>
 
-                            <ul className="text-xs flex flex-col gap-2 list-disc mt-4">
+                            <ul className="text-md flex flex-col gap-2 list-disc mt-4">
                                 <li>
                                     Website ibarat lapak untuk mempromosikan
                                     produk/usaha/diri Anda kepada dunia.                              </li>
@@ -362,27 +362,21 @@ const ParallaxRapper: NextPage = () => {
                                     <li>Otomatisasi proses bisnis seperti penjualan dan fitur interaktif lainnya lewat sistem informasi atau sistem pembayaran.</li>
                             </ul>
 
-                            <div className="">
-                                <h3 className="text-xs">
-                                    Baca Blog atau Tentang Kontak Kami untuk
-                                    optimalkan Website Anda.
-                                </h3>
                                 <Link
                                     href="/blog"
                                     className="bg-mediumSpringGreen px-4 py-2 hover:bg-springGreen transition-all rounded inline-block mt-4 text-snow mr-4"
                                 >
                                     <BsFillJournalBookmarkFill className="inline" />{" "}
-                                    Blog
+                                    Baca Blog
                                 </Link>
                                 <Link
                                     href="/about"
                                     className="bg-mediumSpringGreen px-4 py-2 hover:bg-springGreen transition-all rounded inline-block mt-4 text-snow"
                                 >
-                                    <FaInfo className="inline" /> About &
-                                    Contact
+                                    <FaInfo className="inline" />
+                                    Tentang Kami
                                 </Link>
                             </div>
-                        </div>
                         <div className="">
                             <div className="browser-mockup with-url shadow-lg aspect-[9/15] lg:aspect-video">
                             <Image
