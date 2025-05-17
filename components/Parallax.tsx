@@ -362,6 +362,7 @@ const ParallaxRapper: NextPage = () => {
                                     <li>Otomatisasi proses bisnis seperti penjualan dan fitur interaktif lainnya lewat sistem informasi atau sistem pembayaran.</li>
                             </ul>
 
+                            <div>
                                 <Link
                                     href="/blog"
                                     className="bg-mediumSpringGreen px-4 py-2 hover:bg-springGreen transition-all rounded inline-block mt-4 text-snow mr-4"
@@ -376,6 +377,7 @@ const ParallaxRapper: NextPage = () => {
                                     <FaInfo className="inline" />
                                     Tentang Kami
                                 </Link>
+                                </div>
                             </div>
                         <div className="">
                             <div className="browser-mockup with-url shadow-lg aspect-[9/15] lg:aspect-video">
