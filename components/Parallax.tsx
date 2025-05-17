@@ -404,7 +404,7 @@ const ParallaxRapper: NextPage = () => {
                             <p className="mt-4 lg:ml-8 text-xs">
                                 Oleh karena itu, sebagai seorang yang ingin
                                 membuat internet menjadi tempat yang lebih baik
-                                dan bermanfaat, saya berkomitmen untuk
+                                dan bermanfaat, berkomitmen untuk
                                 memperbaiki satu situs web pada satu waktu
                                 dengan menerapkan praktik desain UX yang baik.
                             </p>
@@ -896,7 +896,7 @@ const ParallaxRapper: NextPage = () => {
                                 />
                                 <div>
                                     <h3 className="text-lg font-bold tracking-widest">
-                                        Evangeline Divia K.
+                                        Evangeline Christy
                                     </h3>
                                     <h4 className="text-md">
                                         Sukulen & Tanaman Hias
