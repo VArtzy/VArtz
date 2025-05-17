@@ -229,7 +229,7 @@ const ParallaxRapper: NextPage = () => {
                     className="items-center justify-center lg:justify-end"
                 >
                     <div
-                        className={`items-center justify-center max-w-[640px]`}
+                        className={`items-center justify-center`}
                     >
                         <h2 className="text-grayweb text-center lg:text-left text-xl mb-4 px-8">
                             <span className="text-mediumSpringGreen">
@@ -279,7 +279,7 @@ const ParallaxRapper: NextPage = () => {
                     style={{ ...alignCenter }}
                     className="items-center justify-center lg:justify-end"
                 >
-                    <div className={`items-center justify-center`}>
+                    <div className={`items-center justify-center max-w-[640px]`}>
                         <h2 className="text-grayweb text-center lg:text-left text-xl mb-4 px-8">
                             <span className="text-mediumSpringGreen">
                                 Company Profile
