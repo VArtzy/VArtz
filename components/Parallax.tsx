@@ -398,12 +398,13 @@ const ParallaxRapper: NextPage = () => {
                                 </Link>
                                 <Link
                                     href="/about"
-                                    className="bg-mediumSpringGreen px-4 py-2 hover:bg-springGreen transition-all rounded inline-block mt-4 text-snow mr-4"
+                                    className="bg-mediumSpringGreen px-4 py-2 hover:bg-springGreen transition-all rounded inline-block mt-4 text-snow"
                                 >
                                     <FaInfo className="inline" />
                                     Tentang Kami
                                 </Link>
-                    <span className="text-center text-slate-800">
+                                </div>
+                    <span className="block text-center text-slate-800">
                         Berpikir membuat sendiri/web builder?
                         <Link
                             href="/blog/membuat-web-sendiri-vs-jasa-vs-builder"
@@ -413,7 +414,6 @@ const ParallaxRapper: NextPage = () => {
                             coba pikir lagi <BsArrowRight className="inline" />
                         </Link>
                     </span>
-                    </div>
                 </ParallaxLayer>
 
                 <ParallaxLayer
