@@ -63,10 +63,9 @@ const Pricing = () => {
                             </li>
                             <li>
                             <span className="font-semibold">
-                            Pengembangan Modul Kustom & Integrasi:
+                            Pengembangan & Integrasi Modul Kustom:
                             </span>{" "}
-
-                            Pengembangan UI, animasi, gerakan, atau modul asli khusus untuk Website yang ada. Embed feed Instagram, YouTube, atau portofolio secara otomatis. Pembuatan landing page untuk promosi layanan/produk. Pemasangan Google Analytics / Google Tag Manager
+                            Integrasi dengan cloud service. Pengembangan UI, animasi, gerakan, atau modul asli khusus untuk Website yang ada. Embed feed Instagram, YouTube, atau portofolio secara otomatis. Pembuatan landing page untuk promosi layanan/produk. Pemasangan Google Analytics / Google Tag Manager, dsb.
                             </li>
                         <li>
                             <span className="font-semibold">

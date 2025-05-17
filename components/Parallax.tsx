@@ -1072,12 +1072,14 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                     className="object-fit rounded-md"
                     />
                     <div className="flex flex-col gap-8 md:gap-16">
-                        <h2 className="text-4xl md:text-5xl font-bold">
-                            Mau Buat Website Keren?
-                        </h2>
-                        <p className="text-xl font-semibold md:text-4xl">
-                            Atau suka dengan karya kami?
-                        </p>
+                    <div>
+                    <h2 className="text-4xl md:text-5xl font-bold mb-4">
+                    Mau Buat Website Keren?
+                    </h2>
+                    <p className="text-2xl md:text-4xl">
+                    Atau suka dengan karya kami?
+                    </p>
+                    </div>
                         <p className="text-xl md:text-2xl">
                         Ide-ide Anda sangat berarti bagi kami. Ceritakan kebutuhan Anda, diskusikan (gratis), dan lihat bagaimana kami bisa mewujudkannya!
                         </p>
