@@ -250,7 +250,6 @@ const Pricing = () => {
                     </a>
                     .
                 </p>
-            </div>
 
                 <h2 className="text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb max-w-4xl">
                     Hemat! Dapatkan Harga Promo Terbaik yang Terbatas Untuk Hari
@@ -489,6 +488,7 @@ const Pricing = () => {
                         </Link>
                     </span>
                 </div>
+            </div>
             <Foo />
         </>
     )

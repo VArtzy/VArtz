@@ -982,8 +982,7 @@ const ParallaxRapper: NextPage = () => {
                     <p className="text-grayweb text-xl text-center mb-8 max-w-prose">
                     Frequently asked questions (pertanyaan yang sering ditanyakan)
                     </p>
-                <div className="p-4">
-                    <div className="accordion">
+                    <div className="accordion w-full">
                         <Accordion
                             title="Apa itu VArtz jasa pembuatan web? 👋"
                             content="merupakan personil jasa yang menyediakan
@@ -1056,7 +1055,6 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                             content="Jangan sungkan untuk tanya kepada kami! silahkan lakukan konsultasi dibawah ini. 100% GRATIS. Kami akan selalu mencari SOLUSI untuk bisnis anda!"
                         />
                     </div>
-                </div>
                 </ParallaxLayer>
                 <ParallaxLayer
                     offset={17}
@@ -1070,6 +1068,13 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                     className="bg-springGreen justify-center py-8"
                 >
                 <div className="max-w-6xl mx-auto px-8 grid md:grid-cols-[1fr_420px] place-items-center">
+                    <Image
+                    src="/media/pesawat.png"
+                    width={420}
+                    height={420}
+                    alt="Kontak kami"
+                    className="object-fit rounded-md"
+                    />
                     <div className="flex flex-col gap-8 md:gap-16">
                         <h2 className="text-4xl md:text-5xl font-bold">
                             Mau buat {" "}
@@ -1086,13 +1091,6 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                             Saya Mau{" "}
                         </a>
                     </div>
-                    <Image
-                    src="/media/pesawat.png"
-                    width={420}
-                    height={420}
-                    alt="Kontak kami"
-                    className="object-fit rounded-md"
-                    />
                     </div>
                 </ParallaxLayer>
                 <ParallaxLayer
