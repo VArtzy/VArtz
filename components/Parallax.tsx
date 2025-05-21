@@ -128,7 +128,7 @@ const ParallaxRapper: NextPage = () => {
                             </animated.div>
                             <animated.div style={props}>
                                 <p className="max-w-lg mb-4 lg:text-lg font-medium">
-                                    Jasa Web Terbaik: Web Mudah, Garansi Hasil,
+                                    Jasa Ahli Web: Web Mudah, Garansi Hasil,
                                     Bonus Domain & Transparan.
                                 </p>
                                 <p className="max-w-lg mb-8">
@@ -660,27 +660,26 @@ const ParallaxRapper: NextPage = () => {
                             </div>
                             <div className="">
                                 <h3 className="text-xl mb-1 font-semibold text-gray-900">
-                                    Melakukan Pemesanan
+                                    Pemesanan & Konsultasi
                                 </h3>
                                 <time className="block mb-6 text-sm font-normal leading-none text-gray-400">
                                     Lima Belas Menit
                                 </time>
                                 <p className="text-base font-normal text-gray-500 ">
-                                    Pastinya Anda selalu bisa{" "}
+                                    Pastinya Anda selalu bisa meminta bantuan{" "}
                                     <a
                                         id="konversi_konsultasi_web"
                                         href="https://wa.me/6289611905599?text=Hai%20min,%20bisa%buatkan%20saya%20website?"
                                         className="underline"
                                     >
                                         {" "}
-                                        Konsultasi dengan kami{" "}
+                                        konsultasi dengan kami{" "}
                                     </a>
                                     {"  "}
-                                    untuk mendapatkan hasil dan solusi terbaik
-                                    yang Anda inginkan. Jangan lepaskan
-                                    kesempatan ini!{"  "}
+                                    untuk mengubah spesifikasi dan kebutuhan website menjadi hasil dan solusi terbaik
+                                    yang Anda inginkan. {"  "}
                                     <span className="font-semibold">
-                                        Lakukan pemesanan di platform whatsapp,
+                                        Lakukan pemesanan di platform WhatsApp,
                                         pembayaran secara tunai atau down
                                         payment (DP) minimal 50% dengan{" "}
                                         <Link
@@ -689,14 +688,8 @@ const ParallaxRapper: NextPage = () => {
                                         >
                                             metode pembayaran
                                         </Link>
-                                        . Lalu mengisi data untuk keperluan web.
+                                        . Lalu mengisi materi untuk keperluan web.
                                     </span>
-                                    <Link
-                                        href="/terms-condition"
-                                        className="underline"
-                                    >
-                                        S&K Berlaku.
-                                    </Link>
                                 </p>
                             </div>
                         </li>

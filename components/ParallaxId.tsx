@@ -75,7 +75,7 @@ const ParallaxRapper: NextPage = () => {
         <>
             <Parallax
                 ref={ParallaxRef}
-                pages={20}
+                pages={19}
                 style={{ top: "0", left: "0" }}
             >
                 <ParallaxLayer
@@ -326,15 +326,14 @@ const ParallaxRapper: NextPage = () => {
                     className="max-w-6xl mx-auto px-8 text-grayweb"
                 >
                     <h2 className="max-w-3xl text-3xl text-center lg:text-4xl font-bold mt-8">
-                        Penting! Sekarang Semua Punya Website, Jangan Mau
-                        Ketinggalan
+                    Bangun Website Yang Disukai Anda, Bukan Hanya Yang Sekadar Ada
                     </h2>
                     <div className="grid lg:grid-cols-2 gap-8">
                         <div className="flex flex-col gap-8">
                             <p className="mt-8">
-                                Hampir setiap kali Anda mengakses iklan di media
-                                sosial seperti facebook, instagram, tiktok dan
-                                youtube pasti akan menyuruh Anda untuk
+                                Hampir setiap kali Anda mengakses akun media
+                                sosial di Facebook, Instagram, TikTok dan
+                                YouTube pasti akan menyuruh Anda untuk
                                 mengunjungi Website akun mereka. Kenapa para
                                 pelaku usaha tersebut membuat Website? Apa
                                 keuntungannya? Inilah alasan harus menggunakan
@@ -501,7 +500,7 @@ const ParallaxRapper: NextPage = () => {
                             Website cepat, seperti kilat.{" "}
                         </h3>
                         <p>
-                            Performa Website kami sangatlah cepat. Pastinya kamu
+                            Kami memahami Core Web Vitals. Performa Website kami sangatlah cepat. Pastinya kamu
                             tidak akan kehilangan pelanggan hanya karena Website
                             yang lelet dan lemot itu.
                         </p>
@@ -603,7 +602,7 @@ const ParallaxRapper: NextPage = () => {
                                         Dengan pengalaman bertahun-tahun dalam
                                         industri ini, kami telah membantu banyak
                                         klien dalam berbagai industri mencapai
-                                        tujuan mereka. Jangan ragu{" "}
+                                        tujuan mereka. Jangan ragu melihat blog dan {" "}
                                         <a
                                             id="konversi_konsultasi_web"
                                             className="underline"
@@ -787,11 +786,11 @@ const ParallaxRapper: NextPage = () => {
                     </h2>
 
                     <p className="text-xl mb-8 text-grayweb text-center">
-                        Pelanggan kami telah meningkatkan penjualan{" "}
+                        Pelanggan kami telah meningkatkan penjualan dan visibilitas{" "}
                         <span className="font-bold">
                             hingga delapan kali lipat
                         </span>{" "}
-                        setelah membuat laman penjualan mereka, apakah Anda
+                        setelah membuat website mereka, apakah Anda
                         ingin mendapatkan hasil yang sama?
                     </p>
 
@@ -1052,7 +1051,7 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                         alignItems: "center",
                         color: "white",
                     }}
-                    className="bg-springGreen justify-center py-8"
+                    className="bg-springGreen md:justify-center"
                 >
                 <div className="max-w-6xl mx-auto px-8 grid md:grid-cols-[420px_1fr] place-items-center">
                     <Image
@@ -1060,16 +1059,13 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                     width={420}
                     height={420}
                     alt="Kontak kami"
-                    className="object-fit rounded-md"
+                    className="object-fit md:w-full rounded-md"
                     />
                     <div className="flex flex-col gap-8 md:gap-16">
                     <div>
                     <h2 className="text-4xl md:text-5xl font-bold mb-4">
                     Mau Buat Website Keren?
                     </h2>
-                    <p className="text-2xl md:text-4xl">
-                    Atau suka dengan karya kami?
-                    </p>
                     </div>
                         <p className="text-xl md:text-2xl">
                         Ide-ide Anda sangat berarti bagi kami. Ceritakan kebutuhan Anda, diskusikan (gratis), dan lihat bagaimana kami bisa mewujudkannya!
@@ -1083,22 +1079,16 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                         </a>
                     </div>
                     </div>
+                    <div
+                        onClick={() => ParallaxRef.current?.scrollTo(0)}
+                        className="mx-auto mt-8 p-4 bg-mediumSpringGreen rounded cursor-pointer"
+                    >
+                        <FaArrowUp className="text-snow" />
+                    </div>
                 </ParallaxLayer>
 
                 <ParallaxLayer
                     offset={18}
-                    speed={0.5}
-                    style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "center",
-                        gap: "2em",
-                    }}
-                    className="max-w-6xl mx-auto px-8 text-grayweb"
-                ></ParallaxLayer>
-
-                <ParallaxLayer
-                    offset={19}
                     speed={0.5}
                     style={{
                         display: "flex",
@@ -1109,13 +1099,6 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                         color: "white",
                     }}
                 >
-                    <div
-                        onClick={() => ParallaxRef.current?.scrollTo(0)}
-                        className="mx-auto p-4 bg-mediumSpringGreen rounded cursor-pointer"
-                    >
-                        <FaArrowUp className="text-snow" />
-                    </div>
-
                     <Foo />
                     </ParallaxLayer>
             </Parallax>

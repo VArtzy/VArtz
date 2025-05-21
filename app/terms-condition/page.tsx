@@ -22,7 +22,7 @@ const About = () => {
                         Lakukan pemesanan di platform whatsapp, pembayaran
                         secara tunai atau down payment (DP) minimal 50%. Hanya
                         <span className="text-mediumSpringGreen">
-                            transfer tunai ke rekening BCA atas nama Eko Purnomo
+                            transfer tunai ke rekening BCA yang disediakan
                         </span>{" "}
                         Atau{" "}
                         <span className="text-mediumSpringGreen">Gopay</span>.{" "}
