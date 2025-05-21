@@ -160,7 +160,7 @@ const Foo: React.FC = () => {
 
                 <div className="lg:w-1/3 mb-8">
                     <h3 className="text-xl mb-4">Contacts</h3>
-                    <div className="flex gap-2 items-center mb-4">
+                    <div className="flex gap-2 items-center mb-2">
                         <FaLocationArrow className="inline" />
                         <p>
                             Jl. Gatot Subroto No.105, Kemlayan, Kec. Serengan,
@@ -170,15 +170,15 @@ const Foo: React.FC = () => {
                     <a
                         id="konversi_konsultasi_web"
                         href="https://wa.me/6289611905599"
-                        className="bg-springGreen px-4 py-2 hover:bg-mediumSpringGreen transition-all rounded inline-block text-snow mb-4"
+                        className="bg-springGreen px-4 py-2 hover:bg-mediumSpringGreen transition-all rounded inline-block text-snow mb-2"
                     >
                         <FaWhatsapp className="inline" /> Chat Whatsapp
                     </a>
-                    <p className="mb-4">
+                    <p className="mb-2">
                         <BiMailSend className="inline" />{" "}
                         admin@vartz.web.id
                     </p>
-                    <a className="mr-4" href="https://instagram.com/@vartz.web" aria-label="instagram">
+                    <a className="mr-2" href="https://instagram.com/@vartz.web" aria-label="instagram">
                         <FaInstagram className="inline" size={32} />
                     </a>
                     <a href="https://tiktok.com/@vartz.web" aria-label="tiktok">
