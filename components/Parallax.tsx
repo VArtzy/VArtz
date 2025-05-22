@@ -447,10 +447,7 @@ const ParallaxRapper: NextPage = () => {
                     className="max-w-3xl mx-auto px-8"
                     id="feature"
                 >
-                    <h2
-                        className="pt-4 text-3xl text-center lg:text-4xl font-bold mt-16"
-                        onClick={() => ParallaxRef.current?.scrollTo(0)}
-                    >
+                    <h2 className="pt-4 text-3xl text-center lg:text-4xl font-bold mt-16">
                         Ahli Web Reliabel Selama 6 Tahun+
                     </h2>
 
