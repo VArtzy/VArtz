@@ -791,7 +791,7 @@ const ParallaxRapper: NextPage = () => {
                                     alt="Gambar Testimoni"
                                     width="50"
                                     height="50"
-                                    src="https://media.licdn.com/dms/image/v2/C5603AQEUb3-PvxeTww/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517375738086?e=1753315200&v=beta&t=PvCkXnU320wGermlOd_963zwRgFrdeUibynSbGHIccE"
+                                    src="/img/yusuf.jpeg"
                                 />
                                 <div>
                                     <h3 className="text-lg font-bold tracking-widest">
@@ -817,7 +817,7 @@ const ParallaxRapper: NextPage = () => {
                                     alt="Gambar Testimoni"
                                     width="50"
                                     height="50"
-                                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVvcGxlfHx8fHx8MTY3NTYxNDcyNg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50"
+                                    src="/img/nenti.jpg"
                                 />
                                 <div>
                                     <h3 className="text-lg font-bold tracking-widest">
@@ -844,7 +844,7 @@ const ParallaxRapper: NextPage = () => {
                                     alt="Gambar Testimoni"
                                     width="50"
                                     height="50"
-                                    src="https://images.unsplash.com/photo-1437623889155-075d40e2e59f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8cGVvcGxlfHx8fHx8MTY3NTYxNTU1NQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50"
+                                    src="/img/janni.png"
                                 />
                                 <div>
                                     <h3 className="text-lg font-bold tracking-widest">
@@ -874,7 +874,7 @@ const ParallaxRapper: NextPage = () => {
                                     alt="Gambar Testimoni"
                                     width="50"
                                     height="50"
-                                    src="https://media.licdn.com/dms/image/v2/D5603AQG0XY2piR4R1g/profile-displayphoto-shrink_200_200/B56ZQcNDccGQAc-/0/1735639972276?e=1753315200&v=beta&t=m3k-3smyJ3FRHeUKoP5g6VCuft7WjiWZ1njJ_IDFc_4"
+                                    src="/img/ahmad.jpeg"
                                 />
                                 <div>
                                     <h3 className="text-lg font-bold tracking-widest">
