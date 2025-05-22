@@ -707,7 +707,7 @@ const ParallaxRapper: NextPage = () => {
                                     Setelah melakukan pembayaran dan menentukan
                                     apa yang akan dibuat. Anda dapat melakukan
                                     pengecekan website Anda secara berkala.
-                                    Nantinya, web akan dihosting sementara. Anda
+                                    Nantinya, web akan dihosting sementara dalam lingkup pengembang. Anda
                                     akan selalu bisa datang/visit ke website
                                     selama masa pengembangan. Memperbaiki apa
                                     yang perlu diperbaiki.{"  "}
@@ -791,13 +791,13 @@ const ParallaxRapper: NextPage = () => {
                                     alt="Gambar Testimoni"
                                     width="50"
                                     height="50"
-                                    src="https://images.unsplash.com/photo-1557862921-37829c790f19?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8Z3V5fHx8fHx8MTY3NTYxNjYyMA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50"
+                                    src="https://media.licdn.com/dms/image/v2/C5603AQEUb3-PvxeTww/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517375738086?e=1753315200&v=beta&t=PvCkXnU320wGermlOd_963zwRgFrdeUibynSbGHIccE"
                                 />
                                 <div>
                                     <h3 className="text-lg font-bold tracking-widest">
-                                        PRIAMALAS
+                                        Yusuf Sutanto
                                     </h3>
-                                    <h4 className="text-md">Joga Computer</h4>
+                                    <h4 className="text-md">Manager @ Joga Computer</h4>
                                 </div>
                             </div>
 
@@ -821,9 +821,9 @@ const ParallaxRapper: NextPage = () => {
                                 />
                                 <div>
                                     <h3 className="text-lg font-bold tracking-widest">
-                                        Sanusi Sulvavian
+                                        Nenti Sunenti
                                     </h3>
-                                    <h4 className="text-md">Techopreneur</h4>
+                                    <h4 className="text-md">Marketing @ First Media</h4>
                                 </div>
                             </div>
 
@@ -851,7 +851,7 @@ const ParallaxRapper: NextPage = () => {
                                         Janni Chandra
                                     </h3>
                                     <h4 className="text-md">
-                                        Mie Bandung Singosaren
+                                        Owner @ Mie Bandung Singosaren
                                     </h4>
                                 </div>
                             </div>
@@ -874,27 +874,20 @@ const ParallaxRapper: NextPage = () => {
                                     alt="Gambar Testimoni"
                                     width="50"
                                     height="50"
-                                    src="https://images.unsplash.com/photo-1536500152107-01ab1422f932?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=50&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2F0fHx8fHx8MTY3NTYxODA0Mg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=50"
+                                    src="https://media.licdn.com/dms/image/v2/D5603AQG0XY2piR4R1g/profile-displayphoto-shrink_200_200/B56ZQcNDccGQAc-/0/1735639972276?e=1753315200&v=beta&t=m3k-3smyJ3FRHeUKoP5g6VCuft7WjiWZ1njJ_IDFc_4"
                                 />
                                 <div>
                                     <h3 className="text-lg font-bold tracking-widest">
-                                        Evangeline Christy
+                                        Ahmad Rosid
                                     </h3>
                                     <h4 className="text-md">
-                                        Sukulen & Tanaman Hias
+                                        Founding Engineer @ Companio
                                     </h4>
                                 </div>
                             </div>
 
                             <p>
-                                Dari dulu hobi bisa bikin dan tanem tanaman
-                                hias. Ndak ada yang tau tentang hobi saya ini.
-                                Suatu saat terinspirasi dari YouTuber, bikin
-                                blogging tentang Tanaman hias dan Sukulen. Eh
-                                malah jadi bisnis yang bisa dimonetisasi. Ketika
-                                saya upgrade website saya di sini, semakin
-                                ciamik dan aesthethic sesuai dengan kemauan
-                                saya. Ini memang jasa pembuatan website bagus.
+So far sudah on track sih,,, you give me good impression. Semoga di tahun depan bisa lebih berkembang lagi. Senang bisa bekerja sama dengan profesional seperti ini. Sekarang tinggal menunggu outcome dari proyek-proyek yang sedang berjalan.
                             </p>
                         </div>
                     </div>
