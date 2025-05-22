@@ -455,10 +455,9 @@ const ParallaxRapper: NextPage = () => {
                     </h2>
 
                     <p className="text-xl mb-8 text-center">
-                        Kami telah menguasai ilmu pengembangan web, API, frontend, backend, database, SEO, desain web (UI/UX), integrasi AI dan akan terus melakukannya. Dengan situs buatan kami, peningkatan bisnis Anda akan
+                        Kami telah menguasai ilmu pengembangan web, API, frontend, backend, database, SEO, desain web (UI/UX), digital marketing, integrasi AI dan akan terus melakukannya. Dengan situs buatan kami, peningkatan bisnis Anda akan
                         lebih mudah dan hasilnya akan lebih maksimal. Kami
-                        percaya pada komunikasi yang baik dan transparan untuk
-                        proses pengembangan.
+                        percaya pada komunikasi yang baik dan pengembangan transparan.
                     </p>
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -497,12 +496,12 @@ const ParallaxRapper: NextPage = () => {
                     <div className="shadow-md rounded bg-grayweb p-4">
                         <h3 className="text-lg font-bold mb-4">
                             <FaBolt />
-                            Website cepat, seperti kilat.{" "}
+                            Website modern cepat, seperti kilat.{" "}
                         </h3>
                         <p>
                             Kami memahami Core Web Vitals. Performa Website kami sangatlah cepat. Pastinya kamu
                             tidak akan kehilangan pelanggan hanya karena Website
-                            yang lelet dan lemot itu.
+                            yang lemot.
                         </p>
                     </div>
                     <span className="block text-center text-slate-800">
