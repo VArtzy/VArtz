@@ -37,7 +37,7 @@ Tim ahli kami memiliki pengalaman dalam mengembangkan solusi digital yang optima
                         </li>
                         <li>
                         <span className="font-semibold">
-                        Pengembangan Website Kustom:
+                        Pengembangan Website:
                         </span>{" "}
                         Dari ide sampai online. Proses penulisan, desain, pengembangan sampai online
                         </li>
@@ -67,7 +67,7 @@ Tim ahli kami memiliki pengalaman dalam mengembangkan solusi digital yang optima
                             </li>
                         <li>
                             <span className="font-semibold">
-                                Redesign Website Kustom:
+                                Redesign Website:
                             </span>{" "}
                             Punya Website lama yang udah usang? jaga website tetap modern dengan tren dan teknologi terbaru agar tetap relevan dalam mendukung bisnis Anda dengan perbaikan UI/UX desain, kode refactoring yang dirancang dengan baik, peningkatan keandalan, peningkatan skalabilitas, dan keamanan yang lebih baik.
                         </li>
