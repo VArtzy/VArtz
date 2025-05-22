@@ -451,11 +451,11 @@ const ParallaxRapper: NextPage = () => {
                         className="pt-4 text-3xl text-center lg:text-4xl font-bold mt-8"
                         onClick={() => ParallaxRef.current?.scrollTo(0)}
                     >
-                        Go Online dan Lebarkan Sayap Bisnis Anda
+                        Ahli Web Selama 6 Tahun Lebih yang Reliabel
                     </h2>
 
                     <p className="text-xl mb-8 text-center">
-                        Dengan situs buatan kami, peningkatan bisnis Anda akan
+                        Kami telah menguasai ilmu pengembangan web, API, frontend, backend, database, SEO, desain web (UI/UX), integrasi AI dan akan terus melakukannya. Dengan situs buatan kami, peningkatan bisnis Anda akan
                         lebih mudah dan hasilnya akan lebih maksimal. Kami
                         percaya pada komunikasi yang baik dan transparan untuk
                         proses pengembangan.
