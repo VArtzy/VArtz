@@ -817,6 +817,30 @@ const ParallaxRapper: NextPage = () => {
                                     alt="Gambar Testimoni"
                                     width="50"
                                     height="50"
+                                    src="/img/ahmad.jpeg"
+                                />
+                                <div>
+                                    <h3 className="text-lg font-bold tracking-widest">
+                                        Ahmad Rosid
+                                    </h3>
+                                    <h4 className="text-md">
+                                        Founding Engineer @ Companio.ai
+                                    </h4>
+                                </div>
+                            </div>
+
+                            <p>
+So far sudah on track sih,,, you give me good impression. Semoga di tahun depan bisa lebih berkembang lagi. Senang bisa bekerja sama dengan profesional seperti ini. Sekarang tinggal menunggu outcome dari proyek-proyek yang sedang berjalan.
+                            </p>
+                        </div>
+
+                        <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
+                            <div className="flex gap-4 items-center mb-4">
+                                <img
+                                    className="object-fit rounded-full"
+                                    alt="Gambar Testimoni"
+                                    width="50"
+                                    height="50"
                                     src="/img/nenti.jpg"
                                 />
                                 <div>
@@ -865,29 +889,6 @@ const ParallaxRapper: NextPage = () => {
                                 Berasa kaya restoran bintang 5 padahal mah beda
                                 jauh. Mana murah banget lagi buatnya disini{" "}
                                 <span className="text-xs">#RECOMMENDED</span>
-                            </p>
-                        </div>
-                        <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
-                            <div className="flex gap-4 items-center mb-4">
-                                <img
-                                    className="object-fit rounded-full"
-                                    alt="Gambar Testimoni"
-                                    width="50"
-                                    height="50"
-                                    src="/img/ahmad.jpeg"
-                                />
-                                <div>
-                                    <h3 className="text-lg font-bold tracking-widest">
-                                        Ahmad Rosid
-                                    </h3>
-                                    <h4 className="text-md">
-                                        Founding Engineer @ Companio
-                                    </h4>
-                                </div>
-                            </div>
-
-                            <p>
-So far sudah on track sih,,, you give me good impression. Semoga di tahun depan bisa lebih berkembang lagi. Senang bisa bekerja sama dengan profesional seperti ini. Sekarang tinggal menunggu outcome dari proyek-proyek yang sedang berjalan.
                             </p>
                         </div>
                     </div>
