@@ -188,7 +188,7 @@ const Foo: React.FC = () => {
             </div>
             <div className="bg-[#252525] w-full flex flex-wrap gap-2 justify-between px-16 py-8">
                 <p className="text-lg">
-                    Copyright © 2025 | <Link href="/">VArtz</Link> All rights
+                    Copyright © 2025 <Link href="/">PT Teknologi Informasi Mutakhir</Link> | All rights
                     reserved
                 </p>
                 <p className="text-lg">
