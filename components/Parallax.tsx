@@ -584,10 +584,10 @@ Kami mendalami performa & core web vital. Performa website kami sangatlah cepat.
                                         Ahli & Terampil
                                     </div>
                                     <h3 className="text-lg text-semibold mb-4">
-                                        Tim ahli yang terampil dan berdedikasi
+                                        Tim ahli yang berdedikasi dan terampil
                                     </h3>
                                     <p>
-                                        Dengan pengalaman bertahun-tahun dalam
+                                        Kami mencintai apa yang kami lakukan. Dengan pengalaman bertahun-tahun dalam
                                         industri ini, kami telah membantu banyak
                                         klien dalam berbagai industri mencapai
                                         tujuan mereka. Jangan ragu melihat blog dan {" "}
@@ -778,7 +778,7 @@ Kami mendalami performa & core web vital. Performa website kami sangatlah cepat.
                     </h2>
 
                     <p className="text-xl mb-8 text-grayweb text-center">
-                        Pelanggan kami telah meningkatkan penjualan dan visibilitas{" "}
+                        Pelanggan kami telah meningkatkan visibilitas dan penjualan{" "}
                         <span className="font-bold">
                             hingga delapan kali lipat
                         </span>{" "}
@@ -889,13 +889,13 @@ Dapat menerjemahkan dan menangkap apa yang menjadi kebutuhan perusahaan kami. Se
                         </div>
                     </div>
                     <span className="block text-center text-slate-800">
-                        Kami tidak mengatakan kami yang terbaik,
+                        Hanya membuat yang disukai pelanggan.
                         <Link
                             href="/work"
                             className="text-grayweb block mt-4 md:inline"
                         >
                             {" "}
-                            mereka yang mengatakan{" "}
+                            desain memukau, rekayasa berdedikasi, keandalan mutlak.
                             <BsArrowRight className="inline" />
                         </Link>
                     </span>
