@@ -326,12 +326,12 @@ const ParallaxRapper: NextPage = () => {
                     className="max-w-6xl mx-auto px-8 text-grayweb"
                 >
                     <h2 className="max-w-3xl text-3xl text-center lg:text-4xl font-bold mt-8">
-                    Bangun Website Yang Disukai Anda, Bukan Hanya Yang Sekadar Ada
+                    Tinggalkan Cara Lama, Mulai Bangun Website Modern dan Mutakhir
                     </h2>
                     <div className="grid lg:grid-cols-2 gap-8">
                         <div className="flex flex-col gap-8">
                             <p className="mt-8">
-                                Hampir setiap kali Anda mengakses akun media
+                            Kami berdedikasi dalam membangun solusi dengan teknologi terbaru yang tepat. Sadarkah, setiap kali Anda mengakses akun media
                                 sosial di Facebook, Instagram, TikTok dan
                                 YouTube pasti akan menyuruh Anda untuk
                                 mengunjungi Website akun mereka. Kenapa para
