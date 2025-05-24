@@ -496,19 +496,19 @@ const ParallaxRapper: NextPage = () => {
                             Website modern cepat, seperti kilat.{" "}
                         </h3>
                         <p>
-                            Kami memahami Core Web Vitals. Performa Website kami sangatlah cepat. Pastinya kamu
+                            Kami memahami performa & Core Web Vitals. Performa Website kami sangatlah cepat. Pastinya kamu
                             tidak akan kehilangan pelanggan hanya karena Website
                             yang lemot.
                         </p>
                     </div>
                     <span className="block text-center text-slate-800">
-                        Garansi uang kembali
+                        Konsultasi/tanya gratis lewat chat/meet
                         <Link
-                            href="/terms-condition#faq"
+                            href="https://wa.me/6289611905599?text=Hai%20,%20bisa%20konsultasi?"
                             className="text-grayweb block mt-4 md:inline"
                         >
                             {" "}
-                            jika hasil tidak sesuai kemauan{" "}
+                            dan buktikan kompetensi kami{" "}
                             <BsArrowRight className="inline" />
                         </Link>
                     </span>
@@ -553,12 +553,12 @@ const ParallaxRapper: NextPage = () => {
                                 <span className="text-turquoise">
                                     Website Bisnis dan Landing Page
                                 </span>{" "}
-                                yang Sesuai dengan Kebutuhan UMKM Anda
+                                yang Sesuai dengan Kebutuhan Anda
                             </h2>
                             <p className="text-grayweb text-xl mb-16">
                                 Kami adalah jasa web profesional yang
                                 menyediakan layanan pembuatan website dan
-                                landing page untuk membantu UMKM meningkatkan
+                                landing page untuk membantu usaha meningkatkan
                                 bisnis online mereka. Kami menawarkan solusi
                                 yang tepat untuk membuat website bisnis yang
                                 menarik dan efektif, serta landing page yang
@@ -576,7 +576,7 @@ const ParallaxRapper: NextPage = () => {
                                     <p>
                                         Tidak hanya itu, kami juga menawarkan
                                         harga yang terjangkau dan fleksibel agar
-                                        sesuai dengan budget UMKM. Mendapatkan
+                                        sesuai dengan budget. Mendapatkan
                                         kualitas yang baik dan{" "}
                                         <Link
                                             href="/pricing"
@@ -739,6 +739,17 @@ const ParallaxRapper: NextPage = () => {
                             </div>
                         </li>
                     </ol>
+                    <span className="block text-center text-slate-800">
+                        Garansi uang kembali
+                        <Link
+                            href="/terms-condition#faq"
+                            className="text-grayweb block mt-4 md:inline"
+                        >
+                            {" "}
+                            jika hasil tidak sesuai kemauan{" "}
+                            <BsArrowRight className="inline" />
+                        </Link>
+                    </span>
                 </ParallaxLayer>
 
                 <ParallaxLayer
@@ -852,13 +863,7 @@ So far sudah on track sih,,, you give me good impression. Semoga di tahun depan 
                             </div>
 
                             <p>
-                                Jasa pembuatan website membuat website bisnis
-                                kami secara tepat waktu dan efisien, dan mereka
-                                selalu bersedia membantu memperbarui situs web
-                                kami bila diperlukan. Mereka sangat responsif
-                                dan hebat untuk diajak bekerja sama! Sangat
-                                merekomendasikan kepada siapa saja yang
-                                membutuhkan situs web baru yang cantik.
+Dapat menerjemahkan dan menangkap apa yang menjadi kebutuhan perusahaan kami serta dapat memberi hasil pekerjaan yang memuaskan. Selain itu internal kami pun bisa mendapat insight terbaru dari setiap proses pengembangan sistemnya. Sangat profesional dan selalu mengutamakan kepuasan klien. Tidak mudah untuk menemukan kontraktor website developer yang hebat.
                             </p>
                         </div>
                         <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
@@ -881,14 +886,13 @@ So far sudah on track sih,,, you give me good impression. Semoga di tahun depan 
                             </div>
 
                             <p>
-                                Jasa pembuatan website terbaik. Bikin website
-                                mudah. Saya sebenarnya nggak punya jualan
-                                online, saya jualan mie ayam di sekitar
-                                Singosaren dan Surakarta. Setelah membuat situs,
-                                sudah pasti restoran saya jadi lebih kredible.
-                                Berasa kaya restoran bintang 5 padahal mah beda
-                                jauh. Mana murah banget lagi buatnya disini{" "}
-                                <span className="text-xs">#RECOMMENDED</span>
+                                Jasa pembuatan website membuat website bisnis
+                                kami secara tepat waktu dan efisien, dan mereka
+                                selalu bersedia membantu memperbarui situs web
+                                kami bila diperlukan. Mereka sangat responsif
+                                dan hebat untuk diajak bekerjasama. Sangat
+                                merekomendasikan kepada siapa saja yang
+                                membutuhkan situs web baru.
                             </p>
                         </div>
                     </div>
@@ -952,7 +956,7 @@ So far sudah on track sih,,, you give me good impression. Semoga di tahun depan 
                     </p>
                     <div className="accordion w-full">
                         <Accordion
-                            title="Apa itu VArtz jasa pembuatan web? 👋"
+                            title="Apa itu VArtz jasa pembuatan web?"
                             content="merupakan personil jasa yang menyediakan
                                 berbagai macam layanan IT mulai dari Pembuatan
                                 Website seperti toko online, company profile,
@@ -970,7 +974,7 @@ So far sudah on track sih,,, you give me good impression. Semoga di tahun depan 
                                 pemeliharaan."
                         />
                         <Accordion
-                            title="Data apa saja yang perlu saya sediakan? 🤟"
+                            title="Data apa saja yang perlu saya sediakan?"
                             content="Hal pertama dan utama adalah konten situs web. Ini semua teks, paragraf, gambar, halaman, dan daftar semua fungsi yang Anda perlukan (formulir kontak, feed Instagram).
 
 Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan font. Tidak apa-apa jika Anda tidak memilikinya karena beberapa organisasi nirlaba yang memulai belum memilikinya. Dalam hal ini, tunjukkan beberapa warna yang Anda suka dan kami dapat membuat merek/rasa untuk situs tersebut."
@@ -1014,7 +1018,7 @@ Selanjutnya, saya memerlukan aset merek apa pun seperti logo, kode warna, dan fo
                         />
                         <Accordion
                             title="Maintenance apa saja yang termasuk dalam
-                                    paket di atas? 🤖"
+                                    paket di atas?"
                             content="Maintenance yang kami lakukan yaitu memastikan
                                 website tidak down dan tidak kena hack."
                         />
