@@ -774,16 +774,11 @@ Kami mendalami performa & core web vital. Performa website kami sangatlah cepat.
                         className="pt-4 text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb"
                         onClick={() => ParallaxRef.current?.scrollTo(0)}
                     >
-                        Sukses Online Bersama Kami: Ini Kata Mereka
+                        Ini Kata Klien Kami
                     </h2>
 
                     <p className="text-xl mb-8 text-grayweb text-center">
-                        Pelanggan kami telah meningkatkan visibilitas dan penjualan{" "}
-                        <span className="font-bold">
-                            hingga delapan kali lipat
-                        </span>{" "}
-                        setelah membuat website mereka, apakah Anda
-                        ingin mendapatkan hasil yang sama?
+                    Mereka sadar betapa unik kami, mengubah cara pandang mereka dalam pengembangan aplikasi - untuk memukau pengguna dan mengembangkan bisnis lewat teknologi informasi.
                     </p>
 
                     <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
@@ -895,7 +890,7 @@ Dapat menerjemahkan dan menangkap apa yang menjadi kebutuhan perusahaan kami. Se
                             className="text-grayweb block mt-4 md:inline"
                         >
                             {" "}
-                            desain memukau, rekayasa berdedikasi, keandalan mutlak.
+                            desain memukau, rekayasa berdedikasi, keandalan mutlak{" "}
                             <BsArrowRight className="inline" />
                         </Link>
                     </span>
