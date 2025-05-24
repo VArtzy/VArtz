@@ -452,8 +452,7 @@ const ParallaxRapper: NextPage = () => {
                     </h2>
 
                     <p className="text-xl mb-8 text-center">
-                        <i>Webmaster</i> telah menguasai ilmu pengembangan web, API, frontend, backend, database, SEO, desain web (UI/UX), integrasi AI dan akan terus melakukannya. Dengan situs buatan kami, peningkatan bisnis Anda akan
-                        lebih mudah dan hasilnya akan lebih maksimal. Kami
+                        <i>Webmaster</i> telah menguasai ilmu pengembangan web, API, frontend, backend, database, SEO, desain web (UI/UX), integrasi AI dan akan terus melakukannya. Dengan situs buatan kami, peningkatan bisnis Anda akan lebih mudah dan hasilnya akan lebih maksimal. Kami
                         percaya pada komunikasi yang baik dan pengembangan transparan.
                     </p>
 
@@ -463,7 +462,7 @@ const ParallaxRapper: NextPage = () => {
                                 <BiDevices /> Mobile Freindly
                             </h3>
                             <p>
-                                Website Anda dapat diakses optimal dalam
+                                Kami memahami responsive web design. Website Anda dapat diakses optimal dalam
                                 desktop, tablet dan handphone. Menjangkau lebih
                                 banyak pengguna.
                             </p>
@@ -473,20 +472,15 @@ const ParallaxRapper: NextPage = () => {
                                 <SiMaterialdesignicons /> Desain Ekslusif
                             </h3>
                             <p>
-                                Kami membangun desain Website yang EKSLUSIF.
-                                sesuai dengan brand dan karateristik Anda.
-                                Dengan desain yang modern juga.{" "}
-                                <span className="font-bold">100% Original</span>
-                                .
+Kami mengikuti tren UI/UX, membangun desain Website yang EKSLUSIF. sesuai dengan brand dan karateristik. Dengan desain yang modern juga. 100% Original.
                             </p>
                         </div>
                         <div className="shadow-md rounded bg-grayweb p-4">
                             <h3 className="text-lg font-bold mb-4">
-                                <FaRegWindowRestore /> Sesuai Kebutuhan Anda
+                                <FaRegWindowRestore /> Sesuai Kebutuhan
                             </h3>
                             <p>
-                                Kami dapat membangun Website sesuai kebutuhan
-                                Anda. Cukup konsultasi dan Website kamu jadi.
+Kami punya metode dalam pengumpulan spesifikasi dan kebutuhan mendetail, membangun Website sesuai kebutuhan Anda. Diskusikan ide Anda bersama sama
                             </p>
                         </div>
                     </div>
@@ -496,13 +490,11 @@ const ParallaxRapper: NextPage = () => {
                             Website modern cepat, seperti kilat.{" "}
                         </h3>
                         <p>
-                            Kami memahami performa & Core Web Vitals. Performa Website kami sangatlah cepat. Pastinya kamu
-                            tidak akan kehilangan pelanggan hanya karena Website
-                            yang lemot.
+Kami mendalami performa & core web vital. Performa website kami sangatlah cepat. Pastinya kamu tidak akan hilang pelanggan hanya karena website lemot.
                         </p>
                     </div>
                     <span className="block text-center text-slate-800">
-                        Konsultasi/tanya gratis lewat chat/meet
+                        Mulai konsultasi/tanya gratis lewat chat/meet
                         <Link
                             href="https://wa.me/6289611905599?text=Hai%20,%20bisa%20konsultasi?"
                             className="text-grayweb block mt-4 md:inline"
@@ -863,7 +855,7 @@ So far sudah on track sih,,, you give me good impression. Semoga di tahun depan 
                             </div>
 
                             <p>
-Dapat menerjemahkan dan menangkap apa yang menjadi kebutuhan perusahaan kami serta dapat memberi hasil pekerjaan yang memuaskan. Selain itu internal kami pun bisa mendapat insight terbaru dari setiap proses pengembangan sistemnya. Sangat profesional dan selalu mengutamakan kepuasan klien. Tidak mudah untuk menemukan kontraktor website developer yang hebat.
+Dapat menerjemahkan dan menangkap apa yang menjadi kebutuhan perusahaan kami. Selain itu internal kami pun bisa mendapat insight terbaru dari setiap proses pengembangan sistemnya. Sangat profesional dan selalu mengutamakan kepuasan klien. Tidak mudah untuk menemukan kontraktor website developer yang hebat.
                             </p>
                         </div>
                         <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
