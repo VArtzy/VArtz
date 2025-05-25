@@ -3,7 +3,7 @@ import Link from "next/link"
 import React from "react"
 import { BiMailSend } from "react-icons/bi"
 import { BsArrowRight } from "react-icons/bs"
-import { FaLocationArrow, FaWhatsapp, FaInstagram, FaTiktok } from "react-icons/fa"
+import { FaLocationArrow, FaWhatsapp, FaInstagram, FaTiktok, FaYoutube, FaFacebook, FaLinkedin } from "react-icons/fa"
 
 const Foo: React.FC = () => {
     return (
@@ -184,16 +184,24 @@ const Foo: React.FC = () => {
                     <a href="https://tiktok.com/@vartz.web" aria-label="tiktok">
                         <FaTiktok className="inline" size={32} />
                     </a>
+                    <a href="https://youtube.com/@vartzweb" aria-label="youtube">
+                        <FaYoutube className="inline" size={32} />
+                    </a>
+                    <a href="https://linkedin.com/company/vartz" aria-label="linkedin">
+                        <FaLinkedin className="inline" size={32} />
+                    </a>
+                    <a href="https://web.facebook.com/profile.php?id=61576941020456" aria-label="facebook">
+                        <FaFacebook className="inline" size={32} />
+                    </a>
                 </div>
             </div>
             <div className="bg-[#252525] w-full flex flex-wrap gap-2 justify-between px-16 py-8">
                 <p className="text-lg">
-                    Copyright © 2025 | <Link href="/">VArtz</Link> All rights
+                    Copyright © 2025 | PT Teknologi Informasi Mutakhir All rights
                     reserved
                 </p>
                 <p className="text-lg">
-                    Dibuat dengan passion <span className="text-red-600">❤️</span> oleh{" "}
-                    PT Teknologi Informasi Mutakhir
+                    Dibuat dengan <span className="text-red-600">❤️</span> oleh vartz.web.id
                 </p>
             </div>
         </footer>
