@@ -784,13 +784,13 @@ Kami mendalami performa & core web vital. Performa website kami sangatlah cepat.
                     <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
                         <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
                             <div className="flex gap-4 items-center mb-4">
-                                <img
-                                    className="object-fit rounded-full"
-                                    alt="Gambar Testimoni"
-                                    width="50"
-                                    height="50"
-                                    src="/img/yusuf.jpeg"
-                                />
+                            <Image
+                            src="/img/yusuf.jpeg"
+                            width={50}
+                            height={50}
+                            alt="Yusuf"
+                            className="object-fit rounded-full"
+                            />
                                 <div>
                                     <h3 className="text-lg font-bold tracking-widest">
                                         Yusuf Sutanto
@@ -810,13 +810,13 @@ Kami mendalami performa & core web vital. Performa website kami sangatlah cepat.
 
                         <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
                             <div className="flex gap-4 items-center mb-4">
-                                <img
-                                    className="object-fit rounded-full"
-                                    alt="Gambar Testimoni"
-                                    width="50"
-                                    height="50"
-                                    src="/img/ahmad.jpeg"
-                                />
+                            <Image
+                            src="/img/ahmad.jpeg"
+                            width={50}
+                            height={50}
+                            alt="Ahmad"
+                            className="object-fit rounded-full"
+                            />
                                 <div>
                                     <h3 className="text-lg font-bold tracking-widest">
                                         Ahmad Rosid
@@ -834,13 +834,13 @@ So far sudah on track sih,,, you give me good impression. Semoga di tahun depan 
 
                         <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
                             <div className="flex gap-4 items-center mb-4">
-                                <img
-                                    className="object-fit rounded-full"
-                                    alt="Gambar Testimoni"
-                                    width="50"
-                                    height="50"
-                                    src="/img/nenti.jpg"
-                                />
+                            <Image
+                            src="/img/nenti.jpg"
+                            width={50}
+                            height={50}
+                            alt="Nenti"
+                            className="object-fit rounded-full"
+                            />
                                 <div>
                                     <h3 className="text-lg font-bold tracking-widest">
                                         Nenti Sunenti
@@ -855,13 +855,14 @@ Dapat menerjemahkan dan menangkap apa yang menjadi kebutuhan perusahaan kami. Se
                         </div>
                         <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
                             <div className="flex gap-4 items-center mb-4">
-                                <img
-                                    className="object-fit rounded-full"
-                                    alt="Gambar Testimoni"
-                                    width="50"
-                                    height="50"
-                                    src="/img/janni.png"
-                                />
+
+                            <Image
+                            src="/img/janni.png"
+                            width={50}
+                            height={50}
+                            alt="Janni"
+                            className="object-fit rounded-full"
+                            />
                                 <div>
                                     <h3 className="text-lg font-bold tracking-widest">
                                         Janni Chandra
