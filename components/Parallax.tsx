@@ -651,7 +651,7 @@ Kami mendalami performa & core web vital. Performa website kami sangatlah cepat.
                                     Pemesanan & Konsultasi
                                 </h3>
                                 <time className="block mb-6 text-sm font-normal leading-none text-gray-400">
-                                    Lima Belas Menit
+                                    Kurang dari Satu Jam
                                 </time>
                                 <p className="text-base font-normal text-gray-500 ">
                                     Pastinya Anda selalu bisa meminta bantuan{" "}
@@ -665,7 +665,7 @@ Kami mendalami performa & core web vital. Performa website kami sangatlah cepat.
                                     </a>
                                     {"  "}
                                     untuk mengubah spesifikasi dan kebutuhan, menentukan SLA website menjadi hasil dan solusi terbaik
-                                    yang Anda inginkan. Selanjutnya akan menganalisis, ideasi dan berdasarkan kebutuhan dan spesifikasi. Hingga akhirnya siap mengirimkan proposal proyek dan penawaran harga berdasarkan fitur dan spesifikasi yang perlu disetujui.
+                                    yang Anda inginkan. Selanjutnya akan menganalisis, ideasi dari berdasarkan kebutuhan dan spesifikasi. Hingga akhirnya siap mengirimkan proposal proyek dan penawaran harga berdasarkan fitur dan spesifikasi yang perlu disetujui.
                                 </p>
                             </div>
                         </li>
@@ -714,7 +714,7 @@ Kami mendalami performa & core web vital. Performa website kami sangatlah cepat.
                                     untuk memperbaiki. Membayar tagihan yang belum dibayar. Menerima dan mengirim serah terima. Akhirnya website
                                     dipublikasikan ke internet sesuai dengan
                                     domain yang Anda inginkan serta siap untuk
-                                    mengembangkan bisnis Anda. Layanan after sale misalnya maintenance.
+                                    mengembangkan bisnis Anda. Mendapatkan layanan after sale maintenance dan yang lain.
                                 </p>
                             </div>
                         </li>
