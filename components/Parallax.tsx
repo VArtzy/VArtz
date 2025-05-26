@@ -326,7 +326,7 @@ const ParallaxRapper: NextPage = () => {
                     className="max-w-6xl mx-auto px-8 text-grayweb"
                 >
                     <h2 className="max-w-3xl text-3xl text-center lg:text-4xl font-bold mt-8">
-                    Tinggalkan Cara Lama, Mulai Bangun Website Modern dan Mutakhir
+                    Tinggalkan Cara Lama Berbisnis, Mulai Bangun Website Modern dan Mutakhir
                     </h2>
                     <div className="grid lg:grid-cols-2 gap-8">
                         <div className="flex flex-col gap-8">
@@ -664,20 +664,8 @@ Kami mendalami performa & core web vital. Performa website kami sangatlah cepat.
                                         konsultasi dengan kami{" "}
                                     </a>
                                     {"  "}
-                                    untuk mengubah spesifikasi dan kebutuhan website menjadi hasil dan solusi terbaik
-                                    yang Anda inginkan. {"  "}
-                                    <span className="font-semibold">
-                                        Lakukan pemesanan di platform WhatsApp,
-                                        pembayaran secara tunai atau down
-                                        payment (DP) minimal 50% dengan{" "}
-                                        <Link
-                                            href="/terms-condition#faq"
-                                            className="underline"
-                                        >
-                                            metode pembayaran
-                                        </Link>
-                                        . Lalu mengisi materi untuk keperluan web.
-                                    </span>
+                                    untuk mengubah spesifikasi dan kebutuhan, menentukan SLA website menjadi hasil dan solusi terbaik
+                                    yang Anda inginkan. Selanjutnya akan menganalisis, ideasi dan berdasarkan kebutuhan dan spesifikasi. Hingga akhirnya siap mengirimkan proposal proyek dan penawaran harga berdasarkan fitur dan spesifikasi yang perlu disetujui.
                                 </p>
                             </div>
                         </li>
@@ -702,7 +690,7 @@ Kami mendalami performa & core web vital. Performa website kami sangatlah cepat.
                                     Nantinya, web akan dihosting sementara dalam lingkup pengembang. Anda
                                     akan selalu bisa datang/visit ke website
                                     selama masa pengembangan. Memperbaiki apa
-                                    yang perlu diperbaiki.{"  "}
+                                    yang perlu diperbaiki. Dan membayar tagihan sesuai proposal jika dijanjikan.
                                 </p>
                             </div>
                         </li>
@@ -722,11 +710,11 @@ Kami mendalami performa & core web vital. Performa website kami sangatlah cepat.
                                 </time>
                                 <p className="text-base font-normal text-gray-500 ">
                                     Lalu setelah progress development selesai,
-                                    Anda dapat melakukan evaluasi dan revisi
-                                    untuk memperbaiki. Akhirnya website
+                                    Anda dapat melakukan evaluasi dan revisi sesuai ketentuan
+                                    untuk memperbaiki. Membayar tagihan yang belum dibayar. Menerima dan mengirim serah terima. Akhirnya website
                                     dipublikasikan ke internet sesuai dengan
                                     domain yang Anda inginkan serta siap untuk
-                                    mengembangkan bisnis Anda.{"  "}
+                                    mengembangkan bisnis Anda. Kami menyediakan layanan after sale misalnya maintenance dan dokumentasi teknis web yang dibuat
                                 </p>
                             </div>
                         </li>
