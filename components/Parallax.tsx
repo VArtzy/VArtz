@@ -714,7 +714,7 @@ Kami mendalami performa & core web vital. Performa website kami sangatlah cepat.
                                     untuk memperbaiki. Membayar tagihan yang belum dibayar. Menerima dan mengirim serah terima. Akhirnya website
                                     dipublikasikan ke internet sesuai dengan
                                     domain yang Anda inginkan serta siap untuk
-                                    mengembangkan bisnis Anda. Kami menyediakan layanan after sale misalnya maintenance dan dokumentasi teknis web yang dibuat
+                                    mengembangkan bisnis Anda. Layanan after sale misalnya maintenance.
                                 </p>
                             </div>
                         </li>
