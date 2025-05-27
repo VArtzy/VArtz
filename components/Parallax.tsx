@@ -452,8 +452,7 @@ const ParallaxRapper: NextPage = () => {
                     </h2>
 
                     <p className="text-xl mb-8 text-center">
-                        <i>Webmaster</i> telah menguasai ilmu pengembangan web, API, frontend, backend, database, SEO, desain web (UI/UX), integrasi AI dan akan terus melakukannya. Dengan situs buatan kami, peningkatan bisnis Anda akan lebih mudah dan hasilnya akan lebih maksimal. Kami
-                        percaya pada komunikasi yang baik dan pengembangan transparan.
+                        <i>Webmaster</i> berdedikasi telah menguasai ilmu pengembangan web, API, frontend, backend, database, SEO, UI/UX, cybersecurity, integrasi AI dan terus melakukannya. Dengan situs buatan kami, peningkatan bisnis Anda akan lebih mudah dan hasilnya akan lebih maksimal. Kami percaya pada komunikasi yang baik dan pengembangan transparan.
                     </p>
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -563,12 +562,12 @@ Kami mendalami performa & core web vital. Performa website kami sangatlah cepat.
                                         Terjangkau & Fleksible
                                     </div>
                                     <h3 className="text-lg text-semibold mb-4">
-                                        Dapatkan situs berkulitas dengan mudah
+                                        Jangan takut memenuhi kebutuhan bisnis di era digital
                                     </h3>
                                     <p>
-                                        Tidak hanya itu, kami juga menawarkan
-                                        harga yang terjangkau dan fleksibel agar
-                                        sesuai dengan budget. Mendapatkan
+                                        Kami juga menawarkan
+                                        solusi teknologi informasi yang dapat disesuaikan sehingga harga fleksibel dan terjangkau agar
+                                        sesuai dengan budget. Dapatkan situs berkulitas dengan mudah, mendapatkan
                                         kualitas yang baik dan{" "}
                                         <Link
                                             href="/pricing"
