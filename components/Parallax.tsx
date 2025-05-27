@@ -565,8 +565,8 @@ Kami mendalami performa & core web vital. Performa website kami sangatlah cepat.
                                         Jangan takut memenuhi kebutuhan bisnis digital
                                     </h3>
                                     <p>
-                                        Kami juga menawarkan
-                                        solusi teknologi informasi yang dapat disesuaikan sehingga harga fleksibel dan terjangkau agar
+                                        Kami menawarkan
+                                        solusi teknologi informasi yang dapat disesuaikan harga fleksibel dan terjangkau agar
                                         sesuai dengan budget. Dapatkan situs berkulitas dengan mudah, mendapatkan
                                         kualitas yang baik dan{" "}
                                         <Link

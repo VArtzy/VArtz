@@ -38,7 +38,7 @@ const Ork = () => {
                         </div>
                         <div className="px-6 py-6">
                             <div className="font-bold text-xl mb-4">
-                                Buku Ngooding: solusi sistem otomatisasi monetisasi penjualan buku
+                                Buku Ngooding: solusi monetisasi penjualan buku
                             </div>
                             <p className="mb-8 text-gray-600 text-base">
                                 Website order system yang reliabel, menyenangkan bagi ratusan customer yang berbelanja. Desain proses bisnis jelas, UI/UX ciamik disertai pengembangan berkelanjutan!
