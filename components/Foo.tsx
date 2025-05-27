@@ -8,7 +8,7 @@ import { FaLocationArrow, FaWhatsapp, FaInstagram, FaTiktok, FaYoutube, FaFacebo
 const Foo: React.FC = () => {
     return (
         <footer className="mt-16 text-snow">
-            <div className="lg:flex justify-between pt-16 pb-8 px-16 bg-[#2d2d2d] gap-16">
+            <div className="lg:flex justify-between pt-16 pb-8 md:px-16 px-8 bg-[#2d2d2d] gap-16">
                 <div className="lg:w-1/3 mb-8">
                     <div className="flex items-center gap-4">
                         <Image
@@ -21,9 +21,7 @@ const Foo: React.FC = () => {
                         <h2 className="text-2xl text-snow mb-2">VArtz</h2>
                     </div>
                     <p>
-                        Buat Website untuk meningkatkan peluang bisnis online
-                        kamu. Kami akan siap menerima konsultasi untuk pembuatan
-                        dari kamu.
+                        Solusi terpercaya dan reliabel dalam pengembangan website unik dan mutakhir untuk bisnis
                     </p>
                     <Link
                         id="konversi_quiz_web"
@@ -111,7 +109,7 @@ const Foo: React.FC = () => {
                                     scroll={false}
                                     href="/cara-order"
                                 >
-                                    Order Process
+                                    Order Process UMKM
                                 </Link>
                             </li>
                         </ul>
@@ -195,11 +193,11 @@ const Foo: React.FC = () => {
                     </a>
                 </div>
             </div>
-            <div className="bg-[#252525] w-full flex flex-wrap gap-2 justify-between px-16 py-8">
-                <p className="text-lg">
+            <div className="bg-[#252525] w-full flex flex-wrap gap-2 justify-between md:px-16 px-8 py-8">
+                <p className="md:text-lg">
                     Copyright © 2025 PT Teknologi Informasi Mutakhir | All rights reserved
                 </p>
-                <p className="text-lg">
+                <p className="md:text-lg">
                     Dibuat dengan <span className="text-red-600">❤️</span> oleh vartz.web.id
                 </p>
             </div>
