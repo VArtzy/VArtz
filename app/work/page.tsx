@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link"
 import Foo from "../../components/Foo"
 import Image from "next/image"
