@@ -325,10 +325,8 @@ href="https://wa.me/6289611905599?text=Hi%20team,%20website%20consultation%20ple
                         <div className="flex flex-col gap-8">
                             <p className="mt-8">
 We&apos;re passionate to building solutions with precisely the latest technology.
-Have you noticed? Every time you access social media accounts on Facebook, Instagram, TikTok or YouTube, they always direct you to visit their Website.
-
-Why do these businesses create Websites? What benefits do they gain?
-Here&apos;s why you need professional website development services and should create your website today."
+Have you noticed? Every time you access social media accounts on Facebook, Instagram, TikTok or YouTube, they always direct you to visit their Website. Why do these businesses create Websites? What benefits do they gain?
+Here&apos;s why you need professional website development services and should create your website today.
                             </p>
 
                             <ul className="text-sm flex flex-col gap-2 list-disc mt-4">
@@ -645,7 +643,7 @@ to modify specifications and requirements, helping determine the best SLA, solut
                                 Anytime Access
                                 </time>
                                 <p className="text-base font-normal text-gray-500 ">
-After completing payment and finalizing project requirements, you can regularly monitor your website&apos;s development progress. We&apos;ll host a temporary development version for your review. You'll have full access to check the website throughout the development phase, request necessary adjustments, and make payments according to the agreed proposal terms.
+After completing payment and finalizing project requirements, you can regularly monitor your website&apos;s development progress. We&apos;ll host a temporary development version for your review. You&apos;ll have full access to check the website throughout the development phase, request necessary adjustments, and make payments according to the agreed proposal terms.
                                 </p>
                             </div>
                         </li>
@@ -753,7 +751,7 @@ Once development is complete, you&apos;ll review the website and request final a
                 </div>
                 </div>
                 <p>
-                Everything has been on track so far... you&apos;ve made an excellent impression. Hopefully next year we can grow even more together. It&apos;s been a pleasure working with true professionals. Now we're just awaiting the outcomes of our ongoing projects.
+                Everything has been on track so far... you&apos;ve made an excellent impression. Hopefully next year we can grow even more together. It&apos;s been a pleasure working with true professionals. Now we&apos;re just awaiting the outcomes of our ongoing projects.
                     </p>
                 </div>
                 <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
