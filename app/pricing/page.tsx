@@ -43,7 +43,13 @@ Tim ahli kami memiliki pengalaman dalam mengembangkan solusi digital yang optima
                         </li>
                         <li>
                         <span className="font-semibold">
-                        Sistem Informasi, Manajemen dan Desain Produk:
+                        Desain Produk dan UI & UX:
+                        </span>{" "}
+                        Dari kebutuhan sampai spesifikasi. Solusi dari nol dengan desain mengagumkan, fungsi tepat guna – untuk pengalaman digital customer yang berarti.
+                        </li>
+                        <li>
+                        <span className="font-semibold">
+                        Sistem Informasi, Manajemen:
                         </span>{" "}
                         Solusi sistem digital end-to-end dari UI/UX, frontend, backend hingga deployment. Desain produk kami memadukan estetika yang ramping dan inovatif dengan fungsionalitas yang disesuaikan, didorong oleh visi yang penuh semangat untuk menciptakan pengalaman pengguna yang mulus yang membuat perbedaan.
                         </li>
