@@ -675,7 +675,7 @@ Once development is complete, you&apos;ll review the website and request final a
                         >
                             {" "}
                             if results don&apos;t match expectations{" "}
-                            <bsarrowright className="inline" />
+                            <BsArrowRight className="inline" />
                         </link>
                     </span>
                 </ParallaxLayer>
