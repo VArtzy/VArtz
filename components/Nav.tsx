@@ -6,21 +6,20 @@ import React, { useState } from "react"
 import { BsArrowRight } from "react-icons/bs"
 import useReadingProgress from "./Progress"
 
-const LanguageSwitcher = () => {
-  const router = useRouter();
-  const isIndonesian = router.asPath.includes('/id');
-
-  return (
-    <Link 
-      href={isIndonesian ? '' : `/id`} 
-      className="language-switcher inline-block"
-    >
-      {isIndonesian ? '🇬🇧' : '🇮🇩'}
-    </Link>
-  );
-};
-
 const Nav: React.FC = () => {
+    const LanguageSwitcher = () => {
+        const router = useRouter();
+        const isIndonesian = router.asPath.includes('/id');
+
+        return (
+            <Link 
+            href={isIndonesian ? '' : `/id`} 
+            className="language-switcher inline-block"
+            >
+            {isIndonesian ? '🇬🇧' : '🇮🇩'}
+            </Link>
+        )
+    }
     const [isOpen, setIsOpen] = useState(false)
     const completion = useReadingProgress()
     return (
