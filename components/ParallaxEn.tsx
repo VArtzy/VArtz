@@ -667,15 +667,15 @@ Once development is complete, you&apos;ll review the website and request final a
                             </div>
                         </li>
                     </ol>
-                    <span classname="block text-center text-slate-800">
+                    <span className="block text-center text-slate-800">
                         money-back guarantee
                         <link
                             href="/terms-condition#faq"
-                            classname="text-grayweb block mt-4 md:inline"
+                            className="text-grayweb block mt-4 md:inline"
                         >
                             {" "}
                             if results don&apos;t match expectations{" "}
-                            <bsarrowright classname="inline" />
+                            <bsarrowright className="inline" />
                         </link>
                     </span>
                 </ParallaxLayer>
