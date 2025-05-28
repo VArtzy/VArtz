@@ -332,21 +332,6 @@ Why do these businesses create Websites? What benefits do they gain?
 Here's why you need professional website development services and should create your website today."
                             </p>
 
-                            <ul className="text-sm flex flex-col gap-2 list-disc mt-4">
-                                <li>
-                                A website is your digital storefront to showcase your products/business/yourself to the world.
-                                </li>
-                                <li>
-                                Build your business credibility through authentic branding – from theme styles and colors to typography – crafting a professional brand identity.
-                                    </li>
-                                <li>
-                                A website or landing page communicates your exact information to your audience.
-                                </li>
-                                <li>
-Your customers will always check your business information through your website. Now imagine if you don't have one - or already do but it's unappealing.
-                                </li>
-                                    <li>Automate business processes like sales and other interactive features through information systems or payment gateways.</li>
-                            </ul>
                             </div>
                         <div className="">
                             <div className="browser-mockup with-url shadow-lg aspect-[9/15] lg:aspect-video">
