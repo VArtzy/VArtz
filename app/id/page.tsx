@@ -1,7 +1,7 @@
 "use client"
 
 // import { FaShoppingCart } from "react-icons/fa"
-import ParallaxRapper from "../components/Parallax"
+import ParallaxRapper from "../../components/Parallax"
 // import { useState, useEffect } from "react"
 
 const Home = () => {
