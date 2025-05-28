@@ -552,7 +552,7 @@ Kami mendalami performa & core web vital. Performa website kami sangatlah cepat.
                                 landing page untuk membantu usaha meningkatkan
                                 bisnis online mereka. Kami menawarkan solusi
                                 yang tepat untuk membuat website bisnis yang
-                                menarik dan efektif, serta landing page yang
+                                fungsional dan reliabel, serta landing page yang
                                 menghasilkan konversi tinggi.
                             </p>
 
