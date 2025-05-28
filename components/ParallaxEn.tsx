@@ -335,6 +335,7 @@ Here's why you need professional website development services and should create 
                             <ul className="text-sm flex flex-col gap-2 list-disc mt-4">
                                 <li>
                                 A website is your digital storefront to showcase your products/business/yourself to the world.
+                                </li>
                                 <li>
                                 Build your business credibility through authentic branding – from theme styles and colors to typography – crafting a professional brand identity.
                                     </li>
