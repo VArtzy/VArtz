@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image"
 import Link from "next/link"
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 import React, { useState } from "react"
 import { BsArrowRight } from "react-icons/bs"
 import useReadingProgress from "./Progress"
