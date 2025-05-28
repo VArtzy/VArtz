@@ -1,9 +1,24 @@
 "use client"
 import Image from "next/image"
 import Link from "next/link"
+import { useRouter } from 'next/router'
 import React, { useState } from "react"
 import { BsArrowRight } from "react-icons/bs"
 import useReadingProgress from "./Progress"
+
+const LanguageSwitcher = () => {
+  const router = useRouter();
+  const isIndonesian = router.asPath.includes('/id');
+
+  return (
+    <Link 
+      href={isIndonesian ? '' : `/id`} 
+      className="language-switcher inline-block"
+    >
+      {isIndonesian ? '🇬🇧' : '🇮🇩'}
+    </Link>
+  );
+};
 
 const Nav: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -29,6 +44,7 @@ const Nav: React.FC = () => {
                             <p className="text-xs">Webmaster</p>
                         </div>
                     </div>
+                    <LanguageSwitcher />
                     <div
                         onClick={() => setIsOpen(!isOpen)}
                         className="flex flex-col md:hidden cursor-pointer"
