@@ -294,15 +294,14 @@ href="https://wa.me/6289611905599?text=Hi%20team,%20website%20consultation%20ple
                             href="/work"
                             className="text-grayweb px-8 block md:inline mt-4"
                         >
-                            Kami bangga dengan hubungan klien dan situs web yang
-                            telah kami bangun
+                        Proud architects of exceptional websites and even better client partnerships.
                             <BsArrowRight className="inline" />
                         </a>
                         <a
                             href="/blog/lika-liku-pengembangan-web-app"
                             className="text-grayweb px-8 block md:inline"
                         >
-                            Lihat alur proses pengerjaan{" "}
+                            Explore Our Workflow Process{" "}
                             <BsArrowRight className="inline" />
                         </a>
                     </div>
@@ -325,13 +324,28 @@ href="https://wa.me/6289611905599?text=Hi%20team,%20website%20consultation%20ple
                     <div className="grid lg:grid-cols-2 gap-8">
                         <div className="flex flex-col gap-8">
                             <p className="mt-8">
-We're passionate to building solutions with precisely the latest technology.
+We&apos;re passionate to building solutions with precisely the latest technology.
 Have you noticed? Every time you access social media accounts on Facebook, Instagram, TikTok or YouTube, they always direct you to visit their Website.
 
 Why do these businesses create Websites? What benefits do they gain?
-Here's why you need professional website development services and should create your website today."
+Here&apos;s why you need professional website development services and should create your website today."
                             </p>
 
+                            <ul className="text-sm flex flex-col gap-2 list-disc mt-4">
+                                <li>
+                                A website is your digital storefront to showcase your products/business/yourself to the world.
+                                </li>
+                                <li>
+                                Build your business credibility through authentic branding – from theme styles and colors to typography – crafting a professional brand identity.
+                                    </li>
+                                <li>
+                                A website or landing page communicates your exact information to your audience.
+                                </li>
+                                <li>
+Your customers will always check your business information through your website. Now imagine if you don&apos;t have one - or already do but it&apos;s unappealing.
+                                </li>
+                                    <li>Automate business processes like sales and other interactive features through information systems or payment gateways.</li>
+                            </ul>
                             </div>
                         <div className="">
                             <div className="browser-mockup with-url shadow-lg aspect-[9/15] lg:aspect-video">
@@ -347,7 +361,7 @@ Here's why you need professional website development services and should create 
 In many cases, websites fail to implement basic and advanced UX (User Experience) design principles. This results in low conversion rates, lost sales and leads, plus poor usability and comprehension.
                             </p>
                             <p className="mt-4 lg:ml-8 text-xs">
-That's why, as someone committed to making the internet a better and more useful place, I'm dedicated to improving one website at a time through proper UX design practices.
+That&apos;s why, as someone committed to making the internet a better and more useful place, I&apos;m dedicated to improving one website at a time through proper UX design practices.
                             </p>
                         </div>
                     </div>
@@ -441,7 +455,7 @@ We stay ahead of UI/UX trends to craft EXCLUSIVE website designs – perfectly t
                                 <FaRegWindowRestore /> Sesuai Kebutuhan
                             </h3>
                             <p>
-We follow a proven method for gathering detailed specifications and requirements, building websites tailored to your exact needs. Let's discuss your ideas together.
+We follow a proven method for gathering detailed specifications and requirements, building websites tailored to your exact needs. Let&apos;s discuss your ideas together.
                             </p>
                         </div>
                     </div>
@@ -451,7 +465,7 @@ We follow a proven method for gathering detailed specifications and requirements
                             Modern, Lightning-fast Websites
                         </h3>
                         <p>
-                        We specialize in performance optimization and Core Web Vitals. Our websites are blazing fast - you'll never lose customers to slow loading again.
+                        We specialize in performance optimization and Core Web Vitals. Our websites are blazing fast - you&apos;ll never lose customers to slow loading again.
                         </p>
                     </div>
                     <span className="block text-center text-slate-800">
@@ -518,7 +532,7 @@ href="https://wa.me/6289611905599?text=Hi%20VArtz%20Team!%20Available%20for%20a%
                                     Affordable & Flexible
                                     </div>
                                     <h3 className="text-lg text-semibold mb-4">
-                                    Don't let digital business needs intimidate you
+                                    Don&apos;t let digital business needs intimidate you
                                     </h3>
                                     <p>
 We provide customizable IT solutions with flexible, budget-friendly pricing. 
@@ -540,7 +554,7 @@ We provide customizable IT solutions with flexible, budget-friendly pricing.
                                     A dedicated team of skilled professionals
                                     </h3>
                                     <p>
-We're passionate about what we do. With years of industry experience, we've helped numerous clients across various industries achieve their goals. Feel free to explore our blog or {" "}
+We&apos;re passionate about what we do. With years of industry experience, we&apos;ve helped numerous clients across various industries achieve their goals. Feel free to explore our blog or {" "}
                                         <a
                                             id="konversi_konsultasi_web"
                                             className="underline"
@@ -612,7 +626,7 @@ href="https://wa.me/6289611905599?text=Hi%20team%2C%20can%20you%20build%20a%20we
                                         {" "}
                                         our consultation support{" "}
                                     </a>
-to modify specifications and requirements, helping determine the best SLA, solutions, and outcomes for your website. Our team will then analyze and brainstorm based on your needs and specs. Finally, we'll prepare and send a project proposal with pricing based on the features and specifications requiring your approval.
+to modify specifications and requirements, helping determine the best SLA, solutions, and outcomes for your website. Our team will then analyze and brainstorm based on your needs and specs. Finally, we&apos;ll prepare and send a project proposal with pricing based on the features and specifications requiring your approval.
                                 </p>
                             </div>
                         </li>
@@ -631,7 +645,7 @@ to modify specifications and requirements, helping determine the best SLA, solut
                                 Anytime Access
                                 </time>
                                 <p className="text-base font-normal text-gray-500 ">
-After completing payment and finalizing project requirements, you can regularly monitor your website's development progress. We'll host a temporary development version for your review. You'll have full access to check the website throughout the development phase, request necessary adjustments, and make payments according to the agreed proposal terms.
+After completing payment and finalizing project requirements, you can regularly monitor your website&apos;s development progress. We&apos;ll host a temporary development version for your review. You'll have full access to check the website throughout the development phase, request necessary adjustments, and make payments according to the agreed proposal terms.
                                 </p>
                             </div>
                         </li>
@@ -650,7 +664,7 @@ After completing payment and finalizing project requirements, you can regularly 
                                 Ten-Minute Deployment
                                 </time>
                                 <p className="text-base font-normal text-gray-500 ">
-Once development is complete, you'll review the website and request final adjustments as needed. After settling any remaining payments and completing the handover process, we'll publish your website to your preferred domain in just 10 minutes. Your business-ready site will then go live, complete with optional after-sale maintenance and support services.
+Once development is complete, you&apos;ll review the website and request final adjustments as needed. After settling any remaining payments and completing the handover process, we&apos;ll publish your website to your preferred domain in just 10 minutes. Your business-ready site will then go live, complete with optional after-sale maintenance and support services.
                                 </p>
                             </div>
                         </li>
@@ -662,7 +676,7 @@ Once development is complete, you'll review the website and request final adjust
                             classname="text-grayweb block mt-4 md:inline"
                         >
                             {" "}
-                            if results don't match expectations{" "}
+                            if results don&apos;t match expectations{" "}
                             <bsarrowright classname="inline" />
                         </link>
                     </span>
@@ -721,7 +735,7 @@ Once development is complete, you'll review the website and request final adjust
                 </div>
                 </div>
                 <p>
-                If you're serious about online business and digital marketing including e-commerce, build your website here immediately. For my recommendation, VArtz are exceptional webmasters - experts in design, content, and technical execution.
+                If you&apos;re serious about online business and digital marketing including e-commerce, build your website here immediately. For my recommendation, VArtz are exceptional webmasters - experts in design, content, and technical execution.
                     </p>
                 </div>
                 <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
@@ -739,7 +753,7 @@ Once development is complete, you'll review the website and request final adjust
                 </div>
                 </div>
                 <p>
-                Everything has been on track so far... you've made an excellent impression. Hopefully next year we can grow even more together. It's been a pleasure working with true professionals. Now we're just awaiting the outcomes of our ongoing projects.
+                Everything has been on track so far... you&apos;ve made an excellent impression. Hopefully next year we can grow even more together. It&apos;s been a pleasure working with true professionals. Now we're just awaiting the outcomes of our ongoing projects.
                     </p>
                 </div>
                 <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
@@ -757,7 +771,7 @@ Once development is complete, you'll review the website and request final adjust
                 </div>
                 </div>
                 <p>
-                They perfectly understood and translated our company's needs. Our internal team also gained valuable insights throughout the development process. Extremely professional and always prioritizing client satisfaction. It's rare to find such exceptional web developers.
+                They perfectly understood and translated our company&apos;s needs. Our internal team also gained valuable insights throughout the development process. Extremely professional and always prioritizing client satisfaction. It&apos;s rare to find such exceptional web developers.
                     </p>
                 </div>
                 <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
@@ -775,7 +789,7 @@ Once development is complete, you'll review the website and request final adjust
                 </div>
                 </div>
                 <p>
-                The website development service delivered our business site on time and efficiently, and they're always willing to help update our website when needed. Highly responsive and fantastic to work with. I strongly recommend them to anyone needing a new website.
+                The website development service delivered our business site on time and efficiently, and they&apos;re always willing to help update our website when needed. Highly responsive and fantastic to work with. I strongly recommend them to anyone needing a new website.
                     </p>
                 </div>
                 </div>
@@ -838,15 +852,15 @@ Once development is complete, you'll review the website and request final adjust
                 <div className="accordion w-full">
                 <Accordion
                 title="What is VArtz web development service?"
-                content="We're a professional IT service provider offering comprehensive solutions including website development (e-commerce, company profiles, portfolios, personal sites), custom application development, and ongoing maintenance services."
+                content="We&apos;re a professional IT service provider offering comprehensive solutions including website development (e-commerce, company profiles, portfolios, personal sites), custom application development, and ongoing maintenance services."
                 />
                 <Accordion
-                title="What's included in your web development service?"
+                title="What&apos;s included in your web development service?"
                 content="Our subscription packages include intellectual property rights, custom design, copywriting consultation, development, domain registration, hosting/server setup, mobile optimization, SEO setup (to get your website indexed), deployment, and ongoing maintenance."
                 />
                 <Accordion
                 title="What materials do I need to provide?"
-                content="First and foremost: your website content (all text, paragraphs, images, pages) and functional requirements (contact forms, Instagram feeds, etc.). Also provide brand assets like logos, color codes, and fonts. Don't worry if you don't have these yet - we can help develop your brand identity based on your preferences."
+                content="First and foremost: your website content (all text, paragraphs, images, pages) and functional requirements (contact forms, Instagram feeds, etc.). Also provide brand assets like logos, color codes, and fonts. Don&apos;t worry if you don&apos;t have these yet - we can help develop your brand identity based on your preferences."
                     />
                 <Accordion
                 title="Do you offer any guarantees?"
@@ -866,11 +880,11 @@ Once development is complete, you'll review the website and request final adjust
                     />
                 <Accordion
                 title="Can you code my existing design?"
-                content="Absolutely! If you have designs in PDF or Figma format, we'll happily convert them to HTML/CSS. Enjoy a 50K discount for this service!"
+                content="Absolutely! If you have designs in PDF or Figma format, we&apos;ll happily convert them to HTML/CSS. Enjoy a 50K discount for this service!"
                     />
                 <Accordion
                 title="Can I use my own template?"
-                content="Yes! Just send us your template and we'll customize and deploy it for you. Receive a 50K discount when providing your own template."
+                content="Yes! Just send us your template and we&apos;ll customize and deploy it for you. Receive a 50K discount when providing your own template."
                     />
                 <Accordion
                 title="What does maintenance include?"
@@ -878,7 +892,7 @@ Once development is complete, you'll review the website and request final adjust
                 />
                 <Accordion
                 title="Have other questions?"
-                content="Don't hesitate to ask! Consult with us below - 100% FREE. We're committed to finding the perfect SOLUTION for your business!"
+                content="Don&apos;t hesitate to ask! Consult with us below - 100% FREE. We&apos;re committed to finding the perfect SOLUTION for your business!"
                     />
                 </div>
                 </ParallaxLayer>
@@ -916,7 +930,7 @@ Once development is complete, you'll review the website and request final adjust
             href="https://wa.me/6289611905599?text=Hi%20team,%20I'm%20interested%20in%20website%20development.%20Here's%20my%20information%3A%0A%0AName%3A%0ABusiness%20Field%3A%0A%0A%28Please%20fill%20the%20above%20details%20then%20send%29"
             className="inline-block text-xl text-center rounded-lg bg-snow text-springGreen px-8 py-4 hover:bg-springGreen hover:text-snow transition-colors"
         >
-            Let's Talk
+            Let&apos;s Talk
         </a>
     </div>
 </div>
