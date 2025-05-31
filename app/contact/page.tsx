@@ -5,47 +5,7 @@ import { BsWhatsapp, BsEnvelope, BsGeoAlt } from "react-icons/bs"
 import { FaRegCopy } from "react-icons/fa"
 
 const ContactForm = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-    company: ''
-  })
-  const [isSubmitting, setIsSubmitting] = useState(false)
   const [notification, setNotification] = useState('')
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    })
-  }
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
-    
-    try {
-      const response = await fetch('/send', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      })
-      
-      if (response.ok) {
-        setNotification('Pesan terkirim! Kami akan segera menghubungi Anda.')
-        setFormData({ name: '', email: '', message: '', company: '' })
-      } else {
-        throw new Error('Gagal mengirim pesan')
-      }
-    } catch (error) {
-      setNotification('Terjadi kesalahan. Silakan coba lagi atau hubungi kami melalui WhatsApp.')
-    } finally {
-      setIsSubmitting(false)
-    }
-  }
 
   const copyToClipboard = (text: string) => {
     navigator.clipboard.writeText(text)
@@ -133,7 +93,7 @@ const ContactForm = () => {
         
         <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
           <h3 className="text-2xl font-semibold mb-6">Kirim Pesan</h3>
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form action="https://formsubmit.co/admin@vartz.web.id" method="POST" className="space-y-6">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
                 Nama Lengkap
@@ -196,10 +156,8 @@ const ContactForm = () => {
             
             <button
               type="submit"
-              disabled={isSubmitting}
-              className={`w-full py-3 px-4 bg-emerald-800 hover:bg-emerald-700 text-white font-medium rounded-md transition-colors ${isSubmitting ? 'opacity-70 cursor-not-allowed' : ''}`}
+              className="w-full py-3 px-4 bg-emerald-800 hover:bg-emerald-700 text-white font-medium rounded-md transition-colors opacity-70"
             >
-              {isSubmitting ? 'Mengirim...' : 'Kirim Pesan'}
             </button>
             
             {notification && (
