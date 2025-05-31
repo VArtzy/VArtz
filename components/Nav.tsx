@@ -1,31 +1,19 @@
 "use client"
 import Image from "next/image"
 import Link from "next/link"
-import { useRouter } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 import React, { useState } from "react"
 import { BsArrowRight } from "react-icons/bs"
 import useReadingProgress from "./Progress"
 
 const Nav: React.FC = () => {
-    const LanguageSwitcher = () => {
-        const router = useRouter();
-        const isIndonesian = router.asPath.includes('/id');
-
-        return (
-            <Link 
-            href={isIndonesian ? '' : `/id`} 
-            className="language-switcher inline-block"
-            >
-            {isIndonesian ? '🇬🇧' : '🇮🇩'}
-            </Link>
-        )
-    }
+    const isIndonesian = usePathname()
     const [isOpen, setIsOpen] = useState(false)
     const completion = useReadingProgress()
     return (
         <>
             <nav className="md:flex justify-between w-full fixed z-10 px-16 py-4 items-center">
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center mr-4">
                     <div className="flex items-center gap-4 lg:gap-8">
                         <Link href="/">
                             <Image
@@ -43,7 +31,12 @@ const Nav: React.FC = () => {
                             <p className="text-xs">Webmaster</p>
                         </div>
                     </div>
-                    <LanguageSwitcher />
+            <Link 
+            href={isIndonesian === '/id' ? '/' : '/id'} 
+            className="inline-block"
+            >
+            {"  "}{isIndonesian === '/id' ? ' 🇬🇧' : ' 🇮🇩'}
+            </Link>
                     <div
                         onClick={() => setIsOpen(!isOpen)}
                         className="flex flex-col md:hidden cursor-pointer"

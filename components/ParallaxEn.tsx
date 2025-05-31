@@ -93,14 +93,14 @@ const ParallaxRapperEn: NextPage = () => {
                             Professional Website Development Services to Power All Your Businesses Workflow
                         </h1>
                         <div className="">
-                                <h2 className="text-3xl md:text-4xl w-full lg:text-right font-bold lg:mb-4 text-grayweb mt-36 lg:mt-0">
-                                    Build
-                                </h2>
                             <animated.div
                                 onClick={() => ParallaxRef.current?.scrollTo(5)}
                                 className="lg:flex gap-2 hover:cursor-pointer lg:relative right-4"
                                 style={props}
                             >
+                                <h2 className="text-3xl md:text-4xl w-full lg:text-right font-bold lg:mb-4 text-grayweb mt-36 lg:mt-0">
+                                    Build Website
+                                </h2>
                             <animated.div
                             style={{
                                 position: "relative",
@@ -119,7 +119,7 @@ const ParallaxRapperEn: NextPage = () => {
                                 }}
                                 >
                                 <h2 className="text-3xl text-turquoise md:text-4xl font-bold">
-                                {word} Website
+                                {word}
                                 </h2>
                                 </div>
                             ))}
@@ -144,7 +144,7 @@ href="https://wa.me/6289611905599?text=Hi%20VArtz%20Team!%20I%20need%20consultat
                                         id="konversi_konsultasi_web"
                                         className="inline-block text-md rounded bg-springGreen hover:bg-mediumSpringGreen transition px-4 py-2 text-white"
                                     >
-                                        Saya Ambil Harga Promo
+                                        Build Awesome Website
                                     </a>
                                     <a
 href="https://wa.me/6289611905599?text=Hi%20team,%20website%20consultation%20please!"
@@ -152,7 +152,7 @@ href="https://wa.me/6289611905599?text=Hi%20team,%20website%20consultation%20ple
                                         className="flex items-center gap-2 text-md rounded bg-mediumSpringGreen hover:bg-SpringGreen transition px-4 py-2 text-snow"
                                     >
                                         <BsWhatsapp />
-                                        Konsultasi Gratis
+                                       Free Consultation
                                     </a>
                                 </div>
                             </animated.div>
@@ -424,7 +424,7 @@ That&apos;s why, as someone committed to making the internet a better and more u
                     id="feature"
                 >
                     <h2 className="pt-4 text-3xl text-center lg:text-4xl font-bold mt-16">
-                    6+ Years Delivering Reliable Web Solutions
+                    6+ Years Delivering Reliable Solutions
                     </h2>
 
                     <p className="text-xl mb-8 text-center">
@@ -669,14 +669,14 @@ Once development is complete, you&apos;ll review the website and request final a
                     </ol>
                     <span className="block text-center text-slate-800">
                         money-back guarantee
-                        <link
+                        <Link
                             href="/terms-condition#faq"
                             className="text-grayweb block mt-4 md:inline"
                         >
                             {" "}
                             if results don&apos;t match expectations{" "}
                             <BsArrowRight className="inline" />
-                        </link>
+                        </Link>
                     </span>
                 </ParallaxLayer>
 
@@ -710,7 +710,7 @@ Once development is complete, you&apos;ll review the website and request final a
                 className="pt-4 text-3xl text-center lg:text-4xl font-bold mt-8 text-grayweb"
                 onClick={() => ParallaxRef.current?.scrollTo(0)}
                 >
-                What people say about VArtz
+                What People Say About
                 </h2>
 
                 <p className="text-xl mb-8 text-grayweb text-center">
@@ -733,7 +733,11 @@ Once development is complete, you&apos;ll review the website and request final a
                 </div>
                 </div>
                 <p>
-                If you&apos;re serious about online business and digital marketing including e-commerce, build your website here immediately. For my recommendation, VArtz are exceptional webmasters - experts in design, content, and technical execution.
+                                Kalau kamu serius berbisnis online dan pemasaran
+                                digital termasuk e-commerce, buatlah segera
+                                disini. Kalo minta rekomendasiku, VArtz ini
+                                adalah webmaster yang jago banget buat bikin
+                                website. Dari desain, konten sampai teknikal.
                     </p>
                 </div>
                 <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
@@ -751,7 +755,7 @@ Once development is complete, you&apos;ll review the website and request final a
                 </div>
                 </div>
                 <p>
-                Everything has been on track so far... you&apos;ve made an excellent impression. Hopefully next year we can grow even more together. It&apos;s been a pleasure working with true professionals. Now we&apos;re just awaiting the outcomes of our ongoing projects.
+So far sudah on track sih,,, you give me good impression. Semoga di tahun depan bisa lebih berkembang lagi. Senang bisa bekerja sama dengan profesional seperti ini. Sekarang tinggal menunggu outcome dari proyek-proyek yang sedang berjalan.
                     </p>
                 </div>
                 <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
@@ -769,7 +773,7 @@ Once development is complete, you&apos;ll review the website and request final a
                 </div>
                 </div>
                 <p>
-                They perfectly understood and translated our company&apos;s needs. Our internal team also gained valuable insights throughout the development process. Extremely professional and always prioritizing client satisfaction. It&apos;s rare to find such exceptional web developers.
+Dapat menerjemahkan dan menangkap apa yang menjadi kebutuhan perusahaan kami. Selain itu internal kami pun bisa mendapat insight terbaru dari setiap proses pengembangan sistemnya. Sangat profesional dan selalu mengutamakan kepuasan klien. Tidak mudah untuk menemukan kontraktor website developer yang hebat.
                     </p>
                 </div>
                 <div className="shadow-md rounded border border-grayweb text-grayweb p-8">
@@ -787,7 +791,13 @@ Once development is complete, you&apos;ll review the website and request final a
                 </div>
                 </div>
                 <p>
-                The website development service delivered our business site on time and efficiently, and they&apos;re always willing to help update our website when needed. Highly responsive and fantastic to work with. I strongly recommend them to anyone needing a new website.
+                                Jasa pembuatan website membuat website bisnis
+                                kami secara tepat waktu dan efisien, dan mereka
+                                selalu bersedia membantu memperbarui situs web
+                                kami bila diperlukan. Mereka sangat responsif
+                                dan hebat untuk diajak bekerjasama. Sangat
+                                merekomendasikan kepada siapa saja yang
+                                membutuhkan situs web baru.
                     </p>
                 </div>
                 </div>
