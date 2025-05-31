@@ -102,8 +102,6 @@ const ContactForm = () => {
                 type="text"
                 id="name"
                 name="name"
-                value={formData.name}
-                onChange={handleChange}
                 required
                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500"
               />
@@ -117,8 +115,6 @@ const ContactForm = () => {
                 type="email"
                 id="email"
                 name="email"
-                value={formData.email}
-                onChange={handleChange}
                 required
                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500"
               />
@@ -132,8 +128,6 @@ const ContactForm = () => {
                 type="text"
                 id="company"
                 name="company"
-                value={formData.company}
-                onChange={handleChange}
                 required
                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500"
               />
@@ -147,8 +141,6 @@ const ContactForm = () => {
                 id="message"
                 name="message"
                 rows={5}
-                value={formData.message}
-                onChange={handleChange}
                 required
                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500"
               ></textarea>
