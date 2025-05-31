@@ -159,6 +159,7 @@ const ContactForm = () => {
                 {notification}
               </div>
             )}
+            <input type="hidden" name="_next" value="https://vartz.web.id/contact" />
             <input type="hidden" name="_captcha" value="false"/>
           </form>
         </div>
