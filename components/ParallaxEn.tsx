@@ -144,7 +144,7 @@ href="https://wa.me/6289611905599?text=Hi%20VArtz%20Team!%20I%20need%20consultat
                                         id="konversi_konsultasi_web"
                                         className="inline-block text-md rounded bg-springGreen hover:bg-mediumSpringGreen transition px-4 py-2 text-white"
                                     >
-                                        Build Awesome Website
+                                        Build Awesome Web
                                     </a>
                                     <a
 href="https://wa.me/6289611905599?text=Hi%20team,%20website%20consultation%20please!"

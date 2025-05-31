@@ -482,7 +482,7 @@ Tim ahli kami memiliki pengalaman dalam mengembangkan solusi digital yang optima
                         Bingung memilih?
                         <Link
                             id="konversi_quiz_web"
-                            href="/quiz"
+                            href="/contact"
                             className="text-grayweb text-center md:px-0 block md:inline"
                         >
                             {" "}

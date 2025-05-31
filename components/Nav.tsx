@@ -129,7 +129,7 @@ const Nav: React.FC = () => {
                         <Link
                             id="konversi_quiz_web"
                             className="text-lg text-snow px-4 py-2 rounded-md bg-mediumSpringGreen transition-all hover:bg-springGreen"
-                            href="/quiz"
+                            href="/contact"
                         >
                             Get Website{" "}
                             <BsArrowRight className="inline font-bold" />
@@ -202,7 +202,7 @@ const Nav: React.FC = () => {
                     <li className="relative w-max two">
                         <Link
                             className="text-lg text-snow px-4 py-2 rounded-md bg-mediumSpringGreen transition-all hover:bg-springGreen"
-                            href="/quiz"
+                            href="/contact"
                         >
                             Get Website{" "}
                             <BsArrowRight className="inline font-bold" />

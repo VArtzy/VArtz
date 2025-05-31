@@ -26,7 +26,7 @@ const Foo: React.FC = () => {
                     <Link
                         id="konversi_quiz_web"
                         className="text-lg text-snow px-4 py-2 rounded-md inline-block mt-2 bg-mediumSpringGreen transition-all hover:bg-springGreen"
-                        href="/quiz"
+                        href="/contact"
                     >
                         Dapatkan Web{" "}
                         <BsArrowRight className="inline font-bold" />

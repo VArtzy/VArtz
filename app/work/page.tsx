@@ -237,7 +237,7 @@ const Ork = () => {
                     </div>}
                 </div>
                 <Link
-                    href="/quiz"
+                    href="/contact"
                     className="block text-grayweb text-lg text-center mt-4 px-8"
                 >
                     Mulai Kisah Anda Bersama Kami{" "}
