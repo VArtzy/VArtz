@@ -2,17 +2,10 @@
 
 import { useState } from "react"
 import { BsWhatsapp, BsEnvelope, BsGeoAlt } from "react-icons/bs"
-import { useSearchParams } from 'next/navigation'
 import { FaRegCopy } from "react-icons/fa"
 
 const ContactForm = () => {
-  const searchParams = useSearchParams();
-  const success = searchParams.get('success');
   const [notification, setNotification] = useState('')
-
-if (success) {
-    setNotification("Terimakasih! Inquery Anda sedang diproses, mohon tunggu paling lama 1x24jam untuk email dari kami.")
-  }
 
   const copyToClipboard = (text: string) => {
     navigator.clipboard.writeText(text)
@@ -156,6 +149,7 @@ if (success) {
             <button
               type="submit"
               className="w-full py-3 px-4 bg-emerald-800 hover:bg-emerald-700 text-white font-medium rounded-md transition-colors opacity-70"
+              onClick={() => setNotification("Inquery terkirim. Terimakasih dan mohon tunggu balasan email dari kami.")}
             >
             Kirim Pesan
             </button>
